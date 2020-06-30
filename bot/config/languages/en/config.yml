@@ -3,9 +3,9 @@
 language: "en"  # your two-letter language code
 
 pipeline:
-- name: spacy_nlp.spacy_nlp_neuralcoref.SpacyNLPNeuralCoref
+- name: bot.custom.components.spacy_nlp.spacy_nlp_neuralcoref.SpacyNLPNeuralCoref
   model: "en_neuralcoref"
-- name: spacy_nlp.spacy_tokenizer_neuralcoref.SpacyTokenizerNeuralCoref
+- name: bot.custom.components.spacy_nlp.spacy_tokenizer_neuralcoref.SpacyTokenizerNeuralCoref
 # - name: SpacyFeaturizer
 - name: RegexFeaturizer
 - name: LexicalSyntacticFeaturizer
@@ -14,6 +14,7 @@ pipeline:
   analyzer: "char_wb"
   min_ngram: 1
   max_ngram: 4
+- name: bot.custom.components.cogito_http_extractor.cogito_http_extractor.CogitoHTTPExtractor
 - name: DIETClassifier
   epochs: 100
 - name: EntitySynonymMapper
@@ -55,7 +56,7 @@ policies:
     nlu_threshold: 0.4
     core_threshold: 0.3
     fallback_action_name: "action_default_fallback"
-  - name: bot.language_detection.lang_change_policy.LangChangePolicy
+  - name: bot.custom.policies.language_detection.lang_change_policy.LangChangePolicy
     lang_detect_threshold: 0.8
     fallback_action_name: 'utter_bot_languages'
-    model_path: "bot/language_detection/lid.176.ftz"
+    model_path: "bot/custom/policies/language_detection/lid.176.ftz"
