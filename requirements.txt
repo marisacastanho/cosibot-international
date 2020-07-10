@@ -1,0 +1,6 @@
+spacy==2.1.9
+requests==2.24.0
+fasttext==0.9.2
+numpy==1.18.5
+rasa==1.10.7
+rasa_sdk==1.10.2

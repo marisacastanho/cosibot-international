@@ -542,6 +542,8 @@ responses:
       - type: text
         text: Seu comportamento intolerante está me assustando. Por favor, seja mais
           educado.
+  - custom:
+      answers:
       - type: ssml
         ssml: <speak>Não entendo a razão de tal comportamento.Por favor, seja mais
           simpático.</speak>
@@ -1833,15 +1835,15 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Eu sou {nome_do_bot}.</speak>
+        ssml: <speak>Eu sou {bot_name}.</speak>
       - type: text
         text: Eu sou {bot_name}.
   - custom:
       answers:
       - type: ssml
-        ssml: <speak> Chamam-me {bot_name}.</speak>
+        ssml: <speak> Eles me chamam de {bot_name}.</speak>
       - type: text
-        text: Eles me chamam de {nome_bot}.
+        text: Eles me chamam de {bot_name}.
   utter_test_who:
   - custom:
       answers:
