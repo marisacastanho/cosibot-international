@@ -1,8 +1,11 @@
+# -*- coding: utf-8 -*-
+
 import bios
 import fire
 import json
 import os
 import csv
+import yaml
 
 ## Extract responses from domain
 ## python get_answers_from_domain.py extract_answers
@@ -43,46 +46,46 @@ class Process_domain(object):
         domain_file_path = "../../bot/domain.yml"
         domain_file_dict = bios.read(domain_file_path)
 
-        #print(domain_file_dict["responses"])
         responses = {}
 
-        with open('domain_answers_updated.csv') as csv_file:
-            csv_reader = csv.reader(csv_file, delimiter=',')
-            line_count = 0
-            for row in csv_reader:
-                custom_level = int(row[1].split('_')[1])
-                
-                if row[0] in responses.keys():
-                    if actual_level == custom_level:
-                        pass
+        try:
+
+            with open('domain_answers_updated.csv') as csv_file:
+                csv_reader = csv.reader(csv_file, delimiter=',')
+                line_count = 1
+                for row in csv_reader:
+                    #answer_line = row[3].encode("windows-1252").decode("utf-8")
+                    answer_line = row[3]
+
+                    custom_level = int(row[1].split('_')[1])
+                    
+                    if row[0] in responses.keys():
+                        if actual_level == custom_level:
+                            pass
+                        else:
+                            responses[row[0]].append({"custom":{"answers":[]}})
+                            actual_level = custom_level    
                     else:
-                        responses[row[0]].append({"custom":{"answers":[]}})
-                        actual_level = custom_level    
-                else:
-                    responses[row[0]] = [{"custom":{"answers":[]}}]
-                    actual_level = custom_level
+                        responses[row[0]] = [{"custom":{"answers":[]}}]
+                        actual_level = custom_level
 
-                
-                if row[2] == "html":
-                    answer_import = "text"
-                    responses[row[0]][custom_level]["custom"]["answers"].append({"type":row[2],"{}".format(answer_import):row[3]})
-                elif row[2] == "command":
-                    responses[row[0]][custom_level]["custom"]["answers"].append(json.loads(row[3].replace("\'", "\"")))
-                elif row[2] == "hints":
-                    responses[row[0]][custom_level]["custom"]["answers"].append(json.loads(row[3].replace("\'", "\"")))
-                elif row[2] == "links":
-                    responses[row[0]][custom_level]["custom"]["answers"].append({"type":row[2],"{}".format(row[2]):json.loads(row[3].replace("\'", "\""))})
-                elif row[2] == "multichoice":
-                    print(line_count)
-                    print(type(row[3]))
-                    print(row[3])
-                    print(row[3].replace("\'", "\""))
-                    responses[row[0]][custom_level]["custom"]["answers"].append(json.loads((row[3].replace("\"", "\\\"")).replace("\'", "\"")))
-                    #break
-                else:
-                    responses[row[0]][custom_level]["custom"]["answers"].append({"type":row[2],"{}".format(row[2]):row[3]})
+                    if row[2] == "html":
+                        answer_import = "text"
+                        responses[row[0]][custom_level]["custom"]["answers"].append({"type":row[2],"{}".format(answer_import):answer_line})
+                    elif row[2] == "command":
+                        responses[row[0]][custom_level]["custom"]["answers"].append(json.loads(answer_line.replace("\'", "\"")))
+                    elif row[2] == "hints":
+                        responses[row[0]][custom_level]["custom"]["answers"].append(json.loads(answer_line.replace("\'", "\"")))
+                    elif row[2] == "links":
+                        responses[row[0]][custom_level]["custom"]["answers"].append({"type":row[2],"{}".format(row[2]):json.loads(answer_line.replace("\'", "\""))})
+                    elif row[2] == "multichoice":
+                        responses[row[0]][custom_level]["custom"]["answers"].append(json.loads((answer_line.replace("\"", "\\\"")).replace("\'", "\"")))
+                    else:
+                        responses[row[0]][custom_level]["custom"]["answers"].append({"type":row[2],"{}".format(row[2]):answer_line})
 
-                line_count += 1
+                    line_count += 1
+        except Exception as e:
+            print('----------', e)
 
         
         domain_updated = {
@@ -93,14 +96,14 @@ class Process_domain(object):
             "intents":domain_file_dict["intents"],
             "responses": responses
         }
-          
-      
-        print(responses)
-        print(line_count)
-        bios.write('../../bot/domain_updated.yml', domain_updated)
-
+        
+        #bios.write('../../bot/domain_updated.yml', domain_updated)
+        with open(r'../../bot/domain_updated.yml', 'w') as file:
+            documents = yaml.dump(domain_updated, file, allow_unicode=True, default_flow_style=False)
+            
 
 
 if __name__ == "__main__":
     fire.Fire(Process_domain)
+    print('---- Done')
     #app.run()
