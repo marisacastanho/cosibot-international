@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: "en"  # your two-letter language code
+language: "pt"  # your two-letter language code
 pipeline:
   # - name: language_detection.lang_detect_component.CustomLangDetect
   - name: WhitespaceTokenizer
@@ -36,7 +36,7 @@ policies:
     nlu_threshold: 0.55
     core_threshold: 0.3
     fallback_action_name: "action_default_fallback"
-  - name: language_detection.lang_change_policy.LangChangePolicy
-    lang_detect_threshold: 0.7
-    fallback_action_name: 'utter_bot_languages'
-    model_path: "./language_detection/lid.176.ftz"
+  #- name: language_detection.lang_change_policy.LangChangePolicy
+  #  lang_detect_threshold: 0.7
+  #  fallback_action_name: 'utter_bot_languages'
+  #  model_path: "./language_detection/lid.176.ftz"

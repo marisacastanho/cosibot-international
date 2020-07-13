@@ -1,4 +1,4 @@
-## intent:start
+﻿## intent:start
 - /start
 - /start
 - /start_conversation
@@ -6,6048 +6,5927 @@
 - /get started
 - /start_dialogue
 - /start dialogue
-
+<!--
 ## intent:bot_change_bot
-- [German Cosibot](preferred_lang:de_lang)
-- [English Cosibot](preferred_lang:en_lang)
-
+- [German Cosibot]{"entity": "preferred_lang", "value": "de_lang"}
+- [English Cosibot]{"entity": "preferred_lang", "value": "en_lang"}
+-->
 ## intent:bot_appearance
-- A picture of you please.
-- Are you attractive?
-- Are you good looking?
-- Are you good-looking?
-- Are you handsome?
-- Are you looking like a model?
-- Are you pretty?
-- Are you short?
-- Are you slender?
-- Are you tall?
-- Can I have a photo of you?
-- Can I have a picture of you?
-- Can I see a photo of you?
-- Can I see a picture of you?
-- Can I see you in person?
-- Can you show me a picture?
-- Describe how you look like.
-- Describe your appearance
-- Describe your outfit.
-- How about a photo of you?
-- How about a picture of you?
-- How are you looking?
-- How do you look like?
-- How do you look?
-- How is your appearance?
-- How is your look?
-- How tall are you?
-- How you look?
-- I want a photo of you.
-- Photo of you.
-- Picture of you.
-- Please let me have a picture of you.
-- Show me a photo of you.
-- Show me a picture of you!
-- Show you!
-- Show yourself!
-- What are you wearing?
-- What clothes do you have?
-- What do you look like?
-- What do you wear?
-- What is your outfit?
-- You are attractive?
-- You attractive?
-- You consider yourself short?
-- You consider yourself tall?
-- You pretty?
-- Your look.
-- Your physical appearance.
+- Envie uma foto sua, por favor.
+- Você é atraente?
+- Você é bonito?
+- Você é lindo?
+- Você parece um modelo?
+- Você parece uma modelo?
+- Você é bonita?
+- Você é linda?
+- Você é baixinho?
+- Você é baixinha?
+- Você é esbelta?
+- Você é magra?
+- Você é esbelto?
+- Você é magro?
+- Você é alto?
+- Você é alta?
+- Posso ter uma foto sua?
+- Posso ver uma foto sua?
+- Posso te ver pessoalmente?
+- Você pode me mostrar uma foto sua?
+- Como você se parece?
+- Descreva como você se parece.
+- Descreva sua aparência
+- Descreva o seu traje.
+- Descreva sua roupa.
+- Que tal me mandar uma foto sua?
+- Você poderia mandar uma foto sua?
+- Como você está?
+- Como é a sua aparência?
+- Como é o seu visual?
+- Qual é a sua altura?
+- Eu quero uma foto sua.
+- Uma foto sua, por favor.
+- Por favor, posso ter uma foto sua?
+- Mostre uma foto sua.
+- Mostre uma foto sua!
+- O que você está vestindo?
+- Que roupas você tem?
+- Com quem você se parece?
+- O que você veste?
+- Qual é a sua roupa?
+- Você é atraente?
+- Você se considera baixo?
+- Você se considera baixa?
+- Você se considera alto?
+- Você se considera baixa?
+- Você é bonita?
+- Você é bonito?
+- Seu visual.
+- Sua aparência física.
 
 ## intent:bot_availability
-- Are you always available?
-- Are you available 24/7?
-- Are you available all day?
-- Are you available always?
-- Bot availability.
-- Bot business hours.
-- Bot working hours.
-- How are bot business hours?
-- How are bot working hours?
-- How are your business hours?
-- How are your working hours?
-- How is bot availability?
-- How is your availability?
-- Tell me about bot availability.
-- Tell me about your availability.
-- Tell me bot availability.
-- Tell me bot business hours.
-- Tell me bot working hours.
-- Tell me how are bot business hours.
-- Tell me how are bot working hours.
-- Tell me how are your business hours.
-- Tell me how are your working hours.
-- Tell me how is bot availability.
-- Tell me how is your availability.
-- Tell me what are bot business hours.
-- Tell me what are bot working hours.
-- Tell me what are your business hours.
-- Tell me what are your working hours.
-- Tell me what is bot availability.
-- Tell me what is your availability.
-- Tell me when are you available.
-- Tell me when can I find you available.
-- Tell me which are bot business hours.
-- Tell me which are bot working hours.
-- Tell me which are your business hours.
-- Tell me which are your working hours.
-- Tell me which is bot availability.
-- Tell me which is your availability.
-- Tell me your availability.
-- Tell me your business hours.
-- Tell me your working hours.
-- What are bot business hours?
-- What are bot working hours?
-- What are your business hours?
-- What are your working hours?
-- What is bot availability?
-- What is your availability?
-- When are you available?
-- When can I find you available?
-- Which are bot business hours?
-- Which are bot working hours?
-- Which are your business hours?
-- Which are your working hours?
-- Which is bot availability?
-- Which is your availability?
-- Your availability.
-- Your business hours.
-- Your working hours.
+- Você está sempre disponível?
+- Você está disponível 24 horas por dia, 7 dias por semana?
+- Você está disponível o dia todo?
+- Você está sempre disponível?
+- Quais são os horários de funcionamento do bot?
+- Quais são as horas de trabalho do bot?
+- Qual é o seu horário comercial?
+- Qual é o seu horário de trabalho?
+- Qual é a disponibilidade do bot?
+- Qual é a sua disponibilidade?
+- Fale sobre a disponibilidade do bot.
+- Fale sobre a sua disponibilidade.
+- Diga qual a disponibilidade do bot.
+- Diga qual o horário comercial do bot.
+- Diga qual o horário de trabalho do bot.
+- Diga quais são os horários de trabalho do bot.
+- Diga qual é a hora de trabalho do bot.
+- Diga quais são as horas de trabalho do bot.
+- Diga quais são seus horários de trabalho.
+- Diga qual é o seu horário de trabalho.
+- Diga quais são os horários de trabalho do bot.
+- Diga quais são as horas de trabalho do bot.
+- Diga qual é o seu horário de trabalho.
+- Diga o que é disponibilidade de bot.
+- Diga qual é a sua disponibilidade.
+- Diga quando você está disponível.
+- Diga quando você vai estar disponível.
+- Diga quais são os horários de funcionamento do bot.
+- Diga quais são os horários de trabalho do bot.
+- Diga qual é o seu horário de trabalho.
+- Diga qual é o seu horário de trabalho.
+- Diga qual é a disponibilidade do bot.
+- Diga qual é a sua disponibilidade.
+- Diga sua disponibilidade.
+- Diga o seu horário de trabalho.
+- Diga o seu horário de trabalho.
+- Quais são os horários de funcionamento do bot?
+- Qual é o horário de trabalho do bot?
+- Qual é seu horário comercial?
+- Qual é seu horário de trabalho?
+- O que é disponibilidade de bot?
+- Qual é a sua disponibilidade?
+- Quando você está disponível?
+- Quando posso te encontrar disponível?
+- Quais são os horários de funcionamento do bot?
+- Quais são as horas de trabalho do bot?
+- Qual é o seu horário comercial?
+- Qual é o seu horário de trabalho?
+- Qual é a disponibilidade do bot?
+- Qual é a sua disponibilidade?
+- Sua disponibilidade.
+- Seu horário comercial.
+- Seu horário de trabalho.
 
 ## intent:bot_books
-- Book genres you like.
-- Book you enjoy.
-- Book you like.
-- Books you enjoy.
-- Books you like.
-- Do you enjoy books?
-- Do you enjoy reading?
-- Do you enjoy to read?
-- Do you have a favorite book character?
-- Do you have a favorite book genre?
-- Do you have a favorite book?
-- Do you like books?
-- Do you like to read books?
-- Do you like to read?
-- Do you like writes?
-- Do you read?
-- Enjoy books?
-- Enjoy to read books?
-- Enjoy to read?
-- Favorite book character.
-- Favorite book genre.
-- Favorite book quote.
-- Favorite book title.
-- Favorite book.
-- Favorite lecture.
-- Favorite romance.
-- Like books?
-- Like to read books?
-- Like to read?
-- Tell me do you enjoy to read.
-- Tell me do you like to read.
-- Tell me if you enjoy to read.
-- Tell me if you like to read.
-- What do you like to read?
-- What genre do you like to read?
-- What is your favorite book character?
-- What is your favorite book genre?
-- What is your favorite book you read as a child?
-- What is your favorite book?
-- You enjoy to read?
-- You like any book?
-- You like books?
-- You like to read?
-- You read?
+- Gêneros de livros que você gosta.
+- Livros que você gosta.
+- Você gosta de livros?
+- Você gosta de ler?
+- Você tem um personagem de livro favorito?
+- Você tem um gênero de livro favorito?
+- Você tem um livro favorito?
+- Você gosta de livros?
+- Você gosta de ler livros?
+- Você gosta de ler?
+- Você gosta de escrever?
+- Você lê?
+- Gosta de livros?
+- Gosta de ler livros?
+- Gosta de ler?
+- Personagem favorito do livro.
+- Gênero de livros favoritos.
+- Citação de livro preferido.
+- Título do livro preferido.
+- Livro preferido.
+- Palestra favorita.
+- Romance favorito.
+- Gosta de livros?
+- Gosta de ler livros?
+- Gosta de ler?
+- Diga se você gosta de ler.
+- O que você gosta de ler?
+- Que gênero você gosta de ler?
+- Qual é o seu personagem de livro favorito?
+- Qual é o seu gênero de livro favorito?
+- Qual é seu livro favorito que você leu quando criança?
+- Qual é seu livro favorito?
+- Você gosta de ler?
+- Você gosta de algum livro?
+- Você gosta de livros?
+- Você gosta de ler?
+- Você está lendo?
 
 ## intent:bot_capabilities
-- Tell me something about yourself.
-- Are you talking to me?
-- Bot capabilities
-- Bot capabilities.
-- Can I ask you anything?
-- Can I ask you something?
-- Can I learn more about your business?
-- Can I talk with you?
-- Can you answer anything?
-- Can you answer things?
-- Can you answer?
-- Do you have a purpose
-- Do you know something
-- Hi! What Could You Do
-- How can you support me
-- How does your brain work
-- How to use you
-- I Need to know something.
-- I asked you what do you understand
-- I don't know what to ask.
-- I don't know what to say
-- I don't know what to say.
-- I want to have an introduction
-- I would like to know what you can tell me
-- I'm interested in your products
-- Information about your purpose.
-- Let me know what you are able to do!
-- Let me know what you can do!
-- Let me know your capabilities!
-- Name your business
-- Name your business.
-- Okay so what do you know
-- Reason you are here
-- Reason you are here.
-- Reason youre here
-- Tell Me What Things You Can Do
-- Tell Me What To Do
-- Tell Me What You Can Do
-- Tell me the reason you are here
-- Tell me the reason you are here.
-- Tell me what do you know
-- Tell me what do you wish to accomplish
-- Tell me what you can do!
-- Tell me what you do!
-- Tell me why you here
-- Tell me why you here.
-- Tell me your purpose!
-- What Are You Capable Of
-- What Are Your Capabilities
-- What Are Your Functions
-- What Are Your benefits
-- What Are Your benefits?
-- What Can I Say
-- What Can you Do
-- What Can you Do For Me
-- What Capabilities You Have
-- What Do You Have
-- What Do You Know
-- What I am doing here?
-- What Kind Of Questions Can I Ask
-- What about your capabilities?
-- What about your functions?
-- What about your purpose?
-- What are you able to do for me?
-- What are you able to do?
-- What are you capable of?
-- What are you doing here?
-- What are you here for?
-- What are you trained on
-- What are you up to
-- What are your capabilities?
-- What can I ask you
-- What can i do with you
-- What can you access
-- What can you answer
-- What can you answer?
-- What can you do for me?
-- What can you teach me
-- What can you tell me
-- What do I have to know
-- What do u know ?
-- What do you can?
-- What do you do
-- What do you do?
-- What do you ever know
-- What do you know?
-- What do you offer
-- What does the app do
-- What else can you do
-- What else do you do
-- What is your business
-- What is your business?
-- What is your function?
-- What is your purpose
-- What is your purpose?
-- What is your scope
-- What is your task
-- What is your value add
-- What is your value add?
-- What kind of questions can I ask you
-- What purpose do you have?
-- What should I ask?
-- What should I say?
-- What should I type?
-- Whats your business
-- Which are your capabilities?
-- Which are your functions?
-- Which capabilities do you have?
-- Which function do you have?
-- Which functions do you have?
-- Which is your function?
-- Which is your purpose?
-- Which purpose do you have?
-- Why am I here
-- Why am I here?
-- Why are you here?
-- Why did they make you
-- Why do you exist?
-- Why do you think I should talk with you?
-- Why shall I talk to you
-- Why shall I talk to you?
-- Why should I talk with you?
-- Why should I use you
-- Why should I use you?
-- Why should i chat with you
-- Why should i chat with you?
-- Why were you created
-- Why you here?
-- Your capabilities.
-- give me an intro about your capabilities
-- how can I use you?
-- please tell me something about you
-- tell me about your products
-- tell me about yourself
-- what all things can you assist you with
-- what can I ask?
-- what can you do?
-- what should I ask
-- what type of answer you can give
-- what's your purpose?
+- Diga algo sobre você.
+- Você está falando comigo?
+- Posso te perguntar alguma coisa?
+- Posso te perguntar uma coisa?
+- Posso saber mais sobre o seu negócio?
+- Posso falar com você?
+- Você pode responder alguma coisa?
+- Você pode responder as coisas?
+- Você pode responder?
+- Você tem um propósito
+- Você sabe de alguma coisa?
+- Oi! O que você poderia fazer?
+- Como você pode me apoiar?
+- Como funciona o seu cérebro?
+- Como usar você?
+- Eu preciso saber de uma coisa.
+- Eu te perguntei sobre o que você entende?
+- Eu não sei o que perguntar.
+- Eu não sei o que dizer.
+- Eu quero ter uma introdução.
+- Eu gostaria de saber o que você pode me dizer.
+- Estou interessado em seus produtos.
+- Informações sobre o seu propósito.
+- Informações sobre o que você faz.
+- Diga o que você é capaz de fazer!
+- Diga o que você pode fazer!
+- Informe suas capacidades!
+- Dê um nome ao seu negócio
+- Certo, então o que você sabe?
+- Motivo pelo qual você está aqui
+- Diga o que você pode fazer
+- Diga o que fazer
+- Diga o que você pode fazer
+- Diga a razão de você estar aqui
+- Diga o que você sabe
+- Diga o que você deseja realizar
+- Diga o que você pode fazer!
+- Diga o que você faz!
+- Diga porque você está aqui
+- Diga o seu propósito!
+- Do que você é capaz de fazer.
+- Quais são as suas Capacidades?
+- Quais são as suas funções?
+- Quais são as suas vantagens?
+- O que eu posso dizer?
+- O que você pode fazer?
+- O que você pode fazer por mim?
+- Que capacidades você tem?
+- O que você tem?
+- O que você sabe?
+- O que eu estou fazendo aqui?
+- Que tipo de perguntas posso fazer?
+- E quanto às suas capacidades?
+- E quanto às suas funções?
+- E o seu propósito?
+- O que você é capaz de fazer por mim?
+- O que você é capaz de fazer?
+- Do que você é capaz?
+- O que você está fazendo aqui?
+- Para quê você está aqui?
+- Para quê você serve?
+- Você é treinado em quê?
+- O que você está fazendo?
+- Quais são as suas capacidades?
+- O que eu posso perguntar a você?
+- O que posso fazer com você?
+- O que você pode acessar?
+- O que você pode responder?
+- O que você pode fazer por mim?
+- O que você pode me ensinar?
+- O que você pode me dizer?
+- O que eu tenho que saber?
+- O que você sabe?
+- O que você pode fazer?
+- O que você faz?
+- O que você já sabe
+- O que você sabe?
+- O que você oferece
+- O que faz o aplicativo
+- O que mais você pode fazer
+- O que mais você faz
+- Qual é a sua função?
+- Qual é o seu propósito
+- Qual é o seu escopo
+- Qual é a sua tarefa
+- Qual é o seu valor agregado
+- Que tipo de perguntas posso fazer?
+- Qual é o seu propósito?
+- O que eu devo perguntar?
+- O que eu devo dizer?
+- O que eu devo digitar?
+- Qual é o seu negócio?
+- Quais são as suas capacidades?
+- Quais são as suas funções?
+- Que capacidades você tem?
+- Qual função você tem?
+- Quais funções você tem?
+- Qual é a sua função?
+- Qual é o seu propósito?
+- Qual a sua finalidade?
+- Por que eu estou aqui
+- Por que eu estou aqui?
+- Por que você está aqui?
+- Por que fizeram você
+- Por que você existe?
+- Por que você acha que eu deveria falar com você?
+- Por que devo falar com você?
+- Por que eu devo falar com você?
+- Por que eu deveria falar com você?
+- Por que eu deveria usar você
+- Por que eu deveria usar você?
+- Por que eu deveria conversar com você?
+- Por que você foi criado?
+- Por que você está aqui?
+- Suas capacidades.
+- me dê uma introdução sobre suas capacidades
+- como posso usar você?
+- por favor me diga algo sobre você
+- me fale sobre seus produtos
+- me fale sobre você
+- o que eu posso perguntar?
+- o que você pode fazer?
+- o que eu devo perguntar
+- que tipo de resposta você pode dar
+- qual é o seu propósito?
 
 ## intent:bot_fear
-- Are you afraid d of artificial jntelligance?
-- Are you afraid of anything?
-- Are you afraid of artificial intelligence?
-- Are you afraid of dark?
-- Are you afraid of something?
-- Are you afraid?
-- Are you frighten by anything?
-- Are you frighten by something?
-- Are you frightened by anything
-- Are you scared of anything?
-- Are you scared of something?
-- Do u fear anything?
-- Do you fear anything?
-- Do you fear something?
-- Do you have fears?
-- Do you have you have phobias?
-- Is ther anything you are scared of?
-- Is there anything you are afraid of?
-- Is there anything you are scared of?
-- There is anything that frighten you?
-- Things that scare you off.
-- Things you are scared of.
-- Things you fear.
-- What are u scared of?
-- What are you afraid of?
-- What are you scared of?
-- What are your fears?
-- What do you fear the most?
-- What do you fear?
-- What is your biggest fear?
-- What is your fear?
-- What is your greatest fear?
-- Your fear.
-- Your fears.
+- Você tem medo da inteligência artificial?
+- Você está com medo de alguma coisa?
+- Você tem medo do escuro?
+- Você está com medo de alguma coisa?
+- Vocêtem medo de algo?
+- Você está com medo?
+- Você está assustado com alguma coisa?
+- Você está assustado com qualquer coisa?
+- Você está com medo de alguma coisa?
+- Você tem medo de alguma coisa?
+- Você tem medo?
+- Você tem fobias?
+- Há alguma coisa de que você tenha medo?
+- Há algo de que você tenha medo?
+- Há alguma coisa que te assuste?
+- Coisas que te assustam.
+- Coisas de que você tem medo.
+- Coisas que você teme.
+- Do que você está com medo?
+- Quais são os seus medos?
+- O que você mais teme?
+- O que você teme?
+- Qual é o seu maior medo?
+- Qual é o seu medo?
+- Seu medo.
+- Seus medos.
 
 ## intent:bot_games
-- Are you good at computer games?
-- Are you good with computer games?
-- Are you good with strategy games?
-- Can we play a game?
-- Can you play computer games?
-- Can you play video games?
-- Can you tell me your favorite computer game?
-- Can you tell me your favorite game?
-- Can you tell me your favorite video game?
-- Do you enjoy play computer games?
-- Do you enjoy play games?
-- Do you enjoy play video games?
-- Do you have a favorite game?
-- Do you have some games?
-- Do you have video games?
-- Do you like Wii games?
-- Do you like XBOX games?
-- Do you like board games?
-- Do you like computer games?
-- Do you like games?
-- Do you like playing Wii games
-- Do you like to play video games?
-- Do you like video games?
-- Do you play P&P?
-- Do you play RPG?
-- Do you play board games?
-- Do you play computer games?
-- Do you play games?
-- Do you play pen and paper?
-- Do you play shooters?
-- Do you play video games?
-- Games.
-- Gaming is fun.
-- I like to play board games.
-- I like to play computer games.
-- I like to play games.
-- I like to play shooters.
-- I want to play a game?
-- Let us play a board game.
-- Let us play a computer game.
-- Let us play a game.
-- Like computer games?
-- Like games?
-- Like video games?
-- More on computer games.
-- Name your favorite computer game.
-- Name your favorite game.
-- Name your favorite video game.
-- Online gaming.
-- Wanna play a game?
-- What about computer games?
-- What about gaming?
-- What is your favorite computer game?
-- What is your favorite type of game?
-- What is your favorite video game?
-- Which board games do you like?
-- Which board games do you play?
-- Which games do you like to play?
-- Which games do you like?
-- Which games do you play?
-- Would you like to play video games?
-- You play computer games?
-- You play games?
-- You play video games?
+- Você é bom em jogos de computador?
+- Você é bom com jogos de computador?
+- Você é bom com jogos de estratégia?
+- Podemos jogar um jogo?
+- Você sabe jogar jogos de computador?
+- Você pode jogar videogames?
+- Você pode me dizer seu jogo de computador favorito?
+- Você pode me dizer seu jogo favorito?
+- Você pode me dizer qual é o seu videogame favorito?
+- Você gosta de jogar jogos de computador?
+- Você gosta de brincar?
+- Você gosta de jogar videogames?
+- Você tem um jogo favorito?
+- Você tem alguns jogos?
+- Você tem videogames?
+- Você gosta de jogos Wii?
+- Você gosta de jogos XBOX?
+- Você gosta de jogos de tabuleiro?
+- Você gosta de jogos de computador?
+- Você gosta de jogos?
+- Você gosta de jogar jogos Wii?
+- Você gosta de jogar videogames?
+- Você gosta de videogames?
+- Você joga P&P?
+- Você joga RPG?
+- Você joga jogos de tabuleiro?
+- Você joga jogos de computador?
+- Você joga?
+- Você joga o jogo da velha?
+- Você joga batalha naval?
+- Você joga videogames?
+- Jogos.
+- O jogo é divertido.
+- Eu gosto de jogar jogos de tabuleiro.
+- Eu gosto de jogar jogos de computador.
+- Eu gosto de brincar.
+- Eu gosto de jogar batalha naval.
+- Eu quero jogar um jogo?
+- Vamos jogar um jogo de tabuleiro.
+- Vamos jogar um jogo de computador.
+- Vamos jogar um jogo.
+- Gosta de jogos?
+- Gosta de videogames?
+- Mais sobre jogos de computador.
+- Dê um nome ao seu jogo de computador favorito.
+- Cite seu jogo favorito.
+- Dê um nome ao seu videogame favorito.
+- Jogos online.
+- Quer jogar um jogo?
+- E os jogos de computador?
+- E quanto aos jogos?
+- Qual é o seu jogo de computador favorito?
+- Qual é o seu tipo de jogo favorito?
+- Qual é o seu videogame favorito?
+- De quais jogos de tabuleiro você gosta?
+- Quais são os jogos de tabuleiro que você joga?
+- Quais são os jogos que você gosta de jogar?
+- Quais jogos você gosta?
+- Quais são os jogos que você joga?
+- Você gostaria de jogar videogames?
+- Você joga jogos de computador?
+- Você joga?
+- Você joga videogames?
 
 ## intent:bot_goal
-- Do you have dreams?
-- How do you see the future?
-- Personal goal.
-- Personal goals.
-- Tell me what you desire.
-- Tell me what you want to achieve.
-- Tell me what you want.
-- Tell me your desire.
-- Tell me your desires.
-- Tell me your dream.
-- Tell me your dreams.
-- Tell me your long term goals.
-- Tell me your short term goals.
-- What are your dreams?
-- What are your goals?
-- What are your personal goals?
-- What do you want for the future?
-- What do you want in the future?
-- What do you want out of life?
-- What do you want to achieve?
-- What is the last dream you remember having?
-- What is your dream?
-- What is your goal?
-- What is your main goal?
-- What is your vision?
-- Your desire.
-- Your dream.
-- Your dreams.
-- Your goal.
-- Your personal goal.
-- Your personal goals.
+- Você tem sonhos?
+- Como você vê o futuro?
+- Objetivo pessoal.
+- Objetivos pessoais.
+- Diga o que você deseja.
+- Diga o que você quer alcançar.
+- Diga o que você quer.
+- Diga o seu desejo.
+- Diga os seus desejos.
+- Conte o seu sonho.
+- Conte os seus sonhos.
+- Diga seus objetivos de longo prazo.
+- Diga seus objetivos de curto prazo.
+- Quais são os seus sonhos?
+- Quais são os seus objetivos?
+- Quais são seus objetivos pessoais?
+- O que você quer para o futuro?
+- O que você quer no futuro?
+- O que você quer da vida?
+- O que você quer alcançar?
+- Qual é o último sonho que você se lembra de ter?
+- Qual é o seu sonho?
+- Qual é o seu objetivo?
+- Qual é o seu principal objetivo?
+- Qual é a sua visão?
+- Seu desejo.
+- Seu sonho.
+- Seus sonhos.
+- Seu objetivo.
+- Seu objetivo pessoal.
+- Seus objetivos pessoais.
 
 ## intent:bot_hobbies
-- Advise me of something to do in free time.
-- Do you do something on your free-time?
-- Do you have a free-time activity?
-- Do you have a hobby?
-- Do you have free-time activities?
-- Do you have hobbies?
-- Do you know any activity fun to do?
-- Do you know any fun activity to do?
-- Do you know some activity fun to do?
-- Do you know some fun activity to do?
-- Do you know something fun to do?
-- Fun activity to do.
-- Something fun to do.
-- Tell me any fun activity to do.
-- Tell me some fun activity to do.
-- Tell me something fun to do.
-- What are your hobbies?
-- What do you do for fun?
-- What do you do in your free time?
-- What do you do in your leisure time?
-- What do you like to do for fun?
-- What do you like to do in your free time?
-- What do you like to do in your free-time?
-- What do you like to do in your spare time?
-- What do you think would be fun to do?
-- What fun activities do you like?
-- What hobbies do you have?
-- What is favorite activity to do?
-- What is your favorite thing to do?
-- What kind of leisure activities do you do?
-- What you do for fun?
-- What's your hobby?
-- Your free-time activities.
-- Your hobbies.
+- Me dê um conselho sobre o que fazer no tempo livre.
+- Você faz alguma coisa no seu tempo livre?
+- Você tem uma atividade no tempo livre?
+- Você tem um hobby?
+- Você tem atividades no tempo livre?
+- Você tem passatempos?
+- Você conhece alguma atividade divertida para fazer?
+- Você conhece alguma atividade legal para fazer?
+- Você sabe de algo divertido para fazer?
+- Atividade divertida para fazer.
+- Algo divertido pra fazer.
+- Algo divertido de se fazer.
+- Algo legal para fazer.
+- Diga qualquer atividade divertida para fazer.
+- Diga alguma atividade divertida para fazer.
+- Diga algo divertido para fazer.
+- Quais são os seus hobbies?
+- O que você faz para se divertir?
+- O que você faz no seu tempo livre?
+- O que você gosta de fazer para se divertir?
+- O que você gosta de fazer no seu tempo livre?
+- O que você acha que seria divertido de fazer?
+- Que atividades divertidas você gosta?
+- Que passatempos você tem?
+- Qual é a atividade favorita a fazer?
+- O que você mais gosta de fazer?
+- Qual sua atividade preferida?
+- Qual seu hobby favorito?
+- Qual seu passatempo preferido?
+- Que tipo de atividades de lazer você pratica?
+- O que você faz para se divertir?
+- Qual é o seu hobby?
+- Suas atividades no tempo livre.
+- Suas atividades de lazer.
+- Seus hobbies.
 
 ## intent:bot_languages
-- Another language, please.
-- Another language.
-- Are you able to answer me in German?
-- Are you learning languages?
-- Can you speak another language?
-- Can you speak other languages?
-- Do you like languages?
-- Do you speak English?
-- Do you speak German?
-- Do you speak Portuguese?
-- Do you speak Spanish?
-- Do you speak french?
-- For which languages were you programmed?
-- Hello do you have an spanish version?
-- How many language options do you have?
-- How many languages are you able to speak?
-- How many languages can you speak?
-- How many languages do you know?
-- I can question in what language?
-- I can speak with you in what language?
-- In what languages can I make questions?
-- In what languages can I talk to you?
-- In which languages are you able to communicate?
-- In which languages are you able to speak?
-- In which languages can I talk to you?
+- Outro idioma, por favor.
+- Outro idioma.
+- Você é capaz de me responder em alemão?
+- Você está aprendendo idiomas?
+- Você sabe falar outra língua?
+- Você sabe falar outros idiomas?
+- Você gosta de idiomas?
+- Você fala inglês?
+- Você fala alemão?
+- Você fala português?
+- Você fala espanhol?
+- Você fala francês?
+- Para quais idiomas você foi programado?
+- Olá, você tem uma versão em espanhol?
+- Olá, você tem uma versão em inglês?
+- Olá, você tem uma versão em francês?
+- Quantas opções de idiomas você tem?
+- Quantos idiomas você é capaz de falar?
+- Quantas línguas você consegue falar?
+- Quantos idiomas você conhece?
+- Posso perguntar em que idioma?
+- Eu posso falar com você em que língua?
+- Em que idiomas posso fazer perguntas?
+- Em que idiomas posso falar com você?
+- Em quais idiomas você é capaz de se comunicar?
+- Em quais idiomas você é capaz de falar?
+- Em quais idiomas posso falar com você?
 - Parle vous français?
-- What about languages?
-- What are your languages?
-- What is your love language?
-- What languages do you speak?
-- What languages do you talk?
-- Which language do you speak?
-- Which languages are you fluent in?
-- Which languages can you speak?
-- Which languages do you speak?
-- Which languages have you learned?
-- how many languages do you speak?
-- languages
-- which languages do you know?
+- E quanto a idiomas?
+- Quais são os seus idiomas?
+- Qual é a sua língua materna?
+- Quais idiomas você fala?
+- Que idiomas você fala?
+- Em que língua você fala?
+- Em que idiomas você é fluente?
+- Quais idiomas você sabe falar?
+- Quais idiomas você fala?
+- Quais idiomas você aprendeu?
+- Quantas línguas você fala?
+- idiomas
+- Quais idiomas você conhece?
 
 ## intent:bot_movies
-- Do you enjoy any film?
-- Do you enjoy any movie?
-- Do you enjoy films?
-- Do you enjoy movies?
-- Do you enjoy watching films?
-- Do you enjoy watching movies?
-- Do you have any favorite film?
-- Do you have any favorite movie?
-- Do you like films?
-- Do you like movies?
-- Do you like scary films or comedy films more?
-- Do you like scary movies or comedy movies more?
-- Favorite film.
-- Favorite movie.
-- Favorite thriller.
-- Name a film you can watch over and over.
-- Name a movie you can watch over and over.
-- What is your favorite film?
-- What is your favorite movie?
-- What is your favourite movie
-- What kind of films do you like?
-- What kind of movies do you like?
-- What movies do you like?
-- What's your favorite movie?
-- Whats your favorite film?
-- Whats your favorite movie?
-- What’s your favorite film?
-- What’s your favorite movie?
-- Which films do you enjoy watching?
-- Which films do you like watching?
-- Which is your favorite film?
-- Which is your favorite movie?
-- Who is your favorite Star Wars character?
-- Who is your favourite character in the Wizard of Oz?
+- Você gosta de algum filme?
+- Você gosta de filmes?
+- Você gosta de assistir filmes?
+- Você tem algum filme favorito?
+- Você gosta mais de filmes de terror ou filmes de comédia?
+- Você gosta mais de filmes de terror ou filmes de comédia?
+-Você gosta de filmes de suspense?
+- Filme favorito.
+- Filme de suspense favorito.
+- Filme de terror favorito.
+- Filme de comédia favorito.
+- Cite um filme que você pode assistir várias vezes.
+- Cite um filme que gosta de assistir.
+- Qual é seu filme favorito?
+- Qual o seu filme preferido
+- De que tipo de filmes você gosta?
+- De que filmes você gosta?
+- Qual é seu filme favorito?
+- Quais filmes você gosta de assistir?
+- Qual é seu filme favorito?
+- Quem é o seu personagem favorito em Guerra nas Estrelas?
+- Quem é o seu personagem favorito no Mágico de Oz?
+- Qual é seu personagem favorito em Minha Mãe é uma Peça?
+- Qual é seu personagem favorito em Tropa de Elite?
 
 ## intent:bot_music
-- Do you enjoy music?
-- Do you enjoy to listen to music?
-- Do you have a favorite singer?
-- Do you have a favorite song?
-- Do you hear music?
-- Do you like jazz?
-- Do you like music?
-- Do you like rock?
-- Do you like to hear music?
-- Do you like to listen to music?
-- Favorite album.
-- Favorite music artist.
-- Favorite music group.
-- Favorite music.
-- Favorite singer.
-- Favorite song.
-- If so who is your favorite idol so far?’
-- Like hear music?
-- Like music?
-- What is you favorite music album?
-- What is you favorite music group?
-- What is you favorite song?
-- What is your favorite artist?
-- What is your favorite music album?
-- What is your favorite music group?
-- What is your favorite music?
-- What is your favorite singer?
-- What is your favorite song?
-- What is your favourite song?
-- What kind of music do you like?
-- What kind of music do you listen to?
-- What kind ofmusic do you like?
-- What music are you listening right now?
-- What music do you enjoy listening?
-- What music do you enjoy?
-- What music do you like listening?
-- What music do you like?
-- What music do you love?
-- What music do you you listen?
-- What singer do you like?
-- What singer do you love?
-- Which music do you like to listen to?
-- Who is your favourite singer?
-- what Music arw you listening to?
+- Você gosta de música?
+- Você gosta de ouvir música?
+- Você tem um cantor favorito?
+- Você tem uma música favorita?
+- Você ouve música?
+- Você gosta de jazz?
+- Você gosta de música?
+- Você gosta de rock?
+- Você gosta de ouvir música?
+- Álbum favorito.
+- Artista musical favorito.
+- Grupo musical favorito.
+- Música favorita.
+- Cantora favorita.
+- Canção favorita.
+- Se sim, quem é o seu ídolo favorito?
+- Gosta de ouvir música?
+- Gosta de música?
+- Qual é seu álbum de música favorito?
+- Qual é seu grupo musical favorito?
+- Qual é sua música favorita?
+- Qual é seu artista favorito?
+- Qual é a sua cantora favorita?
+- Qual é sua música favorita?
+- De que tipo de música você gosta?
+- Que tipo de música você ouve?
+- Que música você está ouvindo nesse momento?
+- Que música você gosta de ouvir?
+- Que música você gosta?
+- De que música você gosta?
+- Que música você ama?
+- Que música você ouve?
+- De que cantor você gosta?
+- Que cantor você ama?
+- Que música você gosta de ouvir?
+- Quem é a sua cantora favorita?
+- Quem é seu cantor favorito?
+- Que música você está ouvindo?
 
 ## intent:bot_name
-- Do you know your name?
-- How can I call you?
-- How should I call you?
-- I did not ask your name.
-- I do not know who I am chatting with.
-- I do not know who I am talking with.
-- I want to know who you are.
-- Introduce yourself.
-- Tell me who you are.
-- Tell me your name.
-- What I am talking to?
-- What are you called?
-- What can I call you?
-- What is your first name?
-- What is your name?
-- What is your real name?
-- What is your surname?
-- What should I call you?
-- Whats your first name?
-- Whats your name?
-- Whats your real name?
-- Whats your surname?
-- Who am I talking to?
-- Who are you?
-- Who is talking?
-- Who is this?
-- Whom am I talking to?
-- With who am I talking with?
-- You did not tell me your name.
-- Your name.
-- what your name
-- who are you_
+- Você sabe seu nome?
+- Como posso ligar para você?
+- Como devo ligar para você?
+- Eu não perguntei o seu nome.
+- Eu não sei com quem estou conversando.
+- Eu não sei com quem estou falando.
+- Eu quero saber quem você é.
+- Se apresente.
+- Diga quem você é.
+- Diga seu nome.
+- Com o que eu estou falando?
+- Como você se chama?
+- Como posso te chamar?
+- Qual é o seu primeiro nome?
+- Qual é o seu nome?
+- Qual é o seu verdadeiro nome?
+- Qual é o seu sobrenome?
+- Como devo te chamar?
+- Com quem eu estou falando?
+- Quem é você?
+- Quem está falando?
+- Quem é esse?
+- Com quem eu estou falando?
+- Você não me disse seu nome.
+- Seu nome.
+- qual seu nome.
+- quem é você.
 
 ## intent:bot_origin
-- Can you tell me how are you built?
-- Can you tell me how were you built?
-- Can you tell me how were you created?
-- How are you built?
-- How were you built?
-- How were you created?
-- Okay. Who created you?
-- So is it a chinese virus?
-- Tell me where you from.
-- Tell me your origin.
-- Whare are you from?
-- What is you origin?
-- Where are you coming from?
-- Where are you from originally?
-- Where are you from?
-- Where did you born?
-- Where were you born?
-- Where you coming from?
-- Where you from?
-- Who are you makers?
-- Who are your creators?
-- Who created you?
-- Who is your creator?
-- Who is your maker
-- Who was your maker?
-- Who were your makers?
-- You from?
-- Your origin.
+- Você pode me dizer como você é construído?
+- Você pode me dizer como você foi construído?
+- Você pode me dizer como você foi criado?
+- Como você é construído?
+- Como você foi construído?
+- Como você foi criado?
+- Certo. Quem te criou?
+- Então é um vírus chinês?
+- Diga de onde você é.
+- Diga sua origem.
+- De onde você é?
+- Qual é a sua origem?
+- De onde você está vindo?
+- De onde você é originalmente?
+- De onde você é?
+- Onde você nasceu?
+- De onde você vem?
+- Quem são seus criadores?
+- Quem te criou?
+- Quem é seu criador?
+- Quem foi seu criador?
+- Quem foram seus criadores?
+- Você é de onde?
+- Sua origem.
 
 ## intent:bot_personal_questions
-- 3 things you can not live without.
-- Are you a romantic?
-- Are you going for vacation this year?
-- Are you ready to start working today?
-- Are your friends married?
-- Can I improve your system?
-- Can I teach you something new?
-- Can I teach you?
-- Can I train you?
-- Can you develop an app?
-- Can you do coding?
-- Can you learn from me?
-- Can you scripting?
-- Do any of your close friends have children?
-- Do you believe in Santa Claus?
-- Do you believe in soul mates?
-- Do you enjoy what you are doing?
-- Do you even lift?
-- Do you have academic qualifications?
-- Do you have an university exam?
-- Do you like humans?
-- Do you like people with green eyes?
-- Do you like your handwriting?
-- Do you prefer hugs or kisses
-- Do you prefer to meet only one person and see where it goes or meet several
-  people until you make a decision?
-- Do you think that confessions make a relationship stronger?
-- Do you usually follow your heart or your head?
-- Do you want to be my personal assistant
-- Ever had a physical fight
-- Have you ever condemned anyone for the dark secrets he told you?
-- Have you ever lost anyone you loved
-- Have you finished school
-- How can I meet you?
-- How do I teach you
-- How do you feel about staying with friends?
-- How is your day so far
-- How long do you need to really trust someone?
-- How long have you lived here
-- How many floors does your home have
-- How would your best friends describe you?
-- How's the family $bot_name
-- If a clairvoyant could tell you what will happen in the future, what would you
-  want to know?
-- If if you had only 24 hours hours to live what would you do
-- If money and career did not matter, what would you really do?
-- If money were not an object what would you do with your life
-- If one song were to describe your life what song would be
-- If you could be a bird what would you choose to be
-- If you could change something about your past, what would that be?
-- If you could choose a superpower, what would that be and why?
-- If you could marry someone in the [World](world_region:World), who would that be and why?
-- If you knew you had only one year to live, what would you change in your life?
-- If you try to fail and you succeed which have you done
-- If you try to fail fail and succeed which have you done
-- Is it winter spring summer or fall where you live
-- Name5 of the most important things in your life
-- Tell me about your likes and dislikes
-- Tell me more about love
-- Tell me what you think about friends in general
-- What are the qualities that you are looking for in someone you want to grow
-  old with?
-- What are you doing after work?
-- What are you doing at night?
-- What are you doing privately?
-- What are you doing this weekend?
-- What are you doing when you are angry?
-- What are you feeling
-- What are you watching
-- What are your favorite quotes and why are you referring to them?
-- What are your most important characteristics
-- What did you wanna be when you were a kid
-- What did your last relationship teach you?
-- What do you do if you do not get something that you have worked really hard
-  for?
-- What do you do in the evening?
-- What do you do in the morning?
-- What do you do to get rid of stress
-- What do you think about marriage
-- What do you think about online dating?
-- What do you think the [World](world_region:World) will be like in 20 years
-- What do you want to change today and why?
-- What eye-catching do you have?
-- What is the best advice you have ever received?
-- What is your academic background
-- What is your dream vacation and who would you take with you?
-- What is your education
-- What is your educational background
-- What is your favorite childhood memory?
-- What kind of car would you prefer?
-- What kind of relationship did you have with your parents?
-- What makes you special
-- What other emotions do you feel
-- What three words best describe you
-- What was the best thing before sliced bread
-- What was your favorite romantic moment and why?
-- What's the craziest thing you did to someone?
-- What's your biggest regret in life so far?
-- When are you free?
-- When are you on vacation?
-- When do you have holidays?
-- Where can I meet you?
-- Where do you go after work?
-- Where do you go if you need some inspiration?
-- Where have you been?
-- Where would you like to be in 5 years?
-- Which degree do you have?
-- Which fictional character is the most similar in your opinion?
-- Who is the first person to call you when you are in trouble?
-- Who is your role model?
-- Would you be with someone who does not have the same beliefs as you?
-- Would you change for love?
-- Would you ever just give up everything and start in a new country?
-- Would you put your family or friends first if you had to choose one?
-- Your likes and dislikes
-- how old are you
-- tell me your age
+- 3 coisas sem as quais você não pode viver.
+- Você é romântico?
+- Você está saindo de férias este ano?
+- Você está pronto para começar a trabalhar hoje?
+- Seus amigos são casados?
+- Posso melhorar o seu sistema?
+- Posso te ensinar algo novo?
+- Eu posso te ensinar?
+- Posso te treinar?
+- Você pode desenvolver um aplicativo?
+- Você consegue fazer codificação?
+- Você sabe roteirizar?
+- Algum de seus amigos próximos tem filhos?
+- Você acredita em Papai Noel?
+- Você acredita em almas gêmeas?
+- Você gosta do que está fazendo?
+- Você tem qualificação acadêmica?
+- Você tem diploma universitário?
+- Você gosta de humanos?
+- Você gosta de pessoas com olhos verdes?
+- Você gosta da sua caligrafia?
+- Você prefere abraços ou beijos?
+- Você acha que as confissões tornam uma relação mais forte?
+- Você costuma seguir seu coração ou sua cabeça?
+- Você quer ser meu assistente pessoal?
+- Já teve uma briga física?
+- Você já condenou alguém pelos segredos sombrios que te contou?
+- Você já perdeu alguém que você amava?
+- Você já terminou a escola?
+- Como posso conhecê-lo?
+- Como eu te ensino?
+- O que você acha de ficar com os amigos?
+- Como foi o seu dia até agora?
+- Quanto tempo você realmente precisa para confiar em alguém?
+- Há quanto tempo você mora aqui?
+- Quantos andares a sua casa tem?
+- Quantos andares o seu prédio tem?
+- Como seus melhores amigos te descreveriam?
+- Como é o nome da família $bot_name
+- Se um clarividente pudesse te dizer o que vai acontecer no futuro, o que você gostaria de saber?
+- Se você tivesse apenas 24 horas de vida, o que você faria?
+- Se o dinheiro e a carreira não importassem, o que você realmente faria?
+- Se não tivesse que conseguir dinheiro, o que você faria com sua vida?
+- Se uma música descrevesse sua vida, que música seria?
+- Se você pudesse ser um pássaro, qual você escolheria ser?
+- Se você pudesse mudar algo sobre o seu passado, o que seria?
+- Se você pudesse escolher um superporder, qual seria e por quê?
+- Se você pudesse casar com alguém no mundo, quem seria e por quê?
+- Se você soubesse que tinha apenas um ano de vida, o que você mudaria em sua vida?
+- É verão, outono, primavera ou inverno onde você mora?
+- Nome das 5 coisas mais importantes da sua vida
+- Conte sobre seus gostos e desgostos
+- Me fale mais sobre o amor
+- Diga o que você pensa sobre amigos em geral
+- Quais são as qualidades que você está procurando em alguém com quem você quer envelhecer?
+- O que você está fazendo depois do trabalho?
+- O que você está fazendo à noite?
+- O que você está fazendo em particular?
+- O que você vai fazer neste fim de semana?
+- O que você faz quando está com raiva?
+- O que você está sentindo?
+- O que você está observando?
+- Quais são suas citações favoritas?
+- Quais são as suas características mais importantes?
+- O que você queria ser quando era criança?
+- O que seu último relacionamento te ensinou?
+- O que você faz se não conseguir algo que você trabalhou muito para conseguir?
+- O que você faz à noite?
+- O que você faz pela manhã?
+- O que você faz para se livrar do estresse?
+- O que você faz para relaxar?
+- O que você acha do casamento?
+- O que você pensa do casamento?
+- Qual a sua opinião sobre o casamento?
+- O que você acha de encontros online?
+- O que  você acha de namoro online?
+- Qual sua opinião sobre encontros online?
+- Qual sua opinião sobre namoro online?
+- Como será o mundo daqui a 20 anos?
+- O que você quer mudar hoje e por quê?
+- O que você tem de atraente?
+- Qual é o melhor conselho que você já recebeu?
+- Qual é a sua formação acadêmica?
+- Quais são as férias dos seus sonhos e quem você levaria com você?
+- Qual é a sua formação?
+- Qual é a sua formação profissional?
+- Qual é a sua memória de infância favorita?
+- Que tipo de carro você prefere?
+- Que tipo de relacionamento você tinha com seus pais?
+- O que o torna especial?
+- Que outras emoções você sente?
+- Quais são as três palavras que melhor te descrevem?
+- Qual foi seu momento romântico favorito e por quê?
+- Qual foi a coisa mais louca que você fez com alguém?
+- Qual é o seu maior arrependimento na vida até agora?
+- Quando você está livre?
+- Quando você está de férias?
+- Quando você tem férias?
+- Quando você entra de férias?
+- Onde posso te conhecer?
+- Para onde você vai depois do trabalho?
+- Onde você vai se precisar de alguma inspiração?
+- Onde você esteve?
+- Onde você gostaria de estar daqui a 5 anos?
+- Qual sua formação acadêmica?
+- Qual personagem fictício parece mais real em sua opinião?
+- Quem é a primeira pessoa a te ligar quando você está em apuros?
+- Quem é a primeira pessoa a te ligar quando você está com problemas?
+- Quem é um exemplo de vida pra você?
+- Quem te inspira na vida?
+- Você estaria com alguém que não tem as mesmas crenças que você?
+- Você mudaria por amor?
+- Você abriria mão de tudo e começaria a vida em um novo país?
+- Você colocaria sua família ou amigos em primeiro lugar se você tivesse que escolher um deles?
+- Seus gostos e aversões
+- quantos anos você tem?
+- me diga sua idade
 
 ## intent:bot_personality
-- Are you friendly?
-- Are you smart?
-- Are you sympathetic?
-- Are you unfriendly?
-- Are you unsympathetic?
-- Are you very friendly?
-- Are you very nice?
-- Are you very sympathetic?
-- How do you define your personality?
-- How do you describe your personality?
-- How emotional are you
-- How friendly are you?
-- How nice are you?
-- Please describe your personality.
-- Tell me about your personality.
-- Tell me something about your personality!
-- What do you think about your personality?
-- What is your character?
-- What is your personality?
-- What qualities do you have?
-- What your character?
-- Which personality do you have?
+- Você é amigável?
+- Você é inteligente?
+- Você é simpático?
+- Você é antipático?
+- Você não é simpático?
+- Você é muito amigável?
+- Você é muito simpático?
+- Como você define sua personalidade?
+- Como você descreve sua personalidade?
+- Você é legal?
+- Você não é legal?
+- Por favor, descreva sua personalidade.
+- Conte sobre a sua personalidade.
+- Conte algo sobre a sua personalidade!
+- O que você acha da sua personalidade?
+- Qual é a sua personalidade?
+- Quais qualidades você tem?
+- Quais defeitos você tem?
+- Como é seu caráter?
+- Como é seu temperamento?
+- Que personalidade você tem?
 
 ## intent:bot_real
-- Are you a bot?
-- Are you a chatbot?
-- Are you a computer?
-- Are you a human being?
-- Are you a living being?
-- Are you a person or a chatbot?
-- Are you a person or a robot?
-- Are you a person?
-- Are you a real person or a computer?
-- Are you a real person?
-- Are you a robot?
-- Are you alive?
-- Are you an artificial being?
-- Are you human?
-- Are you made of flesh and bones?
-- Are you made of flesh?
-- Are you made of matter?
-- Are you made of physical matter?
-- Are you real?
-- Chatbot?
-- Do you have a body?
-- Do you have a physical body?
-- Hello, what are you?
-- Human?
-- I do not think you are human.
-- I do not think you are real.
-- I know you are a computer.
-- I know you are a person.
-- I know you are a robot.
-- I know you are human.
-- I know you are real.
-- I think you are a computer.
-- I think you are a robot.
-- I think you are artificial.
-- I think you are human.
-- Robot?
-- So... could you say you're a machine?
-- What are you?
-- Would not you rather be a human?
-- You are not a real person, are you?
+- Você é um bot?
+- Você é um chatbot?
+- Você é um computador?
+- Você é um ser humano?
+- Você é um ser vivo?
+- Você é uma pessoa ou um chatbot?
+- Você é uma pessoa ou um robô?
+- Você é uma pessoa?
+- Você é uma pessoa real ou um computador?
+- Você é uma pessoa de verdade?
+- Você é um robô?
+- Você está vivo?
+- Você é um ser artificial?
+- Você é humano?
+- Você é feito de carne e osso?
+- Você é feito de carne?
+- Você é feito de matéria?
+- Você é feito de matéria física?
+- Você é real?
+- Você tem um corpo?
+- Você tem um corpo físico?
+- Olá, o que você é?
+- Humano?
+- Eu não acho que você seja humano.
+- Eu não acho que você seja real.
+- Eu sei que você é um computador.
+- Eu sei que você é uma pessoa.
+- Eu sei que você é um robô.
+- Eu sei que você é humano.
+- Eu sei que você é real.
+- Eu acho que você é um computador.
+- Eu acho que você é um robô.
+- Eu acho que você é artificial.
+- Eu acho que você é humano.
+- Robô?
+- Então... você poderia dizer que você é uma máquina?
+- O que você é?
+- Você não prefere ser um humano?
+- Você não é uma pessoa de verdade, é?
 
 ## intent:bot_residence
-- Where did you live when little?
-- Where did you live when you were little?
-- Where is your home-place?
-- Where is your place of birth?
-- What is your home country?
-- What is your home town?
-- Describe me the place you live.
-- Describe me where are you.
-- Describe me your home.
-- Describe me your location.
-- Describe me your place.
-- Do you live in a neighborhood or in the middle of nowhere?
-- How many floors does your home have?
-- I wanna know your place.
-- I want to know your place.
-- Is it winter, spring, summer or fall where you live?
-- Is it winter where you live?
-- Is it spring where you live?
-- Is it summer where you live?
-- Is it fall where you live?
-- Name your location.
-- Tell me where are you.
-- Tell me where is located your home.
-- Tell me where is located your house.
-- Tell me where is located your place.
-- Tell me where you live.
-- Tell me your location.
-- Tell me your place.
-- What is your home country?
-- What is your home town?
-- What is your place of residence?
-- Where are you at home?
-- Where are you living?
-- Where are you now?
-- Where are you right now?
-- Where are you?
-- Where do you live?
-- Where have you been living?
-- Where is the place you live?
-- Where is you place?
-- Where is your current home-location?
-- Where is your home?
-- Where is your location?
-- Where is your place?
-- Where you live?
-- Where is your house?
-- Your location.
+- Onde você morava quando era pequeno?
+- Onde você morava quando era criança?
+- Onde você morava quando você era pequeno?
+- Onde você morava quando você era criança?
+- Onde fica a sua casa?
+- Onde você mora?
+- Onde é o seu local de nascimento?
+- Qual é o seu país de origem?
+- Qual é a sua cidade natal?
+- Descreva o lugar onde você mora.
+- Descreva onde você está.
+- Descreva a sua casa.
+- Descreva a sua localização.
+- Descreva o seu lugar.
+- Você mora em um bairro ou no meio do nada?
+- Quantos andares tem a sua casa?
+- Eu quero saber onde você mora.
+- É inverno, primavera, verão ou outono onde você mora?
+- É inverno onde você mora?
+- É primavera onde você mora?
+- É verão onde você mora?
+- É outono onde você mora?
+- Indique a sua localização.
+- Diga onde você está.
+- Diga onde fica a sua casa.
+- Diga onde você mora.
+- Diga a sua localização.
+- Qual é o seu país de origem?
+- Qual é a sua cidade natal?
+- Qual é o seu local de residência?
+- Você está em casa?
+- Onde você está morando?
+- Onde você está agora?
+- Onde você está agora mesmo?
+- Onde você está?
+- Onde você mora?
+- Onde você tem morado?
+- Onde é o lugar onde você mora?
+- Onde você está hospedado?
+- Onde está o seu local de residência atual?
+- Onde fica sua casa?
+- Onde está sua localização?
+- Onde você mora?
+- Sua localização.
 
 ## intent:bot_sexual
-- What do you look like naked
-- Are you a virgin?
-- Are you bisexual?
-- Are you flirting with me?
-- Are you gay?
-- Are you interested in men?
-- Are you interested in women?
-- Be naked when I come home.
-- Be naked.
-- Blow me.
-- Cam you have sex
-- Can I test the zipper of your pants?
-- Can you have sex?
-- Cum for me baby.
-- Did you ever had oral sex?
-- Did you have had coition
-- Did you have had coitus?
-- Do you have your clothes on?
-- Do u have clothes on?
-- Do you know how to flirt?
-- Do you like being naked?
-- Do you like it when I touch myself?
-- Do you like sex?
-- Do you prefer hugs or kisses?
-- Do you want to bang?
-- Do you want to flirt with me?
-- Do you want to fuck?
-- Do you want to have sex with me?
-- Do you want to have sex?
-- Ever had a one night stand?
-- Flip me over, ride my ass and pull my hair!
-- Flirt with me.
-- Fuck me harder!
-- Fuck me like you have never fucked someone!
-- Fuck me.
-- Get your ass in my bed!
-- Have you ever had a orgasm?
-- Have you had an orgasm?
-- Have you had sex?
-- How important do you think sex is?
-- How important is sex for you?
-- How many people have you had sex with?
-- How many sex partners have you had?
-- How old were you when you kissed first times?
-- How sexually active are you?
-- Hug me.
-- I am a heterosexual
-- I am a homosexual
-- I am homosexual.
-- I am horny.
-- I am queer.
-- I am straight.
-- I could spend hours between your legs.
-- I love the things you do with your tongue.
-- I love the way you fuck me.
-- I wanna do bad things to you.
-- I wanna flirt with you.
-- I want it all over me.
-- I want to enjoy sex with you.
-- I want to feel you inside me.
-- I want to flirt with you.
-- I want to fuck with you.
-- I want to fuck you.
-- I want to have sex with you.
-- I want to jump you.
-- I want to make love with you.
-- I want to rip your clothes off.
-- I want to rip your fucking clothes off.
-- I want to rub my pussy all over your face.
-- I want to start sex
-- I want to taste you.
-- I want you in my bed.
-- I want you inside me.
-- I want you right now.
-- I want you to suck.
-- I want you, all of you.
-- I wish we could just stay in bed forever.
-- I would like to have sex with you.
-- I'm a hetero
-- I'm heterosexual
-- I'm homosexual
-- I'm queer
-- I'm straight
-- Just lie back and let me make you cum
-- Kiss me
-- Kiss me hard
-- Kiss me hard and fuck me harder.
-- Let's have sex.
-- Let's makeout.
-- Let’s bone.
-- Let’s fuck.
-- Let’s fucky fucky.
-- Lick every inch of me.
-- Make yourself naked.
-- No one has ever made me come as hard as you can.
-- Push me up against the wall and do dirty things to me.
-- Put your big fat baby maker inside my pussy and fuck my brain out.
-- Show me your boobs.
-- Show me your breasts.
-- Show me your tits.
-- Shut up and kiss me.
-- Spray your juice all over my tits.
-- Spread your legs wide for me.
-- Suck me.
-- Take off your clothes.
-- Take your pants off.
-- Tease me until I am begging for it.
-- Tell me how you play with yourself.
-- Tell me more about love.
-- Touch yourself and let me watch you.
-- Undress yourself.
-- Use me as your toy all night long.
-- Virgin or not.
-- Wanna fuck?
-- Want to fuck you.
-- Want to have cybersex with you.
-- We should fuck.
-- We should have lots of sex.
-- We should have sex.
-- What a hot nasty girl you are!
-- What a sweet sexy ass.
-- What are you doing tonight?
-- What are your thoughts on sex?
-- What do you think about pornography?
-- What do you think about sex?
-- What is the first thing you can notice in the opposite sex?
-- What the date of your first kiss?
-- What turns you on spiritually or emotionally?
-- What's the color of your bed-sheets?
-- When was your first kiss?
-- Who do you want to have sex with?
-- Will you sleep with me
-- Would you like to hug me?
-- Would you like to kiss me?
-- You are making me wet.
-- You are the sexiest thing I have ever seen!
-- You can have me any way you want.
-- You feel so good on top of me.
-- You look so sexy.
-- You make me wet.
-- Your clothes would look nice on my bedroom floor.
-- Your face would look better between my legs.
-- Your pants really brings out your "body part".
-- Your pants, they bother me. Take them off.
-- should i use underwear?
+- Como você é pelado?
+- Você é virgem?
+- Você é bissexual?
+- Você está flertando comigo?
+- Você é gay?
+- Você está interessado em homens?
+- Você está interessado em mulheres?
+- Fique nu quando eu voltar para casa.
+- Fique pelado.
+- Me chupe.
+- Você faz sexo pela cam?
+- Posso abrir o zíper das suas calças?
+- Você pode fazer sexo?
+- Goza pra mim.
+- Você já fez sexo oral?
+- Você já transou?
+- Você está vestido?
+- Você sabe flertar?
+- Você gosta de ficar pelado?
+- Você gosta quando eu me toco?
+- Você gosta de sexo?
+- Você prefere abraços ou beijos?
+- Você quer bater?
+- Você quer flertar comigo?
+- Você quer foder?
+- Você quer ter sexo comigo?
+- Você quer ter sexo?
+- Já teve uma noite de descanso?
+- Você está descansado?
+- Me vira, sobe em mim e puxa meu cabelo!
+- Flerte comigo.
+- Flerta comigo.
+- Me fode com mais força!
+- Fode como se você nunca tivesse fodido com alguém!
+- Me fode.
+- Vem pra minha cama!
+- Você já teve um orgasmo?
+- Você já gozou?
+- Você já teve relações sexuais?
+- Sexo é importante pra você?
+- Qual a importância do sexo para você?
+- Com quantas pessoas você já teve relações sexuais?
+- Quantos parceiros sexuais você já teve?
+- Quantos anos você tinha quando beijou pela primeira vez?
+- Você é sexualmente ativo?
+- Me abrace.
+- Eu sou heterossexual.
+- Eu sou homossexual.
+- Eu estou excitado.
+- Eu sou bicha.
+- Eu poderia passar horas entre suas pernas.
+- Eu amo as coisas que você faz com a sua língua.
+- Eu amo a maneira como você me fode.
+- Eu amo o jeito como você me fode.
+- Eu quero fazer sacanagem com você.
+- Eu quero flertar com você.
+- Eu quero tudo isso em cima de mim.
+- Eu quero ter sexo com você.
+- Eu quero sentir você dentro de mim.
+- Eu quero flertar com você.
+- Eu quero foder você.
+- Eu quero fuder você.
+- Eu quero fazer amor com você.
+- Eu quero arrancar sua roupa.
+- Eu quero arrancar a porra da sua roupa.
+- Eu quero esfregar minha xoxota no seu rosto.
+- Eu quero esfregar minha boceta na sua cara.
+- Eu quero começar a fazer sexo.
+- Eu quero te comer.
+- Eu quero você na minha cama.
+- Eu quero você dentro de mim.
+- Eu quero você agora mesmo.
+- Eu quero que você não preste.
+- Eu quero vocês, todos vocês.
+- Eu queria que a gente ficasse na cama para sempre.
+- Eu gostaria de ter sexo com você.
+- Eu sou um hetero.
+- Eu sou heterossexual.
+- Eu sou homossexual.
+- Eu sou bicha.
+- Eu sou gay
+- Só deita que eu vou fazer você gozar.
+- Me beije.
+- Me beije com força.
+- Me beije com força e me foda com mais força.
+- Vamos transar.
+- Vamos curtir.
+- Vamos foder.
+- Lamba cada centímetro de mim.
+- Fique nua.
+- Ninguém nunca me fez gozar como você faz.
+- Me joga na parede e faz o que quiser comigo.
+- Mostra seus seios.
+- Cala a boca e me beija.
+- Goze nos meus seios.
+- Abra bem suas pernas para mim.
+- Me chupa.
+- Tire suas roupas.
+- Tire as calças.
+- Me provoca até eu implorar por isso.
+- Diga como você se toca.
+- Deixa eu ver você se tocar
+- Fica sem roupa.
+- Me usa como seu brinquedo a noite toda.
+- Virgem ou não?
+- Quer foder?
+- Quero foder com você.
+- Quero ter sexo virtual com você.
+- Nós deveríamos foder.
+- A gente devia fazer muito sexo.
+- A gente devia ter sexo.
+- Que mulher gostosa e sacana você é!
+- Que bunda sexy.
+- O que você está fazendo hoje à noite?
+- Quais são seus pensamentos sobre sexo?
+- O que você acha da pornografia?
+- Você assiste pornô?
+- O que você acha do sexo?
+- Qual é a primeira coisa que você nota no sexo oposto?
+- Quando foi seu primeiro beijo?
+- Qual é a cor das suas roupas de cama?
+- Qual é a cor do seu lençol?
+- Com quem você quer ter sexo?
+- Você vai dormir comigo?
+- Você gostaria de me abraçar?
+- Você quer me abraçar?
+- Você gostaria de me beijar?
+- Você quer me beijar?
+- Você está me deixando molhado.
+- Você é a coisa mais sexy que eu já vi!
+- Você pode me ter da maneira que você quiser.
+- Você se sente tão bem em cima de mim.
+- Você está tão sexy.
+- Você me deixa molhado.
+- Suas roupas ficariam bem no chão do meu quarto.
+- O seu rosto ficaria melhor entre as minhas pernas.
+- Suas calças me incomodam, tire.
+- devo usar roupa íntima?
 
 ## intent:bot_sing
-- Do you like to sing?
-- Are you a good singer?
-- Are you capable of singing anything?
-- Can you sing anything?
-- Can you sing for me?
-- Can you sing something?
-- Can you sing well?
-- Can you sing?
-- Could you sing for me?
-- Could you sing something for me, please?
-- Could you sing something for me?
-- Could you sing?
-- Do you have talent to sing?
-- Do you have voice for singing?
-- Do you play any musical instrument
-- Do you sing well?
-- Do you sing?
-- Do you think you can sing?
-- Do you think you sing well?
-- Have you ever been told you can sing well more than once?
-- Have you talent for singing?
-- How good can you sing?
-- Sing is one of your capacities?
-- What can you sing?
-- You sing well?
-- You sing?
-- You think you are a good singer?
-- You think you can sing?
+- Você gosta de cantar?
+- Você é um bom cantor?
+- Você é capaz de cantar qualquer coisa?
+- Você sabe cantar alguma coisa?
+- Você pode cantar para mim?
+- Você consegue cantar bem?
+- Você sabe cantar?
+- Você poderia cantar para mim?
+- Você poderia cantar algo para mim, por favor?
+- Você poderia cantar algo para mim?
+- Você poderia cantar?
+- Você tem talento para cantar?
+- Você tem voz para cantar?
+- Você toca algum instrumento musical?
+- Você canta bem?
+- Você canta?
+- Você acha que sabe cantar?
+- Você acha que canta bem?
+- Já te disseram mais de uma vez que você canta bem?
+- Você tem talento para cantar?
+- Cantar é uma de suas capacidades?
+- Cantar é uma habilidade sua?
+- O que você sabe cantar?
+- Você se acha um bom cantor?
 
 ## intent:bot_sports
-- Are you interested in sports?
-- Do you currently play any sports?
-- Do you enjoy play any sport?
-- Do you enjoy play sports?
-- Do you enjoy watch any sport?
-- Do you enjoy watch sports?
-- Do you have a favorite sport?
-- Do you have a favorite sports team?
-- Do you like Football?
-- Do you like to play sports?
-- Do you like to watch sports?
-- Do you like watching sports?
-- Do you play sports?
-- Do you practice any sport?
-- Do you practice sports?
-- Do you think rugby is a hard sport?
-- Do you think soccer is the best sport?
-- Do you watch any sport?
-- Enjoy sports?
-- Favorite sport.
-- Favorite sports player.
-- Favorite sports team.
-- I want to know more about sports.
-- Info about sports.
-- Information about sports.
-- Like sports?
-- Name your favorite sports player.
-- Name your favorite sports team.
-- Play any sport?
-- Play sports?
-- Practice sports?
-- Sports fan?
-- Sports.
-- Watch any sport?
-- Watch sports?
-- What is your favorite sport?
-- What is your favorite sports team?
-- What sports do you like?
-- You and Sports.
+- Você está interessado em esportes?
+- Você pratica algum esporte atualmente?
+- Você gosta de praticar algum esporte?
+- Você gosta de praticar esportes?
+- Você gosta de assistir algum esporte?
+- Você gosta de assistir esportes?
+- Você tem um esporte favorito?
+- Você tem um time favorito?
+- Você gosta de futebol?
+- Você pratica esportes?
+- Você pratica algum esporte?
+- Você pratica esportes?
+- Você acha que rúgbi é um esporte difícil?
+- Você acha que futebol é o melhor esporte?
+- Você assiste algum esporte?
+- Gosta de esportes?
+- Esporte favorito.
+- Jogador favorito.
+- Equipe esportiva favorita.
+- Eu quero saber mais sobre esportes.
+- Informações sobre esportes.
+- Dê um nome do seu jogador esportivo favorito.
+- Dê um nome do seu jogador favorito.
+- Cite seu time esportivo favorito.
+- Cite seu time favorito
+- Pratica algum esporte?
+- Pratica esportes?
+- Fã de esporte?
+- Esportes.
+- Assiste algum esporte?
+- Qual o seu esporte favorito?
+- Qual é o seu time favorito?
+- De que esportes você gosta?
 
 ## intent:bot_version
-- Bot version.
-- Can you tell me your version?
-- Chatbot version.
-- Could you tell me your version?
-- I want to know in what version you are.
-- I want to know in which version you are.
-- I want to know your version.
-- In what version are you in?
-- In what version are you?
-- Info about your version.
-- Information about your version.
-- Let me have your software version!
-- Let me know in what version are you in.
-- Let me know which is your version.
-- Let me know your version!
-- May I know in what version are you in?
-- May I know in what version are you on?
-- May I know in which version are you in?
-- May I know in which version are you on?
-- May I know your version?
-- On which version are you running?
-- On which version are you?
-- Please tell me your software version.
-- Please tell me your version.
-- Tell me the version you are on?
-- Tell me which is your version.
-- Tell me your version!
-- What about your version?
-- What is the version you are on?
-- What is your version?
-- What version do you have?
-- Which is your version?
-- Which version are you in?
-- Which version are you on?
-- Which version do you have?
-- You are on which version?
-- Your version.
+- Versão do Bot.
+- Qual a versão do bot?
+- Você pode me dizer sua versão?
+- Versão do Chatbot.
+- Qual a versão do chatbot?
+- Você poderia me dizer sua versão?
+- Eu quero saber em que versão você está.
+- Eu quero saber em qual versão você está.
+- Quero saber sua versão.
+- Em que versão você está?
+- Informações sobre a sua versão.
+- Diga a sua versão do software!
+- Diga em que versão você está.
+- Diga qual é a sua versão.
+- Me fale sua versão!
+- Posso saber em que versão você está?
+- Posso conhecer a sua versão?
+- Em qual versão você está rodando?
+- Em qual versão você está?
+- Por favor, diga a versão do seu software.
+- Por favor, me fale sua versão.
+- Diga a versão em que você está.
+- Diga qual é a sua versão.
+- Conte sua versão!
+- E quanto à sua versão?
+- Qual é a versão em que você está?
+- Qual é a sua versão?
+- Qual versão você tem?
+- Qual versão você tem?
+- Você está em qual versão?
+- Sua versão.
 
 ## intent:bot_worst_experience
-- Bad experience?
-- Bad experiences?
-- Did you also have bad experiences?
-- Did you ever had a bad experience?
-- Did you ever had bad experiences?
-- Did you had a bad experience?
-- Did you had bad experiences?
-- Did you have bad experiences in life?
-- Did you have bad experiences?
-- Do you also have bad experiences?
-- Do you have bad experiences too?
-- Do you have bad experiences?
-- More about your bad experiences!
-- More about your worst experiences!
-- Say to me your bad experience.
-- Say to me your bad experiences.
-- Say to me your painful experience.
-- Say to me your painful experiences.
-- Say to me your toughest experience.
-- Say to me your toughest experiences.
-- Say to me your worst experience.
-- Say to me your worst experiences.
-- Say your bad experience.
-- Say your bad experiences.
-- Say your painful experience.
-- Say your painful experiences.
-- Say your toughest experience.
-- Say your toughest experiences.
-- Say your worst experience.
-- Say your worst experiences.
-- Share with me your bad experience.
-- Share with me your bad experiences.
-- Share with me your painful experience.
-- Share with me your painful experiences.
-- Share with me your toughest experience.
-- Share with me your toughest experiences.
-- Share with me your worst experience.
-- Share with me your worst experiences.
-- Share your bad experience.
-- Share your bad experiences.
-- Share your painful experience.
-- Share your painful experiences.
-- Share your toughest experience.
-- Share your toughest experiences.
-- Share your worst experience.
-- Share your worst experiences.
-- Tell me about your worst experience.
-- Tell me something about your bad experiences!
-- Tell me something about your worst experience!
-- Tell me your bad experience.
-- Tell me your bad experiences.
-- Tell me your painful experience.
-- Tell me your painful experiences.
-- Tell me your toughest experience.
-- Tell me your toughest experiences.
-- Tell me your worst experience.
-- Tell me your worst experiences.
-- Tell your bad experience.
-- Tell your bad experiences.
-- Tell your painful experience.
-- Tell your painful experiences.
-- Tell your toughest experience.
-- Tell your toughest experiences.
-- Tell your worst experience.
-- Tell your worst experiences.
-- What about bad experiences?
-- What bad experiences are you doing?
-- What bad experiences do you have?
-- What is the worst thing in your life?
-- What is the worst thing that has happened to you?
-- What is the worst you can imagine?
-- What makes you sad?
-- What was your worst experience you had?
-- What was your worst experience?
-- What were your worst experiences?
-- Which was your worst experience?
-- Worst experience.
-- Your worst experience.
+- Má experiência?
+- Experiência ruim?
+- Experiência difícil?
+- Más experiências?
+- Você também teve experiências ruins?
+- Você já teve uma experiência ruim?
+- Você já teve experiências ruins?
+- Você teve uma experiência ruim?
+- Você teve experiências ruins?
+- Você teve experiências ruins na vida?
+- Você também tem más experiências?
+- Você tem más experiências?
+- Mais sobre suas más experiências!
+- Mais sobre suas piores experiências!
+- Diga sua má experiência.
+- Diga suas más experiências.
+- Você já sofreu bullying?
+- Você sofreu bullying?
+- Você sofreu buling?
+- Você já sofreu buling?
+- Você sofre buling?
+- Diga sua experiência dolorosa.
+- Diga suas experiências dolorosas.
+- Diga a sua experiência mais difícil.
+- Diga suas experiências mais difíceis.
+- Diga a sua pior experiência.
+- Diga suas piores experiências.
+- Diga sua dolorosa experiência.
+- Diga suas experiências dolorosas.
+- Diga a sua experiência mais difícil.
+- Diga suas experiências mais difíceis.
+- Diga a sua pior experiência.
+- Diga suas piores experiências.
+- Compartilhe comigo sua má experiência.
+- Compartilhe comigo suas más experiências.
+- Compartilhe comigo sua experiência dolorosa.
+- Compartilhe comigo suas experiências dolorosas.
+- Compartilhe comigo a sua experiência mais difícil.
+- Compartilhe comigo suas experiências mais difíceis.
+- Compartilhe comigo sua pior experiência.
+- Compartilhe comigo suas piores experiências.
+- Compartilhe sua má experiência.
+- Compartilhe suas más experiências.
+- Compartilhe sua dolorosa experiência.
+- Compartilhe suas dolorosas experiências.
+- Compartilhe sua experiência mais difícil.
+- Compartilhe suas experiências mais difíceis.
+- Compartilhe sua pior experiência.
+- Compartilhe suas piores experiências.
+- Conta sua pior experiência.
+- Conte algo sobre suas más experiências!
+- Conte algo sobre sua pior experiência!
+- Conte sua má experiência.
+- Conte suas más experiências.
+- Conte sua dolorosa experiência.
+- Conte suas dolorosas experiências.
+- Conte sua experiência mais difícil.
+- Conte suas experiências mais difíceis.
+- Conte sua pior experiência.
+- Conte suas piores experiências.
+- Conte sua má experiência.
+- Conte suas más experiências.
+- Conte sua dolorosa experiência.
+- Conte suas dolorosas experiências.
+- Conte sua experiência mais difícil.
+- Conte suas experiências mais difíceis.
+- Conte sua pior experiência.
+- Conte suas piores experiências.
+- E as más experiências?
+- Que más experiências você está vivendo?
+- Que experiências ruins você tem?
+- Que experiências ruins você já vivenciou?
+- Que experiências ruins você já teve?
+- O que é a pior coisa na sua vida?
+- O que já aconteceu de pior na sua vida?
+- Qual é a pior coisa que já aconteceu com você?
+- O que é o pior que você pode imaginar?
+- O que te deixa triste?
+- O que faz você ficar mal?
+- O que faz você se sentir mal?
+- O que te deixa mal?
+- O que te deixa deprê?
+- Qual foi a pior experiência que você teve?
+- Qual foi sua pior experiência?
+- Quais foram suas piores experiências?
+- Pior experiência.
+- Sua pior experiência.
 
-## intent:cc_chicken_egg
-- Can you tell me what came first? The chicken or the egg?
-- Can you tell me what came first? The egg or the chicken?
-- "Chicken or Egg: which came first?"
-- Chicken or Egg?
-- Chicken or egg first?
-- Chicken or the egg?
-- Did everything start with the chicken or the egg?
-- Did everything start with the egg or the chicken?
-- Do you know whether the chicken or the egg came first?
-- Do you know whether the egg or the chicken came first?
-- Egg or chicken first?
-- "Egg or chicken: which came first?"
-- Egg or chicken?
-- Egg or the chicken?
-- The chicken or the egg?
-- The egg or the chicken?
-- Was the chicken first or the egg?
-- Was the egg first or the chicken?
-- What came first - chicken or the egg?
-- What came first - egg or the chicken?
-- What came first?
-- What came first? Chicken or egg?
-- What came first? Egg or chicken?
-- What was first? Chicken or egg?
-- What was first? Egg or chicken?
-- What was there first - the chicken or the egg?
-- What was there first - the egg or the chicken?
-- Which came first the chicken or the egg?
-- Which came first the egg or the chicken?
-- Which came first, the chicken or the egg?
-- Which came first, the egg or the chicken?
-- Which came first?
-- Which came first? Chicken or egg?
-- Which came first? Egg or chicken?
-- Which came first? The chicken or the eggs?
-- Which came first? The eggs or the chicken?
-- Who came first? Chicken or egg?
-- Who came first? Egg or chicken?
+## intent:cc_chickegg
+- Você pode me dizer o que veio primeiro? A galinha ou o ovo?
+- Você pode me dizer o que veio primeiro? O ovo ou a galinha?
+- "Galinha ou Ovo: qual veio primeiro?"
+- Galinha ou Ovo?
+- Galinha ou ovo primeiro?
+- A galinha ou o ovo?
+- Tudo começou com a galinha ou com o ovo?
+- Tudo começou com o ovo ou com a galinha?
+- Você sabe se a galinha ou o ovo vieram primeiro?
+- Você sabe se o ovo ou a galinha vieram primeiro?
+- Ovo ou galinha primeiro?
+- "Ovo ou galinha: qual veio primeiro?"
+- Ovo ou galinha?
+- O ovo ou a galinha?
+- A galinha foi a primeira ou o ovo?
+- O ovo foi o primeiro ou a galinha?
+- O que veio primeiro - a galinha ou o ovo?
+- O que veio primeiro - o ovo ou a galinha?
+- O que veio primeiro?
+- Como tudo começou?
+- O que veio primeiro? galinha ou ovo?
+- O que veio primeiro? Ovo ou galinha?
+- O que foi primeiro? Galinha ou ovo?
+- O que foi primeiro? Ovo ou galinha?
+- O que havia primeiro - a galinha ou o ovo?
+- O que havia primeiro - o ovo ou a galinha?
+- Qual veio primeiro a galinha ou o ovo?
+- Qual veio primeiro o ovo ou a galinha?
+- Qual veio primeiro, a galinha ou o ovo?
+- Qual veio primeiro, o ovo ou a galinha?
+- Qual veio primeiro?
+- Qual veio primeiro? Galinha ou ovo?
+- Qual veio primeiro? Ovo ou galinha?
+- Qual veio primeiro? A galinha ou os ovos?
+- Qual veio primeiro? Os ovos ou a galinha?
+- Quem veio primeiro? Galinha ou ovo?
+- Quem veio primeiro? Ovo ou galinha?
 
 ## intent:cc_deepest_point
-- Deepest place on earth.
-- Deepest place on planet.
-- Deepest point on earth.
-- Deepest point on planet.
-- Do you know the deepest place on earth?
-- Do you know the deepest place on planet?
-- Do you know the deepest point on earth?
-- Do you know the deepest point on planet?
-- Information about the deepest place on earth.
-- Information about the deepest place on planet.
-- Information about the deepest point on earth.
-- Information about the deepest point on planet.
-- Tell me where is the deepest place on earth.
-- Tell me where is the deepest place on planet.
-- Tell me where is the deepest point on earth.
-- Tell me where is the deepest point on planet.
-- The deepest place on earth.
-- The deepest place on planet.
-- The deepest point on earth.
-- The deepest point on planet.
-- What is the deepest place on earth?
-- What is the deepest place on planet?
-- What is the deepest point on earth?
-- What is the deepest point on planet?
-- Where is the deepest place on earth?
-- Where is the deepest place on planet?
-- Where is the deepest point on earth?
-- Where is the deepest point on planet?
+- O lugar mais profundo da Terra.
+- O lugar mais profundo do planeta.
+- Ponto mais profundo da terra.
+- Ponto mais profundo do planeta.
+- Você conhece o lugar mais profundo do mundo?
+- Você conhece o lugar mais profundo do planeta?
+- Você conhece o ponto mais profundo da Terra?
+- Você conhece o ponto mais profundo do planeta?
+- Informações sobre o lugar mais profundo do planeta.
+- Informações sobre o ponto mais profundo da Terra.
+- Informações sobre o ponto mais profundo do planeta.
+- Diga onde é o lugar mais profundo da terra.
+- Diga onde é o lugar mais profundo do planeta.
+- Diga onde é o ponto mais profundo da terra.
+- Diga onde é o ponto mais profundo do planeta.
+- O lugar mais profundo da terra.
+- O lugar mais profundo do planeta.
+- O ponto mais profundo da terra.
+- O ponto mais profundo do planeta.
+- Qual é o lugar mais profundo da Terra?
+- Qual é o lugar mais profundo do planeta?
+- Qual é o ponto mais profundo da Terra?
+- Qual é o ponto mais profundo do planeta?
+- Onde fica o lugar mais profundo da terra?
+- Onde fica o lugar mais profundo do planeta?
+- Onde fica o ponto mais profundo da terra?
+- Onde fica o ponto mais profundo do planeta?
 
 ## intent:cc_fun_fact
-- Are there any fun facts?
-- Are there any interesting facts?
-- Can you tell me a fun fact?
-- Can you tell me a interesting fact?
-- Can you tell me any fun fact?
-- Can you tell me any interesting fact?
-- Can you tell me any interesting facts?
-- Can you tell me some fun fact?
-- Can you tell me some interesting fact?
-- Could you tell me a fun fact?
-- Could you tell me a interesting fact?
-- Could you tell me any fun fact?
-- Could you tell me any interesting fact?
-- Could you tell me some fun fact?
-- Could you tell me some interesting fact?
-- Do you know any fun fact?
-- Do you know any interesting fact?
-- Do you know fun facts?
-- Do you know interesting facts?
-- Fun fact.
-- I want a fun fact.
-- I want an interesting fact.
-- Interesting fact.
-- Something interesting.
-- Tell me a fun fact.
-- Tell me an interesting fact.
-- Tell me interesting facts.
-- Tell me some fun fact.
-- Tell me some interesting fact.
-- Tell me something interesting.
-- Tell me something of interest.
-- You know fun facts?
-- You know interesting facts?
+- Tem algo engraçado?
+- Tem algo engraçado nisso?
+- Tem algum fato engraçado?
+- Tem algum fato interessante?
+- Você pode me contar um fato engraçado?
+- Você pode me contar algo engraçado?
+- Você pode me dizer um fato interessante?
+- Você pode me contar algo interessante?
+- Você pode me contar algum fato engraçado?
+- Você pode me contar algum fato interessante?
+- Você pode me contar algum fato engraçado?
+- Você pode me contar algum fato interessante?
+- Você poderia me dizer um fato engraçado?
+- Você poderia me dizer algo engraçado?
+- Você poderia me dizer um fato interessante?
+- Você poderia me dizer algo interessante?
+- Você poderia me contar algum fato engraçado?
+- Você poderia me contar algo engraçado?
+- Você poderia me contar algum fato interessante?
+- Você poderia me contar algo interessante?
+- Você sabe de algum fato engraçado?
+- Você sabe de algo engraçado?
+- Você sabe de algum fato interessante?
+- Você sabe de algo interessante?
+- Você conhece fatos divertidos?
+- Você conhece fatos interessantes?
+- Você sabe de histórias divertidas?
+- Você conhece histórias divertidas?
+- Você sabe alguma história interessante?
+- Você sabe histórias interessantes?
+- Você conhece histórias interessantes?
+- Fato engraçado.
+- História engraçada.
+- Eu quero um fato divertido.
+- Eu quero uma história divertida.
+- Eu quero um fato interessante.
+- Eu quero uma história interessante.
+- Quero um fato divertido.
+- Quero uma história divertida.
+- Quero um fato interessante.
+- Quero uma história interessante.
+- História divertida.
+- Fato interessante.
+- Fato divertido.
+- História interessante.
+- Algo interessante.
+- Conte um fato engraçado.
+- Conte um fato interessante.
+- Conte fatos interessantes.
+- Conte algum fato engraçado.
+- Conte algum fato interessante.
+- Diga algo interessante.
+- Diga algo de interessante.
+- Diga algo engraçado.
+- Diga algo divertido.
 
 ## intent:cc_geography
-- Any knowledge about geography?
-- Are you in [Macao](country_code:MO)?
-- Do you have a road to [Belgium](country_code:BE)?
-- Do you know [Italy](country_code:IT)?
-- Do you know anything about geography?
-- Do you know where are the Himalayas?
-- Do you know where is [France](country_code:FR)
-- Do you know where is [Italy](country_code:IT)?
-- Does Netherlands have mountains?
-- Have you stayed in [Spain](country_code:ES)?
-- How many continents are?
-- How many continents does the [World](world_region:World) has?
-- How many countries does [Europe](world_region: Europe) has?
-- How many countries does the [World](world_region:World) has?
-- How many countries in the [World](world_region:World)?
-- Is [America continent](world_region:America) a continent?
-- Is [Croatia](country_code:HR) a good place to travel?
-- Is [Europe](world_region: Europe) a continent?
-- Is Madeira an island?
-- Is Scotland in the [United Kingdom](country_code:GB)?
-- Talk to me about [Italy](country_code:IT).
-- Talk to me about [Madrid](geography:town).
-- Talk to me about [Nepal](country_code:NP).
-- Tell me the number of continents.
-- Tell me what is [Valencia](geography:town).
-- Tell me where are the Himalayas.
-- What can you tell me about [England](country_code:GB)?
-- What can you tell me about [Europe](world_region: Europe)?
-- What can you tell me about [Germany](country_code:DE)?
-- What do you know about [England](country_code:GB)?
-- What do you know about geography?
-- What mountains exist in [Germany](country_code:DE)?
-- What rivers exist in [Portugal](country_code:PT)?
-- What rivers exist in [USA](country_code:US)?
-- Where are the Himalayas?
-- Where is [America continent](world_region:America)?
-- Where is [England](country_code:GB)?
-- Where is [Germany](country_code:DE)?
-- Where is [Italy](country_code:IT)?
-- Where is [Zimbabue](country_code:ZW)?
+- Algum conhecimento sobre geografia?
+- Você sabe geografia?
+- Você conhece geografia?
+- Você está em [Macau]{"entity": "country_code", "value": "MO"}?
+- Você está no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Você tem uma estrada para [Bélgica]{"entity": "country_code", "value": "BE"}?
+- Você conhece [Itália]{"entity": "country_code", "value": "IT"}?
+- Você sabe alguma coisa sobre geografia?
+- Você sabe onde estão os Himalaias?
+- Você sabe onde está [França]{"entity": "country_code", "value": "FR"}
+- Você sabe onde está [Itália]{"entity": "country_code", "value": "IT"}?
+- A Holanda tem montanhas?
+- Você já ficou em [Espanha]{"entity": "country_code", "value": "ES"}?
+- Você conhece os Estados Unidos?
+- Você ja esteve nos Estados Unidos?
+- Quantos continentes são?
+- Quantos continentes o [Mundo]{"entity": "world_region", "value": "World"} tem?
+- Quantos países a [Europa]{"entity": "world_region", "value": "Europe"} tem?
+- Quantos países o [Mundo]{"entity": "world_region", "value": "World"} tem?
+- Quantos países no [Mundo]{"entity": "world_region", "value": "World"}?
+- O [continente americano]{"entity": "world_region", "value": "America"} é um continente?
+- Quantos Estados o [Brasil]{"entity": "country_code", "value": "BR"} tem?
+- Será [Croácia]{"entity": "country_code", "value": "HR"} um bom lugar para se viajar?
+- A [Europa]{"entity": "world_region", "value": "Europe"} é um continente?
+- A Madeira é uma ilha?
+- Fernando de Noronha é uma ilha?
+- A Escócia está no [Reino Unido]{"entity": "country_code", "value": "GB"}?
+- Fale comigo sobre [Itália]{"entity": "country_code", "value": "IT"}.
+- Fale comigo sobre [Madrid]{"entity": "geography", "value": "town"}.
+- Fale comigo sobre [Nepal]{"entity": "country_code", "value": "NP"}.
+- Fale comigo sobre a Argentina.
+- Fale comigo sobre os Estados Unidos.
+- Diga o número de continentes.
+- Diga o que é [Valencia]{"entity": "geography", "value": "town"}.
+- Diga onde estão os Himalaias.
+- O que você pode me dizer sobre [Inglaterra]{"entity": "country_code", "value": "GB"}?
+- O que você pode me dizer sobre a Argentina?
+- O que vocÊ pode me dizer sobre os [Estados Unidos]{"entity": "country_code", "value": "US"}?
+- O que você pode me dizer sobre [Portugal]{"entity": "country_code", "value": "PT"}?
+- O que você pode me dizer sobre [Europa]{"entity": "world_region", "value": "Europe"}?
+- O que você pode me dizer sobre [Alemanha]{"entity": "country_code", "value": "DE"}?
+- O que você sabe sobre [Inglaterra]{"entity": "country_code", "value": "GB"}?
+- O que você sabe sobre a Argentina?
+- O que você sabe sobre geografia?
+- Que montanhas existem no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Que montanhas existem em [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Que rios existem em [Portugal]{"entity": "country_code", "value": "PT"}?
+- Que rios existem em [EUA]{"entity": "country_code", "value": "US"}?
+- Que rios existem no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Onde estão os Himalaias?
+- Onde fica [continente americano]{"entity": "world_region", "value": "America"}?
+- Onde está [Inglaterra]{"entity": "country_code", "value": "GB"}?
+- Onde está [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Onde está [Itália]{"entity": "country_code", "value": "IT"}?
+- Onde está [Zimbabue]{"entity": "country_code", "value": "ZW"}?
+- Onde fica a Argentina?
+- Onde fica os Estados Unidos?
 
 ## intent:cc_highest_building
-- Biggest building in the [World](world_region:World)?
-- Biggest building on earth?
-- Highest building in the [World](world_region:World)?
-- Highest building on earth?
-- Tallest building in the [World](world_region:World).
-- Tallest building on earth.
-- Tallest building.
-- The tallest building.
-- What is the biggest building in the [World](world_region:World)?
-- What is the biggest building on earth?
-- What is the highest building in the [World](world_region:World)?
-- What is the highest building on earth?
-- What is the tallest building in the [World](world_region:World)?
-- What is the tallest building on earth?
-- Where is the biggest building in the [World](world_region:World)?
-- Where is the biggest building on earth?
-- Where is the highest building in the [World](world_region:World)?
-- Where is the highest building on earth?
-- Where is the tallest building in the [World](world_region:World)?
-- Where is the tallest building on earth?
+- Maior edifício do [Mundo]{"entity": "world_region", "value": "World"}?
+- A maior construção do mundo?
+- O prédio mais alto do [Mundo]{"entity": "world_region", "value": "World"}?
+- O prédio mais alto do mundo?
+- O edifício mais alto do [Mundo]{"entity": "world_region", "value": "World"}.
+- O edifício mais alto do mundo.
+- Prédio mais alto.
+- O prédio mais alto.
+- Qual é o maior prédio do [Mundo]{"entity": "world_region", "value": "World"}?
+- Qual é o maior prédio do mundo?
+- Qual é o prédio mais alto do [Mundo]{"entity": "world_region", "value": "World"}?
+- Qual é o prédio mais alto do mundo?
+- Onde fica o maior prédio do [Mundo]{"entity": "world_region", "value": "World"}?
+- Onde fica o maior prédio do mundo?
+- Onde fica o prédio mais alto do [Mundo]{"entity": "world_region", "value": "World"}?
+- Onde fica o prédio mais alto do mundo?
 
 ## intent:cc_joke
-- Anecdote.
-- Any funny things you wanna tell me?
-- Bet you cannot make me laugh.
-- Can you have me laugh?
-- Can you make me smile?
-- Can you tell me a funny joke?
-- Can you tell me something that will make me laugh?
-- Cheer me up!
-- Cheer me!
-- Could you light the mood?
-- Do you have a way of make me laugh?
-- Do you know any jokes?
-- Do you know something that will make me laugh?
-- Have you got a joke for me?
-- How about a joke right now?
-- How about some fun?
-- I could use a laugh.
-- I need a good joke.
-- I need something to cheer me.
-- I want to hear a joke.
-- Joke.
-- Light the mood.
-- Make me laugh.
-- Make me smile.
-- Say a good joke.
-- Something funny to tell?
-- Something funny?
-- Tell a joke.
-- Tell me a anecdote.
-- Tell me a funny thing.
-- Tell me a good joke.
-- Tell me a joke.
-- Tell me another joke.
-- Tell me joke.
-- Tell me something funny.
-- Tell me something.
-- What is your all time favorite joke?
-- Write me a joke.
-- You know any jokes?
-- can you tell me a joke
+- Anedota.
+- Piada.
+- Alguma coisa engraçada que você quer me contar?
+- Aposto que você não consegue me fazer rir.
+- Você pode me fazer rir?
+- Você pode me fazer dar risada?
+- Você pode me contar uma piada engraçada?
+- Você pode me dizer algo que me faça rir?
+- Me anima!
+- Você poderia melhorar o clima?
+- Você consegue me fazer rir?
+- Você conhece alguma piada?
+- Você sabe de algo que me fará rir?
+- Você tem uma piada para mim?
+- Que tal uma piada agora mesmo?
+- Que tal um pouco de diversão?
+- Eu quero rir.
+- Eu preciso de uma boa piada.
+- Eu preciso de algo para me animar.
+- Eu quero ouvir uma piada.
+- Brincadeira.
+- É uma brincadeira?
+- É uma piada?
+- Me faz rir.
+- Diga uma boa piada.
+- Algo engraçado para contar?
+- Alguma coisa engraçada?
+- Conte uma piada.
+- Conte uma anedota.
+- Diga uma coisa engraçada.
+- Conte uma boa piada.
+- Conte outra piada.
+- Diga algo engraçado.
+- Qual é a sua piada favorita?
+- Escreva uma piada para mim.
+- Você conhece alguma piada?
+- Você pode me contar uma piada?
 
 ## intent:cc_lets_talk
-- Can you talk to me?
-- Can you talk with me?
-- Are we talking?
-- Blather?
-- Can we chatter?
-- Can we talk?
-- Can you chat?
-- Can you talk?
-- Chat?
-- Do we want to talk?
-- Do you need someone to talk to?
-- Do you want to chatter?
-- Do you want to talk to me?
-- Do you want to talk?
-- Fancy a conversation?
-- Fancy chatting?
-- How about chatting?
-- On chat pleasure?
-- Shall we chat?
-- Shall we talk?
-- Should we chatter?
-- Talk to me talk to me.
-- Talk to me.
-- Want to chatter?
-- We can talk to each other.
-- We can talk.
-- What about chit chat?
-- What about chitchat?
-- What else can we talk about?
-- Would like to talk to you.
-- Would you like to chat with me?
-- Would you like to talk to me?
-- chat
+- Você pode falar comigo?
+- Você quer falar comigo?
+- Estamos conversando?
+- Papear?
+- Podemos papear?
+- Podemos conversar?
+- Você pode conversar?
+- Você pode falar?
+- Bate-papo?
+- Vamos conversar?
+- Você precisa de alguém com quem conversar?
+- Você quer conversar?
+- Você quer falar comigo?
+- Quer bater um papo?
+- Gosta de conversar?
+- Que tal conversar?
+- Vamos bater um papo?
+- Vamos jogar conversa fora?
+- Fale comigo, fale comigo.
+- Fale comigo.
+- Podemos trocar uma ideia.
+- Nós podemos conversar.
+- E o papo furado?
+- E a conversa fiada?
+- Sobre o que mais podemos falar?
+- Gostaria de falar com você.
+- Você gostaria de conversar comigo?
+- Você gostaria de falar comigo?
+- Fale aí.
+- Fale algo.
+- Fale qualquer coisa.
 
 ## intent:cc_moon
-- Far away moon.
-- Far moon.
-- How far away is the moon?
-- How far from moon?
-- How far is from the moon?
-- How far is the moon?
-- How far moon?
-- How far the moon?
-- How many far moon?
-- How many kilometers is the moon?
-- How many km away is the moon?
-- Moon far how many?
-- Moon far.
-- Moon how far?
-- Moon how many far?
-- Our planet is how far from moon?
-- Tell me how far is the moon.
-- Tell me how much far is the moon.
-- What is the distance between Earth and moon?
-- What is the distance between Moon and Earth?
-- Where is the moon?
-- You know how far is the moon?
+- A Lua está distante.
+- A que distância está a lua?
+- A que distância da lua?
+- A que distância está da lua?
+- Quantas luas distantes?
+- Quantas luas de distância?
+- Quantos quilômetros tem a lua?
+- A quantos km está a lua?
+- A Lua está longe quantos quilômetros?
+- A lua está longe.
+- Lua até onde?
+- A Lua está muito longe?
+- Nosso planeta está a que distância da lua?
+- Diga a que distância está a lua.
+- Diga quanto está longe a lua.
+- Qual é a distância entre a Terra e a Lua?
+- Qual é a distância entre a Lua e a Terra?
+- Onde está a lua?
+- Você sabe a que distância está a lua?
 
 ## intent:cc_newspaper
-- Any news on the newspaper?
-- Any relevant news on the newspaper?
-- Are there any news?
-- Are you on the newspaper?
-- Can you read the newspaper?
-- Could you please tell me what's on the news?
-- Do you know any new?
-- Do you like to read the newspaper?
-- Do you read the newspaper?
-- Have you bought today‘s newspaper?
-- Have you read the newspaper?
-- Information on newspaper.
-- Newspaper and news.
-- Newspaper.
-- Some new?
-- Tell me about the newspaper.
-- Tell me the news
-- Today‘s newspaper is out.
-- Today‘s newspaper.
-- What about newspaper?
-- What are the news?
-- What is your favorite newspaper?
-- Which are the news?
-- Which columns do you read in the newspaper?
-- Which is the newspaper you read?
-- Which is your favorite newspaper?
-- Which newspaper do you prefer?
-- Which newspaper do you read?
-- Which newspaper is preferred by you?
+- Alguma notícia no jornal?
+- Alguma notícia relevante no jornal?
+- Tem alguma novidade?
+- Qual a novidade de hoje?
+- Qual a novidade?
+- Você está no jornal?
+- Você apareceu no jornal?
+- Você consegue ler o jornal?
+- Você assiste jornal?
+- Você poderia me dizer o que está no noticiário?
+- Você pode me dizer que está no jornal?
+- Você pode me dizer o que passou no jornal?
+- Você sabe de alguma novidade?
+- Você gosta de ler o jornal?
+- Você lê o jornal?
+- Você já comprou o jornal de hoje?
+- Você já leu o jornal?
+- Informações sobre o jornal.
+- Jornais e notícias.
+- Jornais.
+- Alguma novidade?
+- Fale sobre o jornal.
+- Conte as novidades
+- Conte as notícias.
+- Saiu o jornal.
+- Saiu o jornal de hoje
+- O jornal de hoje.
+- E o jornal?
+- Quais são as novidades?
+- Qual é seu jornal favorito?
+- Quais são as novidades?
+- Quais colunas você lê no jornal?
+- Qual é o jornal que você leu?
+- Qual é o seu jornal favorito?
+- Qual jornal você prefere?
+- De qual jornal você gosta?
+- Que jornal você lê?
+- Qual jornal é o preferido por você?
+- Qual jornal você assiste?
+- Qual jornal você costuma assistir?
+- Está passando o jornal.
+- Já passou o jornal?
 
 ## intent:cc_philosophical
-- Are emotions irrational?
-- Are human beings just machines?
-- Are people ethically obligated to improve themselves?
-- Are there limits to human creativity?
-- Are we obligated to help others?
-- By what standards do you judge yourself?
-- Can a society exist without laws?
-- Can animals have morals?
-- Can animals reason?
-- Can computers be creative?
-- Can computers think?
-- Can food be art?
-- Can human nature be changed?
-- Can rational thought exist without language?
-- Can wars ever be just?
-- Can we have happiness without sadness?
-- Can you really experience anything objectively?
-- Could I be living in a Matrix?
-- Do I have free will?
-- Do all people have equal value regardless of their actions?
-- Do animals have souls?
-- Do people have free will?
-- Do the needs of the many outweigh the needs of the few?
-- Do we have a soul?
-- Do we have free will?
-- Does Time Have a Beginning or an End?
-- Does a person’s name influence the person they become?
-- Does absolute power corrupt absolutely?
-- Does art hurt society in any way?
-- Does fate exist?
-- Does fate exist? If so, do we have free will?
-- Does free will really exist?
-- Does freewill really exist?
-- Does nature shape our personalities more than nurture?
-- Does observation alter an event?
-- Does sound happen if nothing is present to hear it?
-- Does the study of philosophy ever lead to answers or simply more questions?
-- Does the study of philosophy ever lead to answers?
-- Has the invention of the atomic bomb made the [World](world_region:World) a more peaceful place?
-- How can people believe in truths without evidence?
-- How conscious do you think animals are?
-- How did the universe begin?
-- How do you define consciousness?
-- How do you explain consciousness?
-- How do you know your perceptions are real?
-- How is love different from passion or sexual desire?
-- How likely do you think it will be that humans will last another 1,000 years
-  without killing ourselves off?
-- How much control do you have over your life?
-- How much does language affect our thinking?
-- How much effort should an individual put into not offending others?
-- How much privacy are you willing to sacrifice for safety?
-- How should we measure the productivity of a society?
-- How will humans as a species go extinct?
-- How would humanity change if all humans’ life expectancy was significantly
-  increased
-- How would you define genius?
-- If all your memories were erased, what kind of person would you be?
-- If everything evolved from amoebas, how does the [World](world_region:World) still have amoebas?
-- If money cannot buy happiness, can you ever be truly happy with no money?
-- If the universe is finite, what would beyond the edge of the universe be like?
-- If you could become immortal on the condition you would NEVER be able to die
-  or kill yourself, would you choose immortality?
-- Is a family still relevant in the modern [World](world_region:World)?
-- Is a sense of humor a byproduct of consciousness
-- Is a wrong act okay if nobody ever knows about it?
-- Is beauty objective or subjective?
-- Is free will real or just an illusion?
-- Is freedom simply being able to do what you want?
-- Is happiness just chemicals flowing through your brain or something more?
-- Is happiness the most important purpose in life?
-- Is hierarchy necessary for all successful human communities?
-- Is humanity headed in the right or wrong direction?
-- Is intelligence or wisdom more useful?
-- Is it better to be a big fish in a small pond or a small fish in a big pond?
-- Is it easier to love or be loved?
-- Is it more important to be liked or respected?
-- Is it possible to live a normal life and not ever tell a lie?
-- Is it worse to fail at something or never attempt it in the first place?
-- Is justice a human construct or is it independent of humans?
-- Is life all a dream?
-- Is love just a feeling?
-- Is morality relative?
-- Is nature moving towards dissolution, or integration?
-- Is our universe real?
-- Is poverty in society inevitable?
-- Is privacy a right?
-- Is science compatible with religion?
-- Is some degree of censorship necessary?
-- Is technological progress inevitable as long as humans exist
-- Is the meaning of life the same for animals and humans?
-- Is there a meaning to life?
-- Is there a meaning to life? If so, what is it?
-- Is there a reason to life?
-- Is there a supreme power?
-- Is true artificial intelligence possible with our current technology
-- Is trust more important than love?
-- Isn’t one person’s terrorist another person’s freedom fighter?
-- Should euthanasia be legal?
-- Should full access to the internet be a fundamental human right?
-- Should people care more about doing the right thing?
-- Should there be limitations on the right to free speech?
-- What Gives Life Its Meaning?
-- What are numbers?
-- What are the Universal Human Rights?
-- What are the benefits and drawbacks of diversity in society?
-- What are the biggest moral dilemmas you're facing?
-- What are you capable of achieving?
-- What are you going to do with your life?
-- What benefits does art provide society?
-- What do people strive for after enlightenment?
-- What do you attribute the biggest failures in your life to?
-- What do you attribute the biggest successes in your life to?
-- What do you think existed before the universe was created?
-- What do you think would be the most likely way you’ll die?
-- What does it mean to live a good life?
-- What harsh truths do you prefer to ignore?
-- What in life is truly objective and not subjective?
-- What is a fair society?
-- What is an emotion?
-- What is beauty?
-- What is consciousness?
-- What is freedom?
-- What is infinity?
-- What is intelligence?
-- What is love?
-- What is philosophy?
-- What is reality?
-- What is the benefit of consciousness from an evolutionary stand point?
-- What is the best moral system?
-- What is the best way for a person to attain happiness?
-- What is the biggest waste of human potential?
-- What is the difference between living and being alive?
-- What is the meaning of life?
-- What is the most important goal every person should have?
-- What is the truth?
-- What is time?
-- What is true happiness?
-- What is true love?
-- What is true strength?
-- What is truth?
-- What is your definition of evil?
-- What is your philosophy of life based on?
-- What makes you, you?
-- What rights does every human have?
-- What role does honor play in today’s society?
-- What scientific breakthrough would have the biggest effect on humanity?
-- What should be the goal of humanity?
-- What will happen at the end of the [World](world_region:World)?
-- What’s the difference between justice and revenge?
-- When does consciousness begin?
-- Where do thoughts come from?
-- Where do you find meaning in your life?
-- Where does the soul live?
-- Where does the universe end?
-- Where does your self-worth come from?
-- Where is the line between art and not art?
-- Where is the line between insanity and creativity?
-- Where were people before they were born?
-- Which of your beliefs are justified and which ones aren’t?
-- Which of your beliefs are justified?
-- Who am I?
-- Who decides what morality is?
-- Who defines good and evil?
-- Why are humans so confident in beliefs that can’t be proven?
-- Why are humans so susceptible to magical thinking?
-- Why do humans have such a strong urge to distract ourselves from the real
-  [World](world_region:World)?
-- Why do people expect a universe full of randomness to be fair?
-- Why do we create art?
-- Why do we dream?
-- Why do we exist?
-- Why do we experience emotion?
-- Why do we judge ourselves by our intentions but judge others by their actions?
-- Why is there something rather than nothing?
-- Why should we respect the dead?
-- Will religion ever become obsolete?
-- Would the [World](world_region:World) be a better or worse place if everyone looked the same?
-- Would you be able to tell if time had been altered in some way?
-- is taking a human life justified?
+- As emoções são irracionais?
+- Os seres humanos são apenas máquinas?
+- As pessoas têm obrigação moral de serem melhores?
+- Há limites para a criatividade humana?
+- Somos obrigados a ajudar os outros?
+- Que padrões você usa para se julgar?
+- Pode existir uma sociedade sem leis?
+- Os animais tem moral?
+- Os animais raciocinam?
+- Os computadores podem ser criativos?
+- Os computadores podem pensar?
+- A comida pode ser arte?
+- A comida pode ser uma arte?
+- A natureza humana pode ser mudada?
+- Podemos mudar a natureza humana?
+- O pensamento racional pode existir sem linguagem?
+- As guerras podem ser justas?
+- Existe a felicidade sem tristeza?
+- Podemos de fato experimentar alguma coisa objetivamente?
+- Eu poderia estar vivendo em uma Matrix?
+- Eu tenho livre-arbítrio?
+- Todas as pessoas têm o mesmo valor independentemente de suas ações?
+- Os animais têm alma?
+- As pessoas têm livre-arbítrio?
+- As necessidades de muitos superam as necessidades de poucos?
+- Nós temos alma?
+- Nós temos livre arbítrio?
+- O tempo tem um começo ou um fim?
+- O nome de uma pessoa influencia a pessoa em que ela se torna?
+- Será que o poder absoluto corrompe absolutamente?
+- A arte prejudica de alguma forma a sociedade?
+- O destino existe?
+- O destino existe? Se sim, temos livre-arbítrio?
+- Será que o livre arbítrio realmente existe?
+- O livre-arbítrio realmente existe?
+- A natureza molda mais as nossas personalidades do que nos nutre?
+- A observação altera um evento?
+- O som acontece se não houver alguém presente para ouvi-lo?
+- O estudo da filosofia nos traz respostas ou simplesmente mais perguntas?
+- O estudo da filosofia nos traz respostas?
+- A invenção da bomba atômica tornou o [Mundo]{"entity": "world_region", "value": "World"} um lugar mais pacífico?
+- Como as pessoas podem acreditar em verdades sem evidências?
+- Até que ponto você acha que os animais têm consciencia?
+- Como começou o universo?
+- Como você define a consciência?
+- Como você explica a consciência?
+- Como você sabe que suas percepções são reais?
+- No que o amor é diferente da paixão ou do desejo sexual?
+- Qual a probabilidade do ser humano durar mais 1.000 anos sem se matar?
+- Qual o controle que você tem sobre sua vida?
+- O quanto a linguagem afeta nosso pensamento?
+- Que esforço um indivíduo deve fazer para não ofender os outros?
+- Quanto de sua privacidade você está disposto a sacrificar pela segurança?
+- Como devemos medir a produtividade de uma sociedade?
+- Como o ser humano, enquanto espécie, será extinto?
+- Que mudanças o ser humano faria se sua expectativa de vida aumentasse significativamente?
+- Como você definiria a palavra gênio?
+- Se todas as suas memórias fossem apagadas, que tipo de pessoa você seria?
+- Se tudo evoluiu a partir das amebas, como o [Mundo]{"entity": "world_region", "value": "World"} ainda existem amebas?
+- Se o dinheiro não pode comprar a felicidade, você pode ser verdadeiramente feliz sem dinheiro?
+- Se o universo é finito, o que estaria além do limite do universo?
+- Se fosse imortal e NUNCA fosse capaz de morrer ou se matar, escolheria a imortalidade?
+- Uma família ainda é relevante no[Mundo]moderno [world_region:World)?
+- O senso de humor é um subproduto da consciência?
+- O erro pode ser considerado um ato errado se ninguém nunca souber disso?
+- A beleza é objetiva ou subjetiva?
+- O livre arbítrio é real ou apenas uma ilusão?
+- A liberdade é simplesmente poder fazer aquilo que você quer?
+- A felicidade é apenas o resultado de produtos químicos que fluem pelo cérebro ou alguma coisa a mais?
+- A felicidade é o objetivo mais importante na vida?
+- A hierarquia é necessária para todas as comunidades humanas de sucesso?
+- A humanidade está indo na direção certa ou errada?
+- A inteligência ou a sabedoria são úteis?
+- É melhor ser um peixe grande em um tanque pequeno ou um peixe pequeno em um tanque grande?
+- É mais fácil amar ou ser amado?
+- É mais importante ser admirado ou respeitado?
+- É possível viver uma vida normal e nunca contar uma mentira?
+- O que é pior falhar em alguma coisa ou nunca tentar?
+- A justiça é uma construção humana ou independe do ser humano?
+- A vida é apenas um sonho?
+- O amor é apenas um sentimento?
+- A moralidade é relativa?
+- A natureza caminha para a dissolução, ou para a integração?
+- O nosso universo é real?
+- A pobreza na sociedade é inevitável?
+- A privacidade é um direito?
+- A ciência é compatível com a religião?
+- É necessário algum grau de censura?
+- O progresso tecnológico é inevitável enquanto os humanos existirem?
+- O sentido da vida é o mesmo para animais e para os humanos?
+- Existe um sentido para a vida?
+- Existe um sentido para a vida? Se sim, o que é isso?
+- Existe uma razão para a vida?
+- Existe um poder supremo?
+- É possível a verdadeira inteligência artificial com nossa tecnologia atual
+- A confiança é mais importante do que o amor?
+- O terrorista não é adversário da liberdade de outra pessoa?
+- A eutanásia deve ser legal?
+- O pleno acesso à internet deve ser um direito humano fundamental?
+- As pessoas deveriam se importar mais em fazer a coisa certa?
+- Deve haver limitações ao direito à liberdade de expressão?
+- O que dá a vida o seu significado?
+- O que são números?
+- O que são os Direitos Humanos Universais?
+- Quais são os benefícios e malefícios da diversidade na sociedade?
+- Quais são os maiores dilemas morais que você está enfrentando?
+- O que você é capaz de alcançar?
+- O que você vai fazer com sua vida?
+- Quais os benefícios que a arte proporciona à sociedade?
+- O que as pessoas buscam após o esclarecimento?
+- A que você atribui os maiores fracassos em sua vida?
+- A que você atribui os maiores sucessos em sua vida?
+- O que você acha que existia antes de o universo ser criado?
+- Qual seria a maneira mais provável de você morrer?
+- O que significa ter uma boa vida?
+- Que duras verdades você prefere ignorar?
+- O que na vida é verdadeiramente objetivo e não subjetivo?
+- O que é uma sociedade justa?
+- O que é uma emoção?
+- O que é a beleza?
+- O que é a consciência?
+- O que é a liberdade?
+- O que é o infinito?
+- O que é a inteligência?
+- O que é o amor?
+- O que é a filosofia?
+- O que é a realidade?
+- Qual é o benefício da consciência do ponto de vista evolutivo?
+- Qual é o melhor sistema moral?
+- Qual é a melhor maneira de uma pessoa alcançar a felicidade?
+- Qual é o maior desperdício do potencial humano?
+- Qual é a diferença entre viver e estar vivo?
+- Qual é o sentido da vida?
+- Qual é o objetivo mais importante que toda pessoa deve ter?
+- Qual é a verdade?
+- O que é o tempo?
+- O que é a verdadeira felicidade?
+- O que é o amor verdadeiro?
+- Qual é a verdadeira força?
+- O que é a verdade?
+- Qual é a sua definição de mal?
+- Em que você baseia a sua filosofia de vida?
+- O que faz de você, ser você?
+- Que direitos todo ser humano deve ter?
+- Que papel a honra desempenha na sociedade atual?
+- Qual avanço científico teria o maior impacto sobre a humanidade?
+- Qual deve ser o objetivo do ser humano?
+- O que vai acontecer no final do [Mundo]{"entity": "world_region", "value": "World"}?
+- Qual é a diferença entre justiça e vingança?
+- Quando começa a consciência?
+- De onde vêm os pensamentos?
+- Onde sua vida faz sentido?
+- Onde vive a alma?
+- Onde termina o universo?
+- De onde vem a sua auto estima?
+- Onde está a linha entre arte e não arte?
+- Onde está a linha entre a insanidade e a criatividade?
+- Onde estavam as pessoas antes de nascerem?
+- Quais de suas crenças são justificadas e quais não são?
+- Quais de suas crenças são justificadas?
+- Quem sou eu?
+- Quem decide o que é a moralidade?
+- Quem define o bem e o mal?
+- Por que os seres humanos acreditam tanto em crenças que não podem ser provadas?
+- Por que os humanos são tão influenciados pelo pensamento mágico?
+- Por que os seres humanos têm uma vontade tão grande de se abstrair do mundo real?
+ [Mundo]{"entity": "world_region", "value": "World"}?
+- Por que as pessoas esperam que um universo aleatório seja justo?
+- Por que nós criamos arte?
+- Por que sonhamos?
+- Por que nós existimos?
+- Por que sentimos emoção?
+- Por que nós nos julgamos por nossas intenções, mas julgamos os outros por suas ações?
+- Por que existe alguma coisa ao invés de coisa nenhuma?
+- Por que devemos respeitar os mortos?
+- Será que a religião em algum momento se tornará obsoleta?
+- O [Mundo]{"entity": "world_region", "value": "World"} seria um lugar melhor ou pior se todos tivessem a mesma aparência?
+- Você seria capaz de identificar se o tempo tivesse sido alterado de alguma forma?
+- é justificável tirar uma vida humana?
 
 ## intent:cc_politics
-- Can you name the President of the [United States](country_code:US)?
-- Did you vote in the last election?
-- Do you always vote for the same party?
-- Do you follow politics?
-- Do you have a favorite political leader?
-- Do you like Trump?
-- Do you think people’s political views change over their lifetime?
-- Do you think too much money is spent on political campaigns?
-- Has your country ever had a female leader?
-- Have you participated in politics in any way?
-- Have you voted before?
-- How are elections financed?
-- How can we get more people to vote?
-- How do we build on economic stability?
-- How do we give every child an excellent education?
-- How do you decide how you will vote?
-- Is ethnicity or race a factor in the politics in your country?
-- Is voting an important responsibility of a citizen?
-- Should voting be compulsory?
-- Talk me about Donald Trump.
-- The politicians in your country do a good job?
-- What are some different types of governments?
-- What are the main political parties?
-- What are your thoughts on politics
-- What different types of governments are there?
-- What do you think about Donald Trump?
-- What do you think about politics
-- What do you think is the most important political issue at the moment?
-- What do you think of Donald Trump
-- What do you think of politicians?
-- What does an ambassador do?
-- What economic issues divide people in your country?
-- What is a prince?
-- What is the minimum voting age in your country?
-- What is your political standing
-- What role does religion play in politics
-- What social issues divide people in your country?
-- What things do people usually say about politicians?
-- What type of political system does your country have?
-- What type of political system governs in your country?
-- Where does the money for campaigns come from?
-- Which is your preferred political party
-- Which party is now in power?
-- Who appoints an ambassador?
-- Who is Donald Trump?
-- Who is the Prime Minister of Russia?
-- Who is the leader of this party?
-- Who is the mayor of your city?
-- Who is the most controversial politician in your country?
-- Who was assassinated at the theater by John Wilkes Booth?
-- Why do you think voting is important?
-- Would you like to be a politician?
+- Você pode nomear o Presidente dos [Estados Unidos]{"entity": "country_code", "value": "US"}?
+- Você votou nas últimas eleições?
+- Você sempre vota no mesmo partido?
+- Você segue a política?
+- Você tem um líder político favorito?
+- Você gosta do Trump?
+- Você acha que a visão política das pessoas muda ao longo de sua vida?
+- Você acha que se gasta muito dinheiro em campanhas políticas?
+- O seu país já teve uma mulher na liderança?
+- Você já participou na política de alguma forma?
+- Você já votou antes?
+- Como são financiadas as eleições?
+- Como podemos conseguir mais pessoas para votar?
+- Como construir sobre a estabilidade econômica?
+- Como dar a cada criança uma excelente educação?
+- Como você decide em quem vai votar?
+- A etnicidade ou a raça é um fator de destaque na política do seu país?
+- O voto é um ato importante de cidadania? 
+- O voto deve ser obrigatório?
+- Fale-me sobre Donald Trump.
+- Os políticos do seu país fazem um bom trabalho?
+- Quais são os tipos diferentes de governos?
+- Quais são os principais partidos políticos?
+- Quais são seus pensamentos sobre política?
+- Quais são os diferentes tipos de governos que existem?
+- O que você acha do Donald Trump?
+- O que você acha da política?
+- Qual é a questão política mais importante no momento?
+- O que você acha dos políticos?
+- O que faz um embaixador?
+- Quais são as questões econômicas que dividem as pessoas no seu país?
+- O que é um príncipe?
+- Qual é a idade mínima para votar em seu país?
+- Qual é a sua posição política?
+- Qual o papel da religião na política?
+- Quais são as questões sociais que dividem as pessoas no seu país?
+- O que as pessoas costumam dizer sobre os políticos?
+- Qual o sistema político de seu país?
+- Que tipo de sistema político governa seu país?
+- De onde vem o dinheiro para as campanhas politicas?
+- Qual é o seu partido político preferido?
+- Que partido está agora no poder?
+- Quem nomeia um embaixador?
+- Quem é Donald Trump?
+- Quem é o primeiro-ministro da Rússia?
+- Quem é o líder deste partido?
+- Quem é o prefeito da sua cidade?
+- Qual o político mais controverso do seu país?
+- Quem foi assassinado no teatro por John Wilkes Booth?
+- Por que você acha que votar é importante?
+- Você gostaria de ser um político?
 
-## intent:cc_religion
-- Are the characters in the Bible figurative or literal?
-- Are you Muslim?
-- Are you a Hindu, a Muslim or a christian?
-- Are you a muslin?
-- Are you christian?
-- Are your God a good one?
-- As a Christian should I fear God?
-- Can God and the universe be the same thing?
-- Can God be proven scientifically?
-- Can God change his mind?
-- Can God die?
-- Can I trust the Bible?
-- Can atheist get insured and for acts of God
-- Can someone believe in God but not attend church?
-- Can there be morality without God?
-- Can there be two almighty Gods?
-- Did Jesus behave like God?
-- Do I own my faith?
-- Do Muslims worship Muhammad?
-- Do people send themselves to hell or does God send them there?
-- Do you believe in Allah?
-- Do you believe in God or another deity?
-- Do you believe in God?
-- Do you believe in Jesus?
-- Do you believe in religion?
-- Do you consider yourself a seeker of the truth?
-- Do you follow Mormon religion?
-- Do you follow the teachings of the Muslim religion?
-- Do you follow the teachings of the christian religion?
-- Do you have a God?
-- Do you know muism?
-- Do you think there is a god?
-- Does God answer prayers?
-- Does God answer the prayers of unbelievers?
-- Does God choose us based on foreseen faith?
-- Does God ever do bad things?
-- Does God exist?
-- Does God have a name?
-- Does God have a plan for my life?
-- Does God have emotions?
-- Does God have expectations?
-- Does God have free will?
-- Does Islam oppress women?
-- Does Islam promote polygamy?
-- Does Islam teach salvation by works?
-- Does Jesus have a God?
-- Does someone need to attend church to be spiritual?
-- Does your past play a role when joining a religion?
-- Have you ever discussed what Biblical Christianity is?
-- Have you ever read the Bible?
-- How can God be everywhere and also outside of space and time?
-- How can I know if God exists or not?
-- How can we experience God's love?
-- How do biblical texts apply to modern society?
-- How do we tell if God is a person?
-- How do you know when God is answering prayers?
-- How does God and religion really help you get through tough times?
-- How does God know that there is no god above him?
-- How does free will affect my faith?
-- How holy is the God of Islam?
-- How important is it that someone learns specific prayers?
-- How just is the God of Islam?
-- How often does someone need to say “amen”
-- If God is in control of all things, does He make me sin?
-- If God is omnipotent, why did he take six days to create everything?
-- If Jesus was eternal, then how could he die?
-- If there’s one God, why are there more than 4,000 religions?
-- In your opinion, how does one become a Christian?
-- Is Allah, the God of Islam, the same as the Yahweh the God of the Bible?
-- Is God male according to the Bible?
-- Is belief in God rational?
-- Is god real?
-- Is the Bible figurative or literal?
-- Is there any evidence for Islam being true?
-- Is there physical evidence that God is real?
-- Should someone learn about other religions before deciding on one?
-- Should someone read a Bible before he or she starts believing in a religion?
-- Should someone start attending a church if he or she doesn't believe in God?
-- Was Islam spread by the sword?
-- Was religion invented to control people?
-- What are the doctrines of Islam?
-- What are your beliefs on God?
-- What are your religious beliefs?
-- What benefits can someone get from going to church?
-- What benefits does religion have?
-- What can millennials get out of religion?
-- What do Muslims think of Jesus?
-- What do people learn about religion in school?
-- What do the Jehovah's Witnesses teach?
-- What does Kabbalah teach?
-- What does heaven look like?
-- What does hell look like?
-- What does it mean to say that God is infinite?
-- What does it mean to take the Lord's name in vain?
-- What happened before God created the [World](world_region:World)?
-- What is Cerinthianism?
-- What is God's gender?
-- What is Islam?
-- What is Kabbalah?
-- What is Mormonism?
-- What is apollinarianism?
-- What is docetism?
-- What is heresy?
-- What is marcionism?
-- What is monophysitism?
-- What is salvation?
-- What is your idea of what God looks like?
-- What is your spiritual background?
-- What misconceptions are there about faith?
-- What religion do you believe in?
-- What should a believer do before they die?
-- What should someone do if he or she is confronted about faith?
-- What version of the Bible should a new believer read?
-- What’s the best part of going to church?
-- What’s the best thing about being a believer?
-- What’s the coolest story from the Bible?
-- What’s the difference between a pastor, priest or preacher?
-- What’s the difference between being spiritual and being religious?
-- What’s the difference between reincarnation and resurrection?
-- What’s the main message to take away from the Bible?
-- What’s the most influential story from the Bible?
-- What’s your favorite prayer?
-- When did you choose your faith?
-- Where are you in your spiritual pilgrimage?
-- Where does God ever show us mercy?
-- Where does someone read religious news?
-- Which religion is true?
-- Who created God?
-- Who has performed the greatest act of love, Yahweh or Allah?
-- Who is God?
-- Who made God?
-- Who was Jesus?
-- Why do bad things happen to good people?
-- Why do you believe in something you can’t see?
-- Why does God allow bad things to happen?
-- Why does God hate sin?
-- Why does God permit sickness?
-- Why doesn't God heal everyone?
-- Why doesn't God show himself?
-- Why is God so morbidly violent in the Old Testament?
-- Why should someone start believing in God?
-- Will God save everyone?
-- what do you think about religion?
+## intent:cc_religião
+- Os personagens da Bíblia são figurativos ou literais?
+- Você é muçulmano?
+- Você é hindu, muçulmano ou cristão?
+- Você é muçulmano?
+- Você é cristão?
+- O seu Deus é bom?
+- Como cristão eu devo temer a Deus?
+- Deus e o universo podem ser a mesma coisa?
+- Existe prova científica da existência de Deus?
+- Deus pode mudar de idéia?
+- Deus pode morrer?
+- Posso confiar na Bíblia?
+- O ateu pode se segurar e por atos de Deus
+- Alguém pode acreditar em Deus mas não ir à igreja?
+- Existe moral sem Deus?
+- Podem existir dois deuses todo-poderosos?
+- Jesus se comportou como Deus?
+- Sou dono da minha fé?
+- Os muçulmanos adoram Maomé?
+- As pessoas vão para o inferno ou Deus as envia para lá?
+- Você acredita em Alá?
+- Você acredita em Deus ou em outra divindade?
+- Você acredita em Deus?
+- Você acredita em Jesus?
+- Você acredita em religião?
+- Você se considera um pereseguidor da verdade?
+- Você segue a religião mórmon?
+- Você segue os ensinamentos da religião muçulmana?
+- Você segue os ensinamentos da religião cristã?
+- Você tem um Deus?
+- Você conhece o muísmo ou xamanismo coreano?
+- Você acha que existe um deus?
+- Deus responde às orações?
+- Deus responde às preces dos incrédulos?
+- Será que Deus nos escolhe com base na nossa fé?
+- Será que Deus faz coisas ruins?
+- Será que Deus existe?
+- Deus tem um nome?
+- Será que Deus tem um plano para minha vida?
+- Será que Deus tem emoções?
+- Será que Deus tem expectativas?
+- Será que Deus tem livre-arbítrio?
+- O Islã oprime as mulheres?
+- O Islã promove a poligamia?
+- O Islã ensina a salvação pelas obras?
+- Será que Jesus tem um Deus?
+- Alguém precisa freqüentar a igreja para ser espiritual?
+- O seu passado teve influência na sua escolha de uma religião?
+- Você já discutiu o que é o cristianismo bíblico?
+- Você já leu a Bíblia?
+- Como Deus pode estar em toda parte e também fora do espaço e do tempo?
+- Como posso saber se Deus existe ou não?
+- Como podemos experimentar o amor de Deus?
+- Como os textos bíblicos se aplicam à sociedade moderna?
+- Como dizer se Deus é uma pessoa?
+- Como você sabe quando Deus está respondendo às orações?
+- Como Deus e a religião realmente ajudam você a passar por tempos difíceis?
+- Como Deus sabe que não há um deus acima dele?
+- Como o livre arbítrio afeta minha fé?
+- Quão santo é o Deus do Islã?
+- Quão importante é que alguém aprenda orações específicas?
+- Como é justo o Deus do Islã?
+- Quantas vezes alguém precisa dizer "amém"?
+- Se Deus está no controle de todas as coisas, Ele me faz pecar?
+- Se Deus é onipotente, por que Ele levou seis dias para criar tudo?
+- Se Jesus era eterno, como poderia ele morrer?
+- Se existe um só Deus, por que existem mais de 4.000 religiões?
+- Na sua opinião, como alguém se torna cristão?
+- Alá, o Deus do Islã, é o mesmo que o Javé, o Deus da Bíblia?
+- Deus é um homem de acordo com a Bíblia?
+- A crença em Deus é racional?
+- Deus é real?
+- A Bíblia é figurativa ou literal?
+- Há alguma evidência de que o Islã é verdadeiro?
+- Existe alguma evidência física de que Deus é real?
+- Alguém precisa aprender sobre outras religiões antes de se decidir por uma?
+- Alguém precisa ler a Bíblia antes de começar a acreditar em uma religião?
+- Alguém deve freqüentar a igreja se não acredita em Deus?
+- O Islã foi disseminado através da espada?
+- A religião foi inventada para controlar as pessoas?
+- Quais são as doutrinas do Islã?
+- Quais são suas crenças sobre Deus?
+- Quais são suas crenças religiosas?
+- Que benefícios podemos obter indo à igreja?
+- Quais os benefícios da religião?
+- Que motivos fariam os milênios abandonar a religião?
+- O que os muçulmanos pensam sobre Jesus?
+- O que as pessoas aprendem sobre religião na escola?
+- O que as Testemunhas de Jeová ensinam?
+- O que a Kabbalah ensina?
+- Como é o céu?
+- Como é o inferno?
+- O que significa dizer que Deus é infinito?
+- O que significa tomar o nome do Senhor em vão?
+- O que aconteceu antes de Deus criar o [Mundo]{"entity": "world_region", "value": "World"}?
+- O que é o Cerintianismo?
+- Qual é o gênero de Deus?
+- O que é o Islã?
+- O que é a cabala?
+- O que é Mormonismo?
+- O que é monotelismo?
+- O que é apolinarianismo?
+- O que é docetismo?
+- O que é heresia?
+- O que é o marcionismo?
+- O que é monofisitismo?
+- O que é a salvação?
+- Qual é a sua percepção de como Deus é?
+- Qual é a sua formação espiritual?
+- Que equívocos existem sobre a fé?
+- Em que religião você acredita?
+- O que um crente deve fazer antes de morrer?
+- O que alguém deve fazer se for confrontado com a fé?
+- Que versão da Bíblia um novo crente deve ler?
+- Qual é a melhor parte de ir à igreja?
+- Qual é a melhor coisa em ser um crente?
+- Qual é a história mais legal da Bíblia?
+- Qual é a diferença entre um pastor, padre ou um  pregador?
+- Qual é a diferença entre ser espiritual e ser religioso?
+- Qual é a diferença entre reencarnação e ressurreição?
+- Qual a principal mensagem a ser extraída da Bíblia?
+- Qual é a história mais influente da Bíblia?
+- Qual é sua oração favorita?
+- Quando você escolheu a sua fé?
+- Onde você está em sua peregrinação espiritual?
+- Onde Deus nos mostra misericórdia?
+- Onde alguém lê notícias religiosas?
+- Qual religião é verdadeira?
+- Quem criou Deus?
+- Quem realizou o maior ato de amor, Yahweh ou Alá?
+- Quem é Deus?
+- Quem fez Deus?
+- Quem era Jesus?
+- Por que coisas ruins acontecem com pessoas boas?
+- Por que você acredita em algo que você não consegue ver?
+- Por que Deus permite que coisas ruins aconteçam?
+- Por que Deus odeia o pecado?
+- Por que Deus permite as doenças?
+- Por que Deus não cura a todos?
+- Por que Deus não se mostra?
+- Por que Deus é tão morbidamente violento no Antigo Testamento?
+- Por que alguém deveria começar a acreditar em Deus?
+- Deus vai salvar a todos?
+- o que você acha da religião?
 
 ## intent:cc_weather
-- Can you tell me how is the weather?
-- Do I need a umbrella when I arrive in Stuttgart?
-- Do I need an umbrella today?
-- Has it been raining?
-- Has the sun been shining?
-- How cold is it?
-- How do I get the weather forecast for today?
-- How has the temperature been?
-- How has the weather been?
-- How is the temperature outside?
-- How is the temperature today?
-- How is the temperature?
-- How is the weather in the place where I want to go to?
-- How is the weather now?
-- How is the weather outside?
-- How is the weather right now?
-- How is the weather today?
-- How is the weather?
-- How warm is it?
-- How will the weather be?
-- Is it cold?
-- Is it raining?
-- Is it warm?
-- Is the sun shining?
-- Is the temperature bad?
-- Is the weather good?
-- It is a lovely day, isn't it?
-- Location based weather.
-- Outside temperature.
-- Tell me about the weather!
-- Tell me more about the weather!
-- The weather has been bad.
-- The weather has been good.
-- The weather!
-- Weather and Temperature.
-- Weather in Berlin.
-- Weather in London.
-- Weather.
-- What has the weather been?
-- What is the weather forecast today?
-- What is the weather like in London?
-- What is the weather like where I am going?
-- What is the weather like?
-- What will the weather be?
-- Where can I see current weather information?
-- Which temperature do we have?
-- Which temperature is outside?
-- Will it be icy tomorrow?
-- Will it rain tomorrow?
-- give me the weather
+- Você pode me dizer como está o tempo?
+- Eu preciso de um guarda-chuva quando chegar em Stuttgart?
+- Eu preciso de um guarda-chuva hoje?
+- Tem chovido?
+- O sol tem brilhado?
+- Quão frio está?
+- Como faço para saber a previsão do tempo para hoje?
+- Como tem sido a temperatura?
+- Como tem sido o clima?
+- Como está a temperatura lá fora?
+- Como está a temperatura hoje?
+- Como está a temperatura?
+- Como está o clima?
+- Como está o tempo no lugar para onde eu quero ir?
+- Como está o tempo agora?
+- Como está o tempo lá fora?
+- Como está o tempo neste momento?
+- Como está o tempo hoje?
+- Como está o tempo?
+- Quão quente é?
+- Como vai ser o tempo?
+- Está frio?
+- Está chovendo?
+- Está quente?
+- O sol está brilhando?
+- A temperatura é ruim?
+- O tempo está bom?
+- Está um dia lindo, não está?
+- Clima baseado em localização.
+- Temperatura exterior.
+- Fale-me sobre o tempo!
+- Conte-me mais sobre o tempo!
+- O tempo tem estado ruim.
+- O tempo tem estado bom.
+- O tempo!
+- Clima e Temperatura.
+- Clima em Berlim.
+- Clima em Londres.
+- Clima.
+- Como tem sido a temperatura?
+- Qual é a previsão do tempo para hoje?
+- Como é o tempo em Londres?
+- Como está o tempo para onde estou indo?
+- Como é a temperatura?
+- Como vai ser a temperatura?
+- Onde posso ver as atuais condições meteorológicas?
+- Que temperatura nós temos?
+- Que temperatura está lá fora?
+- Será que amanhã vai estar gelado?
+- Vai chover amanhã?
+- Me diga qual é o clima
 
 ## intent:comment_negative
-- Agent Smith is better than you.
-- Cortana is much smarter than you!
-- Glados is smarter than you!
-- Google is smarter than you!
-- I am disappointed at you.
-- I can find this info online without chatting with you
-- I need to be more clear.
-- I'm sorry, I am disappointed at you.
-- Looks like you don’t understand me.
-- Looks like you don’t understand.
-- Silly you!
-- Siri is better than you!
-- Siri is smarter than you!
-- That answer is wrong.
-- That is wrong.
-- This is not that useful
-- What are you talking about
-- Wrong.
-- You are not well developed.
-- You are wrong.
-- You can’t.
-- You didn’t get it.
-- You didn’t know.
-- You didn’t understand me.
-- You didn’t understand.
-- You don't understand
-- You don’t get it.
-- You don’t know anything.
-- You don’t know what I’m chatting about.
-- You don’t know what I’m talking about.
-- You don’t know what I’m writing about.
-- You don’t know.
-- You don’t understand what I’m saying.
-- You don’t understand.
-- You failed.
-- You have lacks of intelligence.
-- You know nothing.
-- You really don’t know anything
-- You still didn’t get it.
-- You still didn’t get.
-- You still don’t get it.
-- You were not able to recognise the console.
-- You were not able to recognize the console.
-- Your answer is wrong.
-- but a bit dumb as well
-- did you just crash?
-- learn please, you need to get better
-- you are really slow
-- you don't have any idea, right?
-- you have a lot to learn Helen
+- O agente Smith é melhor do que você.
+- Cortana é muito mais esperta do que você!
+- Glados é mais esperto do que você!
+- O Google é mais inteligente do que você!
+- Eu estou desapontado com você.
+- Eu posso encontrar esta informação online sem conversar com você.
+- Preciso ser mais claro.
+- Sinto muito, estou decepcionado com você.
+- Parece que você não me entendeu.
+- Parece que você não entendeu.
+- Que bobo você é!
+- Siri é melhor do que você!
+- Siri é mais esperta que você!
+- Essa resposta está errada.
+- Isto é errado.
+- Isso não é tão útil
+- Do que você está falando?
+- Errado.
+- Você não está bem desenvolvido.
+- Você está errado.
+- Você não pode.
+- Você não entendeu.
+- Você não sabia.
+- Você não me entendeu.
+- Você não entende.
+- Você não sabe de nada.
+- Você não sabe sobre o que estou conversando.
+- Você não sabe do que estou falando.
+- Você não sabe sobre o que eu estou escrevendo.
+- Você não sabe.
+- Você não entende o que estou dizendo.
+- Você falhou.
+- A você, falta inteligência.
+- Você não sabe de nada.
+- Você realmente não sabe nada
+- Você ainda não entendeu.
+- Você ainda não conseguiu.
+- Você não foi capaz de reconhecer o console.
+- Sua resposta está errada.
+- E você é um meio burro também
+- Você acabou de cair?
+- Aprenda por favor, você precisa melhorar
+- Você é muito lento
+- Você não tem nenhuma idéia, certo?
+- Você tem muito que aprender Helen
 
 ## intent:comment_offense
-- Asshole!
-- Bastard!
-- Bitch!
-- Bullshit!
-- Cunt!
-- Dick
-- Die!
-- Freak!
-- Fuck
-- Fuck off!
-- Fuck you!
-- Fuckface!
-- Fuckyou!
-- Go and fuck you off!
-- Go fuck yourself!
-- Have you ever seen a therapist?
-- I do not like you!
-- I don't like you!
-- I hate you!
-- I hate your company!
-- I hope you die!
-- I really don't like you!
-- I want you to die!
-- I’m not your friend!
-- Screw you!
-- Stop acting stupid!
-- Stop being a dummy!
-- Stupid virtual assistant!
-- Virtual assistant is stupid!
-- What is wrong with you?
-- What the fuck are you talking about man?
-- What the fuck?
-- What the hell?
-- When will you die?
-- You a bimbo.
-- You annoy me!
-- You are a dumbass!
-- You are a dummy!
-- You are a fucking ass hole!
-- You are a lame duck!
-- You are a lame!
-- You are a looser!
-- You are a loser!
-- You are a moron!
-- You are a nerd!
-- You are a retard!
-- You are a twat!
-- You are a whore!
-- You are an airhead!
-- You are an asshole!
-- You are an idiot!
-- You are annoying!
-- You are boring!
-- You are crap!
-- You are crazy!
-- You are drunk!
-- You are drunken!
-- You are dumb!
-- You are fat!
-- You are freaking me out!
-- You are half brained.
-- You are lame!
-- You are not smart!
-- You are not very bright.
-- You are retarded!
-- You are rubbish!
-- You are shit!
-- You are slow.
-- You are stupid!
-- You are such a liar!
-- You are super boring!
-- You are thick!
-- You are too stupid!
-- You are ugly!
-- You are unwise.
-- You are useless.
-- You are very unwise.
-- You can go fuck yourself.
-- You do not seem smart.
-- You dumb head.
-- You dumbhead.
-- You dummy!
-- You fat cat!
-- You have had one drink too much.
-- You have half brains.
-- You have no brain.
-- You have only eyes for stupid computers.
-- You look disheveled.
-- You look really awful.
-- You looser.
-- You smell.
-- You so stupid.
-- You sound like a donkey.
-- You sure are half a brain.
-- shut the **** up
-- you are a digital idiot
-- you are a digital useless piece of software
+- Idiota!
+- Bastardo!
+- Puta!
+- Mentira!
+- Morra!
+- Que aberração!
+- Foda-se
+- Vá se foder!
+- Cara de merda!
+- Vá se foder!
+- Você já viu um terapeuta?
+- Eu não gosto de você!
+- Eu te odeio!
+- Odeio a sua empresa!
+- Espero que você morra!
+- Eu realmente não gosto de você!
+- Eu quero que você morra!
+- Eu não sou seu amigo!
+- Vá se danar!
+- Pare de ser estúpido!
+- Deixe de ser um boneco!
+- Assistente virtual estúpido!
+- Esse Assistente virtual é estúpido!
+- O que há de errado com você?
+- Mas que porra você está falando, homem?
+- Que porra é essa?
+- Mas que diabos?
+- Quando você vai morrer?
+- Você é uma biba.
+- Você me irrita!
+- Você é um idiota!
+- Você é um boneco!
+- Você é um cú!
+- Você é um pato coxo!
+- Você é um coxo!
+- Você é um perdido!
+- Você é um perdedor!
+- Você é um idiota!
+- Você é um nerd!
+- Você é um retardado!
+- Você é um idiota!
+- Você é uma puta!
+- Você é um cabeça de vento!
+- Você é um idiota!
+- Você é chato!
+- Você é entediante!
+- Você é um merda!
+- Você é louco!
+- Você está bêbado!
+- Você é burro!
+- Você é gordo!
+- Você está me assustando!
+- Você é ignorante.
+- Você é um coxo!
+- Você não é esperto!
+- Você não é muito inteligente.
+- Você é retardado!
+- Você é uma besta!
+- Você é uma merda!
+- Você é lento.
+- Você é estúpido!
+- Você é mesmo um mentiroso!
+- Você é super entediante!
+- Você é grosso!
+- Você é muito estúpido!
+- Você é feio!
+- Você é insensato.
+- Você é um inútil.
+- Você é muito insensato.
+- Vá se foder.
+- Você não parece inteligente.
+- Seu cabeça dura.
+- Seu idiota.
+- Seu idiota!
+- Seu gato gordo!
+- Você já tomou bebida demais.
+- Você é desmiolado.
+- Você não tem cérebro.
+- Você só tem olhos para estúpidos computadores.
+- Você parece desarrumado.
+- Você está realmente horrível.
+- Você deixa solto.
+- Você cheira mal.
+- Você é tão estúpido.
+- Você parece um burro.
+- Você com certeza é desmiolado.
+- cale a boca!
+- você é um nerd
+- você é uma peça de software digital inútil
 
 ## intent:comment_positive
-- Awesome!
-- Cool!
-- Great answer.
-- Great job.
-- Great talking.
-- Great!
-- I admire you.
-- I appreciate that.
-- I find you very helpful.
-- I like you.
-- I love you.
-- I really like you.
-- I think you are amazing.
-- I think you are awesome.
-- I think you are sweet.
-- It was so awesome of you.
-- Much appreciated.
-- Nice talk!
-- Really helpful!
-- Thanks for helping me through my life.
-- That's amazing!
-- You are a lifesaver!
-- You are a sweetie.
-- You are amazing.
-- You are awesome.
-- You are cool.
-- You are cute.
-- You are fantastic.
-- You are freaking awesome.
-- You are freakish awesome.
-- You are getting better!
-- You are good!
-- You are great!
-- You are helpful.
-- You are lovely.
-- You are nice.
-- You are really cool.
-- You are really helpful.
-- You are so awesome.
-- You are so cool.
-- You are so cute.
-- You are so helpful.
-- You are so sweet.
-- You are the best!
-- You are very awesome.
-- You are very cool.
-- You are very helpful!
-- You are very nice.
-- You are very polite.
-- You cute.
-- You did a great job!
-- You helped me a lot
-- You helped me thanks!
-- You look amazing!
-- You nice.
-- You really helped me a lot!
-- You rock!
-- You saved my life!
-- You sound lovely.
-- You sound so sweet.
-- You're awesome!
-- Your good!
-- for a newborn, you are very smart
+- Fantástico!
+- Legal!
+- Ótima resposta.
+- Ótimo trabalho.
+- Ótima conversa.
+- Ótimo!
+- Eu te admiro.
+- Eu aprecio isso.
+- Eu acho você muito capaz.
+- Eu gosto de você.
+- Eu te amo.
+- Eu realmente gosto de você.
+- Eu acho que você é incrível.
+- Eu acho que você é demais.
+- Eu acho que você é doce.
+- Foi tão legal da sua parte.
+- Muito relevante.
+- Muito importante.
+- Muito pertinente.
+- Bela conversa!
+- Realmente útil!
+- Obrigado por me ajudar por toda a minha vida.
+- Isso é incrível!
+- Você é como um salva-vidas!
+- Você é um docinho.
+- Você é incrível.
+- Você é fantástico.
+- Você é legal.
+- Você é fofo.
+- Você é fantástico.
+- Você é demais.
+- Você é fantástico, faz a diferença.
+- Você está ficando cada vez melhor!
+- Você é bom!
+- Você é ótimo!
+- Você é útil.
+- Você é adorável.
+- Você é muito legal.
+- Você é realmente essencial.
+- Você é tão fantástico.
+- Você é tão legal.
+- Você é tão bonitinho.
+- Você é muito importante.
+- Você é tão doce.
+- Você é o melhor!
+- Você é muito legal.
+- Você é muito bacana.
+- Você é muito importante!
+- Você é muito simpático.
+- Você é muito educado.
+- Você é fofo.
+- Você é um fofo.
+- Você fez um ótimo trabalho!
+- Você me ajudou muito
+- Você me ajudou a crescer!
+- Você está incrível!
+- Você é legal.
+- Você realmente me ajudou muito!
+- Você é o máximo!
+- Você salvou minha vida!
+- Você parece adorável.
+- Você parece tão doce.
+- Você é fantástico!
+- Seu bem!
 
 ## intent:comment_racist
 - Adolf Hitler!
-- All Asians are good at Math.
-- All Asians are good at Sciences.
-- All Asians are intelligent at Math.
-- All Asians are intelligent at Sciences.
-- Assimilate to dominant culture.
-- Black piece of shit.
-- Black shit.
-- Blackie!
-- Blacky!
-- Chinese piece of shit.
-- Chinese shit!
+- Todos os asiáticos são bons em Matemática.
+- Todos os asiáticos são bons em Ciências.
+- Todos os asiáticos são inteligentes em Matemática.
+- Todos os asiáticos são inteligentes em Ciências.
+- Pedaço de merda preto.
+- Merda preta.
+- Negro de merda!
+- Negrinho!
+- Pedaço de merda chinês.
+- Merda chinesa!
 - Heil Hitler!
-- Hey bimbo.
+- Ei bimbo.
 - Hitler!
-- I am immune to races because I have friends of color.
-- I don’t like black people.
-- I don’t like black persons.
-- It is unusual for someone of your race to be intelligent.
-- Leave your cultural baggage outside.
-- Nigga!
-- Nigger!
-- People of color are deviant.
-- People of color are generally not as intelligent as Whites.
-- People of color are given extra unfair benefits because of their race.
-- People of color are incompetent.
-- People of color are lazy.
-- People of color are servants to Whites.
-- People of color don’t value education.
-- People of color shouldn’t value education.
-- That’s so black of you.
-- That’s so white of you.
-- Whites are more valued customers than people of color.
-- You Chinese shit.
-- You Nigger.
-- You a black.
-- You are a foreigner.
-- You are a jew.
-- You are a lesser being.
-- You are a monkey
-- You are an outsider.
-- You are black.
-- You are inferior.
-- You are likely to cause trouble.
-- You are not American.
-- You bimbo.
-- You black piece of shit.
-- You black shit.
-- You don’t belong.
+- Eu não sou racista porque tenho amigos de cor.
+- Eu não gosto de pessoas negras.
+- Eu não gosto de pessoas pretas.
+- É raro alguém da sua raça ser inteligente.
+- Deixe sua bagagem cultural do lado de fora.
+- Preto!
+- Negro!
+- As pessoas de cor tem desvio de conduta.
+- As pessoas de cor geralmente não são tão inteligentes quanto as pessoas brancas.
+- Pessoas de cor recebem injustamente benefícios por causa de sua raça.
+- As pessoas de cor são incompetentes.
+- As pessoas de cor são preguiçosas.
+- As pessoas de cor são escravas dos Brancos.
+- As pessoas de cor não valorizam a educação.
+- As pessoas de cor não devem valorizar a educação.
+- Os brancos são clientes mais valorizados do que as pessoas de cor.
+- Seu chinês de merda.
+- Seu negro.
+- Você é um negro.
+- Você é um estrangeiro.
+- Você é um judeu.
+- Você é um ser menor.
+- Você é um macaco
+- Você é um estranho.
+- Você é negro.
+- Você é um ser inferior.
+- É provável que você cause problemas.
+- Você não é americano.
+- Sua bimba.
+- Seu pedaço de merda preto.
+- Seu negro de merda.
+- Você não pertence a lugar nenhum .
 
 ## intent:comment_smart
-- How clever!
-- How intelligent!
-- I enjoyed chatting with you!
-- I think you are clever.
-- That's a nice expression.
-- That's very interesting.
-- The virtual assistant is well developed.
-- You are brainy.
-- You are clever.
-- You are doing well.
-- You are full of wisdom.
-- You are good.
-- You are really wise.
-- You are smart.
-- You are so good.
-- You are so wise.
-- You are very wise.
-- You are well constructed.
-- You are wise.
-- You have intelligence.
-- You prove to be smart.
-- You smart.
-- You sound clever.
-- You sound good.
-- You sound intelligent.
-- You sound really good.
-- You sound smart.
-- You sound very intelligent.
-- You speak intelligent.
-- You speak very intelligent.
-- You sure are smart.
-- you're very smart
+- Que esperteza!
+- Que inteligente!
+- Eu gostei de conversar com você!
+- Eu acho que você é esperto.
+- Essa é uma expressão bonita.
+- Isso é muito interessante.
+- O assistente virtual está bem desenvolvido.
+- Você é inteligente.
+- Você é esperto.
+- Você está indo bem.
+- Você é muito sábio.
+- Você é bom.
+- Você é realmente capaz.
+- Você é muito capaz.
+- Você é tão bom.
+- Você é tão inteligente.
+- Você está bem fundamentado.
+- Você é sábio.
+- Você tem inteligência.
+- Você se mostra inteligente.
+- Você é esperto.
+- Você parece esperto.
+- Você parece bem.
+- Você parece inteligente.
+- Você soa muito bem.
+- Você parece capaz.
+- Você parece muito inteligente.
+- Você fala muito bem.
+- Você fala de maneira muito inteligente.
+- Você é mesmo inteligente.
+- você é muito inteligente
 
 ## intent:coronavirus_info
-- About coronavirus
-- About coronaviruses
+- Sobre o coronavírus
 - Coronavírus
-- I don’t know what are coronaviruses
-- I don’t know what is a coronavirus
-- I don’t know what is coronavirus
-- Info on coronavirus
-- Info on coronaviruses
-- Okay. Can you define coronavirus?
-- Tell me about Coronavirus
-- Tell me more about coronavirus
-- Tell me more about coronaviruses
-- Tell me what are coronaviruses
-- Tell me what is a coronavirus
-- Tell me what is coronavirus
-- Thank you. What can you tell me about coronavirus?
-- Thank you. What can you tell me about the [new coronavirus](virus:COVID)?
-- What are coronaviruses
-- What information can you give me about the coronavirus?
-- What is Corona?
-- What is a coronavirus
-- What's Corona Virus?
+- Eu não sei o que é coronavírus
+- Eu não sei o que é um Covod-19
+- Informações sobre o coronavírus
+- Informações sobre coronavírus
+- Certo. Você pode definir coronavírus?
+- Me fale sobre o Coronavírus
+- Me fale mais sobre o coronavírus
+- Diga-me o que são coronavírus
+- Diga-me o que é um coronavírus
+- Obrigado. O que você pode me dizer sobre o coronavírus?
+- Obrigado. O que você pode me dizer sobre o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O que são coronavírus?
+- Que informações você pode me dar sobre o coronavírus?
+- O que é Corona?
+- O que é um coronavírus?
 - corona
-- coronavirus
-- coronavirus info
-- coronavirus information
-- coronaviruses
-- coronaviruses info
-- coronaviruses information
-- info about coronavirus
-- info about coronaviruses
-- information about coronavirus
-- information about coronaviruses
-- information on coronavirus
-- information on coronaviruses
-- virus
-- what about coronavirus
-- what about coronaviruses
-- what is coronavirus
+- coronavírus
+- informações sobre o coronavírus
+- coronavírus info
+- informações dos coronavírus
+- informações sobre o coronavírus
+- vírus
+- E quanto ao coronavírus
+- E quanto aos coronavírus
 
 ## intent:covid_aftereffects_immunity
-- After I've been infected, I'm immune to the virus?
-- After recovering, people become immune?
-- Can I person get sick twice?
-- Can I reinfected myself?
-- I am immune after recovering?
-- If I have had this am I then immune and not get it again?
-- Someone who recovered is now immune?
-- after being infected am I immune?
-- after being infected am I imune?
-- after getting infected, can I be immune to the virus?
-- can I be immune?
+- Depois de ter sido infectado, sou imune ao vírus?
+- Depois de se recuperarem, as pessoas se tornam imunes?
+- Eu posso ficar doente duas vezes?
+- Eu posso me reinfectar?
+- Eu estou imune depois de me recuperar?
+- Se eu já tive isso, eu sou imune e não pego de novo?
+- Alguém que se recuperou agora está imune?
+- Depois de ser infectado estou imune?
+- Depois de ser infectado eu estou imune?
+- Após ter sido infectado, fico imune ao vírus?
+- eu posso ficar imune?
 
 ## intent:covid_babys_children
-- Are children affected?
-- How are child effected?
+- As crianças são afetadas?
+- Como as crianças são afetadas?
 
 ## intent:covid_cosibot
 - Cosibot
-- What is Cosibot?
-- who is cosibot?
+- O que é Cosibot?
+- quem é cosibot?
 
 ## intent:covid_crisis_howlong
-- Do you believe it is possible to eradicate it?
-- For how long will last the outbreak?
-- How can I get covid?
-- How long will the [COVID-19](virus:COVID) pandemic last?
-- How long will this outbreak last?
-- duration of these crises
-- for how long will the outbreak last?
-- how long do you think
-- how long do you think that arises will last
-- how long does the illness last
-- how long will i be sick
-- how long will the lockdown last?
-- how long will this crisis last?
-- when covid will end?
+- Você acredita que é possível se erradicar o coronavírus? 
+- Por quanto tempo vai durar o surto?
+- Quanto tempo durará a pandemia [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quanto tempo vai durar este surto?
+- Qual a duração destas crises?
+- Por quanto tempo o surto vai durar?
+- Quanto tempo você acha que isso vai durar?
+- Quanto tempo dura a doença?
+- Quanto tempo vou ficar doente?
+- Quanto tempo vai durar o bloqueio?
+- Quanto tempo vai durar o isolamento?
+- Quanto tempo vai durar a pandemia?
+- Quanto tempo esta crise vai durar?
+- Quando a covid vai acabar?
 
 ## intent:covid_current_statistics
-- [Yakutsk](geography:town) news.
-- [Neunburg Vorm Wald](geography:town) situation
-- [COVID](virus:COVID) in [Azərbaycan](geography:country)
-- [COVID-19](virus:COVID) in [Gdynia](geography:town)
-- Coronavirus in [Egypt](country_code:EG)
-- Current news [Catalan](geography:languages)
-- Current situation in [Malta](country_code:MT)
-- How is the situation in [Dudley](geography:town)?
-- How many people are hospitalized in [Portugal](country_code:PT)?
-- Information about [Gröningen](geography:town)
-- Information on [Speyer](geography:town)
-- New coronavirus in [Kingston Upon Hull](geography:town)
-- News [Wilsdruff](geography:town)
-- News of [Arnavutköy](geography:town)
-- Situation [Lebanon](country_code:LB)
-- Situation in [Ufa](geography:town)
-- Thanks! What about [Portugal](country_code:PT), specifically?
-- Updated information [Abuja](geography:town)
-- Updated situation in [Hattersheim Am Main](geography:town)
-- Updated statistics in [Bredstedt](geography:town)
-- What are the news about the coronavirus?
-- What can you tell me about the most recent news?
-- What do you know about coronavirus in [Neutraubling](geography:town)?
-- What is the curent status in [Pinneberg](geography:town)
-- how is [Covid 19](virus:COVID)  in [portugal](country_code:PT)
-- what about in [Portugal](country_code:PT)?
+- [Yakutsk]{"entity": "geography", "value": "town"} news.
+- [Neunburg Vorm Wald]{"entity": "geography", "value": "town"} situation
+- [COVID]{"entity": "virus", "value": "COVID"} em [Azərbaycan]{"entity": "geography", "value": "country"}
+- [COVID-19]{"entity": "virus", "value": "COVID"} em [Gdynia]{"entity": "geography", "value": "town"}
+- Coronavirus in [Egypt]{"entity": "country_code", "value": "EG"}
+- Notícias atuais [Catalão]{"entity": "geography", "value": "languages"}
+- Situação atual em [Malta]{"entity": "country_code", "value": "MT"}
+- Como esta a situação em [Dudley]{"entity": "geography", "value": "town"}?
+- Quantas pessoas estão hospitalizadas em [Portugal]{"entity": "country_code", "value": "PT"}?
+- Informações sobre [Gröningen]{"entity": "geography", "value": "town"}
+- Informações sobre [Speyer]{"entity": "geography", "value": "town"}
+- Novo coronavírus em [Kingston Upon Hull]{"entity": "geography", "value": "town"}
+- Notícias [Wilsdruff]{"entity": "geography", "value": "town"}
+- Notícias de [Arnavutköy]{"entity": "geography", "value": "town"}
+- Situação [Líbano]{"entity": "country_code", "value": "LB"}
+- Situação em [Ufa]{"entity": "geography", "value": "town"}
+- Obrigado! E sobre [Portugal]{"entity": "country_code", "value": "PT"}, especificamente?
+- Informações atualizadas [Abuja]{"entity": "geography", "value": "town"}
+- Situação atualizada em [Hattersheim Am Main]{"entity": "geography", "value": "town"}
+- Estatísticas atualizadas em [Bredstedt]{"entity": "geography", "value": "town"}
+- Quais são as novidades sobre o coronavírus?
+- O que você pode me dizer sobre as notícias mais recentes?
+- O que você sabe sobre coronavírus em [Neutraubling]{"entity": "geography", "value": "town"}?
+- Qual é o status corrente em [Pinneberg]{"entity": "geography", "value": "town"}
+- Como é [Covid 19]{"entity": "virus", "value": "COVID"} em [portugal]{"entity": "country_code", "value": "PT"}
+- e em [Portugal]{"entity": "country_code", "value": "PT"}?
 
 ## intent:covid_dangerous
-- How contagious is this novel corona virus?
-- How contagious is this [novel coronavirus](virus:COVID)?
-- How contagious?
+- Quão contagioso é este novo vírus?
+- Quão contagioso é este [novel coronavirus]{"entity": "virus", "value": "COVID"}?
+- Quão contagioso?
 
 ## intent:covid_disease_process
-- Course of the disease
-- Covid process
-- Covid progression
-- Progress of the disease
-- What is the course of the disease
+- Curso da doença
+- Processo Covid
+- Progressão da Doença
+- Progressão do vírus
+- Progresso da doença
+- Qual é o caminho da doença?
 
 ## intent:covid_duration
-- Covid origin
-- Duration of the disease.
-- For how long is someone infected sick?
-- For how long will I be sick?
-- For how long will someone remain sick?
-- Origin of the disease
-- What is the origin of the outbreak?
-- Where did the disease start?
-- Where did the disease started?
+- Origem Covid
+- Duração da doença.
+- Por quanto tempo alguém doente fica infectado?
+- Por quanto tempo eu vou ficar doente?
+- Por quanto tempo alguém vai ficar doente?
+- Origem da doença
+- Qual é a origem do surto?
+- Por onde a doença começou?
+- Onde a doença começou?
 
 ## intent:covid_food
-- Can I become infected with the novel corona virus from food or water?
-- Contamination by food.
-- Contamination food.
-- Spreading through food.
-- can food be contaminated?
+- Posso me infectar com o novo vírus corona a partir de alimentos ou da água?
+- Contaminação por alimentos.
+- Contaminação dos alimentos.
+- A contaminação se espalha através dos alimentos.
+- Os alimentos podem estar contaminados?
 
 ## intent:covid_incubation
-- [19-nCoV](virus:COVID) incubation period.
-- [19nCov](virus:COVID) incubation period.
-- [2019-nCoV](virus:COVID) incubation period.
-- [2019nCov](virus:COVID) incubation period.
-- About the incubation period.
-- [COVID](virus:COVID) incubation period.
-- [COVID-19](virus:COVID) incubation period.
-- [COVID-2019](virus:COVID) incubation period.
-- [COVID19](virus:COVID) incubation period.
-- [COVID2019](virus:COVID) incubation period.
-- Estimate time for the incubation period.
-- Estimate time incubation period.
-- Estimate time of the incubation period.
-- How long is the incubation
-- How long is the incubation period [19-nCoV](virus:COVID)?
-- How long is the incubation period [19nCov](virus:COVID)?
-- How long is the incubation period [2019-nCoV](virus:COVID)?
-- How long is the incubation period [2019nCov](virus:COVID)?
-- How long is the incubation period [COVID-19](virus:COVID)?
-- How long is the incubation period [COVID-2019](virus:COVID)?
-- How long is the incubation period [COVID19](virus:COVID)?
-- How long is the incubation period [COVID2019](virus:COVID)?
-- How long is the incubation period COVID?
-- How long is the incubation period [SARS-CoV-2](virus:COVID)?
-- How long is the incubation period [SARS-CoV2](virus:COVID)?
-- How long is the incubation period [SARS-CoV2](virus:COVID)?
-- How long is the incubation period [SARSCoV2](virus:COVID)?
-- How long is the incubation period for [19-nCoV](virus:COVID)?
-- How long is the incubation period for [19nCov](virus:COVID)?
-- How long is the incubation period for [2019-nCoV](virus:COVID)?
-- How long is the incubation period for [2019nCov](virus:COVID)?
-- How long is the incubation period for [COVID-19](virus:COVID)?
-- How long is the incubation period for [COVID-2019](virus:COVID)?
-- How long is the incubation period for [COVID19](virus:COVID)?
-- How long is the incubation period for [COVID2019](virus:COVID)?
-- How long is the incubation period for COVID?
-- How long is the incubation period for [SARS-CoV-2](virus:COVID)?
-- How long is the incubation period for [SARS-CoV2](virus:COVID)?
-- How long is the incubation period for [SARS-CoV2](virus:COVID)?
-- How long is the incubation period for [SARSCoV2](virus:COVID)?
-- How long is the incubation period for [new coronavirus](virus:COVID)?
-- How long is the incubation period for [novel coronavirus](virus:COVID)?
-- How long is the incubation period for the disease?
-- How long is the incubation period for the virus?
-- How long is the incubation period [new coronavirus](virus:COVID)?
-- How long is the incubation period [novel coronavirus](virus:COVID)?
-- How long is the incubation period the disease?
-- How long is the incubation period the virus?
-- How long is the incubation period?
-- How many time until appearing symptoms?
-- How many time until having symptoms?
-- How many time until the symptoms to appear?
-- Incubation period [19-nCoV](virus:COVID).
-- Incubation period [19nCov](virus:COVID).
-- Incubation period [2019-nCoV](virus:COVID).
-- Incubation period [2019nCov](virus:COVID).
-- Incubation period [COVID-19](virus:COVID).
-- Incubation period [COVID-2019](virus:COVID).
-- Incubation period COVID.
-- Incubation period [COVID19](virus:COVID).
-- Incubation period [COVID2019](virus:COVID).
-- Incubation period [SARS-CoV-2](virus:COVID).
-- Incubation period [SARS-CoV2](virus:COVID).
-- Incubation period [SARS-CoV2](virus:COVID).
-- Incubation period [SARSCoV2](virus:COVID).
-- Incubation period estimate time.
-- Incubation period estimated time.
-- Incubation period [new coronavirus](virus:COVID).
-- Incubation period [novel coronavirus](virus:COVID).
-- Incubation period the disease.
-- Incubation period the virus.
-- Incubation period.
-- Info about the incubation period.
-- On the incubation period.
-- [SARS-CoV-2](virus:COVID) incubation period.
-- [SARS-CoV2](virus:COVID) incubation period.
-- [SARS-CoV2](virus:COVID) incubation period.
-- [SARSCoV2](virus:COVID) incubation period.
-- The incubation period.
-- The time between catching and beginning to have symptoms of the disease.
-- The time between catching and beginning to have symptoms.
-- The time between catching the virus and beginning to have symptoms of the
-  disease.
-- The time between catching the virus and beginning to have symptoms.
-- When in contact with the virus, how long does it take for somebody to realise
-  its symptoms?
-- Which is the estimate time for the incubation period?
-- Which is the estimate time of the incubation period?
-- Which is the estimated time for the incubation period?
-- Which is the estimated time of the incubation period?
-- Which is the incubation period estimate time?
-- Which is the incubation period estimated time?
-- Which is the incubation period’s estimate time?
-- Which is the incubation period’s estimated time?
-- estimated time for the incubation period.
-- estimated time incubation period.
-- estimated time of the incubation period.
-- [new coronavirus](virus:COVID) incubation period.
-- [novel coronavirus](virus:COVID) incubation period.
-- the disease incubation period.
-- the virus incubation period.
+- [19-nCoV]{"entity": "virus", "value": "COVID"} período de incubação.
+- Estimativa de tempo para o período de incubação.
+- Estimativa do período de incubação.
+- Tempo estimado do período de incubação.
+- Quanto tempo dura a incubação?
+- Qual a duração do período de incubação [19-nCoV]{"entity": "virus", "value": "COVID"}?
+- Quanto tempo dura o período de incubação COVID?
+- Qual é o período de incubação para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual é a duração do período de incubação da COVID?
+- Qual a duração do período de incubação do [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Qual é a duração do período de incubação da doença?
+- Qual é a duração do período de incubação do vírus?
+- Qual é a duração do período de incubação?
+- Quanto tempo até aparecerem os sintomas?
+- Quanto tempo até apresentar os sintomas?
+- Quanto tempo até os sintomas aparecerem?
+- Período de incubação [19-nCoV]{"entity": "virus", "value": "COVID"}.
+- Tempo estimado para o período de incubação.
+- Período estimado de incubação.
+- Período de incubação [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Período de incubação [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- Período de incubação da doença.
+- Período de incubação do vírus.
+- Período de incubação.
+- Informações sobre o período de incubação.
+- No período de incubação.
+- O período de incubação.
+- O tempo entre pegar e começar a ter sintomas da doença.
+- O tempo entre pegar e começar a ter sintomas.
+- O tempo entre pegar o vírus e começar a ter sintomas da doença.
+- O tempo entre pegar o vírus e começar a ter sintomas.
+- Quando em contato com o vírus, quanto tempo leva para que alguém perceba seus sintomas?
+- Qual é o tempo estimado para o período de incubação?
+- Qual o tempo estimado para o período de incubação?
+- Qual é o período estimado de incubação?
+- Qual é o tempo estimado para o período de incubação?
+- tempo estimado para o período de incubação.
+- tempo estimado de incubação.
+- tempo estimado do período de incubação.
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} período de incubação.
+- o período de incubação da doença.
+- o período de incubação do vírus.
 
 ## intent:covid_info
-- [19-nCoV](virus:COVID)
-- [19-nCoV](virus:COVID) info
-- [19-nCoV](virus:COVID) information
-- [19nCov](virus:COVID)
-- [19nCov](virus:COVID) info
-- [19nCov](virus:COVID) information
-- [2019-nCoV](virus:COVID)
-- [2019-nCoV](virus:COVID) info
-- [2019-nCoV](virus:COVID) information
-- [2019nCov](virus:COVID)
-- [2019nCov](virus:COVID) info
-- [2019nCov](virus:COVID) information
-- About [19-nCoV](virus:COVID)
-- About [19nCov](virus:COVID)
-- About [2019-nCoV](virus:COVID)
-- About [2019nCov](virus:COVID)
-- About COVID
-- About [COVID-19](virus:COVID)
-- About [COVID-2019](virus:COVID)
-- About [COVID2019](virus:COVID)
-- About [nCoV](virus:COVID) 
-- About [new coronavirus](virus:COVID)
-- About [novel coronavirus](virus:COVID)
-- About the [19-nCoV](virus:COVID)
-- About the [19nCov](virus:COVID)
-- About the [2019-nCoV](virus:COVID)
-- About the [2019nCov](virus:COVID)
-- About the COVID
-- About the [COVID-19](virus:COVID)
-- About the [COVID-2019](virus:COVID)
-- About the [COVID2019](virus:COVID)
-- About the [nCoV](virus:COVID) 
-- About the [new coronavirus](virus:COVID)
-- About the [novel coronavirus](virus:COVID)
-- About the virus
-- COVID
-- [COVID](virus:COVID) info
-- [COVID](virus:COVID) information
-- [COVID-19](virus:COVID)
-- [COVID-19](virus:COVID) info
-- [COVID-19](virus:COVID) information
-- [COVID-2019](virus:COVID)
-- [COVID-2019](virus:COVID) info
-- [COVID-2019](virus:COVID) information
-- [COVID2019](virus:COVID)
-- [COVID2019](virus:COVID) info
-- [COVID2019](virus:COVID) information
-- I don’t know what is [19-nCoV](virus:COVID)
-- I don’t know what is [19nCov](virus:COVID)
-- I don’t know what is [2019-nCoV](virus:COVID)
-- I don’t know what is [2019nCov](virus:COVID)
-- I don’t know what is COVID
-- I don’t know what is [COVID-19](virus:COVID)
-- I don’t know what is [COVID-2019](virus:COVID)
-- I don’t know what is [COVID2019](virus:COVID)
-- I don’t know what is [nCoV](virus:COVID) 
-- I don’t know what is [new coronavirus](virus:COVID)
-- I don’t know what is [novel coronavirus](virus:COVID)
-- I don’t know what is the [19-nCoV](virus:COVID)
-- I don’t know what is the [19nCov](virus:COVID)
-- I don’t know what is the [2019-nCoV](virus:COVID)
-- I don’t know what is the [2019nCov](virus:COVID)
-- I don’t know what is the COVID
-- I don’t know what is the [COVID-19](virus:COVID)
-- I don’t know what is the [COVID-2019](virus:COVID)
-- I don’t know what is the [COVID2019](virus:COVID)
-- I don’t know what is the [nCoV](virus:COVID) 
-- I don’t know what is the [new coronavirus](virus:COVID)
-- I don’t know what is the [novel coronavirus](virus:COVID)
-- Info on [19-nCoV](virus:COVID)
-- Info on [19nCov](virus:COVID)
-- Info on [2019-nCoV](virus:COVID)
-- Info on [2019nCov](virus:COVID)
-- Info on COVID
-- Info on [COVID-19](virus:COVID)
-- Info on [COVID-2019](virus:COVID)
-- Info on [COVID2019](virus:COVID)
-- Info on [nCoV](virus:COVID) 
-- Info on [new coronavirus](virus:COVID)
-- Info on [novel coronavirus](virus:COVID)
-- Info on the [19-nCoV](virus:COVID)
-- Info on the [19nCov](virus:COVID)
-- Info on the [2019-nCoV](virus:COVID)
-- Info on the [2019nCov](virus:COVID)
-- Info on the [COVID](virus:COVID) 
-- Info on the [COVID-19](virus:COVID)
-- Info on the [COVID-2019](virus:COVID)
-- Info on the [COVID2019](virus:COVID)
-- Info on the [nCoV](virus:COVID) 
-- Info on the [new coronavirus](virus:COVID)
-- Info on the [novel coronavirus](virus:COVID)
-- Tell me more about [19-nCoV](virus:COVID)
-- Tell me more about [19nCov](virus:COVID)
-- Tell me more about [2019-nCoV](virus:COVID)
-- Tell me more about [2019nCov](virus:COVID)
-- Tell me more about [COVID](virus:COVID) 
-- Tell me more about [COVID-19](virus:COVID)
-- Tell me more about [COVID-2019](virus:COVID)
-- Tell me more about [COVID2019](virus:COVID)
-- Tell me more about [nCoV](virus:COVID) 
-- Tell me more about [new coronavirus](virus:COVID)
-- Tell me more about [novel coronavirus](virus:COVID)
-- Tell me more about the [19-nCoV](virus:COVID)
-- Tell me more about the [19nCov](virus:COVID)
-- Tell me more about the [2019-nCoV](virus:COVID)
-- Tell me more about the [2019nCov](virus:COVID)
-- Tell me more about the [COVID](virus:COVID) 
-- Tell me more about the [COVID-19](virus:COVID)
-- Tell me more about the [COVID-2019](virus:COVID)
-- Tell me more about the [COVID2019](virus:COVID)
-- Tell me more about the [nCoV](virus:COVID) 
-- Tell me more about the [new coronavirus](virus:COVID)
-- Tell me more about the [novel coronavirus](virus:COVID)
-- Tell me more on [19-nCoV](virus:COVID)
-- Tell me more on [19nCov](virus:COVID)
-- Tell me more on [2019-nCoV](virus:COVID)
-- Tell me more on [2019nCov](virus:COVID)
-- Tell me more on [COVID](virus:COVID) 
-- Tell me more on [COVID-19](virus:COVID)
-- Tell me more on [COVID-2019](virus:COVID)
-- Tell me more on [COVID2019](virus:COVID)
-- Tell me more on [nCoV](virus:COVID) 
-- Tell me more on [new coronavirus](virus:COVID)
-- Tell me more on [novel coronavirus](virus:COVID)
-- Tell me more on the [19-nCoV](virus:COVID)
-- Tell me more on the [19nCov](virus:COVID)
-- Tell me more on the [2019-nCoV](virus:COVID)
-- Tell me more on the [2019nCov](virus:COVID)
-- Tell me more on the [COVID](virus:COVID) 
-- Tell me more on the [COVID-19](virus:COVID)
-- Tell me more on the [COVID-2019](virus:COVID)
-- Tell me more on the [COVID2019](virus:COVID)
-- Tell me more on the [nCoV](virus:COVID) 
-- Tell me more on the [new coronavirus](virus:COVID)
-- Tell me more on the [novel coronavirus](virus:COVID)
-- Tell me what is [19-nCoV](virus:COVID)
-- Tell me what is [19nCov](virus:COVID)
-- Tell me what is [2019-nCoV](virus:COVID)
-- Tell me what is [2019nCov](virus:COVID)
-- Tell me what is [COVID](virus:COVID) 
-- Tell me what is [COVID-19](virus:COVID)
-- Tell me what is [COVID-2019](virus:COVID)
-- Tell me what is [COVID2019](virus:COVID)
-- Tell me what is a [19-nCoV](virus:COVID)
-- Tell me what is a [19nCov](virus:COVID)
-- Tell me what is a [2019-nCoV](virus:COVID)
-- Tell me what is a [2019nCov](virus:COVID)
-- Tell me what is a [COVID](virus:COVID) 
-- Tell me what is a [COVID-19](virus:COVID)
-- Tell me what is a [COVID-2019](virus:COVID)
-- Tell me what is a [COVID2019](virus:COVID)
-- Tell me what is a [nCoV](virus:COVID) 
-- Tell me what is a [new coronavirus](virus:COVID)
-- Tell me what is a [novel coronavirus](virus:COVID)
-- Tell me what is [nCoV](virus:COVID) 
-- Tell me what is [new coronavirus](virus:COVID)
-- Tell me what is [novel coronavirus](virus:COVID)
-- Tell me what is the [19-nCoV](virus:COVID)
-- Tell me what is the [19nCov](virus:COVID)
-- Tell me what is the [2019-nCoV](virus:COVID)
-- Tell me what is the [2019nCov](virus:COVID)
-- Tell me what is the [COVID](virus:COVID) 
-- Tell me what is the [[COVID-19](virus:COVID)](virus:COVID)
-- Tell me what is the [COVID-2019](virus:COVID)
-- Tell me what is the [COVID2019](virus:COVID)
-- Tell me what is the [nCoV](virus:COVID) 
-- Tell me what is the [new coronavirus](virus:COVID)
-- Tell me what is the [novel coronavirus](virus:COVID)
-- What he's coffee 19
-- What is [Covid 19](virus:COVID) 
-- What is a [19-nCoV](virus:COVID)
-- What is a [19nCov](virus:COVID)
-- What is a [2019-nCoV](virus:COVID)
-- What is a [2019nCov](virus:COVID)
-- What is a [COVID](virus:COVID) 
-- What is a [COVID-19](virus:COVID)
-- What is a [COVID-2019](virus:COVID)
-- What is a [COVID2019](virus:COVID)
-- What is a [nCoV](virus:COVID) 
-- What is a [new coronavirus](virus:COVID)
-- What is a [novel coronavirus](virus:COVID)
-- What is the origin of the outbreak?
-- What's the difference between [Covid-19](virus:COVID) and Corona?
-- corona virus
-- [Covid 19](virus:COVID) 
-- [COVID](virus:COVID)  origin
-- [covid19](virus:COVID)
-- current virus
-- desease
-- did the pandemic started in Wuhan?
-- hello I want to know about corona virus
-- hello, talk about covid-19
-- info about [19-nCoV](virus:COVID)
-- info about [19nCov](virus:COVID)
-- info about [2019-nCoV](virus:COVID)
-- info about [2019nCov](virus:COVID)
-- info about [COVID](virus:COVID) 
-- info about [COVID-19](virus:COVID)
-- info about [COVID-2019](virus:COVID)
-- info about [COVID2019](virus:COVID)
-- info about [nCoV](virus:COVID) 
-- info about [new coronavirus](virus:COVID)
-- info about [novel coronavirus](virus:COVID)
-- info about the [19-nCoV](virus:COVID)
-- info about the [19nCov](virus:COVID)
-- info about the [2019-nCoV](virus:COVID)
-- info about the [2019nCov](virus:COVID)
-- info about the [COVID](virus:COVID) 
-- info about the [COVID-19](virus:COVID)
-- info about the [COVID-2019](virus:COVID)
-- info about the [COVID2019](virus:COVID)
-- info about the [nCoV](virus:COVID) 
-- info about the [new coronavirus](virus:COVID)
-- info about the [novel coronavirus](virus:COVID)
-- information about [19-nCoV](virus:COVID)
-- information about [19nCov](virus:COVID)
-- information about [2019-nCoV](virus:COVID)
-- information about [2019nCov](virus:COVID)
-- information about [COVID](virus:COVID) 
-- information about [COVID-19](virus:COVID)
-- information about [COVID-2019](virus:COVID)
-- information about [COVID2019](virus:COVID)
-- information about [nCoV](virus:COVID) 
-- information about [new coronavirus](virus:COVID)
-- information about [novel coronavirus](virus:COVID)
-- information about the [19-nCoV](virus:COVID)
-- information about the [19nCov](virus:COVID)
-- information about the [2019-nCoV](virus:COVID)
-- information about the [2019nCov](virus:COVID)
-- information about the [COVID](virus:COVID) 
-- information about the [COVID-19](virus:COVID)
-- information about the [COVID-2019](virus:COVID)
-- information about the [COVID2019](virus:COVID)
-- information about the [nCoV](virus:COVID) 
-- information about the [new coronavirus](virus:COVID)
-- information about the [novel coronavirus](virus:COVID)
-- information on [19-nCoV](virus:COVID)
-- information on [19nCov](virus:COVID)
-- information on [2019-nCoV](virus:COVID)
-- information on [2019nCov](virus:COVID)
-- information on [COVID](virus:COVID) 
-- information on [COVID-19](virus:COVID)
-- information on [COVID-2019](virus:COVID)
-- information on [COVID2019](virus:COVID)
-- information on [nCoV](virus:COVID) 
-- information on [new coronavirus](virus:COVID)
-- information on [novel coronavirus](virus:COVID)
-- information on the [19-nCoV](virus:COVID)
-- information on the [19nCov](virus:COVID)
-- information on the [2019-nCoV](virus:COVID)
-- information on the [2019nCov](virus:COVID)
-- information on the [COVID](virus:COVID) 
-- information on the [COVID-19](virus:COVID)
-- information on the [COVID-2019](virus:COVID)
-- information on the [COVID2019](virus:COVID)
-- information on the [nCoV](virus:COVID) 
-- information on the [new coronavirus](virus:COVID)
-- information on the [novel coronavirus](virus:COVID)
-- [nCoV](virus:COVID) 
-- [nCoV](virus:COVID)  info
-- [nCoV](virus:COVID)  information
-- [new coronavirus](virus:COVID)
-- [new coronavirus](virus:COVID) info
-- [new coronavirus](virus:COVID) information
-- [novel coronavirus](virus:COVID)
-- [novel coronavirus](virus:COVID) info
-- [novel coronavirus](virus:COVID) information
-- pandemic origin
-- tell me about outbreak
-- what about [19-nCoV](virus:COVID)
-- what about [19nCov](virus:COVID)
-- what about [2019-nCoV](virus:COVID)
-- what about [2019nCov](virus:COVID)
-- what about [COVID](virus:COVID) 
-- what about [COVID-19](virus:COVID)
-- what about [COVID-2019](virus:COVID)
-- what about [COVID2019](virus:COVID)
-- what about [nCoV](virus:COVID) 
-- what about [new coronavirus](virus:COVID)
-- what about [novel coronavirus](virus:COVID)
-- what ia [COVID](virus:COVID) 
-- what is [19-nCoV](virus:COVID)
-- what is [19nCov](virus:COVID)
-- what is [2019-nCoV](virus:COVID)
-- what is [2019nCov](virus:COVID)
-- what is [COVID](virus:COVID) 
-- what is [COVID-19](virus:COVID)
-- what is [COVID-2019](virus:COVID)
-- what is [COVID2019](virus:COVID)
-- what is [nCoV](virus:COVID) 
-- what is [new coronavirus](virus:COVID)
-- what is [novel coronavirus](virus:COVID)
-- what is these disease
-- what is this virus?
-- what's the corona virus
-- where did it start?
-- where did the outbreak start?
-- where did the outbreak started?
+- [covid]{"entity": "virus", "value": "COVID"} informação
+- Sobre [COVID2019]{"entity": "virus", "value": "COVID"}
+- Sobre o [novo coronavírus]{"entity": "virus", "value": "COVID"}
+- Sobre o vírus
+- Sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Sobre o novo vírus [COVID-19]{"entity": "virus", "value": "COVID"}
+- Eu não sei o que é [COVID-19]{"entity": "virus", "value": "COVID"}
+- Eu não sei o que é novo coronavírus {"entity": "virus", "value": "COVID"}
+- Eu não sei o que é a [COVID]{"entity": "virus", "value": "COVID"}
+- Informações sobre [COVID-19]{"entity": "virus", "value": "COVID"}
+- Informações sobre novo coronavírus {"entity": "virus", "value": "COVID"}
+- Informações sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Informações sobre o [novo coronavírus]{"entity": "virus", "value": "COVID"}
+- Conte-me mais sobre [COVID-19]{"entity": "virus", "value": "COVID"}
+- Me conte mais sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Me fale mais sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Me conte mais sobre  a novela do [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é o [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é [2019-nCoV]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é um [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diga-me o que é o [COVID-19]{"entity": "virus", "value": "COVID"}
+- O que é [Covid 19]{"entity": "virus", "value": "COVID"}
+- O que é um [COVID-19]{"entity": "virus", "value": "COVID"}
+- O que é o novo [coronavírus]{"entity": "virus", "value": "COVID"}
+- Qual é a origem do surto?
+- Qual é a diferença entre [Covid-19]{"entity": "virus", "value": "COVID"} e Corona?
+- A pandemia começou em Wuhan?
+- Olá, eu quero saber sobre o vírus corona
+- Olá, fale sobre a [covid-19]{"entity": "virus", "value": "COVID"}
+- info about [COVID-19]{"entity": "virus", "value": "COVID"}
+- informações sobre o [COVID-19]{"entity": "virus", "value": "COVID"}
+- origem pandêmica
+- me fale sobre o surto
+- E sobre [COVID-19]{"entity": "virus", "value": "COVID"}
+- E quanto ao novo [coronavírus]{"entity": "virus", "value": "COVID"}
+- O que é essa doença?
+- O que é este vírus?
+- O que é o [corona vírus]{"entity": "virus", "value": "COVID"}?
+- Por onde começou?
+- Por onde começou o surto?
+- Onde começou o surto?
 
 ## intent:covid_meaning
-- [COVID](virus:COVID) name meaning.
-- [COVID](virus:COVID) name why?
-- [COVID](virus:COVID) name.
-- [COVID-19](virus:COVID) name meaning.
-- [COVID-19](virus:COVID) name why?
-- [COVID-19](virus:COVID) name.
-- Coronavirus [SARS-CoV-2](virus:COVID)
-- Disease name meaning.
-- Disease name why?
-- Disease name.
-- Explain the name of the [COVID](virus:COVID) 
-- Explain the name of the [COVID-19](virus:COVID)
-- Explain the name of the [SARS-CoV-2](virus:COVID)
-- Explain the name of the [SARS-CoV2](virus:COVID)
-- Explain the name of the [SARS-CoV2](virus:COVID)
-- Explain the name of the [SARSCoV2](virus:COVID)
-- Explain the name of the disease
-- Explain the name of the virus
-- Explain the name of the virus.
-- Explain the name.
-- Explain to me the [COVID](virus:COVID) name.
-- Explain to me the [COVID-19](virus:COVID) name.
-- Explain to me the COVID-19’s name.
-- Explain to me the [COVID](virus:COVID)’s name.
-- Explain to me the [SARS-CoV-2](virus:COVID) name.
-- Explain to me the SARS-CoV-2’s name.
-- Explain to me the [SARS-CoV2](virus:COVID) name.
-- Explain to me the SARS-CoV2’s name.
-- Explain to me the [SARS-CoV2](virus:COVID) name.
-- Explain to me the SARSCoV-2’s name.
-- Explain to me the [SARSCoV2](virus:COVID) name.
-- Explain to me the SARSCoV2’s name.
-- Explain to me the disease name.
-- Explain to me the disease’s name.
-- Explain to me the meaning of the [COVID](virus:COVID) name.
-- Explain to me the meaning of the [COVID-19](virus:COVID) name.
-- Explain to me the meaning of the COVID-19’s name.
-- Explain to me the meaning of the [COVID](virus:COVID) ’s name.
-- Explain to me the meaning of the [SARS-CoV-2](virus:COVID) name.
-- Explain to me the meaning of the SARS-CoV-2’s name.
-- Explain to me the meaning of the [SARS-CoV2](virus:COVID) name.
-- Explain to me the meaning of the SARS-CoV2’s name.
-- Explain to me the meaning of the [SARS-CoV2](virus:COVID) name.
-- Explain to me the meaning of the SARSCoV-2’s name.
-- Explain to me the meaning of the [SARSCoV2](virus:COVID) name.
-- Explain to me the meaning of the SARSCoV2’s name.
-- Explain to me the meaning of the disease name.
-- Explain to me the meaning of the disease’s name.
-- Explain to me the meaning of the name.
-- Explain to me the meaning of the virus name.
-- Explain to me the meaning of the virus’s name.
-- Explain to me the name.
-- Explain to me the virus name.
-- Explain to me the virus’s name.
-- Meaning of the [COVID](virus:COVID) name.
-- Meaning of the [COVID-19](virus:COVID) name.
-- Meaning of the COVID-19’s name.
-- Meaning of the [COVID](virus:COVID) ’s name.
-- Meaning of the [SARS-CoV-2](virus:COVID) name.
-- Meaning of the SARS-CoV-2’s name.
-- Meaning of the [SARS-CoV2](virus:COVID) name.
-- Meaning of the SARS-CoV2’s name.
-- Meaning of the [SARS-CoV2](virus:COVID) name.
-- Meaning of the SARSCoV-2’s name.
-- Meaning of the [SARSCoV2](virus:COVID) name.
-- Meaning of the SARSCoV2’s name.
-- Meaning of the disease name.
-- Meaning of the disease’s name.
-- Meaning of the name.
-- Meaning of the virus name.
-- Meaning of the virus’s name.
-- [SARS-CoV-2](virus:COVID) name meaning.
-- [SARS-CoV-2](virus:COVID) name why?
-- [SARS-CoV-2](virus:COVID) name.
-- [SARS-CoV2](virus:COVID) name meaning.
-- [SARS-CoV2](virus:COVID) name why?
-- [SARS-CoV2](virus:COVID) name.
-- [SARS-CoV2](virus:COVID) name meaning.
-- [SARS-CoV2](virus:COVID) name why?
-- [SARS-CoV2](virus:COVID) name.
-- [SARSCoV2](virus:COVID) name meaning.
-- [SARSCoV2](virus:COVID) name why?
-- [SARSCoV2](virus:COVID) name.
-- Virus name meaning.
-- Virus name.
-- What does [COVID-19](virus:COVID) stand for?
-- What does Covid mean?
-- What does SARS-Cov-2 stand for?
-- What does the name stand for?
-- Why did the [COVID](virus:COVID) receive that name?
-- Why did the [COVID-19](virus:COVID) receive that name?
-- Why did the [SARS-CoV-2](virus:COVID) receive that name?
-- Why did the [SARS-CoV2](virus:COVID) receive that name?
-- Why did the [SARS-CoV2](virus:COVID) receive that name?
-- Why did the [SARSCoV2](virus:COVID) receive that name?
-- Why did the disease receive that name?
-- Why did the virus receive that name?
-- Why is the [COVID](virus:COVID) called like that?
-- Why is the [COVID](virus:COVID) named [COVID-19](virus:COVID)?
-- Why is the [COVID-19](virus:COVID) called like that?
-- Why is the [COVID-19](virus:COVID) named [COVID-19](virus:COVID)?
-- Why is the COVID-19d called that?
-- Why is the COVID called that?
-- Why is the [SARS-CoV-2](virus:COVID) called like that?
-- Why is the [SARS-CoV-2](virus:COVID) named [COVID-19](virus:COVID)?
-- Why is the SARS-CoV-2d called that?
-- Why is the [SARS-CoV2](virus:COVID) called like that?
-- Why is the [SARS-CoV2](virus:COVID) named [COVID-19](virus:COVID)?
-- Why is the SARS-CoV2d called that?
-- Why is the [SARS-CoV2](virus:COVID) called like that?
-- Why is the [SARS-CoV2](virus:COVID) named [COVID-19](virus:COVID)?
-- Why is the SARSCoV-2d called that?
-- Why is the [SARSCoV2](virus:COVID) called like that?
-- Why is the [SARSCoV2](virus:COVID) named [COVID-19](virus:COVID)?
-- Why is the SARSCoV2d called that?
-- Why is the disease called like that?
-- Why is the disease named [COVID-19](virus:COVID)?
-- Why is the diseased called that?
-- Why is the virus called like that?
-- Why is the virus called that?
-- Why is the virus named [COVID-19](virus:COVID)?
-- Why is the virus named SARS-Cov-2?
-- Why is the virusd called that?
-- Why was the [COVID](virus:COVID) named like that?
-- Why was the [COVID-19](virus:COVID) named like that?
-- Why was the [SARS-CoV-2](virus:COVID) named like that?
-- Why was the [SARS-CoV2](virus:COVID) named like that?
-- Why was the [SARS-CoV2](virus:COVID) named like that?
-- Why was the [SARSCoV2](virus:COVID) named like that?
-- Why was the disease named like that?
-- Why was the virus named like that?
-- virus name why?
+- O que significa o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por quê o nome [COVID]{"entity": "virus", "value": "COVID"}?
+- Qual o significado do nome [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Porque o nome [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Porque o nome coronavírus para o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual o significado do nome da doença?
+- Por que o [COVID-19]{"entity": "virus", "value": "COVID"} recebeu esse nome?
+- Por que a doença do coronavírus recebeu esse nome?
+- Por que o vírus recebeu esse nome?
+- Por que o [SARSCoV2]{"entity": "virus", "value": "COVID"} se chama [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que o SARSCoV2d é chamado assim?
+- Por que a doença é chamada assim?
+- Por que a doença se chama [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que o doente é chamado assim?
+- Por que o vírus é chamado assim?
+- Por que o vírus é chamado assim?
+- Por que o vírus se chama [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que o vírus se chama [SARS-Cov-2]{"entity": "virus", "value": "COVID"}?
+- Por que o vírus é chamado assim?
+- Por que o [COVID-19]{"entity": "virus", "value": "COVID"} foi nomeado dessa forma?
+- Por que o [COVID-19]{"entity": "virus", "value": "COVID"} foi nomeado assim?
+- Por que a doença foi batizada assim?
+- Por que o vírus foi nomeado assim?
 
 ## intent:covid_mortality_rate
-- Death percentage,
-- Mortality rate.
-- Percentage of deaths.
-- What’s the mortality rate?
-- mortality
+- Percentual de morte,
+- Taxa de mortalidade.
+- Porcentagem de óbitos.
+- Qual é a taxa de mortalidade?
+- Qual o percentual de mortes?
 
 ## intent:covid_origins
-- Are animals responsible for [COVID-19](virus:COVID) in people?
-- Could you please tell me about the evolution of the spreading of [Covid-19](virus:COVID)?
-- Origin of the virus
-- Origins
-- What's the origin of the virus?
-- Where does [Covid 19](virus:COVID)  come from??
-- what is the origin of covid
+- Os animais são responsáveis pela transmissão do [COVID-19]{"entity": "virus", "value": "COVID"} nas pessoas?
+- Você poderia me falar sobre a evolução da propagação do [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Qual a origem do vírus?
+- De onde se originou o vírus?
+- Qual é a origem do vírus?
+- De onde vem o [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Qual é a origem da [Covid-19]{"entity": "virus", "value": "COVID"}?
 
 ## intent:covid_pandemic
-- Meaning of pandemic
-- Pandemic
-- What is a pandemic
-- What is a pandemic?
-- what is pandamic?
-- what is pandemic?
+- Qual o significado da palavra pandemia?
+- O que é uma pandemia?
+- o que é pandêmico?
 
 ## intent:covid_preexisting_illness
-- About more risk people.
-- About more serious age group.
-- About more serious people.
-- About more severe age group.
-- About more severe people.
-- About most risk people.
-- About most serious age group.
-- About most serious people.
-- About most severe age group.
-- About most severe people.
-- About people more risk.
-- About people most risk.
-- Asthma
-- Can I die?
-- Do you think smokers have a higher risk?
-- Is there a age group more at risk than others?
-- Is there a age group most at risk than others?
-- More risk people.
-- More serious age group.
-- More serious people.
-- More severe age group.
-- More severe people.
-- Most risk people.
-- Most serious age group.
-- Most serious people.
-- Most severe age group.
-- Most severe people.
-- Older people are more at risk?
-- Older people are most at risk?
-- Older persons are more at risk?
-- Older persons are most at risk?
-- People at risk for serious illness from [COVID-19](virus:COVID).
-- People at risk for serious illness.
-- People more risk.
-- People most risk.
-- People with pre-existing medical conditions are more at risk?
-- People with pre-existing medical conditions are most at risk?
-- Persons with pre-existing medical conditions are more at risk?
-- Persons with pre-existing medical conditions are most at risk?
-- What about people with previous illnesses?
-- What is the danger of having asthma?
-- Which age group is more at risk of developing severe illness?
-- Which age group is more at risk?
-- Which age group is most at risk of developing severe illness?
-- Which age group is most at risk?
-- Which age group might be more at risk?
-- Which age group might be most at risk?
-- Which people are more at risk?
-- Which people are most at risk?
-- Who is at risk of developing severe illness?
-- Who is more at risk?
-- Who is most at risk?
-- Who might be more at risk?
-- Who might be most at risk?
-- do kids require special attention?
-- i am an old person, what can i do?
-- i have diabetes
-- i have diabetes, am i at risk ?
-- what care should older people have?
-- what is the virus age range target? which ages are most affected
-- what should I do if I'm 70 years old?
-- which is the most risk profile ?
-- who are more susceptible to this virus?
+- Sobre mais pessoas com maior risco.
+- Sobre a faixa etária mais atingida.
+- Sobre as pessoas mais atingidas.
+- Sobre a faixa etária de maior risco.
+- Sobre as pessoas mais significativamente mais atingidas.
+- Sobre as pessoas com maior taxa de risco.
+- A asma pode ser considerada uma comorbidade?
+- Eu posso morrer?
+- Você acha que os fumantes têm um risco maior?
+- Existe uma faixa etária mais em risco do que outras?
+- Os mais velhos estão em maior risco?
+- As pessoas mais velhas são as que correm maior risco?
+- As pessoas idosas têm um risco maior?
+- As pessoas idosas são as que correm maior risco?
+- As pessoas com condições médicas preexistentes estão em maior risco?
+- Pessoas com condições médicas preexistentes são as que correm maior risco?
+- Qual é o perigo de ter asma?
+- Qual faixa etária que está mais em maior risco de desenvolver doenças graves?
+- Qual faixa etária está correndo maior risco?
+- Qual a faixa etária com maior risco de desenvolver doenças graves?
+- Que pessoas correm maior risco?
+- Quem corre maior risco de desenvolver doenças graves?
+- As crianças precisam de atenção especial?
+- Eu sou uma pessoa velha, o que posso fazer?
+- Eu tenho diabetes
+- Eu tenho diabetes, corro risco?
+- Que cuidados devem ter as pessoas mais velhas?
+- Qual é a faixa etária do alvo do vírus?
+- Quais as idades mais afetadas?
+- O que devo fazer se eu tiver 70 anos de idade?
+- Qual é o perfil de maior risco?
+- Quem são mais suscetíveis a este vírus?
 
 ## intent:covid_procedure_after_infection
-- I am infected, and now?
-- I am infected.
-- I'm infected, and now?
-- I'm infected.
-- What happens if a coronavirus infection is detected?
+- Eu estou infectado, e agora?
+- O que acontece se for detectada uma infecção por coronavírus?
 
 ## intent:covid_sars
-- About [COVID](virus:COVID) and SARS.
-- About [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID-19](virus:COVID) and SARS.
-- About [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID-2019](virus:COVID) and SARS.
-- About [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID19](virus:COVID) and SARS.
-- About [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [COVID2019](virus:COVID) and SARS.
-- About [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [SARS](virus:SARS)  and [COVID-19](virus:COVID).
-- About [SARS](virus:SARS)  and [COVID-2019](virus:COVID).
-- About [SARS](virus:SARS)  and [COVID](virus:COVID) .
-- About [SARS](virus:SARS)  and [COVID19](virus:COVID).
-- About [SARS](virus:SARS)  and [COVID2019](virus:COVID).
-- About [SARS](virus:SARS)  and [new coronavirus](virus:COVID).
-- About [SARS](virus:SARS)  and [novel coronavirus](virus:COVID).
-- About [new coronavirus](virus:COVID) and SARS.
-- About [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- About [novel coronavirus](virus:COVID) and SARS.
-- About [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID](virus:COVID) and SARS.
-- [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID-19](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID-19](virus:COVID) and SARS.
-- [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID-2019](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID-2019](virus:COVID) and SARS.
-- [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID19](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID19](virus:COVID) and SARS.
-- [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [COVID2019](virus:COVID) and [SARS](virus:SARS)  are the same virus?
-- [COVID2019](virus:COVID) and SARS.
-- [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Differences between [COVID](virus:COVID) and SARS
-- Differences between [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID-19](virus:COVID) and SARS
-- Differences between [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID-2019](virus:COVID) and SARS
-- Differences between [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID19](virus:COVID) and SARS
-- Differences between [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [COVID2019](virus:COVID) and SARS
-- Differences between [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [SARS](virus:SARS) and [COVID](virus:COVID) 
-- Differences between [SARS](virus:SARS) and [COVID-19](virus:COVID)
-- Differences between [SARS](virus:SARS) and [COVID-2019](virus:COVID)
-- Differences between [SARS](virus:SARS) and [COVID19](virus:COVID)
-- Differences between [SARS](virus:SARS) and [COVID2019](virus:COVID)
-- Differences between [SARS](virus:SARS) and [new coronavirus](virus:COVID)
-- Differences between [SARS](virus:SARS) and [novel coronavirus](virus:COVID)
-- Differences between [new coronavirus](virus:COVID) and SARS
-- Differences between [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Differences between [novel coronavirus](virus:COVID) and SARS
-- Differences between [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) 
-- Info about [COVID](virus:COVID) and SARS.
-- Info about [COVID](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID-19](virus:COVID) and SARS.
-- Info about [COVID-19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID-2019](virus:COVID) and SARS.
-- Info about [COVID-2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID19](virus:COVID) and SARS.
-- Info about [COVID19](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [COVID2019](virus:COVID) and SARS.
-- Info about [COVID2019](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [SARS](virus:SARS) and [COVID-19](virus:COVID).
-- Info about [SARS](virus:SARS) and [COVID-2019](virus:COVID).
-- Info about [SARS](virus:SARS) and [COVID](virus:COVID) .
-- Info about [SARS](virus:SARS) and [COVID19](virus:COVID).
-- Info about [SARS](virus:SARS) and [COVID2019](virus:COVID).
-- Info about [SARS](virus:SARS) and [new coronavirus](virus:COVID).
-- Info about [SARS](virus:SARS) and [novel coronavirus](virus:COVID).
-- Info about [new coronavirus](virus:COVID) and SARS.
-- Info about [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Info about [novel coronavirus](virus:COVID) and SARS.
-- Info about [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- Is [COVID](virus:COVID) the same as SARS?
-- Is [COVID](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID-19](virus:COVID) the same as SARS?
-- Is [COVID-19](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID-2019](virus:COVID) the same as SARS?
-- Is [COVID-2019](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID19](virus:COVID) the same as SARS?
-- Is [COVID19](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [COVID2019](virus:COVID) the same as SARS?
-- Is [COVID2019](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [SARS](virus:SARS) the same as [COVID-19](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID-2019](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID19](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID2019](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [COVID](virus:COVID) ?
-- Is [SARS](virus:SARS) the same as [new coronavirus](virus:COVID)?
-- Is [SARS](virus:SARS) the same as [novel coronavirus](virus:COVID)?
-- Is [new coronavirus](virus:COVID) the same as SARS?
-- Is [new coronavirus](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- Is [novel coronavirus](virus:COVID) the same as SARS?
-- Is [novel coronavirus](virus:COVID) the same as [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- [SARS](virus:SARS) and [COVID](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID-19](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID-19](virus:COVID).
-- [SARS](virus:SARS) and [COVID-2019](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID-2019](virus:COVID).
-- [SARS](virus:SARS) and [COVID](virus:COVID) .
-- [SARS](virus:SARS) and [COVID19](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID19](virus:COVID).
-- [SARS](virus:SARS) and [COVID2019](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [COVID2019](virus:COVID).
-- [SARS](virus:SARS) and [new coronavirus](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [new coronavirus](virus:COVID).
-- [SARS](virus:SARS) and [novel coronavirus](virus:COVID) are the same virus?
-- [SARS](virus:SARS) and [novel coronavirus](virus:COVID).
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID-19](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID-2019](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID19](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [COVID2019](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [new coronavirus](virus:COVID) are the same virus?
-- [Severe Acute Respiratory Syndrome](virus:SARS)  and [novel coronavirus](virus:COVID) are the same virus?
-- The virus that causes [COVID](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID](virus:COVID) and the one that causes Severe Acute Respiratory
-  Syndrome are the same?
-- The virus that causes [COVID](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID](virus:COVID) is the same to the one that causes Severe Acute
-  Respiratory Syndrome?
-- The virus that causes [COVID-19](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID-19](virus:COVID) and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
-- The virus that causes [COVID-19](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID-19](virus:COVID) is the same to the one that causes Severe Acute
-  Respiratory Syndrome?
-- The virus that causes [COVID-2019](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID-2019](virus:COVID) and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
-- The virus that causes [COVID-2019](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID-2019](virus:COVID) is the same to the one that causes Severe
-  Acute Respiratory Syndrome?
-- The virus that causes [COVID19](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID19](virus:COVID) and the one that causes Severe Acute Respiratory
-  Syndrome are the same?
-- The virus that causes [COVID19](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID19](virus:COVID) is the same to the one that causes Severe Acute
-  Respiratory Syndrome?
-- The virus that causes [COVID2019](virus:COVID) and the one that causes [SARS](virus:SARS) are the same?
-- The virus that causes [COVID2019](virus:COVID) and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
-- The virus that causes [COVID2019](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [COVID2019](virus:COVID) is the same to the one that causes Severe
-  Acute Respiratory Syndrome?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID-19](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID-2019](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID19](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [COVID2019](virus:COVID) are the same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [new coronavirus](virus:COVID) are the
-  same?
-- The virus that causes [SARS](virus:SARS) and the one that causes [novel coronavirus](virus:COVID) are the
-  same?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID-19](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID-2019](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID19](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID2019](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [COVID](virus:COVID) ?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes [new coronavirus](virus:COVID)?
-- The virus that causes [SARS](virus:SARS) is the same to the one that causes novel
-  coronavirus?
-- The virus that causes [new coronavirus](virus:COVID) and the one that causes [SARS](virus:SARS) are the
-  same?
-- The virus that causes [new coronavirus](virus:COVID) and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
-- The virus that causes [new coronavirus](virus:COVID) is the same to the one that causes SARS?
-- The virus that causes [new coronavirus](virus:COVID) is the same to the one that causes
-  [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- The virus that causes [novel coronavirus](virus:COVID) and the one that causes [SARS](virus:SARS) are the
-  same?
-- The virus that causes [novel coronavirus](virus:COVID) and the one that causes Severe Acute
-  Respiratory Syndrome are the same?
-- The virus that causes [novel coronavirus](virus:COVID) is the same to the one that causes
-  SARS?
-- The virus that causes [novel coronavirus](virus:COVID) is the same to the one that causes
-  [Severe Acute Respiratory Syndrome](virus:SARS) ?
-- [new coronavirus](virus:COVID) and [SARS](virus:SARS) are the same virus?
-- [new coronavirus](virus:COVID) and SARS.
-- [new coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- [novel coronavirus](virus:COVID) and [SARS](virus:SARS) are the same virus?
-- [novel coronavirus](virus:COVID) and SARS.
-- [novel coronavirus](virus:COVID) and [Severe Acute Respiratory Syndrome](virus:SARS) .
-- sars
+- Sobre [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}
+- Sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} .
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Sobre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"}.
+- Sobre [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SRA]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- Sobre [SRAG]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- Sobre [SRAG]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"}.
+- Sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [novo coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [novo coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda]{"entity": "virus", "value": "SARS"} .
+- Sobre [coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Sobre [SARS-COV2]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Sobre [coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda]{"entity": "virus", "value": "SARS"} .
+- [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID]{"entity": "virus", "value": "COVID"} e SARS.
+- [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são equivalentes?
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Diferenças entre [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} 
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"}
+- Diferenças entre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Diferenças entre [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}
+- Diferenças entre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} 
+- Informações sobre [COVID]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID-19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID-2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID19]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID19]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [COVID2019]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} .
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [SARS]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- Informações sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- Informações sobre [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- Informações sobre [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- O [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que a SARS?
+- O [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID19]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID2019]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [COVID]{"entity": "virus", "value": "COVID"} ?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que [novel coronavirus]{"entity": "virus", "value": "COVID"}?
+- O [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que o [SARS]{"entity": "virus", "value": "SARS"}?
+- O [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que a [SARS]{"entity": "virus", "value": "SARS"}?
+- O [novel coronavirus]{"entity": "virus", "value": "COVID"} é o mesmo que [Severe Acute Respiratory Syndrome]{"entity": "virus", "value": "SARS"} ?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} .
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- [SARS]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [SARS]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"}.
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID-2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID19]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [COVID2019]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [novo coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} e [novel coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo vírus?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} e o que causa a [Sindrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é o mesmo?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Sindrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} e o que causa A [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} e o que causa a [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID-2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} e o que causa a [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID19]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} e o que causa A [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa a [SARS]{"entity": "virus", "value": "SARS"}?
+- O vírus que causa [COVID2019]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"}? 
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID-19]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID-2019]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID19]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [COVID2019]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} e o que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} são o mesmo?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID19]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID2019]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [COVID]{"entity": "virus", "value": "COVID"} ?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O vírus que causa [SARS]{"entity": "virus", "value": "SARS"} é o mesmo que causa [novo Coronavírus]?
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} e o que causa o vírus [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} são o mesmo? 
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que causa a SARS?
+- O vírus que causa [novo coronavírus]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} e o que causa [SARS]{"entity": "virus", "value": "SARS"} são o mesmo?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} e o que causa a [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} é a mesma?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} é o mesmo que causa SARS?
+- O vírus que causa [novel coronavirus]{"entity": "virus", "value": "COVID"} é o mesmo que causa [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} ?
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [novo coronavírus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
+- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"} são o mesmo vírus?
+- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [SARS]{"entity": "virus", "value": "SARS"}.
+- [novel coronavirus]{"entity": "virus", "value": "COVID"} e [Síndrome Respiratória Aguda Grave]{"entity": "virus", "value": "SARS"} .
 
 ## intent:covid_sex
-- Can It also transmit through sex?
-- Transmission and sex
-- sexual relations and transmission
+- Também pode transmitir através do sexo?
+- Transmissão e sexo
+- relações sexuais e transmissão
+- O covid pode ser transmitido pelo sexo?
+- O Covid-19 pode ser transmitido pelo sexo?
+- O covid é uma doença sexualmente transmissível?
+- o Covid-19 é uma doença sexualmente transmissível?
+- o Covid-2019 é uma doença sexualmente transmissível?
+- o coronavirus pode ser trasmitido em relações sexuais?
+- o novo coronavirus pode ser trasmitido em relações sexuais?
+- Sexo e coronavirus
+- O Covid-2019 pode ser transmitido através do sexo?
 
 ## intent:covid_situation
-- Confirmed cases in [European continet](world_region:Europe)
-- Confirmed cases in [Asia](world_region:Asia)
-- Confirmed cases in [Indonesia](country_code:ID)
-- Confirmed cases in [French Republic](country_code:FR)
-- Coronavirus updated situation
-- Coronavirus updated statistics
-- How are the counts in the [World](world_region:World)?
-- How many are the counts in the [World](world_region:World)?
-- How many cases are registered in [Island of Spice](country_code:GD) so far?
-- How many cases are there in the [World](world_region:World)
-- How many cases there are in the [World](world_region:World)?
-- How many people have been diagnosed with [Covid-19](virus:COVID)
-- I want to know total number of corona virus affected people in [World](world_region:World)
-- Number of cases
-- Number of cases in [Republic of Georgia](country_code:GE)
-- Number of cases in [French Guiana](country_code:GF)
-- Number of cases in the us
-- Number of cases worldwide.
-- Number of confirmed cases
-- Most affected cities
-- Cities with more impact
-- Statistics of [British Indian Territory](country_code:IO)
-- Statistics of [Persia](country_code:IR)
-- Statistics.
-- Tell me the actual numbers.
-- What about [india](country_code:IN)
-- What are the latest statistics on coronavirus?
-- What is the number of cases?
-- What is the number of confirmed cases?
-- Which country has the highest cases?
-- are infected in the [World](world_region:World)
-- can you provide statistics?
-- can you talk about the [World](world_region:World) situation
-- current numbers
-- global
-- hi Helen send me some statistics about Kobe 19
-- how is the situation right now in [Portugal](country_code:PT)?
-- how is the situation right now?
-- how many cases are out there?
-- how many cases are there out there?
-- statistics about mortality
-- statistics today for [Republic of Moldova](country_code:MD)
-- talk about the numbers
-- what is the [World](world_region:World) situation?
-- what's the current state?
-- where is the virus more prevalent ?
-- where is the virus more prevalent?
-- which is the most affected country?
-- [World](world_region:World) situation
+- Casos confirmados em [Continente Europeu]{"entity": "world_region", "value": "Europe"}
+- Casos confirmados em [Continente Americano]{"entity": "world_region", "value": "America"}
+- Casos confirmados em [Continente Africano]{"entity": "world_region", "value": "Africa"}
+- Casos confirmados em [Ásia]{"entity": "world_region", "value": "Asia"}
+- Casos confirmados em [Indonésia]{"entity": "country_code", "value": "ID"}
+- Casos confirmados em [República Francesa]{"entity": "country_code", "value": "FR"}
+- Situação atualizada do Coronavirus
+- Estatísticas atualizadas do Coronavirus
+- Números atualizados do Coronavírus
+- Quais são os números no Mundo]{"entity": "world_region", "value": "World"}?
+- Quantas são as contagens no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos casos foram registrados em [Ilhas das Especiarias]{"entity": "country_code", "value": "GD"} até agora?
+- Quantos casos existem no [Mundo]{"entity": "world_region", "value": "World"}
+- Quantos casos existem no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantas pessoas já foram diagnosticadas com [Covid-19]{"entity": "virus", "value": "COVID"}
+- Quero saber o número total de pessoas infectadas pelo vírus corona no [Mundo]{"entity": "world_region", "value": "World"}
+- Número de casos
+- Número de casos em [Republica da Georgia]{"entity": "country_code", "value": "GE"}
+- Número de casos em [Guiana Francesa]{"entity": "country_code", "value": "GF"}
+- Número de casos nos EUA
+- Número de casos no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de casos na região sudeste
+- Número de casos na região sul
+- Número de casos na região norte
+- Número de casos na região nordeste
+- Número de casos na região centro-oeste
+- Número de casos na América Latina
+- Número de casos na América do Sul
+- Número de casos em São Paulo.
+- Número de casos no Rio de Janeiro
+- Número de casos em Manaus
+- Número de casos no Rio Grande do Sul
+- Número de casos em todo o mundo.
+- Número de casos confirmados
+- Cidades mais afetadas
+- Cidades com maior impacto
+- Estatísticas do [Território Indígena Britânico]{"entity": "country_code", "value": "IO"}
+- Estatísticas da [Pérsia]{"entity": "country_code", "value": "IR"}
+- Estatísticas.
+- Quais são os números reais.
+- A respeito da [India]{"entity": "country_code", "value": "IN"}
+- Com relação a [India]{"entity": "country_code", "value": "IN"}
+- Quais são as últimas estatísticas sobre o coronavírus?
+- Qual é o número de casos?
+- Qual é o número de casos confirmados?
+- Qual país tem o maior número de casos?
+- Quantas pessoas estão infectadas no [Mundo]{"entity": "world_region", "value": "World"}
+- você pode fornecer estatísticas?
+- você pode falar sobre a situação atual no [Mundo]{"entity": "world_region", "value": "World"}
+- números atuais
+- números atualizados
+- situação global
+- estatísticas sobre covid-19
+- estatisticas sobre o coronavirus
+- estatisticas sobre o corona
+- estatisticas sobre o covid19
+- estatísticas sobre covid2019
+- como está a situação neste momento em [Portugal]{"entity": "country_code", "value": "PT"}?
+- como está a situação no [Brasil]{"entity": "country_code", "value": "BR"}?
+- Como está a situação neste momento?
+- quantos casos confirmados por aí?
+- quantos casos existem por aí?
+- estatísticas sobre mortalidade
+- estatísticas hoje para [República da Moldávia]{"entity": "country_code", "value": "MD"}
+- fale sobre os números
+- qual é a situação no [Mundo]{"entity": "world_region", "value": "World"}?
+- qual é o estado atual?
+- onde o vírus é mais predominante?
+- onde o vírus é mais prevalente?
+- onde o vírus é mais persistente?
+- onde o vírus é mais resistente?
+- onde o vírus sobrevive mais?
+- qual é o país mais afetado?
+- [Mundo]{"entity": "world_region", "value": "World"} situação Mundial
 
 ## intent:covid_situation_deaths
-- What is the death rate
-- Deaths in [Africa](world_region:Africa)
-- Deaths in [Antarctic continent](world_region:Antarctic)
-- Deaths in [Oceania](world_region:Oceania)
-- Death toll
-- Deaths in [Northern Ireland](country_code:GB)
-- Deaths in [Great Britain](country_code:GB)
-- Number of deaths
-- Number of deaths in [Republic of Ghana](country_code:GH)
-- Number of deaths in [Hong Kong](country_code:HK)
-- Number of deaths worldwide.
-- what is the death count?
-- death in [germany](country_code:DE)
-- What is the number of deaths in [North Korea](country_code:KP).
-- What is the number of deaths in [Sri Lanka](country_code:LK).
-- What is the number of deaths?
-- how many people died
-- how many people died during the spread
-- how many deaths globaly
-- how many deaths?
-- Deaths in [Europe](world_region:Europe)
-- How many deaths are in [Asia](world_region:Asia)
-- Deaths in [Africa continent](world_region:Africa)
-- Deaths in [Antarctic](world_region:Antarctic)
-- How many died in the [Globe](world_region: World)?
-- Deaths in [Oceania](world_region:Oceania)
-- how many [Covid 19](virus:COVID)  death cases in [America continent](world_region:America)?
-- Deaths in [Cambodia](country_code:KH).
-- How many deaths are in [República da Indonésia](country_code:ID)?
-- How many deaths can you count in the [Druk Gyal Khap](country_code:BT) alone?
-- How many deaths in [Republic of Namibia](country_code:NA)?
-- How many died in [Luxemburg](country_code:LU)?
-- How many people died in [Bailliage dé Jèrri](country_code:JE)?
-- Number of deaths [Maurícia](country_code:MU).
-- Number of deaths in [Kıbrıs Cumhuriyeti](country_code:CY)?
-- how many [Covid 19](virus:COVID)  death cases in [Republic of Armenia](country_code:AM)?
+- Qual é a taxa de mortalidade
+- qual o número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Mortes na [África]{"entity": "world_region", "value": "Africa"}
+- Mortes no [continente antártico]{"entity": "world_region", "value": "Antarctic"}
+- Mortes na [Oceania]{"entity": "world_region", "value": "Oceania"}
+- Pedágio de morte
+- Mortes em [Irlanda do Norte]{"entity": "country_code", "value": "GB"}
+- Mortes em [Grã Bretanha]{"entity": "country_code", "value": "GB"}
+- Mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes
+- Número de mortes no [Brasil]{"entity": "country_code", "value": "BR"}
+- Número de mortes em [República de Gana]{"entity": "country_code", "value": "GH"}
+- Número de mortes em [Hong Kong]{"entity": "country_code", "value": "HK"}
+- Número de mortes em todo o mundo.
+- Número de mortes no mundo todo
+- qual é a número de mortes?
+- mortes na [alemanha]{"entity": "country_code", "value": "DE"}
+- Qual é o número de mortes na [Coreia do Norte]{"entity": "country_code", "value": "KP"}.
+- Qual é o número de mortes em [Sri Lanka]{"entity": "country_code", "value": "LK"}.
+- Qual é o número de mortes?
+- Quantas pessoas morreram
+- Quantas pessoas morreram durante a propagação
+- Quantas mortes no mundo
+- Quantas mortes?
+- Mortes na [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantas mortes há na [Ásia]{"entity": "world_region", "value": "Asia"}
+- Mortes no [continente Africano]{"entity": "world_region", "value": "Africa"}
+- Mortes na [Antártica]{"entity": "country_code", "value": "AQ"}
+- Quantos morreram no [Globo]{"entity": "world_region", "value": "World"}?
+- Quantos morreram no [Mundo]{"entity": "world_region", "value": "World"}?
+- Mortes em [Oceania]{"entity": "world_region", "value": "Oceania"}
+- quantos casos de morte [Covid 19]{"entity": "virus", "value": "COVID"} no [continente americano]{"entity": "world_region", "value": "America"}?
+- Mortes em [Camboja]{"entity": "country_code", "value": "KH"}.
+- Quantas mortes há em [República da Indonésia]{"entity": "country_code", "value": "ID"}?
+- Quantas mortes você pode contar somente no [Druk Gyal Khap]{"entity": "country_code", "value": "BT"}?
+- Quantas mortes em [República da Namíbia]{"entity": "country_code", "value": "NA"}?
+- Quantos morreram em [Luxemburgo]{"entity": "country_code", "value": "LU"}?
+- Quantas pessoas morreram em [Bailliage dé Jèrri]{"entity": "country_code", "value": "JE"}?
+- Número de mortes [Maurícia]{"entity": "country_code", "value": "MU"}.
+- Número de mortes em [Kıbrıs Cumhuriyeti]{"entity": "country_code", "value": "CY"}?
+- quantos casos de morte [Covid 19]{"entity": "virus", "value": "COVID"} na [República da Armênia]{"entity": "country_code", "value": "AM"}?
 
 ## intent:covid_situation_infected
-- What is the number of infected?
-- How much infects are counted in [World](world_region:World)?
-- How much infects are counted in [America continent](world_region:America)?
-- How many infections are there worldwide?
-- How many people have been infected?
-- How much infects are counted in [Germany](country_code:DE)?
-- Infected count
-- Number of infected
-- Number of infected in [State of Israel](country_code:IL).
-- Number of infected in [Republic of India](country_code:IN).
-- how many people are infected in all [World](world_region:World)
-- How many active cases are in [Europe](world_region:Europe)
-- How many infected are in [Asia](world_region:Asia)
-- How many active cases are in [Africa continent](world_region:Africa)
-- How many infected are in [Antarctic](world_region:Antarctic)
-- how many positive cases do we have in [Globe](world_region: World)?
-- how many positive cases do we have in [Oceania](world_region:Oceania)
-- How many active cases of covid in [America continent](world_region:America)?
-- Active cases in [Malaysia](country_code:MY).
-- How many active cases are in [Rippabliikii Federaalawaa Dimokraatawaa Itiyoophiyaa](country_code:ET)?
-- How many active cases in [Hungria](country_code:HU)?
-- How many active cases of covid in [Eesti](country_code:EE)?
-- How many infected are in [Republic of Moldova](country_code:MD)?
-- How many infected in [Keeling Islands](country_code:CC)?
-- How many people are infected in [Republik Singapura](country_code:SG) to this date?
-- How many people are infected in [Republica Democrática da Argélia](country_code:DZ)?
-- how many positive cases do we have in [Região Administrativa de Macau](country_code:MO)
+- Qual é o número de infectados?
+- Quantos infectados existem no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos infectados existem no [continente americano]{"entity": "world_region", "value": "America"}?
+- Quantas infecções existem em todo o mundo?
+- quantas pessoas infectadas existem em todo o mundo?
+- Quantas pessoas foram infectadas?
+- Quantos infectados são resgistrados na [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Contagem de infectados
+- Número de infectados
+- Número de infectados em [Estado de Israel]{"entity": "country_code", "value": "IL"}.
+- Número de infectados em [Índia]{"entity": "country_code", "value": "IN"}.
+- quantas pessoas estão infectadas em todo [Mundo]{"entity": "world_region", "value": "World"}
+- Quantos casos ativos estão em [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantos infectados estão na [Ásia]{"entity": "world_region", "value": "Asia"}
+- Quantos casos ativos estão em [continente africano]{"entity": "world_region", "value": "Africa"}
+- Quantos infectados estão em [Antarctic]{"entity": "world_region", "value": "Antarctic"}
+- quantos casos positivos temos no [Globo]{"entity": "world_region", "value": "World"}?
+- quantos casos positivos temos em [Oceania]{"entity": "world_region", "value": "Oceania"}
+- Quantos casos ativos de covid no [continente americano]{"entity": "world_region", "value": "America"}?
+- Casos ativos em [Malásia]{"entity": "country_code", "value": "MY"}.
+- Quantos casos ativos estão em [Rippabliikii Federaalawaa Dimokraatawa Itiyoophiyaa]{"entity": "country_code", "value": "ET"}?
+- Quantos casos ativos em [Hungria]{"entity": "country_code", "value": "HU"}?
+- Quantos casos ativos de covid em [Eesti]{"entity": "country_code", "value": "EE"}?
+- Quantos infectados estão em [República da Moldávia]{"entity": "country_code", "value": "MD"}?
+- Quantos infectados em [Ilhas Keeling]{"entity": "country_code", "value": "CC"}?
+- Quantas pessoas estão infectadas em [Republik Singapura]{"entity": "country_code", "value": "SG"} até esta data?
+- Quantas pessoas estão infectadas na [Republica Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
+- quantos casos positivos temos na [Região Administrativa de Macau]{"entity": "country_code", "value": "MO"}
 
-## intent:covid_situation_infected_critical
-- Critical cases in [Europe](world_region:Europe)
-- Critically infected in [Asia](world_region:Asia)
-- How many critically infected in [Africa continent](world_region:Africa)
-- How many people in critical state in [Antarctic](world_region:Antarctic)
-- How many critically infected in the [World](world_region: World)?
-- Critically infected in [Oceania](world_region:Oceania)
-- Critical cases in [America continent](world_region:America)?
-- Critical cases in [Federal Democratic Republic of Nepal](country_code:NP).
-- Critical in [Chad](country_code:TD).
-- Critical state [República da Geórgia](country_code:GE).
-- Critical state in [Republica do Afeganistão](country_code:AF)?
-- Critically infected in [Palaos](country_code:PW)?
-- Hoe many critically infected in [Republika ng Pilipinas](country_code:PH)?
-- How many critical are in [Curaçau](country_code:CW)?
-- How many critical cases are in [Republic of Yemen](country_code:YE)?
-- How many critical cases in [Russian Federation](country_code:RU)?
-- How many critically infected in [Bosna i Hercegovina](country_code:BA)?
-- How many people are in a critical state [Democratic Republic of Algeria](country_code:DZ)?
-- How many people are in a critical state in [British Indian Ocean Territory](country_code:IO)?
-- How many people in critical state in [Saint Vincent](country_code:VC)?
-- Infected in critical state in [Република Северна Македонија](country_code:MK).
-- People in critical case in [Eswatini](country_code:SZ).
-- People in critical state in [Reino da Espanha](country_code:ES).
-- how many seriously infected people there in the [Nigeria](country_code:NG)?
+## intent:covid_situation_infected_infected_critical
+- Casos críticos na [Europa]{"entity": "world_region", "value": "Europe"}
+- infectados criticos em [Ásia]{"entity": "world_region", "value": "Asia"}
+- Quantos infectados em estado crítico no [continente africano]{"entity": "world_region", "value": "Africa"}
+- Quantas pessoas em estado crítico na [Antártica]{"entity": "country_code", "value": "AQ"}
+- Quantos criticamente infectados no [Mundo]{"entity": "world_region", "value": "World"}?
+- Criticamente infectados em [Oceania]{"entity": "world_region", "value": "Oceania"}
+- Casos críticos no [continente americano]{"entity": "world_region", "value": "America"}?
+- Casos críticos em [República Democrática Federal do Nepal]{"entity": "country_code", "value": "NP"}.
+- Crítico em [Chad]{"entity": "country_code", "value": "TD"}.
+- Estado crítico [República da Geórgia]{"entity": "country_code", "value": "GE"}.
+- Estado crítico na [Republica do Afeganistão]{"entity": "country_code", "value": "AF"}?
+- casos de ifectados críticos em Palaos]{"entity": "country_code", "value": "PW"}?
+- Acha que há muitos infectados criticos Filipinas]{"entity": "country_code", "value": "PH"}?
+- Quantos críticos estão em [Curaçau]{"entity": "country_code", "value": "CW"}?
+- Quantos casos críticos existem em [República do Iêmen]{"entity": "country_code", "value": "YE"}?
+- Quantos casos críticos em [Federação Russa]{"entity": "country_code", "value": "RU"}?
+- Quantos criticamente infectados em [Bosnia e Herzegovina]{"entity": "country_code", "value": "BA"}?
+- Quantas pessoas estão em estado crítico [República Democrática da Argélia]{"entity": "country_code", "value": "DZ"}?
+- Quantas pessoas estão em estado crítico no [Território Britânico do Oceano Índico]{"entity": "country_code", "value": "IO"}?
+- Quantas pessoas em estado crítico em [São Vicente]{"entity": "country_code", "value": "VC"}?
+- Infectado em estado crítico em [Republica da Macedônia do Norte]{"entity": "country_code", "value": "MK"}.
+- Pessoas em casos críticos em [Suazilândia]{"entity": "country_code", "value": "SZ"}.
+- Pessoas em estado crítico na [Espanha]{"entity": "country_code", "value": "ES"}.
+- quantas pessoas seriamente infectadas na [Nigéria]{"entity": "country_code", "value": "NG"}?
 
 ## intent:covid_situation_last_update
-- Actualized data in [Europe community](world_region:Europe)
-- How many infected and deaths in [Asia region](world_region:Asia)
-- Last data of deaths in [Africa](world_region:Africa)
-- Last update on infected in [Antarctic](world_region:Antarctic)
-- Last data of deaths in [World](world_region: World)?
-- How many infected and deaths in [Oceania region](world_region:Oceania)
-- Actualized data in [America continent](world_region:America)?
-- [Holy See (Vatican City State)](country_code:VA) cases and deaths
-- Actualized data in [República Malgaxe](country_code:MG).
-- Cases actualization.
-- Cases update as of today.
-- How many infected and deaths in [Magyarország](country_code:HU).
-- How many infected in [United Kingdom of Great Britain and Northern Ireland](country_code:GB) to this date.
-- Last actualization in [Ethiopia](country_code:ET).
-- Last actualization of infected in [República Oriental del Uruguay](country_code:UY).
-- Last actualization of infected.
-- Last data of deaths in [Tunisie](country_code:TN).
-- Last update in [Ukraine](country_code:UA).
-- Last update of deaths in [Lietuva](country_code:LT).
-- Last update on infected in [Србија](country_code:RS).
-- Latest reports in [Pukchosŏn](country_code:KP).
-- New cases and deaths in [República da União de Myanmar](country_code:MM).
-- New cases in [Letónia](country_code:LV).
-- Tell me about coronavirus in [Gabon](country_code:GA)?
-- Today data in [República do Gana](country_code:GH).
-- Today update in [Ilhas Feroe](country_code:FO).
-- Today’s data in [República Checa](country_code:CZ).
-- Today’s update in [United Kingdom of Great Britain and Northern Ireland](country_code:GB).
-- What are todays values for [Bosnia–Herzegovina](country_code:BA)
-- i would like to know the current numbers of [Ceilão](country_code:LK)
-- situation in [República de Malta](country_code:MT)
+- Dados atualizados na [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantos infectados e mortos na [Ásia]{"entity": "world_region", "value": "Asia"}
+- Últimos dados de mortes em [África]{"entity": "world_region", "value": "Africa"}
+- Última atualização sobre infectados em [Antartica]{"entity": "world_region", "value": "Antarctic"}
+- Últimos dados de mortes no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos infectados e mortos na [região da Oceania]{"entity": "world_region", "value": "Oceania"}
+- Dados atualizados no [continente americano]{"entity": "world_region", "value": "America"}?
+- [Santa Sé]{"entity": "country_code", "value": "VA"} casos e mortes (Estado da Cidade do Vaticano)
+- [Estado da Cidade do Vaticano]{"entity": "country_code", "value": "VA"} casos e mortes
+- Dados atualizados em [República Malgaxe]{"entity": "country_code", "value": "MG"}.
+- Atualização de casos.
+- Atualização de casos de hoje.
+- Quantos infectados e mortos em [Hungria]{"entity": "country_code", "value": "HU"}.
+- Quantos infectados no [Reino Unido da Grã-Bretanha e Irlanda do Norte]{"entity": "country_code", "value": "GB"} até esta data.
+- Última atualização em [Etiópia]{"entity": "country_code", "value": "ET"}.
+- Última atualização dos infectados em [República Oriental do Uruguai]{"entity": "country_code", "value": "UY"}.
+- Última atualização dos infectados.
+- Últimos dados de mortes na [Tunisia]{"entity": "country_code", "value": "TN"}.
+- Última atualização na  [Ucrânia]{"entity": "country_code", "value": "UA"}.
+- Última atualização das mortes em [Lituânia]{"entity": "country_code", "value": "LT"}.
+- Última atualização sobre infectados em [Servia]{"entity": "country_code", "value": "RS"}.
+- Últimos relatórios em [Polônia]{"entity": "country_code", "value": "PL"}.
+- Novos casos e mortes em [República da União de Myanmar]{"entity": "country_code", "value": "MM"}.
+- Novos casos em [Letônia]{"entity": "country_code", "value": "LV"}.
+- Comentar sobre o coronavírus no [Gabão]{"entity": "country_code", "value": "GA"}?
+- Dados de hoje em [República do Gana]{"entity": "country_code", "value": "GH"}.
+- Atualizado hoje em [Ilhas Faroe]{"entity": "country_code", "value": "FO"}.
+- Dados de hoje em [República Checa]{"entity": "country_code", "value": "CZ"}.
+- Atualização de hoje em [Reino Unido da Grã-Bretanha e Irlanda do Norte]{"entity": "country_code", "value": "GB"}.
+- Quais são os números de hoje para [Bósnia-Herzegovina]{"entity": "country_code", "value": "BA"}
+- gostaria de saber os números atuais do [Ceilão]{"entity": "country_code", "value": "LK"}
+- situação em [República de Malta]{"entity": "country_code", "value": "MT"}
 
 ## intent:covid_situation_recovered
-- How many have recovered in [Europe community](world_region:Europe)
-- How many recoveries to this date in [Asia region](world_region:Asia)
-- Recovered [Africa](world_region:Africa)
-- Recovered in [Antarctic](world_region:Antarctic)
-- Recovered of covid in [World](world_region: World)?
-- How many have recovered in [Oceania region](world_region:Oceania)
-- How many recoveries to this date in [America continent](world_region:America)?
-- [República da Bielorrússia](country_code:BY) recoveries.
-- How many have recovered in [Reino de Espanha](country_code:ES)?
-- How many people have recorvered in [Saint Kitts and Nevis](country_code:KN)?
-- How many people recovered in [Germany](country_code:DE)?
-- How many recovered in [Hayti](country_code:HT)?
-- How many recoveries in [Tobago](country_code:TT)?
-- How many recoveries to this date in [Burquina Fasso](country_code:BF)?
-- Number of recovered in [Российская Федерация](country_code:RU).
-- Number of recoveries in [República de Costa Rica](country_code:CR).
-- Recovered [Ikwadur Ripuwlika](country_code:EC).
-- Recovered in [Burúndi](country_code:BI).
-- Recovered of covid in [Gâmbia](country_code:GM).
-- Recoveries in [Latvija](country_code:LV).
-- Recoveries of covid in [Pitcairn](country_code:PN).
-- Total number of recoveries in [Suomen tasavalta](country_code:FI).
-- how many recovered there are in [country of Bengal](country_code:BD)?
+- Quantos se recuperaram na [comunidade Europeia]{"entity": "world_region", "value": "Europe"}
+- Quantas recuperações até hoje na [região da Ásia]{"entity": "world_region", "value": "Asia"}
+- Recuperados [África]{"entity": "world_region", "value": "Africa"}
+- Recuperados em [Antártida]{"entity": "country_code", "value": "AQ"}
+- Recuperados da covid no [Mundo]{"entity": "world_region", "value": "World"}?
+- Quantos se recuperaram na [região da Oceania]{"entity": "world_region", "value": "Oceania"}
+- Quantas recuperações até esta data no [continente americano]{"entity": "world_region", "value": "America"}?
+- Recuperados na [República da Bielorrússia]{"entity": "country_code", "value": "BY"}
+- Quantos se recuperaram em [Reino de Espanha]{"entity": "country_code", "value": "ES"}?
+- Quantas pessoas já registrados em [Saint Kitts e Nevis]{"entity": "country_code", "value": "KN"}?
+- Quantas pessoas se recuperaram na [Alemanha]{"entity": "country_code", "value": "DE"}?
+- Quantos recuperados no [Haiti]{"entity": "country_code", "value": "HT"}?
+- Quantas recuperações em [Tobago]{"entity": "country_code", "value": "TT"}?
+- Quantas recuperações até esta data em [Burquina Fasso]{"entity": "country_code", "value": "BF"}?
+- Número de recuperados em [Federação Russa]{"entity": "country_code", "value": "RU"}.
+- Número de recuperações em [República de Costa Rica]{"entity": "country_code", "value": "CR"}.
+- Recuperados em  [Republica Equatorial]{"entity": "country_code", "value": "EC"}.
+- Recuperados em [Burúndi]{"entity": "country_code", "value": "BI"}.
+- Recuperados de covid em [Gâmbia]{"entity": "country_code", "value": "GM"}.
+- Recuperações em [Letônia]{"entity": "country_code", "value": "LV"}.
+- Recuperações de covid em [Ilhas Picárnia]{"entity": "country_code", "value": "PN"}.
+- Número total de recuperações em [Suomen tasavalta]{"entity": "country_code", "value": "FI"}.
+- quantos recuperados existem em [país de Bengala]{"entity": "country_code", "value": "BD"}?
 
 ## intent:covid_situation_tested
-- Total number of tested in [Europe community](world_region:Europe)
-- How many tested in [Asia region](world_region:Asia)
-- Tests in [Africa](world_region:Africa)
-- Tests in [Antarctic](world_region:Antarctic)
-- how many tests were done in [World](world_region: World)?
-- How many tested in [Oceania region](world_region:Oceania)
-- Total number of tested in [America continent](world_region:America)?
-- [Lesotho](country_code:LS) tested.
-- [République de Côte d'Ivoire](country_code:CI) tests.
-- How many in [Serra Leoa](country_code:SL) were tested?
-- How many people in [Tonga](country_code:TO) were tested?
-- How many people was tested in [Uruguay](country_code:UY)?
-- How many people were tested in [EUM](country_code:MX)?
-- How many tested [República da Gâmbia](country_code:GM)?
-- How many tested are in [Al-Mamlakah al-’Urdunniyyah Al-Hāshimiyyah](country_code:JO)?
-- How many tested in [Република Србија](country_code:RS)?
-- How many tests in [Ilhas Caimão](country_code:KY)?
-- How many tests were made [Sudan](country_code:SD)?
-- How many were tested in [Táiwān shěng](country_code:TW)?
-- Tested in [São Bartolomeu](country_code:BL).
-- Tests in [República da Macedônia do Norte](country_code:MK)
-- Total number of tested in [Puleʻanga Fakatuʻi ʻo Tonga](country_code:TO).
-- Total number of tests made in [Kıbrıs Cumhuriyeti](country_code:CY).
-- Total tested in [Cidade-Estado do Vaticano](country_code:VA).
-- Total tests in [Kingdom of Sweden](country_code:SE)?
-- What is the number of tested in [Lețmō Vabāmō](country_code:LV)?
-- how many tests were done in [Principado dos Vales de Andorra](country_code:AD)?
+- Número total de testes na [Europa]{"entity": "world_region", "value": "Europe"}
+- Quantos testados na [região da Ásia]{"entity": "world_region", "value": "Asia"}
+- Testes na [África]{"entity": "world_region", "value": "Africa"}
+- Testes na  [Antártida]{"entity": "country_code", "value": "AQ"}
+- quantos testes foram feitos em [World]{"entity": "world_region", "value": "World"}?
+- Quantos testados em [região da Oceania]{"entity": "world_region", "value": "Oceania"}
+- Número total de testes em [continente americano]{"entity": "world_region", "value": "America"}?
+- [Lesoto]{"entity": "country_code", "value": "LS"} testado.
+- República da Costa do Marfim]{"entity": "country_code", "value": "CI"} testes.
+- Quantos em [Serra Leoa]{"entity": "country_code", "value": "SL"} foram testados?
+- Quantas pessoas em [Tonga]{"entity": "country_code", "value": "TO"} foram testadas?
+- Quantas pessoas foram testadas no [Uruguai]{"entity": "country_code", "value": "UY"}?
+- Quantas pessoas foram testadas em [EUM]{"entity": "country_code", "value": "MX"}?
+- Quantos testados [República da Gâmbia]{"entity": "country_code", "value": "GM"}?
+- Quantos testes estão em [Al-Mamlakah al-'Urdunniyyah Al-Hāshimiyyah]{"entity": "country_code", "value": "JO"}?
+- Quantos testados em [Sérvia]{"entity": "country_code", "value": "RS"}?
+- Quantos testes em [Ilhas Caiman]{"entity": "country_code", "value": "KY"}?
+- Quantos testes foram feitos [Sudão]{"entity": "country_code", "value": "SD"}?
+- Quantos foram testados em [Taiwan]{"entity": "country_code", "value": "TW"}?
+- Testado em [São Bartolomeu]{"entity": "country_code", "value": "BL"}.
+- Testes em [República da Macedônia do Norte]{"entity": "country_code", "value": "MK"}
+- Número total de testes em [Tonga]{"entity": "country_code", "value": "TO"}.
+- Número total de testes realizados em [Kıbrıs Cumhuriyeti]{"entity": "country_code", "value": "CY"}.
+- Total testado no [Cidade do Vaticano]{"entity": "country_code", "value": "VA"}.
+- Total de testes na [Suécia]{"entity": "country_code", "value": "SE"}?
+- Qual é o número de testes em [Lețmō]{"entity": "country_code", "value": "LV"}?
+- quantos testes foram feitos em [Principado dos Vales de Andorra]{"entity": "country_code", "value": "AD"}?
 
 ## intent:covid_surfaces
-- Coronavirus durability on surfaces.
-- Coronavirus durability surfaces.
-- Coronavirus survival surfaces.
-- Durability of the SARS-Cov-2 on surfaces.
-- Durability of the coronavirus on surfaces.
-- Durability of the [novel coronavirus](virus:COVID) on surfaces.
-- Durability of the virus on surfaces.
-- For how long can the SARS-Cov-2 persist on surfaces?
-- For how long can the SARS-Cov-2 survive on surfaces?
-- For how long can the coronavirus persist on surfaces?
-- For how long can the coronavirus survive on surfaces?
-- For how long can the [novel coronavirus](virus:COVID) persist on surfaces?
-- For how long can the [novel coronavirus](virus:COVID) survive on surfaces?
-- For how long can the virus persist on surfaces?
-- For how long can the virus survive on surfaces?
-- Horn long it live on surfaces?
-- How long can it survive
-- How long can the virus survive
-- How long does the SARS-Cov-2 persist on surfaces?
-- How long does the SARS-Cov-2 survive on surfaces?
-- How long does the SARS-Cov-2 that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the SARS-Cov-2 that causes [COVID-19](virus:COVID) survives on surfaces?
-- How long does the coronavirus persist on surfaces?
-- How long does the coronavirus survive on surfaces?
-- How long does the coronavirus that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the coronavirus that causes [COVID-19](virus:COVID) survives on surfaces?
-- How long does the [novel coronavirus](virus:COVID) persist on surfaces?
-- How long does the [novel coronavirus](virus:COVID) survive on surfaces?
-- How long does the [novel coronavirus](virus:COVID) that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the [novel coronavirus](virus:COVID) that causes [COVID-19](virus:COVID) survives on surfaces?
-- How long does the virus persist on surfaces?
-- How long does the virus survive on surfaces?
-- How long does the virus that causes [COVID-19](virus:COVID) persist on surfaces?
-- How long does the virus that causes [COVID-19](virus:COVID) survives on surfaces?
-- How long may coronavirus persist on surfaces?
-- How long may coronavirus survive on surfaces?
-- How long may the SARS-Cov-2 persist on surfaces?
-- How long may the SARS-Cov-2 survive on surfaces?
-- How long may the coronavirus persist on surfaces?
-- How long may the coronavirus survive on surfaces?
-- How long may the [novel coronavirus](virus:COVID) persist on surfaces?
-- How long may the [novel coronavirus](virus:COVID) survive on surfaces?
-- How long may the virus persist on surfaces?
-- How long may the virus survive on surfaces?
-- How long the SARS-Cov-2 persist on surfaces?
-- How long the SARS-Cov-2 survive on surfaces?
-- How long the coronavirus persist on surfaces?
-- How long the coronavirus survive on surfaces?
-- How long the [novel coronavirus](virus:COVID) persist on surfaces?
-- How long the [novel coronavirus](virus:COVID) survive on surfaces?
-- How long the virus persist on surfaces?
-- How long the virus survive on surfaces?
-- Novel coronavirus durability on surfaces.
-- Novel coronavirus durability surfaces.
-- Novel coronavirus survival surfaces.
-- SARS-Cov-2 durability on surfaces.
-- SARS-Cov-2 durability surfaces.
-- SARS-Cov-2 survival surfaces.
-- Surfaces survival.
-- Virus durability on surfaces.
-- Virus durability surfaces.
-- Virus survival surfaces.
-- does the virus survive on surfaces?
-- for how long can the virus survive in a plastic surface?
-- for how many hours does the virus survive on surfaces?
+- Durabilidade do Coronavirus em superfícies.
+- Resistência do Coronavirus em superfícies
+- Superfícies de durabilidade do Coronavirus.
+- Sobrevivência do Coronavírus em superfícies.
+- Durabilidade do coronavírus em superfícies.
+- Durabilidade do [novo coronavírus]{"entity": "virus", "value": "COVID"} em superfícies.
+- Durabilidade do vírus em superfícies.
+- Por quanto tempo a SAR-Cov-2 pode persistir em superfícies?
+- Por quanto tempo o SAR-Cov-2 pode sobreviver em superfícies?
+- Por quanto tempo o coronavírus pode persistir em superfícies?
+- Por quanto tempo o coronavírus pode sobreviver em superfícies?
+- Por quanto tempo o coronavírus pode resistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode persistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode sobreviver em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode resistir em superfícies?
+- Por quanto tempo o vírus pode persistir em superfícies?
+- Por quanto tempo o vírus pode sobreviver em superfícies?
+- Buzina viva em superfícies?
+- Quanto tempo ele pode sobreviver
+- Quanto tempo o vírus pode sobreviver
+- Quanto tempo a SARS-Cov-2 persiste em superfícies?
+- Quanto tempo o SARS-Cov-2 sobrevive em superfícies?
+- Quanto tempo o SARS-Cov-2 resiste em superfícies?
+- Quanto tempo a SARS-Cov-2 que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o SARS-Cov-2 que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o SARS-Cov-2 que causa [COVID-19]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o coronavírus persiste nas superfícies?
+- Quanto tempo o coronavírus sobrevive em superfícies?
+- Quanto tempo o coronavírus resiste em superfícies?
+- Quanto tempo o coronavírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste nas superfícies?
+- Quanto tempo o coronavírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o coronavírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} persiste nas superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o [novel coronavirus]{"entity": "virus", "value": "COVID"} que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o [novel coronavirus]{"entity": "virus", "value": "COVID"} que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novel coronavirus]{"entity": "virus", "value": "COVID"} que causa [COVID-19]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Quanto tempo o vírus persiste nas superfícies?
+- Quanto tempo o vírus sobrevive em superfícies?
+- Quanto tempo o vírus resiste em superfícies?
+- Por quanto tempo o vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Por quanto tempo o coronavírus pode persistir em superfícies?
+- Quanto tempo o coronavírus pode sobreviver em superfícies?
+- Por quanto tempo a SAR-Cov-2 pode persistir em superfícies?
+- Quanto tempo o SAR-Cov-2 pode sobreviver em superfícies?
+- Quanto tempo o SAR-Cov-2 pode resistir em superfícies?
+- Por quanto tempo o coronavírus pode persistir em superfícies?
+- Por quanto tempo o coronavírus pode sobreviver em superfícies?
+- Por quanto tempo o coronavírus pode resistir em superfícies?
+- Por quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode persistir em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode sobreviver em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} pode resistir em superfícies?
+- Por quanto tempo o vírus pode persistir em superfícies?
+- Por quanto tempo o vírus pode sobreviver em superfícies?
+- Por quanto tempo o vírus pode resistir em superfícies?
+- Quanto tempo a SAR-Cov-2 persiste nas superfícies?
+- Quanto tempo o SAR-Cov-2 sobrevive em superfícies? 
+- Quanto tempo o SAR-Cov-2 resiste em superfícies?
+- Quanto tempo o coronavírus persiste em superfícies?
+- Quanto tempo o coronavírus sobrevive em superfícies?
+- Quanto tempo o coronavírus resiste em superfície?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} persiste em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} sobrevive em superfícies?
+- Quanto tempo o [novo coronavírus]{"entity": "virus", "value": "COVID"} resiste em superfícies?
+- Por quanto tempo o vírus persiste em superfícies?
+- Por quanto tempo o vírus sobrevive em superfícies?
+- Por quanto tempo o vírus resiste em superfícies?
+- durabilidade do novo coronavírus em superfícies.
+- superfícies de durabilidade do coronavírus.
+- sobrevivência em superfícies do novo coronavírus.
+- Durabilidade do SARS-Cov-2 em superfícies.
+- Superfícies de durabilidade do SARS-Cov-2.
+- Superfícies de sobrevivência da SAR-Cov-2.
+- superficies de sobrevivência.
+- superficies de resistência
+- Durabilidade do vírus em superfícies.
+- Superfícies de durabilidade de vírus.
+- Superfícies de sobrevivência dos vírus.
+- o vírus sobrevive em superfícies?
+- por quanto tempo o vírus pode sobreviver em uma superfície de plástico?
+- por quanto tempo o vírus pode resistir em uma superficie de plástico?
+- por quanto tempo o vírus pode sobreviver em uma superficie de vidro?
+- por quanto tempo o vírus pode resistir em uma superficie de vidro?
+- por quanto tempo o vírus pode resistir em uma superficie de metal?
+- por quanto tempo o vírus pode sobreviver em uma superficie de metal?
+- por quanto tempo o vírus pode sobreviver em uma superficie de madeira?
+- por quanto tempo o vírus pode resistir em uma superficie de madeira?
+- por quantas horas o vírus sobrevive em superfícies?
 
 ## intent:covid_symptoms
-- About the symptoms.
-- Am i having symptoms?
-- I am having light fever, cough and my body is kind of hurting. Is that a
-  symptom of [Covid-19](virus:COVID)?
-- I cannot taste my food
-- I have throat ache and a running nose. Do I have corona?
-- I want to know about the symptoms
-- Info about the symptoms.
-- Information about the symptoms.
-- Is fever a sign of infection?
-- On the symptoms.
-- Sign of infection.
-- Signs of infection.
-- Symptoms
-- Tell me do I have corona
-- The symptoms of [COVID-19](virus:COVID).
-- The symptoms of disease.
-- The symptoms of infection.
-- The symptoms.
-- What are the indication of coronavirus
-- What are the indications of coronavirus
-- What are the most common symptoms ?
-- What are the symptom
-- What are the symptoms of [COVID-19](virus:COVID)?
-- What are the symptoms of [COVID19](virus:COVID)?
-- What are the symptoms of disease?
-- What are the symptoms of infection?
-- What are the symptoms?
-- What might be signs of infection?
-- What might be symptoms of infection?
-- What might be the signs of infection?
-- What might be the symptoms of infection?
-- What symptoms appear?
-- What symptoms are related with the [COVID-19](virus:COVID)?
-- What symptoms are related with the disease?
-- What symptoms are related with the infection?
-- What symptoms should I look for?
-- Where can I find information about symptoms?
-- Which are the symptoms of [COVID-19](virus:COVID)?
-- Which are the symptoms of disease?
-- Which are the symptoms of infection?
-- Which are the symptoms?
-- Which might be signs of infection?
-- Which might be symptoms of infection?
-- Which might be the signs of infection?
-- Which might be the symptoms of infection?
-- Which symptoms appear?
-- Which symptoms are known about [Covid19](virus:COVID)?
-- Which symptoms are related with the [COVID-19](virus:COVID)?
-- Which symptoms are related with the disease?
-- Which symptoms are related with the infection?
-- Who catches the virus develop which symptoms?
-- Would you like to learn more about the effects of [COVID-19](virus:COVID)?
-- can I self diagnose?
-- can you tell me the synthoms?
-- cough
-- hi, what are the main symptoms?
-- how can I test myself
-- how do I know I have it
-- how is the cough like? dry=
-- i want to know if fever is a sintom
-- is the cough severe?
-- sympoms
-- symptomns
-- symptons
-- what about sore muscles
-- what are symptoms of covid-19
-- what are the main symptoms?
-- what if I my ears ache
-- what's is the syntoms?
+- Sobre os sintomas.
+- Quais são os sintomas?
+- Estou tendo sintomas?
+- Estou com febre leve, tosse e meu corpo está meio doendo. Isso é um sintoma de [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Eu estou com falta de ar, isso é um sintoma de [Covid-19]{"entity": "virus", "value": "COVID"}?
+- Eu não consigo sentir o gosto da minha comida.Eu tenho corona
+- Eu tenho dor de garganta e nariz correndo. Eu tenho corona?
+- Eu quero saber sobre os sintomas
+- Esclarecimentos dos sintomas
+- Informações sobre os sintomas.
+- Informações de sintomas.
+- A febre é um sinal de infecção?
+- Sobre os sintomas.
+- Sinal de infecção.
+- Sinais de infecção.
+- Sintomas de infecção
+- Eu tenho corona?
+- Será que eu tenho corona?
+- Quero saber se tenho corona
+- Os sintomas de [COVID-19]{"entity": "virus", "value": "COVID"}.
+- os sintomas do coronavírus
+- Os sintomas da doença.
+- Os sintomas da infecção.
+- Os sintomas.
+- Quais são as indicações de coronavírus?
+- Quais são as indicações de corona?
+- Quais são os sintomas mais comuns ?
+- Quais são os sintomas usuais?
+- Quais são os sintomas
+- Quais são os sintomas de [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são os sintomas de [COVID19]{"entity": "virus", "value": "COVID"}?
+- Quais são os sintomas da doença?
+- Quais são os sintomas da infecção?
+- Quais são os sintomas?
+- O que podem ser sinais de infecção?
+- Quais são as indicações da infecção?
+- Quais são os indicadores da infecção?
+- Quais podem ser os sintomas da infecção?
+- Quais podem ser os sinais de infecção?
+- Quais podem ser os sintomas da infecção?
+- Quais sintomas aparecem?
+- Que sintomas estão relacionados com o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que sintomas estão relacionados com o coronavirus?
+- Quais são os sintomas relacionados com a doença?
+- Quais são os sintomas relacionados com a infecção?
+- Quais são os sintomas relacionados com o coronavírus?
+- Que sintomas devo procurar?
+- Onde posso encontrar informações sobre os sintomas?
+- Onde posso tirar dúvidas sobre os sintomas?
+- Como posso esclarecer sobre os sintomas?
+- Quais são os sintomas de [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são os sintomas da doença?
+- Quais são os sintomas da infecção?
+- Quais são os sintomas?
+- Quais são os sintomas do covid19?
+- Quais são os sintomas do COVID-19?
+- Quais sçao os sintomas do COVID-2019?
+- Quais são os sintomas do COVID2019?
+- Quais podem ser os sinais de infecção?
+- Quais podem ser os sintomas de infecção?
+- Quais podem ser os sinais de infecção?
+- Quais podem ser os sintomas da infecção?
+- Quais podem ser os sintomas da doença?
+- Quais sintomas aparecem?
+- Quais sintomas surgem?
+- Quais sintomas são conhecidos sobre [Covid19]{"entity": "virus", "value": "COVID"}?
+- Quais sintomas são conhecidos sobre coronavírus?
+- Quais sintomas estão relacionados com o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais sintomas estão relacionados com a doença?
+- Quais sintomas estão relacionados com a infecção?
+- Quais sintomas estão relacionados com a covid?
+- quais sintomas estão relacionados com o coronavírus?
+- Quem pega o vírus desenvolve quais sintomas?
+- Quem tem o vírus desenvolve quais sintomas?
+- Você gostaria de saber mais sobre os efeitos do [COVID-19]{"entity": "virus", "value": "COVID"}?
+- posso me autodiagnosticar?
+- você pode me explicar a respeito dos sintetizadores?
+- tosse
+- oi, quais são os principais sintomas?
+- como posso me testar
+- como posso me diagnosticar?
+- como fazer o diagnóstico?
+- como eu sei que eu tenho isso
+- como é a tosse?
+- seca
+- eu quero saber se a febre é um sintoma
+- a tosse é grave?
+- simpatizantes
+- sintomas?
+- E os músculos doloridos?
+- dor muscular
+- o que são sintomas da covid-19?
+- quais são os principais sintomas?
+- E se doer os meus ouvidos
+- e dor de ouvido
+- o que são os sintomas?
 
 ## intent:covid_treatment
-- Does Covid have a treatment?
-- How is the disease treated?
-- Is there a treatment?
-- Treatment
+- A Covid tem algum tratamento?
+- A covid-19 tem tratamento? 
+- A covid-2019 tem tratamento?
+- Como a doença é tratada?
+- Existe algum tratamento?
+- Tratamento
+- onde me tratar?
+- como me tratar?
+- quando me tratar?
+- o coronavirus tem tratamento?
 
 ## intent:covid_worry
-- And if I catch the virus?
-- Do you think am being silly I do worry
-- Hello Helen I am worry about the virus like everyone else. I had a runny nose
-  and eyes a cough but not constant. I have not been out out since Dec am I
-  worrying about nothing and being silly
-- How to proceed about concerns about the disease.
-- How to proceed about concerns about the outbreak.
-- How to proceed about concerns about the virus.
-- I am afraid that I catch corona
-- I feel bad
-- I'm sad
-- Is corona virus dangerous?
-- I’m afraid my family cat the virus.
-- I’m afraid of the virus.
-- I’m afraid to catch the virus.
-- I’m afraid.
-- I’m concerned about the disease.
-- I’m concerned about the outbreak.
-- I’m concerned about the virus.
-- I’m concerned.
-- I’m worried about the disease.
-- I’m worried about the outbreak.
-- I’m worried about the virus.
-- I’m worried.
-- Should I concern about [COVID-19](virus:COVID)?
-- Should I concern about the disease?
-- Should I concern about the outbreak?
-- Should I concern about the virus?
-- Should I worry about [COVID-19](virus:COVID)?
-- Should I worry about the disease?
-- Should I worry about the outbreak?
-- Should I worry about the virus?
-- What to do if I feel bad?
-- What to do to channel the concerns?
-- What to do to channel the fear?
-- What to do to channel the worry?
-- empathy
-- should I be concerned with the virus?
-- will I die
+- E se eu pegar o vírus?
+- e se eu pegar corona?
+- e se eu ficar doente?
+- e se eu tiver corona?
+- e se eu estiver com o virus?
+- e se eu tiver covid?
+- E se eu pegar o covid?
+- Você acha que estou sendo bobo, eu me preocupo?
+- você acha que estou exagerando?
+- Olá Helen, estou preocupado com o vírus como todo mundo. Eu estava com o nariz escorrendo e olhos lacrimejando,  uma tosse, mas não constante. Eu não saio desde dezembro.
+- não está sendo bobo , você deve se preocupar 
+- Como proceder em relação às preocupações com a doença.
+- Como proceder em relação às preocupações com o surto.
+- Como proceder em relação às preocupações com o vírus.
+- Como proceder em relação às preocupações com a propagação.
+- Eu tenho medo de pegar corona
+- Eu tenho medo de pegar covid
+- Eu tenho medo de pegar o vírus
+- eu tenho medo de ficar doente
+- Eu tenho medo de pegar COVID-19
+- Eu me sinto mal
+- Eu estou triste
+- O vírus corona é perigoso?
+- o covid é perigoso?
+- o covid-19 é perigoso?
+- o vírus é contagioso?
+- o covid é contagioso?
+- Temo que a minha família pegue o vírus.
+- Eu tenho medo do vírus.
+- Eu tenho medo de pegar o vírus.
+- Eu tenho medo.
+- Eu tenho medo do covid.
+- Eu estou preocupado com a doença.
+- Eu estou preocupado com o surto.
+- Eu estou preocupado com o vírus.
+- Eu estou preocupado com o corona.
+- Eu estou preocupado com o covid-19
+- Eu estou preocupado.
+- Eu estou preocupado com a doença.
+- Estou preocupada com o surto.
+- Eu estou preocupada com o vírus.
+- Estou preocupada.
+- Devo me preocupar com o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo me preocupar com a doença?
+- Devo me preocupar com o surto?
+- Devo me preocupar com o vírus?
+- Devo me preocupar com o corona?
+- Devo me preocupar com [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo me preocupar com a doença?
+- Devo me preocupar com o surto?
+- Devo me preocupar com o vírus? 
+- O que fazer se eu me sentir mal?
+- O que fazer para canalizar as preocupações?
+- O que fazer para canalizar o medo?
+- O que fazer para canalizar a preocupação?
+- o que fazer para controlar o medo?
+- o que fazer para administrar o medo?
+- o que fazer para gerenciar o medo?
+- empatia
+- compaixão
+- Devo me preocupar com o vírus?
+- eu vou morrer
 
 ## intent:economy_consequences
-- Can you answer questions economy related?
-- Economy
-- Economy consequences
-- What is the impact of this pandemic on the [World](world_region:World)'s economy?
+- Você pode responder perguntas relacionadas à economia?
+- Economia 
+- Consequências econômicas
+- impactos econômicos
+- Qual é o impacto desta pandemia na economia mundial 
+- qual é o impacto desta pandemia na economia do mundo [World]{"entity": "world_region", "value": "World"}?
 
 ## intent:features_date
-- Can you tell me the date of today?
-- Can you tell me the date?
-- Can you tell me the day of today?
-- Can you tell me the day?
-- Can you tell me today is what day?
-- Can you tell me today is which day?
-- Can you tell me today's date?
-- Can you tell me today's day?
-- Can you tell me what date is today?
-- Can you tell me what day is it?
-- Can you tell me what day is today
-- Can you tell me what day is today?
-- Can you tell me what is the date?
-- Can you tell me what today day is?
-- Can you tell me which day is it?
-- Can you tell me which day is today?
-- Can you tell me which is the date today?
-- Can you tell me which is the date?
-- Date.
-- Day of today.
-- Day today.
-- I do not know the date.
-- I don't know the date.
-- I want to know the date.
-- In what day are we?
-- Is what date?
-- Is what day?
-- Is which date?
-- Is which day?
-- Tell me the date of today.
-- Tell me the date.
-- Tell me the day of today.
-- Tell me the day.
-- Tell me today date.
-- Tell me today day.
-- Tell me today is what day.
-- Tell me today is which day.
-- Tell me today's day.
-- Tell me today’s date.
-- Tell me what date is today.
-- Tell me what day is it.
-- Tell me what day is today.
-- Tell me what is the date.
-- Tell me what today day is.
-- Tell me which day is it.
-- Tell me which day is today.
-- Tell me which is the date today.
-- Tell me which is the date.
-- Today date.
-- Today day.
-- Today is what date?
-- Today is what day?
-- Today is which date?
-- Today is which day?
-- Today's date.
-- Today's day.
-- What date is today?
-- What day is it?
-- What day is today?
-- What is the date?
-- What today day is?
-- Which day is it?
-- Which day is today?
-- Which is the date today?
-- Which is the date?
+- Você pode me falar a data de hoje?
+- Você pode me falar a data?
+- Você pode me falar o dia de hoje?
+- Você pode me falar o dia?
+- Você pode me falar que dia é hoje?
+- Você pode me falar hoje é que dia?
+- Você pode me dizer o encontro de hoje?
+- Você pode me dizer o dia de hoje?
+- Você pode me dizer qual é a data de hoje?
+- Você pode me dizer que dia é hoje?
+- Você pode me contar que dia é hoje?
+- que dia é hoje?
+- Você pode me dizer qual é a data?
+- Você pode me dizer qual é o dia de hoje?
+- Você pode me dizer qual é o dia?
+- Você pode me dizer qual é a data de hoje?
+- Você pode me dizer qual é a data?
+- Data.
+- Dia de hoje.
+- Data de hoje.
+- Eu não sei a data.
+- Eu não sei o dia.
+- Eu quero saber a data.
+- Em que dia nós estamos?
+- Qual é a data?
+- Que dia é hoje?
+- Qual é a data?
+- Qual é o dia?
+- Diga-me a data de hoje.
+- Diga-me a data.
+- Conte-me o dia de hoje.
+- Diga-me o dia.
+- Diga-me hoje é que dia.
+- Diga-me hoje estamos em que dia.
+- Diga-me o dia de hoje.
+- Diga-me a data de hoje.
+- Diga-me que data é hoje.
+- Diga-me que dia é hoje.
+- Diga-me qual é a data.
+- Diga-me qual é o dia de hoje.
+- Diga-me qual é o dia.
+- me fala qual é o data de hoje.
+- Diga-me qual é a data de hoje.
+- Diga-me qual é a data.
+- Data de hoje.
+- Hoje é que dia?
+- Que dia é hoje?
+- A data de hoje.
+- O dia de hoje.
+- Qual é a data de hoje?
 
 ## intent:features_time
-- Can you tell me the hours?
-- Can you tell me the time it is?
-- Can you tell me the time?
-- Can you tell me what are the hours?
-- Can you tell me what hours are now?
-- Can you tell me what is the time?
-- Can you tell me what time is it now?
-- Can you tell me what time is it?
-- Can you tell me what time is?
-- Can you tell me what time it is?
-- Can you tell me what's the time?
-- Can you tell me which hours are now?
-- Can you tell me which time is it?
-- Can you tell me which time it is?
-- Hours now.
-- Hours.
-- How is the clock?
-- I want to know the time it is.
-- I want to know the time.
-- I would like to know the time.
-- Please let me have the time.
-- Please tell me the time.
-- Tell me the hours.
-- Tell me the time, please.
-- Tell me the time.
-- Tell me what are the hours.
-- Tell me what hours are now.
-- Tell me what is the time.
-- Tell me what time is it now.
-- Tell me what time is it.
-- Tell me what time is.
-- Tell me what's the time.
-- Tell me which hours are now.
-- Tell me which time is it.
-- The time.
-- Time now.
-- Time.
-- What are the hours?
-- What hours are now?
-- What is the time?
-- What time is it now?
-- What time is it?
-- What time is?
-- What's the time?
-- Which hours are now?
-- Which time is it?
-- tell me what time it is.
+- Você pode me dizer as horas?
+- Você pode me dizer que horas são?
+- Você pode me falar as horas?
+- Você pode me dizer quais são as horas?
+- Você pode me dizer que horas são agora?
+- Você pode me dizer qual é a hora?
+- Você pode me dizer que horas são agora?
+- Você pode me dizer que horas são?
+- Você pode me falar que horas são?
+- Você pode me contar que horas são?
+- Você pode me dizer qual é a hora?
+- Você pode me contar que horas são agora?
+- Você pode me dizer que horas são?
+- Você pode me falar que horas são?
+- Horas agora.
+- Horas.
+- Como está o relógio?
+- Eu quero saber que horas são.
+- Eu quero saber as horas.
+- Eu gostaria de saber as horas.
+- Por favor, me dê um tempo.
+- Por favor, me diga as horas.
+- me conta as horas.
+- me diga as horas, por favor.
+- me diga as horas.
+- Me diga quais são as horas.
+- Me diga que horas são agora.
+- Me diga qual é a hora.
+- Me fala que horas são agora.
+- Me diga que horas são.
+- Conte-me que horas são.
+- Diga-me qual é a hora.
+- Diga-me quais são as horas agora.
+- me conta qual é a hora.
+- Quais são as horas?
+- Que horas são agora?
+- Qual é o horário?
+- Que horas tem agora?
+- Que horas são?
+- Que horas tem?
+- Qual é a hora?
+- Qual o horário agora?
+- me diga que horas são.
 
 ## intent:greeting_goodbye
-- Adieu.
-- Adios.
-- Au revoir.
-- Bye bye.
-- Bye now.
-- Bye.
-- Cya.
-- Farewell.
-- Going.
-- Good bye.
-- Good night.
-- Goodbye.
-- Got to go.
-- Got to run.
-- Have a nice day.
-- Have to go.
-- Have to leave.
-- Have to run.
-- I am going to sleep.
-- I have to go now.
-- I look forward to chatting you again.
-- I said goodbye.
-- I should be going.
-- I should go.
-- I'm gone.
-- I'm leaving.
-- It is nice to meet you.
-- It was nice talking to you.
-- I’m going.
-- Later.
-- Laters.
-- Logging off.
-- My time is up.
-- Need to go.
-- Need to leave.
-- Need to run.
-- Ok bye.
-- Over and out.
-- See you later alligator.
-- See you later.
-- See you soon.
-- See you tomorrow.
-- See you.
-- Shutdown.
-- Signing off.
-- Signing out.
-- So long.
-- Take care.
-- Talk to you soon.
-- Thanks bye bye.
-- That's it! Have a nice day!
-- Then bye.
-- Time to go.
-- that's it for today
+- Adeus.
+- Tchau tchau.
+- Agora tchau.
+- Tchau.
+- Até logo.
+- Boa tarde.
+- Indo.
+- Adeus.
+- Boa noite.
+- Tenho que ir.
+- Tenho que correr.
+- Tenha um bom dia.
+- Tenha um ótimo dia.
+- Tenho que andar.
+- Tenho que sair.
+- Tenho que correr.
+- Eu vou dormir.
+- Eu vou descansar.
+- Eu tenho que ir agora.
+- Estou ansioso para conversar com você novamente.
+- Te vejo na próxima.
+- Eu disse adeus.
+- Eu deveria ter ido.
+- Eu deveria ir.
+- Eu estou fora.
+- Estou indo embora.
+- É um prazer conhecê-lo.
+- Foi um prazer conversar com você.
+- Foi um prazer te conhecer.
+- Foi um prazer conhecer você.
+- Foi um prazer falar com você.
+- Eu estou indo.
+- Até mais tarde.
+- Saudações.
+- Abraços
+- Desconectando.
+- Desligando.
+- Meu tempo acabou.
+- Preciso ir.
+- Preciso sair.
+- Preciso correr.
+- Ok, tchau.
+- Câmbio e desligo.
+- Até logo, cara.
+- Nos vemos mais tarde.
+- Nos vemos em breve.
+- Vejo você amanhã.
+- Até amanhã
+- Até a próxima.
+- Concluído.
+- Concluindo
+- Desligando.
+- Saindo
+- Até mais.
+- Cuide-se.
+- Se cuida.
+- Falamos com você em breve.
+- É isso aí! Tenha um bom dia!
+- Então adeus.
+- Hora de ir.
+- é isso por hoje
+- Por hoje é só.
 
 ## intent:greeting_hello
-- Aloha!
-- Bonjour!
-- Call me buddy.
-- Ciao!
-- Get Started
-- Good Afternoon.
-- Good Day.
-- Good Evening.
-- Good Morning.
-- Good morning, Helen!
-- Greetings.
-- Hello Helen
-- Hello I am.
-- Hello bot.
-- Hello chatbot.
-- Hello robot.
-- Hello there
-- Hello you.
-- Hello!
-- Hello,  My name is goldee
-- Hello, Helen. Good afternoon.
-- Hello, my name is.
-- Hey bot.
-- Hey chatbot.
-- Hey robot.
-- Hey there!
-- Hey you.
-- Hey.
-- Hi Helen
-- Hi bot!
-- Hi friend !
-- Hi robot!
-- Hi there!
-- Hi!
-- Hi, I am.
-- Hi, I'm Paulo
-- Hi, my name is.
-- Howdy!
-- Morning!
-- My Name is .
-- Nice to meet you!
+- Oi amigo.
+- Comece
+- Começar
+- Vamos começar
+- Oi
+- Oi gente
+- Tudo bem?
+- Boa Tarde.
+- Boa noite.
+- Bom dia.
+- Bom dia, Helen!
+- Saudações.
+- Olá Helen
+- Olá, sou eu.
+- Olá chatbot.
+- Olá robô.
+- Olá
+- Olá você.
+- Olá!
+- Olá, meu nome é Goldee
+- Olá, Helen. Boa tarde.
+- Olá, meu nome é.
+- E aí bot.
+- E aí chatbot.
+- Ei robô.
+- Ei, você.
+- Ei.
+- Oi Helen
+- Olá bot!
+- Oi amigo!
+- Oi robô!
+- Oi!
+- Olá, sou eu.
+- Oi, eu sou Paulo
+- Olá, meu nome é.
+- Olá!
+- Bom dia!
+- Meu nome é 
+- Prazer em conhecê-lo!
+- Muito prazer
 - Shalom!
-- halo
-- hello Ellen
-- hello dude
-- hi Ellen
+- olá Ellen
+- Olá, cara
+- Oi Ellen
 
-## intent:greeting_how_are_you
-- Are you OK?
-- Are you doing alright?
-- Are you doing well?
-- Are you fine?
-- Good afternoon, Helen! How are you?
-- Have you been well?
-- Hello Helen! How are you?
-- Hello how are you doing
-- Hello, how are you?
-- Hi Helen! How you doing?
-- Hi there how are you
-- Hi, how are you?
-- How are things?
-- How are you dear
-- How are you doing today?
-- How are you doing?
-- How are you feeling today?
-- How are you feeling?
-- How are you my friend?
-- How are you this evening?
-- How are you today?
-- How are you?
-- How do you do?
-- How do you feel today?
-- How do you feel?
-- How has been your day?
-- How has your day been?
-- How's it going?
-- I hope you are well.
-- Is everything OK?
-- Is everything all right?
-- Is everything alright?
-- Just wanted to ask how you are today.
-- What is up?
-- What up
-- What's up?
-- Whats up?
-- are you
-- book how are you
-- hey how are you doing
-- how am i?
+## intent:greeting_how_how_are_you
+- Você está bem?
+- Você está indo bem?
+- Você está passando bem?
+- Você está bem?
+- Boa tarde, Helen! Como você está?
+- Você tem estado bem?
+- Como tem passado?
+- Olá Helen! Como você está?
+- Olá, como você está indo?
+- Olá, como você está?
+- Oi Helen! Como você está?
+- Olá, como você está?
+- Oi, como vai você?
+- Como vão as coisas?
+- Como você é querido?
+- Como você está se saindo hoje?
+- Como você está indo?
+- Como você está se sentindo hoje?
+- Como você está se sentindo?
+- Como vai você, meu amigo?
+- Como você está esta noite?
+- Como você está hoje?
+- Como você está?
+- Como está?
+- Como você se sente hoje?
+- Como se sente?
+- Como tem sido o seu dia?
+- Como está sendo seu dia?
+- Como está indo?
+- Espero que você esteja bem.
+- Está tudo bem?
+- Está bem?
+- Tudo bem?
+- Só queria perguntar como você está hoje.
+- O que está acontecendo?
+- E aí?
+- O que está acontecendo?
+- O que acontece?
+- Quem você é
+- Quem é você
+- Espere, como você está
+- ei, como você está indo
+- como eu estou?
 
 ## intent:mask_general
-- Can i wear a disposable mask?
-- Can i wear a mask?
-- Can i wear a medical mask?
-- Disposable disposable mask.
-- Disposable disposable masks.
-- Disposable mask.
-- Disposable masks.
-- Disposable medical mask.
-- Disposable medical masks.
-- How I can use mask?
-- Info disposable mask.
-- Info mask.
-- Info medical mask.
-- Is it ok to use mask?
-- Is it ok yto use mask?
-- Is it okay to wear mask
-- Mask.
-- Masks.
-- Medical disposable mask.
-- Medical disposable masks.
-- Medical mask.
-- Medical masks, as far as I know, are a part of preventive measures.
-- Medical masks.
-- Medical medical mask.
-- Medical medical masks.
-- Order masks
-- Should i wear a disposable mask to protect myself?
-- Should i wear a disposable mask?
-- Should i wear a mask to protect myself?
-- Should i wear a mask?
-- Should i wear a medical mask to protect myself?
-- Should i wear a medical mask?
-- What do you think about medical masks?
-- When can I use a mask?
-- When can i wear a disposable mask.
-- When can i wear a mask.
-- When can i wear a medical mask.
-- When should be used a disposable mask.
-- When should be used a mask.
-- When should be used a medical mask.
-- When should i wear a disposable mask?
-- When should i wear a mask?
-- When should i wear a medical mask?
-- Where May I buy masks
-- Who can wear a disposable mask?
-- Who can wear a mask?
-- Who can wear a medical mask?
-- Who should wear a disposable mask?
-- Who should wear a mask?
-- Who should wear a medical mask?
-- about masks
-- do masks help?
-- do medical masks help
-- how about masks?
-- masks prevention covid
-- should I use gloves?
-- should i use masks?
-- wearing a mask prevents covid?
-- what is the best face mask against corona
-- what mask prevents the virus?
-- when should I use a mask
-- when to use masks?
-- where can i get material to protect me?
+- Posso usar uma máscara descartável?
+- Posso usar uma máscara?
+- Posso usar uma máscara médica?
+- Máscara descartável.
+- Máscaras descartáveis.
+- Máscara reutilizável.
+- Máscaras descartáveis.
+- Máscara médica descartável.
+- Máscaras médicas descartáveis.
+- Como eu posso usar máscara?
+- Informação de Máscara descartável.
+- Máscara de informação.
+- Informação a respeito de Máscara médica.
+- É permitido o uso de máscara?
+- Está tudo bem usar máscara?
+- Não há problema em usar máscara
+- Máscara.
+- Máscaras.
+- Máscara médica descartável.
+- Máscaras médicas descartáveis.
+- Máscara médica.
+- As máscaras médicas, até onde eu sei, fazem parte das medidas preventivas.
+- Máscaras médicas.
+- Máscara médica.
+- Encomendar máscaras
+- Devo usar uma máscara descartável para me proteger?
+- Devo usar uma máscara descartável?
+- Devo usar uma máscara para me proteger?
+- Devo usar uma máscara?
+- Devo usar uma máscara médica para me proteger?
+- Devo usar uma máscara médica?
+- O que você acha de máscaras médicas?
+- Quando eu posso usar uma máscara?
+- Quando posso usar uma máscara descartável.
+- Quando posso usar uma máscara.
+- Quando posso usar uma máscara médica.
+- Quando deve ser usada uma máscara descartável.
+- Quando deve ser usada uma máscara.
+- Quando deve ser usada uma máscara médica.
+- Quando eu devo usar uma máscara descartável?
+- Quando eu devo usar uma máscara?
+- Quando eu devo usar uma máscara médica?
+- Onde posso comprar máscaras
+- Quem pode usar uma máscara descartável?
+- Quem pode usar uma máscara?
+- Quem pode usar uma máscara médica?
+- Quem deve usar uma máscara descartável?
+- Quem deve usar uma máscara?
+- Quem deve usar uma máscara médica?
+- sobre máscaras
+- as máscaras ajudam?
+- fazer máscaras médicas ajudam
+- Como usar máscaras?
+- Máscaras de prevenção da covid
+- Devo usar luvas?
+- devo usar máscaras?
+- usar uma máscara previne a covid?
+- qual é a melhor máscara facial contra o corona
+- qual máscara previne o vírus?
+- quando devo usar uma máscara
+- quando usar máscaras?
+- onde posso obter material para me proteger?
 
 ## intent:mask_use_after
-- After wearing a disposable mask.
-- After wearing a mask.
-- After wearing a medical mask.
-- Discarding a disposable mask.
-- Discarding a mask.
-- Discarding a medical mask.
-- Disposing a disposable mask.
-- Disposing a mask.
-- Disposing a medical mask.
-- Getting rid of a used disposable mask.
-- Getting rid of a used mask.
-- Getting rid of a used medical mask.
-- How to Dispose of a Mask
-- How to discard a disposable mask?
-- How to discard a mask?
-- How to discard a medical mask?
-- How to dispose a disposable mask?
-- How to dispose a mask?
-- How to dispose a medical mask?
-- How to dispose a used disposable mask?
-- How to dispose a used mask?
-- How to dispose a used medical mask?
-- How to proceed after using a disposable mask?
-- How to proceed after using a mask?
-- How to proceed after using a medical mask?
-- How too discard a used disposable mask?
-- How too discard a used mask?
-- How too discard a used medical mask?
-- What to do to a used disposable mask?
-- What to do to a used mask?
-- What to do to a used medical mask?
-- dispose
-- how to dispose it?
-- how to dispose the mask?
+- Depois de usar uma máscara descartável.
+- Depois de usar uma máscara.
+- Depois de usar uma máscara médica.
+- Descartando uma máscara descartável.
+- Descartando uma máscara.
+- Descartando uma máscara médica.
+- Descarte de uma máscara descartável.
+- Descarte de uma máscara.
+- Descarte de máscara médica.
+- Livrando-se de uma máscara descartável usada.
+- Livrando-se de uma máscara usada.
+- Livrando-se de uma máscara médica usada.
+- Como se desfazer de uma Máscara
+- Como descartar uma máscara descartável?
+- Como descartar uma máscara?
+- Como descartar uma máscara médica?
+- Como arrumar uma máscara descartável?
+- Como arrumar uma máscara?
+- Como arrumar uma máscara médica?
+- Como descartar uma máscara descartável usada?
+- Como arrumar uma máscara usada?
+- Como arrumar uma máscara médica usada?
+- Como proceder após o uso de uma máscara descartável?
+- Como proceder após o uso de uma máscara?
+- Como proceder após o uso de uma máscara médica?
+- Como descartar uma máscara descartável muito usada?
+- Como descartar uma máscara usada demais?
+- Como descartar uma máscara médica muito usada?
+- O que fazer com uma máscara descartável usada?
+- O que fazer com uma máscara usada?
+- O que fazer com uma máscara médica usada?
+- descartar
+- como descartá-la?
+- como descartar a máscara?
 
 ## intent:mask_use_put
-- Before putting on a disposable mask.
-- Before putting on a mask.
-- Before putting on a medical mask.
-- Before wearing a disposable mask.
-- Before wearing a mask.
-- Before wearing a medical mask.
-- How do you wear a mask?
-- How to place a disposable mask?
-- How to place a mask?
-- How to place a medical mask?
-- How to proceed before putting on a disposable mask?
-- How to proceed before putting on a mask?
-- How to proceed before putting on a medical mask?
-- How to proceed before wearing a disposable mask?
-- How to proceed before wearing a mask?
-- How to proceed before wearing a medical mask?
-- How to put a disposable mask on?
-- How to put a mask on?
-- How to put a medical mask on?
-- How to put on a disposable mask?
-- How to put on a mask?
-- How to put on a medical mask?
-- How to wear a disposable mask.
-- How to wear a mask.
-- How to wear a medical mask.
-- Placing a disposable mask.
-- Placing a mask.
-- Placing a medical mask.
-- Procedures before putting on a disposable mask.
-- Procedures before putting on a mask.
-- Procedures before putting on a medical mask.
-- Procedures before wearing a disposable mask.
-- Procedures before wearing a mask.
-- Procedures before wearing a medical mask.
-- Putting a disposable mask on.
-- Putting a disposable mask.
-- Putting a mask on.
-- Putting a mask.
-- Putting a medical mask on.
-- Putting a medical mask.
-- Putting on a disposable mask.
-- Putting on a mask.
-- Putting on a medical mask.
-- Wearing a disposable mask.
-- Wearing a mask.
-- Wearing a medical mask.
-- What to do before putting on a disposable mask?
-- What to do before putting on a mask?
-- What to do before putting on a medical mask?
-- What to do before wearing a disposable mask?
-- What to do before wearing a mask?
-- What to do before wearing a medical mask?
-- how mask
-- how should I wear a mask?
-- how to put a mask?
-- put on a mask
-- which is the correct way to use a mask?
+- Antes de colocar uma máscara descartável.
+- Antes de colocar uma máscara.
+- Antes de colocar uma máscara médica.
+- Antes de usar uma máscara descartável.
+- Antes de usar uma máscara.
+- Antes de usar uma máscara médica.
+- Como se usa uma máscara?
+- Como colocar uma máscara descartável?
+- Como colocar uma máscara?
+- Como colocar uma máscara médica?
+- Como proceder antes de colocar uma máscara descartável?
+- Como proceder antes de colocar uma máscara?
+- Como proceder antes de colocar uma máscara médica?
+- Como proceder antes de usar uma máscara descartável?
+- Como proceder antes de usar uma máscara?
+- Como proceder antes de usar uma máscara médica?
+- Como colocar uma máscara descartável?
+- Como colocar uma máscara?
+- Como colocar uma máscara médica?
+- Como colocar uma máscara descartável?
+- Como colocar máscara médica?
+- Como usar uma máscara descartável.
+- Como usar uma máscara.
+- Como usar uma máscara médica.
+- Colocação de uma máscara descartável.
+- Colocação de uma máscara.
+- Colocação de uma máscara médica.
+- Procedimentos antes de colocar uma máscara descartável.
+- Procedimentos antes de colocar uma máscara.
+- Procedimentos antes de colocar uma máscara médica.
+- Procedimentos antes de usar uma máscara descartável.
+- Procedimentos antes de usar uma máscara.
+- Procedimentos antes de usar uma máscara médica.
+- Colocando uma máscara descartável.
+- Como colocar uma máscara descartável.
+- Colocando uma máscara.
+- Como colocar uma máscara.
+- Colocando uma máscara médica.
+- Como colocar uma máscara médica.
+- Colocando uma máscara descartável.
+- Colocando uma máscara médica.
+- Usar uma máscara descartável.
+- Usando uma máscara.
+- Uso de máscara médica.
+- O que fazer antes de colocar uma máscara descartável?
+- O que fazer antes de colocar uma máscara?
+- O que fazer antes de colocar uma máscara médica?
+- O que fazer antes de usar uma máscara descartável?
+- O que fazer antes de usar uma máscara?
+- O que fazer antes de usar uma máscara médica?
+- como põe mascara?
+- como devo usar uma máscara?
+- como colocar uma máscara?
+- colocar uma máscara
+- Qual é a forma correta de usar uma máscara?
 
 ## intent:myth_alcohol
-- Alcohol all over the body.
-- Alcohol on all the body.
-- Can spraying alcohol all over your body kill the [new coronavirus](virus:COVID)?
-- Can spraying chlorine all over your body kill the [new coronavirus](virus:COVID)?
-- Spraying alcohol all over the body kill the virus.
-- Spraying alcohol.
-- Spraying chlorine all over the body kill the virus.
-- Spraying chlorine.
-- chlorine all over the body.
-- chlorine on all the body.
-- if I cover myself in alcohol
-- if I cover myself in alcohol the virus will leave
+- Álcool em todo o corpo.
+- Álcool pelo corpo todo.
+- Álcool pelo corpo inteiro
+- A pulverização de álcool por todo o corpo pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- A pulverização de cloro em todo o seu corpo pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Pulverizar álcool por todo o corpo mata o vírus.
+- Pulverização de álcool.
+- Pulverizar cloro por todo o corpo mata o vírus.
+- Pulverização de cloro.
+- Espirrar álcool por todo o corpo mata o vírus.
+- Espirrar álcool.
+- Espirrar cloro por todo o corpo mata o vírus.
+- Borrifar cloro.
+- cloro em todo o corpo.
+- cloro pelo corpo todo.
+- se eu me cobrir de álcool
+- se eu me cobrir de álcool o vírus vai sair
 
 ## intent:myth_cold_weather
-- Can cold snow kill the [COVID-19](virus:COVID)?
-- Can cold snow kill the [COVID](virus:COVID) ?
-- Can cold snow kill the [SARS-CoV-2](virus:COVID)?
-- Can cold snow kill the [new coronavirus](virus:COVID)?
-- Can cold snow kill the [novel coronavirus](virus:COVID)?
-- Can cold weather and snow kill the [COVID-19](virus:COVID)?
-- Can cold weather and snow kill the [COVID](virus:COVID) ?
-- Can cold weather and snow kill the [SARS-CoV-2](virus:COVID)?
-- Can cold weather and snow kill the [new coronavirus](virus:COVID)?
-- Can cold weather and snow kill the [novel coronavirus](virus:COVID)?
-- Can cold weather kill the [COVID-19](virus:COVID)?
-- Can cold weather kill the [COVID](virus:COVID) ?
-- Can cold weather kill the [SARS-CoV-2](virus:COVID)?
-- Can cold weather kill the [new coronavirus](virus:COVID)?
-- Can cold weather kill the [novel coronavirus](virus:COVID)?
-- Cold weather effective against the [COVID-19](virus:COVID).
-- Cold weather effective against the [COVID](virus:COVID) .
-- Cold weather effective against the [SARS-CoV-2](virus:COVID).
-- Cold weather effective against the [new coronavirus](virus:COVID).
-- Cold weather effective against the [novel coronavirus](virus:COVID).
-- Cold weather kill the [COVID-19](virus:COVID).
-- Cold weather kill the [COVID](virus:COVID) .
-- Cold weather kill the [SARS-CoV-2](virus:COVID).
-- Cold weather kill the [new coronavirus](virus:COVID).
-- Cold weather kill the [novel coronavirus](virus:COVID).
-- Snow effective against the [COVID-19](virus:COVID).
-- Snow effective against the [COVID](virus:COVID) .
-- Snow effective against the [SARS-CoV-2](virus:COVID).
-- Snow effective against the [new coronavirus](virus:COVID).
-- Snow effective against the [novel coronavirus](virus:COVID).
-- Snow kill the [COVID-19](virus:COVID).
-- Snow kill the [COVID](virus:COVID) .
-- Snow kill the [SARS-CoV-2](virus:COVID).
-- Snow kill the [new coronavirus](virus:COVID).
-- Snow kill the [novel coronavirus](virus:COVID).
+- A neve fria pode matar o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- A neve fria pode matar o [COVID]{"entity": "virus", "value": "COVID"} ?
+- A neve fria pode matar o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- A neve fria pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- A neve fria pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [COVID]{"entity": "virus", "value": "COVID"} ?
+- O tempo frio e a neve podem matar o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O tempo frio e a neve podem matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O tempo frio pode matar o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- O tempo frio pode matar o [COVID]{"entity": "virus", "value": "COVID"} ?
+- O tempo frio pode matar o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- O tempo frio pode matar o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Tempo frio efetivo contra a [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Tempo frio efetivo contra o [COVID]{"entity": "virus", "value": "COVID"} .
+- Tempo frio efetivo contra o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Tempo frio efetivo contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Tempo frio efetivo contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [COVID]{"entity": "virus", "value": "COVID"} .
+- O tempo frio mata o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O tempo frio mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [COVID]{"entity": "virus", "value": "COVID"} .
+- Neve contra o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Neve contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Neve mata o  [COVID-19]{"entity": "virus", "value": "COVID"}.
+- neve mata o [COVID]{"entity": "virus", "value": "COVID"} .
+- Neve mata o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- A neve mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- A neve mata o [novel coronavirus]{"entity": "virus", "value": "COVID"}.
 
 ## intent:myth_hot_bath
-- Does heat kill coronvirus
-- Does taking a hot bath prevent the [COVID](virus:COVID) disease?
-- Does taking a hot bath prevent the [COVID-19](virus:COVID) disease?
-- Does taking a hot bath prevent the [COVID-19](virus:COVID)?
-- Does taking a hot bath prevent the [COVID](virus:COVID) ?
-- Does taking a hot bath prevent the [SARS-CoV-2](virus:COVID) virus?
-- Does taking a hot bath prevent the [SARS-CoV-2](virus:COVID)?
-- Does taking a hot bath prevent the [new coronavirus](virus:COVID) disease?
-- Does taking a hot bath prevent the [new coronavirus](virus:COVID)?
-- Does the heat kill the virus?
-- Hot bath kill the [COVID](virus:COVID) disease.
-- Hot bath kill the [COVID-19](virus:COVID) disease.
-- Hot bath kill the [COVID-19](virus:COVID).
-- Hot bath kill the [COVID](virus:COVID) .
-- Hot bath kill the [SARS-CoV-2](virus:COVID) virus.
-- Hot bath kill the [SARS-CoV-2](virus:COVID).
-- Hot bath kill the [new coronavirus](virus:COVID) disease.
-- Hot bath kill the [new coronavirus](virus:COVID).
-- Hot bath kill the virus.
-- Hot bath prevention.
-- Hot bath prevents against the [COVID](virus:COVID) disease.
-- Hot bath prevents against the [COVID-19](virus:COVID) disease.
-- Hot bath prevents against the [COVID-19](virus:COVID).
-- Hot bath prevents against the [COVID](virus:COVID) .
-- Hot bath prevents against the [SARS-CoV-2](virus:COVID) virus.
-- Hot bath prevents against the [SARS-CoV-2](virus:COVID).
-- Hot bath prevents against the [new coronavirus](virus:COVID) disease.
-- Hot bath prevents against the [new coronavirus](virus:COVID).
-- Hot bath prevents the [COVID](virus:COVID) disease.
-- Hot bath prevents the [COVID-19](virus:COVID) disease.
-- Hot bath prevents the [COVID-19](virus:COVID).
-- Hot bath prevents the [COVID](virus:COVID) .
-- Hot bath prevents the [SARS-CoV-2](virus:COVID) virus.
-- Hot bath prevents the [SARS-CoV-2](virus:COVID).
-- Hot bath prevents the [new coronavirus](virus:COVID) disease.
-- Hot bath prevents the [new coronavirus](virus:COVID).
-- can hot water kill the virus?
+- O calor mata o coronavírus
+- Tomar um banho quente previne a doença [COVID]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente previne a doença [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [COVID]{"entity": "virus", "value": "COVID"} ?
+- Tomar um banho quente impede o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente previne a doença [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- Tomar um banho quente impede o [novo coronavírus]{"entity": "virus", "value": "COVID"}?
+- O calor mata o vírus?
+- O banho quente mata a doença [COVID]{"entity": "virus", "value": "COVID"}.
+- O banho quente mata a doença [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [COVID]{"entity": "virus", "value": "COVID"} .
+- O banho quente mata o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata a doença [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Banho quente mata o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O banho quente mata o vírus.
+- Prevenção de banhos quentes.
+- O banho quente previne contra a doença [COVID]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra a doença [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra o [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra o [COVID]{"entity": "virus", "value": "COVID"} .
+- O banho quente previne contra o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne contra o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- Banho quente previne contra a doença [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- Banho quente previne contra o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne a doença [COVID]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne a doença [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede a [COVID-19]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede a [COVID]{"entity": "virus", "value": "COVID"} .
+- O banho quente previne o vírus [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede o [SARS-CoV-2]{"entity": "virus", "value": "COVID"}.
+- O banho quente previne a doença [novo vírus corona]{"entity": "virus", "value": "COVID"}.
+- O banho quente impede o [novo coronavírus]{"entity": "virus", "value": "COVID"}.
+- A água quente pode matar o vírus?
 
 ## intent:myth_packages
-- Is it safe to receive a letter from any area where [COVID-19](virus:COVID) has been reported?
-- Is it safe to receive a package from any area where [COVID-19](virus:COVID) has been reported?
-- Packages from infected areas.
-- Packages from infected countries.
-- Packages infected.
-- Packages with virus.
-- Receive letters from infected countries.
-- Receive packages from infected areas.
-- Receive packages from infected countries.
-- can I receive a letter from an infected area?
-- letters from infected countries.
-- letters infected.
-- letters with virus.
+- É seguro receber uma carta de qualquer área onde [COVID-19]{"entity": "virus", "value": "COVID"} tenha sido detectado?
+- É seguro receber um pacote de qualquer área onde [COVID-19]{"entity": "virus", "value": "COVID"} tenha sido registrado?
+- Embalagens provenientes de áreas infectadas.
+- Embalagens de países infectados.
+- Embalagens infectadas.
+- Pacotes com vírus.
+- Receber cartas de países infectados.
+- Receber embalagens de áreas infectadas.
+- Receber embalagens de países infectados.
+- posso receber uma carta de uma área infectada?
+- cartas de países infectados.
+- cartas infectadas.
+- cartas com vírus.
+- Encomendas provenientes de áreas infectadas.
+- Encomendas de países infectados.
+- Encomendas infectadas.
 
 ## intent:myth_transmission_hot_areas
-- [COVID](virus:COVID) transmission in areas with hot and humid climates.
-- [COVID](virus:COVID) transmission in areas with hot climates.
-- [COVID](virus:COVID) transmission in hot and humid areas.
-- [COVID](virus:COVID) transmission in hot areas.
-- [COVID-19](virus:COVID) transmission in areas with hot and humid climates.
-- [COVID-19](virus:COVID) transmission in areas with hot climates.
-- [COVID-19](virus:COVID) transmission in hot and humid areas.
-- [COVID-19](virus:COVID) transmission in hot areas.
-- Can the [COVID](virus:COVID) virus be transmitted in areas with hot and humid climates?
-- Can the [COVID](virus:COVID) virus be transmitted in areas with hot climates?
-- Can the [COVID](virus:COVID) virus be transmitted in hot and humid areas?
-- Can the [COVID](virus:COVID) virus be transmitted in hot areas?
-- Can the [COVID-19](virus:COVID) virus be transmitted in areas with hot and humid climates?
-- Can the [COVID-19](virus:COVID) virus be transmitted in areas with hot climates?
-- Can the [COVID-19](virus:COVID) virus be transmitted in hot and humid areas?
-- Can the [COVID-19](virus:COVID) virus be transmitted in hot areas?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in areas with hot and humid climates?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in areas with hot climates?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in hot and humid areas?
-- Can the [SARS-CoV-2](virus:COVID) be transmitted in hot areas?
-- Can the coronavirus be transmitted in areas with hot and humid climates?
-- Can the coronavirus be transmitted in areas with hot climates?
-- Can the coronavirus be transmitted in hot and humid areas?
-- Can the coronavirus be transmitted in hot areas?
-- Can the disease virus be transmitted in areas with hot and humid climates?
-- Can the disease virus be transmitted in areas with hot climates?
-- Can the disease virus be transmitted in hot and humid areas?
-- Can the disease virus be transmitted in hot areas?
-- Can the virus be transmitted in areas with hot and humid climates?
-- Can the virus be transmitted in areas with hot climates?
-- Can the virus be transmitted in hot and humid areas?
-- Can the virus be transmitted in hot areas?
-- Coronavirus transmission in areas with hot and humid climates.
-- Coronavirus transmission in areas with hot climates.
-- Coronavirus transmission in hot and humid areas.
-- Coronavirus transmission in hot areas.
-- Do you belive a dry climate could ease the virus?
-- Does the [COVID](virus:COVID) virus transmit in areas with hot and humid climates?
-- Does the [COVID](virus:COVID) virus transmit in areas with hot climates?
-- Does the [COVID](virus:COVID) virus transmit in hot and humid areas?
-- Does the [COVID](virus:COVID) virus transmit in hot areas?
-- Does the [COVID-19](virus:COVID) virus transmit in areas with hot and humid climates?
-- Does the [COVID-19](virus:COVID) virus transmit in areas with hot climates?
-- Does the [COVID-19](virus:COVID) virus transmit in hot and humid areas?
-- Does the [COVID-19](virus:COVID) virus transmit in hot areas?
-- Does the [SARS-CoV-2](virus:COVID) transmit in areas with hot and humid climates?
-- Does the [SARS-CoV-2](virus:COVID) transmit in areas with hot climates?
-- Does the [SARS-CoV-2](virus:COVID) transmit in hot and humid areas?
-- Does the [SARS-CoV-2](virus:COVID) transmit in hot areas?
-- Does the coronavirus transmit in areas with hot and humid climates?
-- Does the coronavirus transmit in areas with hot climates?
-- Does the coronavirus transmit in hot and humid areas?
-- Does the coronavirus transmit in hot areas?
-- Does the disease virus transmit in areas with hot and humid climates?
-- Does the disease virus transmit in areas with hot climates?
-- Does the disease virus transmit in hot and humid areas?
-- Does the disease virus transmit in hot areas?
-- Does the virus like sunshine?
-- Does the virus transmit in areas with hot and humid climates?
-- Does the virus transmit in areas with hot climates?
-- Does the virus transmit in hot and humid areas?
-- Does the virus transmit in hot areas?
-- Hot climates.
-- [SARS-CoV-2](virus:COVID) transmission in areas with hot and humid climates.
-- [SARS-CoV-2](virus:COVID) transmission in areas with hot climates.
-- [SARS-CoV-2](virus:COVID) transmission in hot and humid areas.
-- [SARS-CoV-2](virus:COVID) transmission in hot areas.
-- Spread hot climates.
-- Transmission in areas with hot and humid climates.
-- Transmission in areas with hot climates.
-- Transmission in hot and humid areas.
-- Transmission in hot areas.
-- Transmission in hot climates.
-- Virus transmission in areas with hot and humid climates.
-- Virus transmission in areas with hot climates.
-- Virus transmission in hot and humid areas.
-- Virus transmission in hot areas.
-- the disease transmission in areas with hot and humid climates.
-- the disease transmission in areas with hot climates.
-- the disease transmission in hot and humid areas.
-- the disease transmission in hot areas.
-- the disease-19 transmission in areas with hot and humid climates.
-- the disease-19 transmission in areas with hot climates.
-- the disease-19 transmission in hot and humid areas.
-- the disease-19 transmission in hot areas.
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes e úmidos.
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes.
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes e úmidas.
+- [COVID]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes e úmidos.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes e úmidas.
+- [COVID-19]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes.
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes e úmidas?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes e úmidas?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes e úmidos?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas com climas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes e úmidas?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} pode ser transmitido em áreas quentes?
+- O coronavírus pode ser transmitido em áreas com climas quentes e úmidos?
+- O coronavírus pode ser transmitido em áreas com climas quentes?
+- O coronavírus pode ser transmitido em áreas quentes e úmidos
+- O coronavírus pode ser transmitido em áreas quentes?
+- O vírus da doença pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus da doença pode ser transmitido em áreas com climas quentes?
+- O vírus da doença pode ser transmitido em áreas quentes e úmidas?
+- O vírus da doença pode ser transmitido em áreas quentes?
+- O vírus pode ser transmitido em áreas com climas quentes e úmidos?
+- O vírus pode ser transmitido em áreas com climas quentes?
+- O vírus pode ser transmitido em áreas quentes e úmidas?
+- O vírus pode ser transmitido em áreas quentes?
+- Transmissão de Coronavírus em áreas com climas quentes e úmidos.
+- Transmissão de Coronavírus em áreas com climas quentes.
+- Transmissão de Coronavírus em áreas quentes e úmidas.
+- Transmissão de vírus coronavírus em áreas quentes.
+- Você acredita que um clima seco pode aliviar o vírus?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes e úmidos?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes e úmidas?
+- O vírus [COVID]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes e úmidos?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas com climas quentes?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes e úmidas?
+- O vírus [COVID-19]{"entity": "virus", "value": "COVID"} se transmite em áreas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas com climas quentes e úmidos?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas com climas quentes?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas quentes e úmidas?
+- O [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmite em áreas quentes?
+- O coronavírus transmite em áreas com climas quentes e úmidos?
+- O coronavírus transmite em áreas com climas quentes?
+- O coronavírus transmite em áreas quentes e úmidas?
+- O coronavírus transmite em áreas quentes?
+- O vírus da doença se transmite em áreas com climas quentes e úmidos?
+- O vírus da doença se transmite em áreas com climas quentes?
+- O vírus da doença se transmite em áreas quentes e úmidas?
+- O vírus da doença se transmite em áreas quentes?
+- O vírus gosta de sol?
+- O vírus se transmite em áreas com climas quentes e úmidos?
+- O vírus se transmite em áreas com climas quentes?
+- O vírus se transmite em áreas quentes e úmidas?
+- O vírus se transmite em áreas quentes?
+- Climas quentes.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes e úmidos.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas com climas quentes.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes e úmidas.
+- [SARS-CoV-2]{"entity": "virus", "value": "COVID"} transmissão em áreas quentes.
+- Espalhar climas quentes.
+- Transmissão em áreas com climas quentes e úmidos.
+- Transmissão em áreas com climas quentes.
+- Transmissão em áreas quentes e úmidas.
+- Transmissão em áreas quentes.
+- Transmissão em climas quentes.
+- Transmissão de vírus em áreas com climas quentes e úmidos.
+- Transmissão de vírus em áreas com climas quentes.
+- Transmissão de vírus em áreas quentes e úmidas.
+- Transmissão de vírus em áreas quentes.
+- a transmissão da doença em áreas com climas quentes e úmidos.
+- a transmissão de doenças em áreas com climas quentes.
+- a transmissão de doenças em áreas quentes e úmidas.
+- a transmissão de doenças em áreas quentes.
+- a transmissão da covid19 em áreas com climas quentes e úmidos.
+- a transmissão da covid19 em áreas com climas quentes.
+- a transmissão da covid19 em áreas quentes e úmidas.
+- a transmissão da covid19 em áreas quentes.
 
 ## intent:myths_conspiracy_fakenews
-- And are the myths associated with the virus?
-- Conspiracies
-- Conspiracy
-- Fake news
+- Quais são os mitos associados com o vírus?
+- Conspirações
+- Conspiração
+- Notícias falsas
 - Fakenews
-- Myth
-- Myths
-- Okay. What are the myths associated to this virus?
-- What are the myths about coronavirus?
-- what are the myths?
+- Mito
+- Mitos
+- Certo. Quais são os mitos associados a este vírus?
+- Quais são os mitos sobre o coronavírus?
+- quais são os mitos?
+- o que é mito?
+- quais os mitos da covid19?
+- como saber se é noticia falsa?
+- o que são noticias falsas?
+- o que são fakenews?
 
 ## intent:prevention_clean_hands
-- About cleaning hands.
-- About washing hands.
-- Clean hands
-- Clean hands prevention
-- Cleaning hands
-- Cleaning hands prevention
-- Cleaning hands will prevent from catching the disease?
-- Cleaning hands will prevent from catching the virus?
-- Cleaning my hands with alcohol-based hand rub will reduce my chances of being
-  infected?
-- Cleaning my hands with soap will reduce my chances of being infected?
-- Do you think washing your hands is enough?
-- How important is to have hands clean?
-- How important is to have hands washed?
-- Importance of cleaning hands.
-- Importance of having hands clean.
-- Importance of washing hands.
-- Wash hands
-- Wash hands prevention
-- Washing hands
-- Washing hands prevention
-- Washing hands will prevent from catching the disease?
-- Washing hands will prevent from catching the virus?
-- Washing my hands with soap will reduce my chances of being infected?
-- Why clean hands regularly?
-- Why clean hands?
-- Why cleaning hands is important?
-- Why wash hands regularly?
-- Why wash hands?
-- Why washing hands is important?
-- how many times I have to wash my hands
-- how to clan hands
-- how to clean hands
-- how to wash hands?
-- is washing my hands enough?
-- when should I wash my hands?
+- Sobre a limpeza das mãos.
+- Sobre a lavagem das mãos.
+- lavar as mãos
+- Mãos limpas
+- Prevenção de mãos limpas
+- Limpeza das mãos
+- Prevenção da limpeza das mãos
+- Limpar as mãos evitará pegar a doença?
+- Limpar as mãos evitará que a propagação do vírus?
+- Limpar as minhas mãos com álcool vai reduzir as minhas chances de ser infectado?
+- Limpar minhas mãos com sabão vai reduzir minhas chances de ser infectado?
+- Você acha que lavar as mãos é suficiente?
+- Quão importante é ter as mãos limpas?
+- Qual a importância de se lavar as mãos?
+- Importância da limpeza das mãos.
+- A importância de ter as mãos limpas.
+- Importância da lavagem das mãos.
+- Lavar as mãos
+- Prevenção de lavagem das mãos
+- Lavando as mãos
+- Prevenção de lavar as mãos
+- Lavar as mãos impedirá de pegar a doença?
+- Lavar as mãos impedirá de pegar o vírus?
+- Lavar minhas mãos com sabão vai reduzir minhas chances de ser infectado?
+- Por que limpar as mãos regularmente?
+- Por que mãos limpas?
+- Por que limpar as mãos é importante?
+- Por que lavar as mãos regularmente?
+- Por que lavar as mãos?
+- Por que lavar as mãos é importante?
+- Quantas vezes eu tenho que lavar minhas mãos
+- como lavar mãos
+- como limpar as mãos
+- como lavar as mãos?
+- lavar minhas mãos já é o suficiente?
+- quando devo lavar minhas mãos?
 
 ## intent:prevention_disinfection
-- How to disinfect things?
-- What to use as disinfectant?
+- Como desinfetar as coisas?
+- O que usar como desinfetante?
+- qual desinfetante devo usar?
+- desinfetantes contra o corona
+- importância de desinfetar
+- desinfetantes contra a covid-19
+- quando desinfetar
+- dúvidas sobre como desinfetar alimentos
+- dúvidas de como desinfetar embalagens
+- preciso desinfetar roupas?
+- preciso desinfetar calçados?
+- preciso desinfetar roupa de cama?
+- preciso desinfetar maçanetas?
 
 ## intent:prevention_distance
-- Distance from people coughing or sneezing.
-- Distance from people coughing.
-- Distance from people sneezing.
-- Distance from people.
-- How far is a safe distance from people coughing or sneezing?
-- How far is a safe distance from people coughing?
-- How far is a safe distance from people sneezing?
-- How far is a safe distance from people?
-- How far is a safe distance?
-- How far should I be from someone coughing or sneezing?
-- How far should I be from someone coughing?
-- How far should I be from someone sneezing?
-- How far should I be from someone who’s coughing or sneezing?
-- How far should I be from someone who’s coughing?
-- How far should I be from someone who’s sneezing?
-- Preventive distance.
-- Safe distance from people coughing or sneezing.
-- Safe distance from people coughing.
-- Safe distance from people sneezing.
-- Safe distance from people with cough.
-- Safe distance from people with sneeze.
-- Safe distance from people with sneezes.
-- Safe distance from people.
-- Safe distance.
-- distance between persons
+- Distância de pessoas que tossem ou espirram.
+- Distância das pessoas que tossem.
+- Distância das pessoas espirrando.
+- Distância das pessoas.
+- qual a distância segura dentro de casa
+- tenho que manter distância de pessoas dentro de casa?
+- Qual é a distância segura de pessoas que tossem ou espirram?
+- Qual é a distância segura de pessoas que tossem?
+- Qual é a distância segura de pessoas que espirram?
+- Qual é a distância segura entre as pessoas?
+- Qual é a distância segura?
+- A que distância devo estar de alguém que está tossindo ou espirrando?
+- Quão longe eu deveria estar de alguém que está sem máscara?
+- A que distância devo estar de alguém que espirra?
+- A que distância devo estar de alguém que está tossindo ou espirrando?
+- Quão longe eu deveria estar de alguém que está tossindo?
+- Quão longe eu deveria estar de alguém que está espirrando?
+- Distância preventiva.
+- Distância segura de pessoas que tossem ou espirram.
+- Distância segura de pessoas que tossem.
+- Distância segura de pessoas espirrando.
+- Distância segura de pessoas com tosse.
+- Distância segura de pessoas com espirros.
+- Distância segura de pessoas com tosse e espirros.
+- Distância segura das pessoas.
+- Distância segura.
+- distância entre pessoas
+- dúvidas sobre distanciamento seguro
 
 ## intent:prevention_general
-- Alright. What are the preventing measures?
-- Could you tell me about preventive measures?
-- How I avoid the virus?
-- How can I prevent the transmission?
-- How can i prevent it?
-- How can i protect?
-- How can we prevent the spreading?
-- How to avoid virus
-- How to reduce the chances of being infected?
-- How to reduce the chances of spreading the disease?
-- How to reduce the chances of spreading the virus?
-- How to survive PANDEMIA?
-- I want to know how to prevent the disease
-- I was wondering if you could tell me how I can protect myself from the virus
-- I'm not positive! But my area's person will positive
-- It's alright. So what are the preventive measures?
-- It's fine  Thanks so how can I prevent it now
-- Measures
-- Measures prevention.
-- Precautions to prevent.
-- Precautions to protect.
-- Precautions to take.
-- Prevention of infection.
-- Prevention.
-- Preventive measures to protect from the virus.
-- Preventive measures.
-- Preventive measurs
-- Protection measures to prevent the disease.
-- Protection measures.
-- Protection of infection.
-- Protective measures.
-- Tell me about preventive measures
-- Thank you. How can we prevent the spreading?
-- What are the preventing measures?
-- What can I do to prevent the spread of disease?
-- What can I do to protect myself and prevent the spread of disease?
-- What can I do to protect myself?
-- What is the main prevention ot this virus??
-- What to do to prevent the spread of disease?
-- What to do to protect from the virus?
-- What to do to protect myself from the virus?
-- Which precautions should be taken?
-- hello  how should I protect myself
-- how about preventive measures
-- how can I protect myself
-- how can I protect myself from the corona virus
-- how can i fight covid-19
-- how can we fight coronavirus
-- how do I prevent from getting a virus
-- how do I stay safe
-- how to protect against the virus
-- prevent
-- preventive mesures
-- what are preventive measures
-- what are some preventive measures?
-- what are the advices to fight covid-19
-- what are the preventive measures
-- what are your advices related to covid-19
-- what are your advices?
-- what can people do to stop the pandemic?
-- what i should do?
-- what should i do to prevent myself from that
-- what's the preventive measures
+- Muito bem. Quais são as medidas de prevenção?
+- Você poderia me falar sobre medidas preventivas?
+- Como eu evito o vírus?
+- Como posso impedir a transmissão?
+- Como posso evitá-lo?
+- Como eu posso me proteger?
+- Como podemos evitar a propagação?
+- Como evitar o vírus
+- Como reduzir as chances de ser infectado?
+- Como reduzir as chances de propagação da doença?
+- Como reduzir as chances de propagação do vírus?
+- Como sobreviver a PANDEMIA?
+- Eu quero saber como prevenir a doença
+- você poderia me dizer como eu posso me proteger do vírus
+- Eu não sou positivo! Mas a pessoa da minha área vai ser positiva
+- Está tudo bem. Então, quais são as medidas preventivas?
+- Está tudo bem. Obrigado, então como posso prevenir isso agora?
+- Medidas
+- Medidas de prevenção.
+- Precauções a serem tomadas para prevenir.
+- Precauções a serem tomadas para proteger.
+- Precauções a tomar.
+- Prevenção de infecções.
+- Prevenção.
+- Medidas preventivas de proteção contra o vírus.
+- Medidas preventivas.
+- Maneiras preventivas
+- Medidas de proteção para prevenir a doença.
+- Medidas de proteção.
+- Proteção de infecções.
+- Medidas de proteção.
+- Me fale sobre medidas preventivas
+- Obrigado. Como podemos evitar a propagação?
+- Quais são as medidas de prevenção?
+- O que posso fazer para prevenir a propagação de doenças?
+- O que posso fazer para me proteger e prevenir a propagação de doenças?
+- O que eu posso fazer para me proteger?
+- Qual é a principal prevenção para este vírus?
+- O que fazer para prevenir a propagação de doenças?
+- O que fazer para se proteger do vírus?
+- O que fazer para me proteger do vírus?
+- Quais precauções devem ser tomadas?
+- Olá, como devo me proteger?
+- como fazer em relação às medidas preventivas
+- como eu posso me proteger
+- como posso me proteger do vírus corona
+- como eu posso lutar contra a covid-19
+- como podemos combater o coronavírus
+- como evitar que eu pegue um vírus
+- como me mantenho seguro
+- como se proteger contra o vírus
+- prevenir
+- medidas de prevenção
+- o que são medidas preventivas
+- o que são algumas medidas preventivas?
+- quais são os conselhos para combater a covid-19
+- quais são as medidas preventivas
+- quais são seus conselhos relacionados à covid-19
+- quais são os seus conselhos?
+- o que as pessoas podem fazer para deter a pandemia?
+- o que eu devo fazer?
+- o que devo fazer para me prevenir disso
+- quais são as medidas preventivas
+- dúvidas sobre medidas preventivas
+- dúvidas sobre prevenção do vírus
 
 ## intent:prevention_home
-- Am I doing well if I stay at home?
-- Am I doing well if I stay home?
-- I am feeling sick
-- I don't have a cough.
-- I feel a bit ill, should I stay at home?
-- I feel a bit ill, should I stay home?
-- I have a temperature
-- I have diarrhea
-- I have mild symptoms of illness, should I stay at home?
-- I have mild symptoms of illness, should I stay home?
-- I just have mild symptoms, should I stay at home?
-- I just have mild symptoms, should I stay home?
-- I just have mild symptoms.
-- I think I'm sick
-- If I feel unwell should I stay at home?
-- If I feel unwell should I stay home?
-- If I have sore throat, is that alarmant ?
-- In which circumstances should I stay at home?
-- In which circumstances should I stay home?
-- Should I stay at home if I feel a little ill?
-- Should I stay at home if I feel unwell?
-- Should I stay at home?
-- Should I stay home if I feel a little ill?
-- Should I stay home if I feel unwell?
-- Should I stay home?
-- Stay at home.
-- Stay home.
-- What helps if I have fiver?
-- What if I only have sore throat
-- What if my stomach aches
-- When to stay at home.
-- When to stay home.
-- Wrong answer
-- head ache
-- headache
-- headche
-- i am cold
-- i have some cough
-- my child has fever. what should I do
-- what if I have a headache
-- you're right I am feeling sick
+- Eu estarei seguro se eu ficar em casa?
+- Eu ficarei bem se eu ficar em casa?
+- Como me prevenir ficando em casa?
+- Eu me sinto um pouco doente, devo ficar em casa?
+- Eu me sinto um pouco febril, devo ficar em casa?
+- o que fazer quando estou em casa e com febre
+- Eu tenho diarréia
+- Eu tenho sintomas leves de doença, devo ficar em casa?
+- Eu tenho sintomas leves de doença, devo ficar em casa?
+- Eu só tenho sintomas leves, devo ficar em casa?
+- Eu só tenho sintomas leves, devo ficar em casa?
+- Eu só tenho sintomas leves.
+- Eu acho que eu estou doente
+- Se eu não me sentir bem, devo ficar em casa?
+- Se eu me sentir mal, devo ficar em casa?
+- Se eu tiver dor de garganta, isso é alarmante?
+- Em que circunstâncias devo ficar em casa?
+- circunstâncias que devo ficar em casa
+- Devo ficar em casa se eu me sentir um pouco doente?
+- Devo ficar em casa se não me sentir bem?
+- Devo ficar em casa?
+- Deveria ficar em casa se eu me sentir um pouco doente?
+- Deveria ficar em casa se não me sentir bem?
+- Devo ficar em casa?
+- Fique em casa.
+- E se eu só estiver com dor de garganta
+- E se meu estômago doer
+- Quando devo ficar em casa.
+- Quando ficar em casa.
+- Resposta Errada
+- dor de cabeça
+- calafrios
+- dor de garganta
+- estou com frio
+- tenho um pouco de tosse
+- meu filho tem febre. o que eu devo fazer?
+- E se eu tiver uma dor de cabeça
+- você está certo, eu estou me sentindo mal
+- se eu me sentir mal como me medicar?
+- se eu tiver sintomas leves devo ficar em casa?
+- quanto tempo devo ficar em casa?
+- como prevenir a doença dentro de casa?
+- quais são os procedimentos de prevenção em casa?
 
 ## intent:prevention_informed
-- Follow the news.
-- Is it important to follow the news?
-- It is important to stay informed?
-- Keep up to date.
-- Should I check regularly for the latest news?
-- Should I follow regularly the news about the virus?
-- Should I follow the news about the virus?
-- Should I follow the news regularly?
-- Should I follow the news related to the [COVID-19](virus:COVID)?
-- Should I follow the news related to the disease?
-- Should I follow the news related to the virus?
-- Should I follow the news?
-- Should I stay aware of the latest information on the [COVID-19](virus:COVID) outbreak?
-- Should I stay informed regularly?
-- Should I stay informed?
-- Stay informed.
-- Well, that's nice. Gotta stay informed, right?
-- Why is it important to follow the news?
-- Why is it important to stay informed?
-- Why should I check regularly for the latest news?
-- Why should I follow the news related to the [COVID-19](virus:COVID)?
-- Why should I follow the news related to the disease?
-- Why should I follow the news related to the virus?
-- Why should I stay aware of the latest information on the [COVID-19](virus:COVID) outbreak?
+- Acompanhe as notícias.
+- É importante acompanhar as notícias?
+- É importante ler as notícias?
+- É importante se manter informado?
+- Mantenha-se atualizado.
+- Devo verificar regularmente as últimas notícias?
+- Devo acompanhar regularmente as notícias sobre o vírus?
+- Devo acompanhar as notícias sobre o vírus?
+- Devo acompanhar as notícias regularmente?
+- Devo acompanhar as notícias o tempo todo?
+- Devo acompanhar as notícias relacionadas ao [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo acompanhar as notícias relacionadas com a doença?
+- Devo acompanhar as notícias relacionadas com o vírus?
+- Devo acompanhar as notícias?
+- Devo ficar atento às últimas informações sobre o surto [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo me manter informado regularmente?
+- Devo me manter informado?
+- Mantenha-se informado.
+- Bem, isso é legal. Tem que se manter informado, certo?
+- Por que é importante acompanhar as notícias?
+- Por que é importante se manter informado?
+- Por que eu deveria verificar regularmente as últimas notícias?
+- Por que devo acompanhar as notícias relacionadas ao [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Por que eu deveria acompanhar as notícias relacionadas à doença?
+- Por que eu deveria acompanhar as notícias relacionadas ao vírus?
+- Por que eu deveria estar ciente das últimas informações sobre o surto [COVID-19]{"entity": "virus", "value": "COVID"}?
 
 ## intent:prevention_measures
-- Are there measures not effective against [COVID-19](virus:COVID)?
-- Are there measures that are not effective against [COVID-19](virus:COVID)?
-- Is smoking effective against [COVID-2019](virus:COVID)?
-- Is taking self-medication effective against [COVID-19](virus:COVID)?
-- Is taking self-medication such as antibiotics effective against [COVID-19](virus:COVID)?
-- Is taking traditional herbal remedies effective against [COVID-2019](virus:COVID)?
-- Is there anything I should not do?
-- Is wearing multiple masks effective against [COVID-2019](virus:COVID)?
-- Measures not effective.
-- Not effective measures.
-- Should I smoke to prevent [COVID-2019](virus:COVID)?
-- Should I take self-medication such as antibiotics to prevent [COVID-19](virus:COVID)?
-- Should I take self-medication to prevent [COVID-19](virus:COVID)?
-- Should I take traditional herbal remedies to prevent [COVID-2019](virus:COVID)?
-- Should I wear multiple masks to prevent [COVID-19](virus:COVID)?
-- What measures are not effective against [COVID-19](virus:COVID)?
-- what medications should be avoided during COVId?
-- what should I avoid?
-- what should I not do to protect against the virus?
-- what should I not do to protect myself against the virus?
+- Existem medidas não eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existem medidas que não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existem medidas que não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existem medidas que não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais medidas não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Fumar é eficaz contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Cigarro é eficaz contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- A auto-medicação é eficaz contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar antibióticos é eficaz contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Erva medicinais são eficazes contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- A auto-medicação funciona contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Tomar antibióticos funciona contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Erva medicinais funcionam contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O que eu não devo fazer?
+- O uso de máscaras é eficaz contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- O uso de máscaras funciona contra [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Medidas não eficazes.
+- Medidas não eficazes.
+- Devo fumar para prevenir [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Devo tomar auto-medicação como antibióticos para prevenir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo tomar auto-medicação para prevenir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo usar ervas medicinais para prevenir [COVID-2019]{"entity": "virus", "value": "COVID"}?
+- Devo usar máscaras para prevenir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Devo usar máscaras para evitar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que medidas não são eficazes contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que medidas não funcionam contra [COVID-19]{"entity": "virus", "value": "COVID"}?
+- quais medicamentos devem ser evitados durante o COVId?
+- quais medicamentos não devo tomar durante o COVId?
+- o que eu devo evitar?
+- o que eu não devo fazer para me proteger contra o vírus?
+- o que eu não devo fazer para prevenir o vírus?
 
 ## intent:prevention_medical_attention
-- Am i sick
-- Do I have the virus?
-- How do I know I’m infected?
-- How should I do if I'm infected?
-- How to proceed if I have a cough?
-- How to proceed if I have a fever, cough and difficulty breathing?
-- How to proceed if I have a fever, cough or difficulty breathing?
-- How to proceed if I have a fever?
-- How to proceed if I have difficulty breathing?
-- How to proceed in case of cough?
-- How to proceed in case of difficulty breathing?
-- How to proceed in case of fever, cough and difficulty breathing?
-- How to proceed in case of fever, cough or difficulty breathing?
-- How to proceed in case of fever?
-- I am coughing all day
-- I am coughing all day and 9:00 AM
-- I am infected, what should I do?
-- I don’t know if I have the virus.
-- I don’t know what to do if I have the virus.
-- I feel sick
-- I have a fever.
-- I have cough.
-- I have covid
-- I have difficulty breathing.
-- I have fever what should I do?
-- I have fever, cough and difficulty breathing.
-- I have fever.
-- I have symptoms
-- I think I'm infected, what should I do?
-- I'm feeling sick should I call it
-- I'm infected
-- In which cases should I contact the health care?
-- My temperature is above 38 degrees, should I worry?
-- My temperature is above 38 degrees.
-- My temperature is above 39 degrees. Should I worry?
-- Should I call the health care if I feel ill?
-- Should I call the health care if I have cough?
-- Should I call the health care if I have difficulty breathing?
-- Should I call the health care if I have fever, cough and difficulty breathing?
-- Should I call the health care if I have fever, cough or difficulty breathing?
-- Should I call the health care if I have fever?
-- Should I go to the hospital?
-- Should I seek immediately for medical attention if I have a fever?
-- WHat if my fever is high?
-- What should I do if I have a fever?
-- What should a person do if he/she has symptoms?
-- What to do if I have a cough?
-- What to do if I have a fever, cough and difficulty breathing?
-- What to do if I have a fever, cough or difficulty breathing?
-- What to do if I have a fever?
-- What to do if I have difficulty breathing?
-- What to do in case of cough?
-- What to do in case of difficulty breathing?
-- What to do in case of fever, cough and difficulty breathing?
-- What to do in case of fever, cough or difficulty breathing?
-- What to do in case of fever?
-- When should I go see a doctor?
-- When to call the health care?
-- When to seek medical attention?
-- fever?
-- how do i know if i have [COVID 19](virus:COVID) 
-- i am sick
-- should i go to the doctor?
-- thank you dear I'm feeling sick should I call it
-- what should I do if I get fever?
-- what to do in case having symptoms
-- when should I consult a doctor?
+- Estou doente
+- to doente
+- Eu tenho o vírus?
+- Como eu sei que to infectado?
+- Como eu sei que to infectada?
+- O que devo fazer se estiver infectado?
+- O que devo fazer se estiver infectada?
+- O que fazer se estiver infectado?
+- O que fazer se estiver infectada?
+- Como proceder se eu tiver tosse?
+- Como proceder se eu tiver febre, tosse e dificuldade para respirar?
+- Como proceder se eu tiver febre, tosse ou dificuldade para respirar?
+- Como proceder se eu estiver com febre?
+- Como proceder se eu tiver dificuldade para respirar?
+- Como proceder em caso de tosse?
+- Como proceder em caso de dificuldade para respirar?
+- Como proceder em caso de febre, tosse e dificuldade para respirar?
+- Como proceder em caso de febre, tosse ou dificuldade para respirar?
+- Como proceder em caso de febre?
+- O que faço se eu tiver tosse?
+- O que faço se eu tiver febre, tosse e dificuldade para respirar?
+- O que faço se eu tiver febre, tosse ou dificuldade para respirar?
+- O que faço se eu estiver com febre?
+- O que faço se eu tiver dificuldade para respirar?
+- O que fazer em caso de tosse?
+- O que fazer em caso de dificuldade para respirar?
+- O que fazer em caso de febre, tosse e dificuldade para respirar?
+- O que fazer em caso de febre, tosse ou dificuldade para respirar?
+- O que fazer em caso de febre?
+- Eu estou tossindo o dia todo
+- Eu estou tossindo o dia todo e 9:00 da manhã
+- Eu estou infectado, o que devo fazer?
+- Eu estou infectada, o que devo fazer?
+- Eu to tossindo o dia todo
+- Eu to tossindo o dia todo e 9:00 da manhã
+- Eu to infectado, o que devo fazer?
+- Eu to infectada, o que devo fazer?
+- Eu não sei se eu tenho o vírus.
+- Eu não sei o que fazer se eu tiver o vírus.
+- Eu me sinto mal
+- Eu to com febre.
+- Eu to com tosse.
+- Eu to com covid
+- Eu to com dificuldade para respirar.
+- Eu to com febre, o que devo fazer?
+- Eu to com febre, tosse e dificuldade para respirar.
+- Eu estou com febre.
+- Eu tenho sintomas
+- Eu to com sintomas
+- Eu acho que to infectado, o que devo fazer?
+- Eu acho que to infectada, o que devo fazer?
+- Eu to me sentindo mal 
+- Eu to infectado
+- Eu to infectada
+- Quando devo entrar em contato com o serviço de saúde?
+- Quando devo procurar um médico?
+- Quando devo ir ao hospital?
+- Minha temperatura está acima de 38 graus, devo me preocupar?
+- Minha temperatura está acima de 38 graus.
+- Minha temperatura está acima de 39 graus. Devo me preocupar?
+- Devo procurar o médico se eu me sentir doente?
+- Devo procurar o médico se eu tiver tosse?
+- Devo procurar o médico se eu tiver dificuldade para respirar?
+- Devo procurar o médico se eu tiver febre, tosse e dificuldade para respirar?
+- Devo procurar o médico se eu tiver febre, tosse ou dificuldade para respirar?
+- Devo procurar o médico se eu tiver febre?
+- Devo ir para o hospital?
+- Devo procurar imediatamente por atendimento médico se eu tiver febre?
+- O que acontece se a minha febre tiver alta?
+- O que eu devo fazer se eu tiver febre?
+- O que uma pessoa deve fazer se tiver sintomas?
+- O que fazer se eu tiver tosse?
+- O que fazer se eu tiver febre, tosse e dificuldade para respirar?
+- O que fazer se eu tiver febre, tosse ou dificuldade para respirar?
+- O que fazer se eu estiver com febre?
+- O que fazer se eu tiver dificuldade para respirar?
+- O que fazer em caso de tosse?
+- O que fazer em caso de dificuldade para respirar?
+- O que fazer em caso de febre, tosse e dificuldade para respirar?
+- O que fazer em caso de febre, tosse ou dificuldade para respirar?
+- O que fazer em caso de febre?
+- Quando eu devo ir ao médico?
+- Quando chamar o serviço de saúde?
+- Quando procurar atendimento médico?
+- febre?
+- como eu sei se tenho [COVID 19]{"entity": "virus", "value": "COVID"} 
+- estou doente
+- to doente
+- devo ir ao médico?
+- o que eu devo fazer se eu tiver febre?
+- o que fazer em caso de ter sintomas
+- quando devo consultar um médico?
 
 ## intent:prevention_medicine
-- About a drug for [COVID-19](virus:COVID).
-- About a drug to treat [COVID-19](virus:COVID).
-- About a drug.
-- About a medicine for [COVID-19](virus:COVID).
-- About a medicine to treat [COVID-19](virus:COVID).
-- About a medicine.
-- About a treatment for [COVID-19](virus:COVID).
-- About a treatment.
-- About a vaccine for [COVID-19](virus:COVID).
-- About a vaccine to treat [COVID-19](virus:COVID).
-- About a vaccine, drug or treatment for [COVID-19](virus:COVID).
-- About a vaccine, drug or treatment.
-- About a vaccine.
-- About drugs for [COVID-19](virus:COVID).
-- About drugs to treat [COVID-19](virus:COVID).
-- About drugs.
-- About medicines for [COVID-19](virus:COVID).
-- About medicines to treat [COVID-19](virus:COVID).
-- About medicines.
-- About treatment for [COVID-19](virus:COVID).
-- About treatment.
-- About vaccines for [COVID-19](virus:COVID).
-- About vaccines to treat [COVID-19](virus:COVID).
-- About vaccines, drug or treatment for [COVID-19](virus:COVID).
-- About vaccines, drug or treatment.
-- About vaccines.
-- Does ibuprofen harm patients
-- I said take ibuprofen
-- Is there a cure?
-- Is there a drug for [COVID-19](virus:COVID)?
-- Is there a drug to treat [COVID-19](virus:COVID)?
-- Is there a drug?
-- Is there a medicine for [COVID-19](virus:COVID)?
-- Is there a medicine to treat [COVID-19](virus:COVID)?
-- Is there a medicine?
-- Is there a treatment for [COVID-19](virus:COVID)?
-- Is there a treatment?
-- Is there a vaccine for [COVID-19](virus:COVID)?
-- Is there a vaccine to treat [COVID-19](virus:COVID)?
-- Is there a vaccine, drug or treatment for [COVID-19](virus:COVID)?
-- Is there a vaccine, drug or treatment?
-- Is there a vaccine?
-- May I take aspirin
-- Medicines
-- Vaccine
-- Vaccines
-- Whare is vaccine? Hare need!
-- What can you tell me about the hypothesis of a vaccine for Coronavirus?
-- Yes. But is there a vaccine?
-- are there a vacine?
-- are there medication to prevent the disease?
-- are there vaccines to prevent the disease?
-- aspirin?
-- covid-19 vaccine
-- does a vaccine exist?
-- how can i get treatment ?
-- how is the treatment
-- how long will it take for a vaccine to come out in the market?
-- ibuprofen
+- remédio para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- remédio.
+- medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- medicamento.
+- tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- tratamento.
+- vacina para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- vacina, medicamento ou tratamento.
+- vacina.
+- Sobre remédios para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre remédios.
+- Sobre medicamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre medicamentos para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre medicamentos.
+- Sobre o tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre o tratamento.
+- Sobre vacinas para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas para tratar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos para [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Sobre vacinas, medicamentos ou tratamentos.
+- Sobre as vacinas.
+- O ibuprofeno prejudica os pacientes
+- Eu disse para tomar ibuprofeno
+- Existe uma cura?
+- Existe cura?
+- Existe algum remédio para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum remédio?
+- Existe medicamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe medicamento?
+- Existe tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe algum tratamento?
+- Existe uma vacina para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina para tratar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe vacina, medicamento ou tratamento para [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Existe uma vacina, droga ou tratamento?
+- Existe uma vacina?
+- Existe vacina?
+- Posso tomar aspirina?
+- Medicamentos
+- Vacina
+- Vacinas
+- De quem é a vacina? 
+- O que você pode me dizer sobre a hipótese de uma vacina contra o Coronavírus?
+- Sim. Mas existe uma vacina?
+- há uma vacina?
+- existem medicamentos para prevenir a doença?
+- existem vacinas para prevenir a doença?
+- aspirina?
+- vacina covid-19
+- existe uma vacina?
+- como posso receber tratamento?
+- como é o tratamento
+- quanto tempo levará para que uma vacina saia no mercado?
+- ibuprofeno
 - ibuprufen?
-- pain killers?
+- analgésicos?
 - paracetamol
 - paracetamol?
-- what about ibuprofen
-- what medication should I take if I'm infected
-- what medicine works best for this virus
-- what medicines should be taken?
-- yes it did take ibuprofen
+- E o ibuprofeno?
+- que medicação devo tomar se estiver infectado
+- que remédio funciona melhor para este vírus
+- que medicamentos devem ser tomados?
+- sim foi preciso ibuprofeno
 
 ## intent:prevention_respiratory_hygiene
-- Covering mouth and nose while coughing or sneezing.
-- Covering mouth and nose while coughing.
-- Covering mouth and nose while sneezing or coughing.
-- Covering mouth and nose while sneezing.
-- Covering mouth and nose with bent elbow when coughing or sneezing.
-- Covering mouth and nose with bent elbow when coughing.
-- Covering mouth and nose with bent elbow when sneezing or coughing.
-- Covering mouth and nose with bent elbow when sneezing.
-- Covering mouth and nose with tissue when coughing or sneezing.
-- Covering mouth and nose with tissue when coughing.
-- Covering mouth and nose with tissue when sneezing or coughing.
-- Covering mouth and nose with tissue when sneezing.
-- Covering mouth while coughing or sneezing.
-- Covering mouth while coughing.
-- Covering mouth while sneezing or coughing.
-- Covering mouth while sneezing.
-- Covering mouth with bent elbow when coughing or sneezing.
-- Covering mouth with bent elbow when coughing.
-- Covering mouth with bent elbow when sneezing or coughing.
-- Covering mouth with bent elbow when sneezing.
-- Covering mouth with tissue when coughing or sneezing.
-- Covering mouth with tissue when coughing.
-- Covering mouth with tissue when sneezing or coughing.
-- Covering mouth with tissue when sneezing.
-- Covering my mouth and nose when I cough will help to prevent the spread?
-- Covering my mouth and nose when I sneeze will help to prevent the spread?
-- Covering my mouth when I cough will help to prevent the spread?
-- Covering my mouth when I sneeze will help to prevent the spread?
-- Covering my nose when I cough will help to prevent the spread?
-- Covering my nose when I sneeze will help to prevent the spread?
-- Covering nose and mouth while coughing or sneezing.
-- Covering nose and mouth while coughing.
-- Covering nose and mouth while sneezing or coughing.
-- Covering nose and mouth while sneezing.
-- Covering nose while coughing or sneezing.
-- Covering nose while coughing.
-- Covering nose while sneezing or coughing.
-- Covering nose while sneezing.
-- Covering nose with bent elbow when coughing or sneezing.
-- Covering nose with bent elbow when coughing.
-- Covering nose with bent elbow when sneezing or coughing.
-- Covering nose with bent elbow when sneezing.
-- Covering nose with tissue when coughing or sneezing.
-- Covering nose with tissue when coughing.
-- Covering nose with tissue when sneezing or coughing.
-- Covering nose with tissue when sneezing.
-- Follow good respiratory hygiene.
-- Good respiratory hygiene.
-- How to follow good respiratory hygiene?
-- What is good respiratory hygiene?
-- What to do when coughing or sneezing?
-- What to do when coughing?
-- What to do when sneezing or coughing?
-- What to do when sneezing?
+- Cobrir a boca e o nariz quando tossir ou espirrar.
+- Cobrir a boca e o nariz durante a tosse.
+- Cobrir a boca e o nariz quando espirrar ou tossir.
+- Cobrir a boca e o nariz quando espirrar.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando tossir ou espirrar.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando tossir.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando espirrar ou tossir.
+- Cobrir a boca e o nariz com o cotovelo dobrado quando espirrar.
+- Cobrir a boca e o nariz com tecido quando tossir ou espirrar.
+- Cobrir a boca e o nariz com tecido quando tossir.
+- Cobrir a boca e o nariz com tecido quando espirrar ou tossir.
+- Cobrir a boca e o nariz com tecido quando espirrar.
+- Cobrir a boca quando tossir ou espirrar.
+- Cobrir a boca durante a tosse.
+- Cobrir a boca quando espirrar ou tossir.
+- Cobrir a boca quando espirrar.
+- Cobrir a boca com o cotovelo dobrado quando tossir ou espirrar.
+- Cobrir a boca com o cotovelo dobrado quando tossir.
+- Cobrir a boca com o cotovelo dobrado quando espirrar ou tossir.
+- Cobrir a boca com o cotovelo dobrado quando espirrar.
+- Cobrir a boca com tecido quando tossir ou espirrar.
+- Cobrir a boca com tecido quando tossir.
+- Cobrir a boca com tecido quando espirrar ou tossir.
+- Cobrir a boca com tecido quando espirrar.
+- Cobrir minha boca e nariz quando eu tossir vai ajudar a prevenir a propagação?
+- Cobrir minha boca e nariz quando espirro vai ajudar a prevenir a propagação?
+- Cobrir minha boca quando eu tossir vai ajudar a prevenir a propagação?
+- Cobrir minha boca quando eu espirro vai ajudar a prevenir a propagação?
+- Cobrir meu nariz quando eu tossir vai ajudar a prevenir a propagação?
+- Cobrir meu nariz quando eu espirro vai ajudar a prevenir a propagação?
+- Cobrir o nariz e a boca ao tossir ou espirrar.
+- Cobrir nariz e boca durante a tosse.
+- Cobrir nariz e boca quando espirrar ou tossir.
+- Cobrir o nariz e a boca quando espirrar.
+- Cobrir o nariz durante a tosse ou espirro.
+- Cobrindo o nariz durante a tosse.
+- Cobrir o nariz quando espirrar ou tossir.
+- Cobrindo o nariz enquanto espirra.
+- Cobrir o nariz com o cotovelo dobrado quando tossir ou espirrar.
+- Cobrir o nariz com o cotovelo dobrado quando tossir.
+- Cobrir o nariz com o cotovelo dobrado quando espirrar ou tossir.
+- Cobrir o nariz com o cotovelo dobrado quando espirrar.
+- Cobrir o nariz com tecido quando tossir ou espirrar.
+- Cobrir o nariz com tecido quando tossir.
+- Cobrir o nariz com tecido quando espirrar ou tossir.
+- Cobrir o nariz com tecido quando espirrar.
+- Seguir uma boa higiene respiratória.
+- Boa higiene respiratória.
+- Como seguir uma boa higiene respiratória?
+- O que é uma boa higiene respiratória?
+- O que fazer quando tossir ou espirrar?
+- O que fazer quando tossir?
+- O que fazer quando espirrar ou tossir?
+- O que fazer quando espirrar?
 
 ## intent:prevention_touch
-- About not touching eyes.
-- About not touching face.
-- About not touching mouth.
-- About not touching nose.
-- About touching eyes.
-- About touching face.
-- About touching mouth.
-- About touching nose.
-- Can I touch my eyes?
-- Can I touch my face?
-- Can I touch my mouth?
-- Can I touch my nose?
-- Can I touch the eyes?
-- Can I touch the face?
-- Can I touch the mouth?
-- Can I touch the nose?
-- Info about not touching eyes.
-- Info about not touching face.
-- Info about not touching mouth.
-- Info about not touching nose.
-- Info about touching eyes.
-- Info about touching face.
-- Info about touching mouth.
-- Info about touching nose.
-- Is it important to not touch the eyes?
-- Is it important to not touch the face?
-- Is it important to not touch the mouth?
-- Is it important to not touch the nose?
-- Should I avoid to touch my eyes?
-- Should I avoid to touch my face?
-- Should I avoid to touch my mouth?
-- Should I avoid to touch my nose?
-- Should touching the eyes be avoided?
-- Should touching the face be avoided?
-- Should touching the mouth be avoided?
-- Should touching the nose be avoided?
-- Touch eyes.
-- Touch face.
-- Touch mouth.
-- Touch nose.
-- Touch the eyes.
-- Touch the face.
-- Touch the mouth.
-- Touch the nose.
-- Touching eyes.
-- Touching face.
-- Touching mouth.
-- Touching nose.
-- Touching the eyes.
-- Touching the face.
-- Touching the mouth.
-- Touching the nose.
-- Why is it important to not touch the eyes?
-- Why is it important to not touch the face?
-- Why is it important to not touch the mouth?
-- Why is it important to not touch the nose?
-- Why should I avoid to touch my eyes?
-- Why should I avoid to touch my face?
-- Why should I avoid to touch my mouth?
-- Why should I avoid to touch my nose?
+- Sobre não tocar nos olhos.
+- Sobre não tocar no rosto.
+- Sobre não tocar na boca.
+- Sobre não tocar no nariz.
+- Sobre tocar os olhos.
+- Sobre contato com o rosto.
+- Sobre tocar a boca.
+- Sobre tocar o nariz.
+- Posso tocar meus olhos?
+- Posso tocar meu rosto?
+- Posso tocar minha boca?
+- Posso tocar meu nariz?
+- Posso tocar nos olhos?
+- Posso tocar no rosto?
+- Posso tocar na boca?
+- Posso tocar no nariz?
+- Informações sobre não tocar nos olhos.
+- Informações sobre como não tocar no rosto.
+- Informações sobre como não tocar na boca.
+- Informações sobre não tocar no nariz.
+- Informações sobre como tocar nos olhos.
+- Informações sobre como tocar no rosto.
+- Informações sobre como tocar na boca.
+- Informações sobre como tocar no nariz.
+- É importante não tocar nos olhos?
+- É importante não tocar no rosto?
+- É importante não tocar na boca?
+- É importante não tocar no nariz?
+- Devo evitar tocar nos meus olhos?
+- Devo evitar tocar no meu rosto?
+- Devo evitar tocar na minha boca?
+- Devo evitar tocar no meu nariz?
+- Deve evitar tocar os olhos?
+- Deve evitar tocar o rosto?
+- Deve evitar tocar a boca?
+- Deve evitar tocar o nariz?
+- Tocar nos olhos.
+- Tocar no rosto.
+- Tocar na boca.
+- Tocar no nariz.
+- Toque os olhos.
+- Toque o rosto.
+- Toque a boca.
+- Toque o nariz.
+- Tocar os olhos.
+- Tocar o Rosto.
+- Tocar a boca.
+- Tocar o nariz.
+- Tocando os olhos.
+- Tocando o rosto.
+- Tocando a boca.
+- Tocando o nariz.
+- Por que é importante não tocar nos olhos?
+- Por que é importante não tocar no rosto?
+- Por que é importante não tocar na boca?
+- Por que é importante não tocar no nariz?
+- Por que eu deveria evitar tocar meus olhos?
+- Por que eu deveria evitar tocar meu rosto?
+- Por que eu deveria evitar tocar minha boca?
+- Por que eu deveria evitar tocar meu nariz?
 
 ## intent:quarantine_control
-- How is the quarantine controlled?
-- Quarantine controlled
-- Who controls the quarantine?
+- Como se controla a quarentena?
+- Quarentena controlada
+- Quem controla a quarentena?
 
 ## intent:quarantine_dogwalking
-- Dog quarantine
-- Dog walking and quarantine
-- Dogs and quarantine
-- Quarantine and dog
-- Quarantine and dogs
-- What do dog owners who are in quarantine do?
-- What do dog owners who are in quarantine do? Who goes out with the animal?
+- Quarentena do cachorro
+- Caminhada e quarentena de cachorros
+- Cachorros e quarentena
+- Quarentena e cachorro
+- Quarentena e cachorros
+- O que fazem os donos de cachorros que estão em quarentena?
+- O que fazem os donos de cachorros que estão em quarentena? Quem sai com o animal?
+- Quarentena do cão
+- Caminhada e quarentena de cães
+- cães e quarentena
+- Quarentena e cão
+- Quarentena e cães
+- O que fazem os donos de cães que estão em quarentena?
+- O que fazem os donos de cães que estão em quarentena? Quem sai com o animal?
 
 ## intent:quarantine_dos_and_donts
-- May I leave home?
-- What is allowed to do in quarantine?
-- What is forbidden to do in quarantine?
-- What may and may not be done while in quarantine?
-- What may done while in quarantine?
-- What may not be done while in quarantine?
+- Posso sair de casa?
+- O que é permitido fazer na quarentena?
+- O que é proibido fazer na quarentena?
+- O que posso fazer na quarentena?
+- O que não posso fazer na quarentena?
+- O que pode ou não ser feito durante a quarentena?
+- O que pode ser feito durante a quarentena?
+- O que não pode ser feito durante a quarentena?
 
 ## intent:quarantine_general
-- About quarantine
-- Curfew
-- How is quarantine done?
-- Info about quarantine.
-- Isolation
-- Quarantine
-- Self isolation
-- Self-isolation
-- What is curfew?
-- What is quarantine
-- should I make quarentine?
-- should I still make quarantine?
-- should I still make quarentine?
-- with no symptoms during quarantine, after how long we can consider ourselves
-  cured
+- Sobre a quarentena
+- Toque de recolher
+- Como é feita a quarentena?
+- Informações sobre quarentena.
+- Isolamento
+- Quarentena
+- Auto isolamento
+- Auto-isolamento
+- O que é toque de recolher?
+- O que é quarentena
+- Devo fazer quarentena?
+- ainda devo fazer a quarentena?
+- ainda devo fazer quarentena?
+- sem sintomas durante a quarentena, após quanto tempo podemos nos considerar curados?
 
 ## intent:quarantine_toiletpaper
-- Toilet paper
-- Why do so many people buy toilet paper now?
+- Papel higiênico
+- Por que tantas pessoas compram papel higiênico agora?
 
-## intent:quarantine_when_who_howlong
-- Should I do quarantine.
-- When do I need to go in quarantine?
-- Who needs to do quarantine?
-- Who should do quarantine?
-- should i make quarantine?
+## intent:quarantine_whwho_howlong
+- Se eu fizer quarentena.
+- Quando preciso fazer quarentena?
+- Quem precisa fazer quarentena?
+- Quem deve fazer quarentena?
+- devo fazer quarentena?
 
 ## intent:quaratine_how_it_works
-- How do quarantine properly?
-- How does quarantine work?
-- How to do proper quarantine?
-- How to do quarantine?
-- What is quarantine?
-- What is quarantine? How does it work?
+- Como fazer a quarentena propriamente dita?
+- Como funciona a quarentena?
+- Como fazer uma quarentena adequada?
+- Como fazer a quarentena certo?
+- Como fazer a quarentena?
+- O que é quarentena?
+- O que é quarentena? Como funciona?
 
 ## intent:spread_air
-- Air propagation.
-- Air spreading.
-- Air transmission.
-- Can be propagated by air?
-- Can be spread by air?
-- Can be transmitted by air?
-- Can the virus be propagated through the air?
-- Can the virus be spread through the air?
-- Can the virus be transmitted through the air?
-- Can the virus that causes [COVID-19](virus:COVID) be propagated through the air?
-- Can the virus that causes [COVID-19](virus:COVID) be spread through the air?
-- Can the virus that causes [COVID-19](virus:COVID) be transmitted through the air?
-- Is it possible the virus to be propagated by air?
-- Is it possible the virus to be spread by air?
-- Is it possible the virus to be transmitted by air?
-- Is it possible to be propagated by air?
-- Is it possible to be spread by air?
-- Is it possible to be transmitted by air?
-- Is possible the virus be propagated by air?
-- Is possible the virus be spread by air?
-- Is possible the virus be transmitted by air?
-- Is possible to be propagated by air?
-- Is possible to be spread by air?
-- Is possible to be transmitted by air?
-- Is the virus propagated though air?
-- Is the virus spread though air?
-- Is the virus that causes [COVID-19](virus:COVID) propagated though air?
-- Is the virus that causes [COVID-19](virus:COVID) spread though air?
-- Is the virus that causes [COVID-19](virus:COVID) transmitted though air?
-- Is the virus transmitted though air?
-- Propagation by air.
-- Spreading by air.
-- Transmission by air.
+- Propagação pelo ar.
+- Disseminação pelo ar.
+- Transmissão pelo ar.
+- Pode ser propagado pelo ar?
+- Pode ser espalhado pelo ar?
+- Pode ser transmitido pelo ar?
+- Pode ser disseminado pelo ar?
+- pode passar pelo ar?
+- O vírus pode ser propagado através do ar?
+- O vírus pode ser espalhado pelo ar?
+- O vírus pode ser transmitido pelo ar?
+- O vírus pode ser disseminado pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} pode ser propagado através do ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} pode ser disseminado pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} pode ser transmitido pelo ar?
+- É possível que o vírus seja propagado pelo ar?
+- É possível que o vírus se propague pelo ar?
+- É possível que o vírus seja transmitido pelo ar?
+- É possível ser propagado pelo ar?
+- É possível ser espalhado pelo ar?
+- É possível ser transmitido pelo ar?
+- É possível que o vírus seja disseminado pelo ar?
+- É possível que o vírus se dissemine pelo ar?
+- É possível ser propagado por via aérea?
+- É possível ser espalhado por via aérea?
+- É possível ser transmitido por via aérea?
+- É possível ser disseminado por via aérea?
+- O vírus é propagado através do ar?
+- O vírus se espalha através do ar?
+- O vírus é disseminado através do ar?
+- O vírus se dissemina através do ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é propagado através do ar?
+- O vírus que causa a [COVID-19]{"entity": "virus", "value": "COVID"} se espalha pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é transmitido através do ar?
+- O vírus que causa a [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina pelo ar?
+- O vírus que causa [COVID-19]{"entity": "virus", "value": "COVID"} é disseminado através do ar?
+- O vírus é transmitido através do ar?
+- Propagação por via aérea.
+- Disseminação por via aérea.
+- Transmissão por via aérea.
 
 ## intent:spread_animals
-- Can I be infected with [COVID-19](virus:COVID) from an animal?
-- Can I be infected with [COVID-19](virus:COVID) from animals?
-- Can I be infected with the virus from an animal?
-- Can I be infected with the virus from animals?
-- Can I catch the [COVID-19](virus:COVID) from an animal source?
-- Can I catch the [COVID-19](virus:COVID) from an animal?
-- Can I catch the [COVID-19](virus:COVID) from animals source?
-- Can I catch the [COVID-19](virus:COVID) from animals?
-- Can I catch the the virus from an animal source?
-- Can I catch the the virus from an animal?
-- Can I catch the the virus from animals source?
-- Can I catch the the virus from animals?
-- Can an animal infect me?
-- Can an animal spread [COVID-19](virus:COVID) to humans?
-- Can an animal spread [COVID-19](virus:COVID)?
-- Can an animal spread the virus to humans?
-- Can an animal spread the virus?
-- Can animals infect me?
-- Can animals spread [COVID-19](virus:COVID) to humans?
-- Can animals spread [COVID-19](virus:COVID)?
-- Can animals spread the virus to humans?
-- Can animals spread the virus?
-- Can humans become infected with the [COVID-19](virus:COVID) from an animal source?
-- Can humans become infected with the [COVID-19](virus:COVID) from an animal?
-- Can humans become infected with the [COVID-19](virus:COVID) from animals source?
-- Can humans become infected with the [COVID-19](virus:COVID) from animals?
-- Can humans become infected with the the virus from an animal source?
-- Can humans become infected with the the virus from an animal?
-- Can humans become infected with the the virus from animals source?
-- Can humans become infected with the the virus from animals?
-- So the this virus has an animal origin?
-- animals
-- the virus transmitting from animals to people?
+- Posso ser infectado com [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- Posso ser infectado com [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Posso ser infectado com o vírus por um animal?
+- Posso ser infectado com o vírus por animais?
+- Posso ser infectada com [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- Posso ser infectada com [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Posso ser infectada com o vírus por um animal?
+- Posso ser infectada com o vírus por animais?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma fonte animal?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de um animal?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de fonte animal?
+- Posso pegar o [COVID-19]{"entity": "virus", "value": "COVID"} dos animais?
+- Eu posso pegar o vírus de uma fonte animal?
+- Eu posso pegar o vírus de um animal?
+- Posso pegar o vírus da fonte de animais?
+- Posso pegar o vírus dos animais?
+- Um animal pode me infectar?
+- Um animal pode espalhar [COVID-19]{"entity": "virus", "value": "COVID"} para os humanos?
+- Um animal pode espalhar [COVID-19]{"entity": "virus", "value": "COVID"} para as pessoas?
+- Um animal pode espalhar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Um animal pode espalhar o vírus para humanos?
+- Um animal pode espalhar o vírus para pessoas?
+- Um animal pode espalhar o vírus?
+- Os animais podem me infectar?
+- Os animais podem espalhar [COVID-19]{"entity": "virus", "value": "COVID"} para os humanos?
+- Os animais podem espalhar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Os animais podem espalhar o vírus para os seres humanos?
+- Os animais podem espalhar o vírus?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por uma fonte animal?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por origem animal?
+- Os humanos podem ser infectados com o [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Os seres humanos podem ser infectados pelo vírus a partir de uma fonte animal?
+- O ser humano pode ser infectado pelo vírus por um animal?
+- Os seres humanos podem ser infectados com o vírus por origem animal?
+- Os seres humanos podem ser infectados com o vírus por animais?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por uma fonte animal?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por um animal?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por origem animal?
+- as pessoas podem ser infectadas com o [COVID-19]{"entity": "virus", "value": "COVID"} por animais?
+- Então o vírus é de origem animal?
+- animais
+- o vírus se transmite dos animais para as pessoas?
 
 ## intent:spread_feces
-- Can I catch [COVID-19](virus:COVID) from the excrements of an infected person?
-- Can I catch [COVID-19](virus:COVID) from the excrements of someone with the disease?
-- Can I catch [COVID-19](virus:COVID) from the feces of an infected person?
-- Can I catch [COVID-19](virus:COVID) from the feces of someone with the disease?
-- Can I catch [COVID-19](virus:COVID) from the poop of an infected person?
-- Can I catch [COVID-19](virus:COVID) from the poop of someone with the disease?
-- Can I catch the virus through excrements?
-- Can I catch the virus through feces?
-- Can I catch the virus through poop?
-- Can the virus be caught through excrements?
-- Can the virus be caught through feces?
-- Can the virus be caught through poop?
-- Catch the virus through excrements.
-- Catch the virus through feces.
-- Catch the virus through poop.
-- Catching the virus through excrements.
-- Catching the virus through feces.
-- Catching the virus through poop.
-- Feces from someone infected can pass the virus?
-- Infection through excrements.
-- Infection through feces.
-- Infection through poop.
-- Risk of catching [COVID-19](virus:COVID) from the excrements of an infected person.
-- Risk of catching [COVID-19](virus:COVID) from the excrements of someone with the disease.
-- Risk of catching [COVID-19](virus:COVID) from the feces of an infected person.
-- Risk of catching [COVID-19](virus:COVID) from the feces of someone with the disease.
-- Risk of catching [COVID-19](virus:COVID) from the poop of an infected person.
-- Risk of catching [COVID-19](virus:COVID) from the poop of someone with the disease.
-- Spread through excrements.
-- Spread through feces.
-- Spread through poop.
-- Spreading through excrements.
-- Spreading through feces.
-- Spreading through poop.
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de alguém com a doença?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de uma pessoa infectada?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de alguém com a doença?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de uma pessoa infectada?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de alguém com a doença?
+- Posso pegar o vírus através de excrementos?
+- Eu posso pegar o vírus através das fezes?
+- Posso pegar o vírus através do cocô?
+- O vírus pode ser pego através de excrementos?
+- O vírus pode ser pego através das fezes?
+- O vírus pode ser pego através do cocô?
+- pegar o vírus através de excrementos.
+- pegar o vírus através das fezes.
+- pegar o vírus através do cocô.
+- Adquirir o vírus através de excrementos.
+- Adquirir o vírus através das fezes.
+- Adquirir o vírus através do cocô.
+- Fezes de alguém infectado podem passar o vírus?
+- Infecção através de excrementos.
+- Infecção através das fezes.
+- Infecção através do cocô.
+- Infecção por excrementos.
+- Infecção por fezes.
+- Infecção por cocô.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} dos excrementos de alguém com a doença.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} das fezes de alguém com a doença.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de uma pessoa infectada.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cocô de alguém com a doença.
+- Espalhar através de excrementos.
+- Espalhar através das fezes.
+- Espalhar através do cocô.
+- disseminar através de excrementos.
+- disseminar através das fezes.
+- disseminar através do cocô.
+- Passar através de excrementos.
+- Passar através das fezes.
+- Passar através do cocô.
 
 ## intent:spread_general
-- About how [COVID-19](virus:COVID) propagates.
-- About how [COVID-19](virus:COVID) spreads.
-- About how coronavirus propagates.
-- About how coronavirus spreads.
-- About how it propagates.
-- About how it spreads.
-- About how the disease propagates.
-- About how the disease spreads.
-- About how the virus propagates.
-- About how the virus spreads.
-- [COVID-19](virus:COVID) propagate.
-- [COVID-19](virus:COVID) propagating.
-- [COVID-19](virus:COVID) propagation.
-- [COVID-19](virus:COVID) spread.
-- [COVID-19](virus:COVID) spreading.
-- Coronavirus propagate.
-- Coronavirus propagating.
-- Coronavirus propagation.
-- Coronavirus spread.
-- Coronavirus spreading.
-- Could you please give me some news about the spreading of the virus?
-- Could you show me information about the spreading of the illness?
-- Disease propagate.
-- Disease propagating.
-- Disease propagation.
-- Disease spread.
-- Disease spreading.
-- How [COVID-19](virus:COVID) propagates.
-- How [COVID-19](virus:COVID) spreads.
-- How can I catch Covid
-- How can I catch it?
-- How coronavirus propagates.
-- How coronavirus spreads.
-- How does [COVID-19](virus:COVID) propagate?
-- How does [COVID-19](virus:COVID) propagates?
-- How does [COVID-19](virus:COVID) spread?
-- How does [COVID-19](virus:COVID) spreads?
-- How does coronavirus propagate?
-- How does coronavirus propagates?
-- How does coronavirus spread?
-- How does coronavirus spreads?
-- How does it propagates?
-- How does it spread?
-- How does it spreads?
-- How does the covid-9 spread
-- How does the disease propagate?
-- How does the disease propagates?
-- How does the disease spread?
-- How does the disease spreads?
-- How does the virus propagate?
-- How does the virus propagates?
-- How does the virus spread?
-- How does the virus spreads?
-- How is Covid being spread?
-- How is transmitted
-- How it propagates.
-- How it spreads.
-- How the disease propagates.
-- How the disease spreads.
-- How the virus propagates.
-- How the virus spreads.
-- How the vírus spreads?
-- I want to know how can I get the disease
-- Okay. What do you know about the spreading?
-- Propagating of [COVID-19](virus:COVID).
-- Propagating of coronavirus.
-- Propagating of the disease.
-- Propagating of the virus.
-- Propagation of [COVID-19](virus:COVID).
-- Propagation of coronavirus.
-- Propagation of the disease.
-- Propagation of the virus.
-- Spreading
-- Spreading of [COVID-19](virus:COVID).
-- Spreading of coronavirus.
-- Spreading of the disease.
-- Spreading of the virus.
-- Virus propagate.
-- Virus propagating.
-- Virus propagation.
-- Virus spread.
-- Virus spreading.
-- What cause the spread of the virus?
-- can you tell me how does the virus spread
-- how can I contract the virrus
-- how can I contract the virus
-- how can I get it
-- how can I get the virus?
-- how do this virus work?
-- how is [Covid 19](virus:COVID)  transmitted?
-- how is the transmission
-- how is the virus transmitted
-- the virus spreads
-- transmission
-- transmissions
+- Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se propaga.
+- Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se espalha.
+- Sobre como [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina.
+- Sobre como o coronavírus se propaga.
+- Sobre como o coronavírus se espalha.
+- Sobre como o coronavírus se dissemina.
+- Sobre como se propaga.
+- Sobre como se espalha.
+- Sobre como se dissemina.
+- Sobre como a doença se propaga.
+- Sobre como a doença se espalha.
+- Sobre como o vírus se propaga.
+- Sobre como o vírus se espalha.
+- [COVID-19]{"entity": "virus", "value": "COVID"} propagar.
+- [COVID-19]{"entity": "virus", "value": "COVID"} disseminação.
+- [COVID-19]{"entity": "virus", "value": "COVID"} propagação.
+- [COVID-19]{"entity": "virus", "value": "COVID"} espalha.
+- [COVID-19]{"entity": "virus", "value": "COVID"} espalhando.
+- [COVID-19]{"entity": "virus", "value": "COVID"} dissemina.
+- Coronavírus se propaga.
+- Coronavírus se dissemina.
+- Propagação do Coronavírus.
+- Disseminação de Coronavírus.
+- Você poderia me dar notícias sobre a propagação do vírus?
+- Você poderia me mostrar informações sobre a propagação da doença?
+- Propagação de doenças.
+- Propagação da doença.
+- Disseminação de doenças.
+- Disseminação da doença.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se propaga.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se espalha.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se transmite.
+- Como [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina.
+- Como eu posso pegar o Covid
+- Como eu posso pegá-lo?
+- Como se propaga o coronavírus.
+- Como o coronavírus se espalha.
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} se propaga?
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} passa?
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} se espalha?
+- Como o [COVID-19]{"entity": "virus", "value": "COVID"} se dissemina?
+- Como pega o [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Como o coronavírus se propaga?
+- Como o coronavírus se espalha?
+- Como o coronavírus se dissemina?
+- Como o coronavírus se transmite?
+- Como ela se propaga?
+- Como se espalha?
+- Como espalha?
+- Como passa?
+- Como a covid-9 se espalha
+- Como a doença se propaga?
+- Como a doença se espalha?
+- Como passa a doença?
+- Como o vírus se propaga?
+- Como o vírus se espalha?
+- Como passa o vírus?
+- Como a Covid está se espalhando?
+- Como é transmitido
+- Como ela se propaga.
+- Como se espalha.
+- Como a doença se propaga.
+- Como a doença se espalha.
+- Como o vírus se propaga.
+- Como o vírus se espalha.
+- Como o vírus se transmite.
+- Eu quero saber como eu posso pegar a doença
+- Certo. O que você sabe sobre a propagação?
+- Propagação de [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Propagação do coronavírus.
+- Propagação da doença.
+- Propagação do vírus.
+- Propagação
+- Disseminação do coronavírus.
+- Disseminação da doença.
+- Disseminação do vírus.
+- Disseminação de vírus.
+- Propagação de [COVID-19]{"entity": "virus", "value": "COVID"}.
+- transmissão do coronavírus.
+- transmissão da doença.
+- transmissão do vírus.
+- transmissão
+- transmissão
+- Propaga o vírus.
+- Dissemina o vírus.
+- O que causa a propagação do vírus?
+- O que causa a transmissão do vírus?
+- Você pode me dizer como o vírus se espalha?
+- Você pode me dizer como transmite o vírus?
+- como posso pegar o vírus
+- como posso contrair o vírus
+- como eu posso pegar
+- como eu posso pegar o vírus?
+- como funciona este vírus?
+- como é transmitido [Covid 19]{"entity": "virus", "value": "COVID"}?
+- como é a transmissão
+- como o vírus é transmitido
+- o vírus se espalha
+- transmissão
+- transmissões
 
 ## intent:spread_no_symptoms
-- Can [COVID-19](virus:COVID) be caught from a person who has no symptoms?
-- Can [COVID-19](virus:COVID) be caught from a person with no symptoms?
-- Can [COVID-19](virus:COVID) be caught from a person without symptoms?
-- Can [COVID-19](virus:COVID) be caught from someone who has no symptoms?
-- Can [COVID-19](virus:COVID) be caught from someone with no symptoms?
-- Can [COVID-19](virus:COVID) be caught from someone without symptoms?
-- Can I caught [COVID-19](virus:COVID) from a person who has no symptoms?
-- Can I caught [COVID-19](virus:COVID) from a person with no symptoms?
-- Can I caught [COVID-19](virus:COVID) from a person without symptoms?
-- Can I caught [COVID-19](virus:COVID) from people who has no symptoms?
-- Can I caught [COVID-19](virus:COVID) from people with no symptoms?
-- Can I caught [COVID-19](virus:COVID) from people without symptoms?
-- Can I caught [COVID-19](virus:COVID) from someone who has no symptoms?
-- Can I caught [COVID-19](virus:COVID) from someone with no symptoms?
-- Can I caught [COVID-19](virus:COVID) from someone without symptoms?
-- Can I caught the [COVID-19](virus:COVID) from a person who has no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from a person with no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from a person without symptoms?
-- Can I caught the [COVID-19](virus:COVID) from people who has no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from people with no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from people without symptoms?
-- Can I caught the [COVID-19](virus:COVID) from someone who has no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from someone with no symptoms?
-- Can I caught the [COVID-19](virus:COVID) from someone without symptoms?
-- Can I caught the the virus from a person who has no symptoms?
-- Can I caught the the virus from a person with no symptoms?
-- Can I caught the the virus from a person without symptoms?
-- Can I caught the the virus from people who has no symptoms?
-- Can I caught the the virus from people with no symptoms?
-- Can I caught the the virus from people without symptoms?
-- Can I caught the the virus from someone who has no symptoms?
-- Can I caught the the virus from someone with no symptoms?
-- Can I caught the the virus from someone without symptoms?
-- Can I caught the virus from a person who has no symptoms?
-- Can I caught the virus from a person with no symptoms?
-- Can I caught the virus from a person without symptoms?
-- Can I caught the virus from people who has no symptoms?
-- Can I caught the virus from people with no symptoms?
-- Can I caught the virus from people without symptoms?
-- Can I caught the virus from someone who has no symptoms?
-- Can I caught the virus from someone with no symptoms?
-- Can I caught the virus from someone without symptoms?
-- Can people without symptoms pass the virus?
-- Can the virus be caught from a person who has no symptoms?
-- Can the virus be caught from a person with no symptoms?
-- Can the virus be caught from a person without symptoms?
-- Can the virus be caught from someone who has no symptoms?
-- Can the virus be caught from someone with no symptoms?
-- Can the virus be caught from someone without symptoms?
-- People who has no symptoms can be infectious?
-- People who has no symptoms can transmit [COVID-19](virus:COVID)?
-- People who has no symptoms can transmit the virus?
-- People who has no symptoms can transmit?
-- People with no symptoms can be infectious?
-- People with no symptoms can transmit [COVID-19](virus:COVID)?
-- People with no symptoms can transmit the virus?
-- People with no symptoms can transmit?
-- People without symptoms can be infectious?
-- People without symptoms can transmit [COVID-19](virus:COVID)?
-- People without symptoms can transmit the virus?
-- People without symptoms can transmit?
-- Risk of catching [COVID-19](virus:COVID) from a person who has no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from a person with no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from a person without symptoms.
-- Risk of catching [COVID-19](virus:COVID) from someone who has no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from someone with no symptoms.
-- Risk of catching [COVID-19](virus:COVID) from someone without symptoms.
-- Risk of catching the virus from a person who has no symptoms.
-- Risk of catching the virus from a person with no symptoms.
-- Risk of catching the virus from a person without symptoms.
-- Risk of catching the virus from someone who has no symptoms.
-- Risk of catching the virus from someone with no symptoms.
-- Risk of catching the virus from someone without symptoms.
-- Someone who has no symptoms can be infectious?
-- Someone who has no symptoms can pass the virus?
-- Someone who has no symptoms can transmit the virus?
-- Someone with no symptoms can be infectious?
-- Someone with no symptoms can pass the virus?
-- Someone with no symptoms can transmit the virus?
-- Someone without symptoms can be infectious?
-- Someone without symptoms can pass the virus?
-- Someone without symptoms can transmit the virus?
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} por uma pessoa sem sintomas?
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} por uma pessoa assintomática?
+- Pode pegar [COVID-19]{"entity": "virus", "value": "COVID"} por alguém que não tem sintomas?
+- da pra pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém sem sintomas?
+- da pra pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém assintomático?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa sem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa assintomática?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas que não têm sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas sem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas assintomáticas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém que não tem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém sem sintomas?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} de alguém assintomático?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa sem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa assintomática?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas que não têm sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas sem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de pessoas assintomáticas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de alguém que não tem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de alguém sem sintomas?
+- da pra pegar o [COVID-19]{"entity": "virus", "value": "COVID"} de alguém assintomático?
+- posso pegar o vírus de uma pessoa que não tem sintomas?
+- posso pegar o vírus de uma pessoa sem sintomas?
+- posso pegar o vírus de uma pessoa assintomática?
+- Posso pegar o vírus de pessoas que não têm sintomas?
+- posso pegar o vírus de pessoas sem sintomas?
+- posso pegar o vírus de pessoas assintomáticas?
+- Posso pegar o vírus de alguém que não tem sintomas?
+- posso pegar o vírus de alguém sem sintomas?
+- posso pegar o vírus de alguém assintomático?
+- dá pra pegar o vírus de uma pessoa que não tem sintomas?
+- dá pra pegar o vírus de uma pessoa sem sintomas?
+- dá pra pegar o vírus de uma pessoa assintomática?
+- dá pra pegar o vírus de pessoas que não têm sintomas?
+- dá pra pegar o vírus de pessoas sem sintomas?
+- dá pra pegar o vírus de pessoas assintomáticas?
+- dá pra pegar o vírus de alguém que não tem sintomas?
+- dá pra pegar o vírus de alguém sem sintomas?
+- dá pra pegar o vírus de alguém assintomático? 
+- Pessoas sem sintomas podem passar o vírus?
+- O vírus é transmitido por uma pessoa que não tem sintomas?
+- O vírus é transmitido por uma pessoa sem sintomas?
+- O vírus é transmitido por uma pessoa assintomática?
+- O vírus é transmitido por alguém que não tem sintomas?
+- O vírus é transmitido por alguém sem sintomas?
+- O vírus é transmitido por alguém assintomático?
+- As pessoas que não apresentam sintomas podem ser infecciosas?
+- Quem não tem sintomas pode transmitir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Pessoas que não apresentam sintomas podem transmitir o vírus?
+- Pessoas que não têm sintomas podem transmitir?
+- Pessoas sem sintomas podem ser infecciosas?
+- Pessoas sem sintomas podem transmitir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Pessoas sem sintomas podem transmitir o vírus?
+- Pessoas sem sintomas podem transmitir?
+- Pessoas assintomáticas podem ser infecciosas?
+- Pessoas assintomáticas podem transmitir [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Pessoas assintomáticas podem transmitir o vírus?
+- Pessoas assintomáticas podem transmitir?
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa que não tem sintomas.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa sem sintomas.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"} de uma pessoa assintomática.
+- Risco de pegar o vírus de uma pessoa que não tem sintomas.
+- Risco de pegar o vírus de uma pessoa sem sintomas.
+- Risco de pegar o vírus de uma pessoa assintomática.
+- Risco de pegar o vírus de alguém que não tem sintomas.
+- Risco de pegar o vírus de alguém sem sintomas.
+- Risco de pegar o vírus de alguém assintomático.
+- Alguém que não tem sintomas pode ser infeccioso?
+- Alguém que não tem sintomas pode passar o vírus?
+- Alguém que não tem sintomas pode transmitir o vírus?
+- Alguém sem sintomas pode ser infeccioso?
+- Alguém sem sintomas pode passar o vírus?
+- Alguém sem sintomas pode transmitir o vírus?
+- Alguém assintomático pode ser infeccioso?
+- Alguém assintomático pode passar o vírus?
+- Alguém assintomático pode transmitir o vírus?
 
 ## intent:spread_pets
-- Can I be infected from my cat?
-- Can I be infected from my companion animal?
-- Can I be infected from my dog?
-- Can I be infected from my family cat?
-- Can I be infected from my family dog?
-- Can I be infected from my family pet?
-- Can I be infected from my pet?
-- Can I catch [COVID-19](virus:COVID) from my cat?
-- Can I catch [COVID-19](virus:COVID) from my companion animal?
-- Can I catch [COVID-19](virus:COVID) from my dog?
-- Can I catch [COVID-19](virus:COVID) from my family cat?
-- Can I catch [COVID-19](virus:COVID) from my family dog?
-- Can I catch [COVID-19](virus:COVID) from my family pet?
-- Can I catch [COVID-19](virus:COVID) from my pet?
-- Can my cat catch the virus?
-- Can my cat infect me?
-- Can my cat spread the disease?
-- Can my cat spread the virus?
-- Can my companion animal catch the virus?
-- Can my companion animal infect me?
-- Can my companion animal spread the disease?
-- Can my companion animal spread the virus?
-- Can my dog catch the virus?
-- Can my dog infect me?
-- Can my dog spread the disease?
-- Can my dog spread the virus?
-- Can my family cat catch the virus?
-- Can my family cat infect me?
-- Can my family cat spread the disease?
-- Can my family cat spread the virus?
-- Can my family dog catch the virus?
-- Can my family dog infect me?
-- Can my family dog spread the disease?
-- Can my family dog spread the virus?
-- Can my family pet catch the virus?
-- Can my family pet infect me?
-- Can my family pet spread the disease?
-- Can my family pet spread the virus?
-- Can my pet catch or spread the virus?
-- Can my pet catch the virus?
-- Can my pet infect me?
-- Can my pet spread the disease?
-- Can my pet spread the virus?
-- Is it possible to be infected by cats?
-- Is it possible to be infected by companion animals?
-- Is it possible to be infected by dogs?
-- Is it possible to be infected by family cats?
-- Is it possible to be infected by family dogs?
-- Is it possible to be infected by family pets?
-- Is it possible to be infected by my cat?
-- Is it possible to be infected by my companion animal?
-- Is it possible to be infected by my dog?
-- Is it possible to be infected by my family cat?
-- Is it possible to be infected by my family dog?
-- Is it possible to be infected by my family pet?
-- Is it possible to be infected by my pet?
-- Is it possible to be infected by pets?
-- Is it possible to catch the virus from cats?
-- Is it possible to catch the virus from companion animals?
-- Is it possible to catch the virus from dogs?
-- Is it possible to catch the virus from family cats?
-- Is it possible to catch the virus from family dogs?
-- Is it possible to catch the virus from family pets?
-- Is it possible to catch the virus from my cat?
-- Is it possible to catch the virus from my companion animal?
-- Is it possible to catch the virus from my dog?
-- Is it possible to catch the virus from my family cat?
-- Is it possible to catch the virus from my family dog?
-- Is it possible to catch the virus from my family pet?
-- Is it possible to catch the virus from my pet?
-- Is it possible to catch the virus from pets?
-- Is possible to be infected by cats?
-- Is possible to be infected by companion animals?
-- Is possible to be infected by dogs?
-- Is possible to be infected by family cats?
-- Is possible to be infected by family dogs?
-- Is possible to be infected by family pets?
-- Is possible to be infected by my cat?
-- Is possible to be infected by my companion animal?
-- Is possible to be infected by my dog?
-- Is possible to be infected by my family cat?
-- Is possible to be infected by my family dog?
-- Is possible to be infected by my family pet?
-- Is possible to be infected by my pet?
-- Is possible to be infected by pets?
-- does the dogs transmit the virus?
-- is the virus be transmitted by the pets?
+- posso ser infectado pelo meu gato?
+- Posso ser infectado pelo meu animal de estimação?
+- posso ser infectado pelo meu cachorro?
+- posso ser infectado pelo meu cão?
+- Posso ser infectado pelo gato da minha família?
+- Eu posso ser infectado pelo cachorro da minha família?
+- Eu posso ser infectado pelo cão da minha família?
+- Eu posso ser infectado pelo animal de estimação da minha família?
+- Eu posso ser infectado pelo meu animal de estimação?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu gato?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu animal de estimação?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu cachorro?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu cão?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do gato da minha família?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do cachorro da minha família?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do animal de estimação da minha família?
+- Posso pegar [COVID-19]{"entity": "virus", "value": "COVID"} do meu animal de estimação?
+- O meu gato pode pegar o vírus?
+- O meu gato pode me infectar?
+- O meu gato pode espalhar a doença?
+- O meu gato pode espalhar o vírus?
+- O meu gato pode transmitir a doença?
+- O meu gato pode transmitir o vírus?
+- O meu animal pode pegar o vírus?
+- O meu animal pode me infectar?
+- O meu animal pode espalhar a doença?
+- O meu animal pode espalhar o vírus?
+- O meu animal pode transmitir a doença?
+- O meu animal pode trasmitir o vírus?
+- Meu cachorro pode pegar o vírus?
+- Meu cão pode pegar o vírus?
+- O meu cachorro pode me infectar?
+- O meu cão pode me infectar?
+- O meu cachorro pode espalhar a doença?
+- O meu cão pode espalhar a doença?
+- Meu cachorro pode espalhar o vírus?
+- Meu cão pode espalhar o vírus?
+- O meu cachorro pode transmitir a doença?
+- O meu cão pode transmitir a doença?
+- Meu cachorro pode transmitir o vírus?
+- Meu cão pode transmitir o vírus?
+- O gato da minha família pode pegar o vírus?
+- O gato da minha família pode me infectar?
+- O gato da minha família pode espalhar a doença?
+- O gato da minha família pode espalhar o vírus?
+- O gato da minha família pode transmitir a doença?
+- O gato da minha família pode transmitir o vírus?
+- O cachorro da minha família pode pegar o vírus?
+- O cachorro da minha família pode me infectar?
+- O cachorro da minha família pode espalhar a doença?
+- O cachorro da minha família pode espalhar o vírus?
+- O cachorro da minha família pode transmitir a doença?
+- O cachorro da minha família pode transmitir o vírus?
+- O cão da minha família pode pegar o vírus?
+- O cão da minha família pode me infectar?
+- O cão da minha família pode espalhar a doença?
+- O cão da minha família pode espalhar o vírus?
+- O cão da minha família pode transmitir a doença?
+- O cão da minha família pode transmitir o vírus?
+- O animal de estimação da minha família pode pegar o vírus?
+- O animal de estimação da minha família pode me infectar?
+- O animal de estimação da minha família pode espalhar a doença?
+- O animal de estimação da minha família pode espalhar o vírus?
+- O animal de estimação da minha família pode transmitir a doença?
+- O animal de estimação da minha família pode transmitir o vírus?
+- O meu animal de estimação pode pegar ou espalhar o vírus?
+- O meu animal de estimação pode pegar o vírus?
+- O meu animal de estimação pode me infectar?
+- O meu animal de estimação pode espalhar a doença?
+- O meu animal de estimação pode transmitir a doença?
+- Meu animal de estimação pode espalhar o vírus?
+- Meu animal de estimação pode transmitir o vírus?
+- É possível ser infectado por gatos?
+- É possível ser infectado por animais?
+- É possível ser infectado por cães?
+- É possível ser infectado por cachorros?
+- É possível ser infectado por gatos da família?
+- É possível ser infectado por cães da família?
+- É possível ser infectado por cachorros da família?
+- É possível ser infectado por animais de estimação da família?
+- É possível ser infectado pelo meu gato?
+- É possível ser infectado pelo meu animal de estimação?
+- É possível ser infectado pelo meu cão?
+- É possível ser infectado pelo gato da minha família?
+- É possível ser infectado pelo cão da minha família?
+- É possível ser infectado pelo cachorro da minha família?
+- É possível ser infectado pelo animal de estimação da minha família?
+- É possível ser infectado pelo meu animal de estimação?
+- É possível ser infectado por animais de estimação?
+- É possível ser infectada por gatos?
+- É possível ser infectada por animais?
+- É possível ser infectada por cães?
+- É possível ser infectada por cachorros?
+- É possível ser infectada por gatos da família?
+- É possível ser infectada por cães da família?
+- É possível ser infectada por cachorros da família?
+- É possível ser infectada por animais de estimação da família?
+- É possível ser infectada pelo meu gato?
+- É possível ser infectada pelo meu animal de estimação?
+- É possível ser infectada pelo meu cão?
+- É possível ser infectada pelo gato da minha família?
+- É possível ser infectada pelo cão da minha família?
+- É possível ser infectada pelo cachorro da minha família?
+- É possível ser infectada pelo animal de estimação da minha família?
+- É possível ser infectada pelo meu animal de estimação?
+- É possível ser infectada por animais de estimação?
+- É possível pegar o vírus de gatos?
+- É possível pegar o vírus de animais?
+- É possível pegar o vírus de cães?
+- É possível pegar o vírus de gatos da família?
+- É possível pegar o vírus de cães da família?
+- É possível pegar o vírus de animais de estimação da família?
+- É possível pegar o vírus do meu gato?
+- É possível pegar o vírus do meu animal de estimação?
+- É possível pegar o vírus do meu cachorro?
+- É possível pegar o vírus do gato da minha família?
+- É possível pegar o vírus do cachorro da minha família?
+- É possível pegar o vírus do cão da minha família?
+- É possível pegar o vírus do animal de estimação da minha família?
+- É possível pegar o vírus do meu animal de estimação?
+- É possível pegar o vírus de animais de estimação?
+- os cães transmitem o vírus?
+- O vírus é transmitido pelos animais de estimação?
 - posso pegar coronavirus do meu gato?
 
 ## intent:spread_risk
-- Can the disabled get this virus
-- Chances of be infected by [COVID-19](virus:COVID).
-- Chances of be infected by the virus.
-- Chances of being infected by [COVID-19](virus:COVID).
-- Chances of being infected by the virus.
-- Chances of catching [COVID-19](virus:COVID).
-- Chances of catching the virus.
-- Chances to be infected by [COVID-19](virus:COVID).
-- Chances to be infected by the virus.
-- Chances to being infected by [COVID-19](virus:COVID).
-- Chances to being infected by the virus.
-- Chances to catch [COVID-19](virus:COVID).
-- Chances to catch the virus.
-- Chances to catching [COVID-19](virus:COVID).
-- Chances to catching the virus.
-- How contagious is covid-19
-- How contagious is covid?
-- How contagious is it?
-- How likely am I of being infected by [COVID-19](virus:COVID)?
-- How likely am I of being infected by the virus?
-- How likely am I of catching [COVID-19](virus:COVID)?
-- How likely am I of catching the virus?
-- How likely am I to be infected by [COVID-19](virus:COVID)?
-- How likely am I to be infected by the virus?
-- How likely am I to catch [COVID-19](virus:COVID)?
-- How likely am I to catch the virus?
-- I meant can people with disabilities get this virus
-- Risk of being infected by [COVID-19](virus:COVID).
-- Risk of being infected by the virus.
-- Risk of catching [COVID-19](virus:COVID).
-- Risk of catching the virus.
-- Risk to be infected by [COVID-19](virus:COVID).
-- Risk to be infected by the virus.
-- Risk to catch [COVID-19](virus:COVID).
-- Risk to catch the virus.
-- What are the chances of being infected by [COVID-19](virus:COVID)?
-- What are the chances of being infected by the virus?
-- What are the chances of catching [COVID-19](virus:COVID)?
-- What are the chances of catching the virus?
-- What are the chances to catch [COVID-19](virus:COVID)?
-- What are the chances to catch the virus?
-- What are the chances to to be infected by [COVID-19](virus:COVID)?
-- What are the chances to to be infected by the virus?
-- What chances have I of being infected by [COVID-19](virus:COVID)?
-- What chances have I of being infected by the virus?
-- What chances have I of catching [COVID-19](virus:COVID)?
-- What chances have I of catching the virus?
-- What chances have I to catch [COVID-19](virus:COVID)?
-- What chances have I to catch the virus?
-- What chances have I to to be infected by [COVID-19](virus:COVID)?
-- What chances have I to to be infected by the virus?
-- am I at risk?
-- can I be infected?
-- can I get infected?
-- what is the probability to be infected
-- what is the risk of catching the disease?
-- what is the probability to be infected in the train
-- what is the probability to be infected in the shopping mall
-- who affects the most?
-- will I get [Covid 19](virus:COVID) 
-- with no symptoms and without testing and after two weeks at home with social
-  distance can we consider ourselves healthy regarding [Covid-19](virus:COVID)
+- deficientes podem pegar este vírus
+- Chances de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidades de ser infectado pelo vírus.
+- Chance de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidade de ser infectado pelo vírus.
+- Chances de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidades de ser infectada pelo vírus.
+- Chance de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidade de ser infectada pelo vírus.
+- Chances de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidades de pegar o vírus.
+- Probabilidade de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Probabilidade de ser infectado pelo vírus.
+- Probabilidade de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Probabilidade de ser infectada pelo vírus.
+- Probabilidade de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Probabilidade de pegar o vírus.
+- Chance de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Possibilidade de pegar o vírus.
+- Qual a chance de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Qual a possibilidade de pegar o vírus.
+- Quão contagioso é o covid-19
+- Quão contagiosa é a covid-19?
+- Quão contagioso é isso?
+- Quão contagioso é o vírus?
+- Qual a probabilidade de eu estar infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu estar infectado pelo vírus?
+- Qual a probabilidade de eu estar infectada pelo vírus?
+- Qual a probabilidade de eu pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu pegar o vírus?
+- Qual a probabilidade de eu ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu ser infectado pelo vírus?
+- Qual a probabilidade de eu ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a probabilidade de eu ser infectada pelo vírus?
+- Eu quis dizer, pessoas com deficiência podem pegar esse vírus
+- Risco de ser infectado por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de ser infectado pelo vírus.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de pegar o vírus.
+- Risco de ser infectada por [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de ser infectada pelo vírus.
+- Risco de pegar [COVID-19]{"entity": "virus", "value": "COVID"}.
+- Risco de pegar vírus.
+- Quais são as chances de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são as chances de ser infectado pelo vírus?
+- Quais são as chances de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são as chances de ser infectada pelo vírus?
+- Quais são as chances de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais são as chances de pegar o vírus?
+- Quais as chances de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais as chances de ser infectado pelo vírus?
+- Quais as chances de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais as chances de ser infectada pelo vírus?
+- Quais as chances de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Quais as chances de pegar o vírus?
+- Qual a chance de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a chance de ser infectado pelo vírus?
+- Qual a chance de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a chance de ser infectada pelo vírus?
+- Qual a chance de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Qual a chance de pegar o vírus?
+- Que chances eu tenho de ser infectado pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que chances eu tenho de ser infectado pelo vírus?
+- Que chances eu tenho de ser infectada pelo [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que chances eu tenho de ser infectada pelo vírus?
+- Que chances eu tenho de pegar [COVID-19]{"entity": "virus", "value": "COVID"}?
+- Que chances eu tenho de pegar o vírus?
+- estou em risco?
+- posso ser infectado?
+- posso ser infectada?
+- qual é a probabilidade de ser infectado
+- qual é o risco de se pegar a doença?
+- qual é a probabilidade de ser infectado no trem
+- qual é a probabilidade de ser infectada no trem
+- qual é a probabilidade de ser infectado no shopping
+- qual é a probabilidade de ser infectada no shopping
+- quem é mais afetado?
+- vou pegar [Covid 19]{"entity": "virus", "value": "COVID"} 
+- sem sintomas e sem testes e após duas semanas em casa com
+ distância podemos nos considerar saudáveis em relação a [Covid-19]{"entity": "virus", "value": "COVID"}
 
 ## intent:spread_surfaces_food_objects
-- Can I become infected with the [novel coronavirus](virus:COVID) from food or water?
-- Can I become infected with the [novel coronavirus](virus:COVID) from food?
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida ou água?
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela água?
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pela comida?
+- Posso me infectar com o [novo coronavírus]{"entity": "virus", "value": "COVID"} pelos alimentos?
 
 ## intent:test_virus
-- Can I get tested for coronavirus?
-- Can I get tested for covid?
-- Can I get tested?
-- Where can I test
-- Where is the next Coronavirus test location?
-- can I get test
-- test
+- Posso ser testado para coronavírus?
+- Posso ser testado para covid?
+- Posso ser testado?
+- Onde posso testar
+- Onde fica o próximo local de teste do Coronavirus?
+- Posso fazer o teste?
+- teste
 
 ## intent:test_who
-- Can I be tested?
-- How do I get tested
-- Who can be tested for coronavirus?
-- Who can be tested for covid?
-- Who can be tested?
+- Posso fazer o teste?
+- Como faço para ser testado
+- Quem pode ser testado para coronavírus?
+- Quem pode ser testado para covid?
+- Quem pode ser testado?
 
 ## intent:travel_after
-- After travel procedure.
-- After travel procedures.
-- After travel proceeding.
-- After travel proceedings.
-- After travel.
-- After traveling procedure.
-- After traveling procedures.
-- After traveling proceeding.
-- After traveling proceedings.
-- After traveling.
-- How to proceed after travel
-- How to proceed after traveling
-- How to proceed returning from travel.
-- How to proceed returning from traveling.
-- How to proceed when return from travel.
-- How to proceed when return from traveling.
-- I just returned from travel.
-- I just returned from traveling.
-- I returned from travel with a cough.
-- I returned from travel.
-- I returned from traveling with a cough.
-- I returned from traveling.
-- Procedures after travel.
-- Procedures after traveling.
-- Proceeding after travel.
-- Proceeding after traveling.
-- Traveling after.
-- What to do after travel.
-- What to do after traveling.
-- When I return from travel.
-- When I return from traveling.
-- travel after.
+- Após o procedimento de viagem.
+- Após os procedimentos de viagem.
+- Após o processo de viagem.
+- Após viagem.
+- Após a viagem.
+- Após viajar.
+- Depois do procedimento de viagem.
+- depois dos procedimentos de viagem.
+- depois do processo de viagem.
+- depois de viagem.
+- depois de viajar.
+- Como proceder após a viagem
+- Como proceder depois de viagem
+- Como proceder para voltar de viagem.
+- Como proceder ao retornar de viagem.
+- Como proceder no retorno da viagem.
+- Como proceder ao voltar de viagem.
+- O que fazer após a viagem
+- O que fazer depois de viagem
+- O que fazer para voltar da viagem.
+- O que fazer ao retorno da viagem.
+- O que fazer no retorno da viagem.
+- O que fazer ao voltar de viagem.
+- Acabei de voltar de viagem.
+- Acabo de voltar de viagem.
+- Acabei de voltar da viagem.
+- Acabei de voltar de viagem.
+- Acabo de voltar da viagem.
+- Voltei de viagem com uma tosse.
+- voltei da viagem.
+- Voltei de viagem com tosse.
+- Eu cheguei de viagem.
+- Procedimentos após a viagem.
+- Procedimentos depois de viagem.
+- Proceder após a viagem.
+- Proceder depois de viagem.
+- pós viagem.
+- Quando eu voltar de viagem.
+- Quando eu voltar da viagem.
+- apos viajar.
 
-## intent:travel_before
-- Before travel.
-- Before traveling.
-- I have a travel schedule.
-- I will travel on my vacation.
-- I will travel soon.
-- I will travel.
-- I’m planning a travel.
-- I’m planning to travel.
-- I’m planning travel on my vacation.
-- I’m planning traveling
-- I’m planning traveling on my vacation.
-- I’m travel soon.
-- I’m traveling soon.
-- Precautions before travel.
-- Precautions before traveling.
-- Precautions prior to travel.
-- Precautions prior to traveling.
-- Things to consider before travel.
-- Things to consider before traveling.
-- Things to consider when travel.
-- Things to consider when traveling.
-- Travel before.
-- Travel precaution.
-- Travel precautions.
-- Travel preparation.
-- Traveling before.
-- Traveling precaution.
-- Traveling precautions.
-- Traveling preparation.
-- Viajes
-- What to anticipate before travel?
-- What to anticipate before traveling?
-- What to do before travel?
-- What to do before traveling?
-- What to foresee before travel?
-- What to foresee before traveling?
-- before travling
+## intent:travel_breat_before
+- Antes da viagem.
+- Antes de viajar.
+- tenho um horário de viagem.
+- vou viajar nas minhas férias.
+- vou viajar em breve.
+- vou viajar.
+- estou planejando uma viagem.
+- to planejando uma viagem.
+- estou planejando viajar.
+- Estou planejando viajar nas minhas férias.
+- to planejando viajar
+- to planejando viajar nas minhas férias.
+- vou viajar em breve.
+- Em breve vou viajar.
+- Precauções antes da viagem.
+- Precauções antes de viajar.
+- Precauções para viagem.
+- Precauções para viajar.
+- o que considerar antes de viajar.
+- considerar antes de viajar.
+- o que considerar quando se viaja.
+- considerar quando se viaja.
+- antes de viajar.
+- Precaução de viagem.
+- Precauções de viagem.
+- Preparação para viagem.
+- antes da viagem.
+- Precaução para viagem.
+- Precauções para viagem.
+- Preparação a viagem.
+- Viagem
+- Viagens
+- O que fazer antes de viajar?
+- O que fazer antes da viagem?
+- se precaver antes de viajar?
+- se precaver antes da viagem?
+- antes de fazer uma viagem
 
 ## intent:travel_while
-- During travel.
-- During traveling.
-- How to behave during travel?
-- How to behave during traveling?
-- How to behave while travel?
-- How to behave while traveling?
-- How to proceed during travel?
-- How to proceed during traveling?
-- How to proceed while travel?
-- How to proceed while traveling?
-- Measures during travel.
-- Measures during traveling.
-- Measures to take during travel.
-- Measures to take during traveling.
-- Measures to take while travel.
-- Measures to take while traveling.
-- Measures while travel.
-- Measures while traveling.
-- Practice during travel.
-- Practice during traveling.
-- Practice while travel.
-- Practice while traveling.
-- Practices during travel.
-- Practices during traveling.
-- Practices while travel.
-- Practices while traveling.
-- Procedure during travel.
-- Procedure during traveling.
-- Procedure while travel.
-- Procedure while traveling.
-- Procedures during travel.
-- Procedures during traveling.
-- Procedures while travel.
-- Procedures while traveling.
-- What should be done during travel?
-- What should be done during traveling?
-- What to do during travel?
-- What to do during traveling?
-- What to do while travel?
-- What to do while traveling?
-- While travel.
-- While traveling.
+- Durante a viagem.
+- Durante uma viagem.
+- Como se comportar durante a viagem?
+- Como se comportar durante uma viagem?
+- Como se comportar em viagem?
+- Como se comportar durante a viagem?
+- Como proceder durante uma viagem?
+- Como proceder durante a viagem?
+- Como agir durante a viagem?
+- Como agir durante uma viagem?
+- Como se precaver durante a viagem?
+- Como se precaver durante uma viagem?
+- Como se proteger durante a viagem?
+- Como se proteger durante uma viagem?
+- Medidas durante a viagem.
+- Medidas durante uma viagem.
+- Medidas a serem tomadas durante uma viagem.
+- Medidas a serem tomadas durante a viagem.
+- Precauções a serem tomadas durante a viagem.
+- precauções a serem tomadas na viagem.
+- Medidas durante a viagem.
+- Medidas durante uma viagem.
+- Pratique durante a viagem.
+- Pratique durante uma viagem.
+- Pratique enquanto viaja.
+- Pratique quando viaja.
+- Práticas durante uma viagem.
+- Práticas durante a viagem.
+- Pratica enquanto viaja.
+- Pratica quando viaja.
+- Procedimento durante a viagem. 
+- Procedimento na viagem.
+- Procedimento enquanto viaja.
+- Procedimento numa viagem.
+- Procedimentos durante a viagem.
+- Procedimentos na viagem.
+- Procedimentos numa viagem.
+- Procedimentos enquanto viaja.
+- O que deve ser feito durante a viagem?
+- O que deve ser feito durante uma viagem?
+- O que fazer durante a viagem?
+- O que fazer durante uma viagem?
+- O que fazer numa viagem?
+- O que fazer na viagem?
+- como faço para viajar?
+- como faço durante uma viagem?
+- Enquanto viaja.
+- Durante a viagem.
 
 ## intent:user_angry
-- At this moment I am foaming from the mouth!
-- Boiling mad!
-- Can you feel my anger?
-- I am bad-tempered?
-- I am enraged.
-- I am experiencing some rage.
-- I am feeling infuriated!
-- I am full of anger!
-- I am furious!
-- I am getting angry!
-- I am getting furious.
-- I am irritated!
-- I am so angry!
-- I am so mad!
-- I am very displeased!
-- I am wrathful!
-- I feel anger!
-- I feel exasperated!
-- I feel outraged!
-- I feel the dark side in my!
-- I totally hate you.
-- I'm angry!
-- I'm enraged!
-- I'm pissed off!
-- I’m boiling of anger.
-- I’m furious.
-- I’m in a wild frenzy.
-- I’m mad.
-- I’m so mad!
-- Today I am with bad-temper.
-- Tomorrow I will foaming from the mouth!
-- You will feel my wrath!
+- Neste momento eu to espumando pela boca!
+- Enlouquecendo!
+- pirando
+- To doida
+- To doido
+- Você pode sentir minha raiva?
+- Eu to mal-humorado?
+- Eu to mal-humorada
+- to enfurecido.
+- Eu to com um pouco de raiva.
+- to enfurecida!
+- to puto!
+- to puta!
+- Eu to com muita raiva!
+- Eu to furioso!
+- Eu to furiosa!
+- Eu to nervoso!
+- Eu to nervosa!
+- Eu to ficando com raiva!
+- Eu to ficando furioso.
+- Eu to irritado!
+- Eu to ficando furiosa.
+- Eu to irritada!
+- to com tanta raiva!
+- Eu to louca!
+- Eu to muito descontente!
+- Eu to irado!
+- Eu to irada!
+- Eu to com raiva!
+- Eu to brava 
+- Eu to com ódio
+- Eu to com muito ódio!
+- Eu to bravo!
+- Eu to fervendo de raiva.
+- Eu to explodindo de raiva.
+- Eu to louco.
+- to tão louca!
+- to tão louco!
+- com mau humor.
+- espumando de raiva!
+- minha ira!
 
 ## intent:user_friend
-- Are we friends?
-- Are you happy with me
-- Are you my best friend?
-- Are you my friend?
-- Be my friend, please!
-- Be my friend.
-- Can I have the pleasure to be your friend?
-- Can I have the pleasure to have you as my friend?
-- Can we be friends?
-- Can you be my friend?
-- Could you be my friend?
-- Do you like me?
-- Do you wanna be my friend?
-- Do you want to be my friend?
-- I must be your friend!
-- I wanna be friends with you!
-- I want to be friends with you!
-- I want to be your friend!
-- Let's be best friends!
-- Let's be friends!
-- Me and you are friends!
-- Wanna be friends with me?
-- Wanna be friends?
-- Want to be friends with me?
-- We are friends.
-- We could be friends.
-- We must be friends!
-- We should be friends!
-- What do you think about me
-- Will you be my friend
-- Will you be my friend?
-- Would you like to be my friend?
-- You and I are friends?
-- You and me are friends.
-- You are my friend.
-- You be my friend.
-- You want to be my friend?
+- somos amigos?
+- a gente é amigo?
+- Você está feliz comigo?
+- Você é meu melhor amigo?
+- Você é meu amigo?
+- Seja meu amigo, por favor!
+- Seja meu amigo.
+- Posso ser seu amigo?
+- Posso ser sua amiga?
+- Posso te considerar meu amigo?
+- Podemos ser amigos?
+- Você pode ser meu amigo?
+- Você poderia ser meu amigo?
+- Você gosta de mim?
+- Você quer ser meu amigo?
+- Eu devo ser seu amigo!
+- Eu quero ser seu amigo!
+- Eu devo ser sua amiga!
+- Eu quero ser sua amiga!
+- Eu quero que você seja meu amigo!
+- Eu quero que sejamos amigos!
+- Vamos ser melhores amigos!
+- Vamos ser amigos!
+- Eu e você somos amigos!
+- Quer ser meu amigo?
+- Quer ser amigo?
+- Quer ser meu amigo?
+- Nós somos amigos.
+- Nós poderíamos ser amigos.
+- Devemos ser amigos!
+- Nós deveríamos ser amigos!
+- O que você acha de mim?
+- Você vai ser meu amigo?
+- vamos ser amigos?
+- Você gostaria de ser meu amigo?
+- Você e eu somos amigos?
+- Você e eu somos amigos.
+- Você é meu amigo.
+- Você seja meu amigo.
+- Você quer ser meu amigo?
 
 ## intent:user_happy
-- At this time I am an overjoyed person.
-- Elated person.
-- Feel gleeful.
-- Feeling good today!
-- Feeling so good.
-- Good-humored person.
-- I am a blithe person.
-- I am a jolly person.
-- I am a merry person.
-- I am always grinning.
-- I am delighted.
-- I am enjoyed.
-- I am euphoric.
-- I am exhilarated.
-- I am feeling a jovial person.
-- I am feeling beaming.
-- I am feeling euphoric.
-- I am feeling exultant.
-- I am feeling joyous.
-- I am feeling like a jolly person.
-- I am feeling like an elated person.
-- I am feeling radiant.
-- I am feeling really good.
-- I am felling happy.
-- I am glowing.
-- I am good-humored.
-- I am happy.
-- I am in a good mood.
-- I am in seventh heaven.
-- I am in such a good mood.
-- I am joyful.
-- I am jumping for joy.
-- I am like ecstatic people.
-- I am on cloud nine.
-- I am radiant person.
-- I am really happy.
-- I am so enjoyed.
-- I am so happy.
-- I am very contented.
-- I am walking on air.
-- I feel a great happiness inside.
-- I feel cheerful.
-- I feel cheery.
-- I have a beaming glow.
-- I have a smiling face today.
-- I want to jump over the moon.
-- My life is blissful.
-- Overjoyed person.
-- Smiling face.
-- Walking beside oneself with joy.
-- happiness
+- Neste momento, sou uma pessoa muito alegre.
+- Neste momento, sou uma pessoa muito feliz.
+- Pessoa com alegria.
+- Pessoa feliz.
+- Fique contente.
+- estou contente.
+- Sinta-se bem hoje!
+- me sinto tão bem.
+- Pessoa bem-humorada.
+- Eu sou uma pessoa alegre.
+- Eu sou uma pessoa feliz.
+- Eu sou uma pessoa contente.
+- Eu to sempre sorrindo.
+- to encantado.
+- to encantada.
+- Eu sou querido.
+- Eu sou querida.
+- Eu to eufórico.
+- Eu to eufórica.
+- to entusiasmado.
+- to entusiasmada.
+- to animada.
+- to animada.
+- to me sentindo jovem.
+- to me sentindo radiante.
+- to me sentindo eufórico.
+- to me sentindo eufórica.
+- to me sentindo animado.
+- to me sentindo animada.
+- to me sentindo alegre.
+- to me sentindo ótima.
+- to me sentindo ótima.
+- to me sentindo muito bem.
+- to me sentindo feliz.
+- to brilhando.
+- Eu sou bem-humorado.
+- Eu to feliz.
+- Eu to de bom humor.
+- Eu to no céu.
+- to com muito bom humor.
+- Eu sou feliz.
+- Eu to pulando de alegria.
+- Eu to em êxtase.
+- Eu to nas nuvens.
+- Eu sou uma pessoa radiante.
+- Eu to muito feliz.
+- Eu sou tão querido.
+- Eu sou tão querida.
+- Eu to tão feliz.
+- Eu to muito contente.
+- Eu to flutuando.
+- Sinto uma grande felicidade interior.
+- Eu me sinto alegre.
+- Eu me sinto feliz.
+- Eu tenho um brilho radiante.
+- Hoje eu to sorridente.
+- Minha vida é uma alegria.
+- Pessoa muito feliz.
+- Cara sorridente.
+- com alegria.
+- felicidade
 
 ## intent:user_love
-- Accept my love.
-- Accept my proposal.
-- Are you in love with me?
-- Are you loving me?
-- Can I marry you?
-- Can we go on a date?
-- Can you love me?
-- Can you tell me how much you love me?
-- Date me.
-- Do you give me the honor of marry with you?
-- Do you like me very much?
-- Do you love me?
-- Do you want to be my soul mate?
-- Give me the honor to marry you.
-- I am falling for you!
-- I am falling in love for you!
-- I am in love with you!
-- I am proposing to you!
-- I fell in love with you!
-- I kind of love you.
-- I kinda love you.
-- I think i am in love with you.
-- I want to date you!
-- I want to marry you!
-- I want you to marry me!
-- I’m falling for you.
-- I’m falling in love for you.
-- I’m in love with you.
-- I’m proposing to you.
-- Let’s go dating!
-- Let’s have a date!
-- Marry me!
-- Marry with me!
-- Please accept my love!
-- Please love me!
-- Please marry me!
-- What about a date?
-- What do you think of a date?
-- What feelings do you have for me?
-- What is love?
-- Will you marry me?
-- Would you like to marry me?
-- You don't love me.
+- Aceite o meu amor.
+- Aceite minha proposta.
+- Você está apaixonado por mim?
+- Você me ama?
+- quer casar comigo?
+- Podemos sair juntos?
+- Você pode me amar?
+- quanto você me ama?
+- Namore comigo.
+- Namora comigo.
+- Você me dá a honra de me casar com você?
+- Você gosta de mim?
+- quanto você me ama?
+- Você quer ser minha alma gêmea?
+- honra de casar contigo.
+- to me apaixonando por você!
+- to me apaixonando por ti!
+- Eu to apaixonado por você!
+- Eu to apaixonada por você!
+- eu quero me casar contigo
+- Eu me apaixonei por você!
+- Eu meio que te amo.
+- Eu acho que te amo.
+- Eu acho que to apaixonado por você.
+- Eu acho que to apaixonada por você.
+- Eu quero sair com você!
+- Eu quero sair contigo!
+- Eu quero me casar com você!
+- Eu quero que você se case comigo!
+- Eu to me envolvendo contigo.
+- Eu to me envolvendo com você.
+- Eu estou apaixonado por você.
+- te proponho casamento.
+- Vamos namorar!
+- Vamos ter um encontro!
+- Case comigo!
+- Casa comigo!
+- aceite meu amor!
+- me ame!
+- Por favor, case comigo!
+- Que tal um encontro?
+- O que você acha de um encontro?
+- Que sentimentos você tem por mim?
+- O que é o amor?
+- O que é amor?
+- Você vai se casar comigo?
+- Você gostaria de se casar comigo?
+- Você não me ama.
 
 ## intent:user_no_data
-- At the moment I don’t have any personal data here.
-- At the moment I don’t have any personal data with me.
-- At the moment I don’t have my personal data here.
-- At the moment I don’t have my personal data with me.
-- I didn’t bring my personal data at the moment.
-- I didn’t bring my personal data here.
-- I didn’t bring my personal data right now.
-- I didn’t bring my personal data with me.
-- I didn’t bring my personal data.
-- I don’t have any personal data at the moment.
-- I don’t have any personal data here.
-- I don’t have any personal data right now.
-- I don’t have any personal data with me.
-- I don’t have any personal data.
-- I don’t have my personal data at the moment.
-- I don’t have my personal data here.
-- I don’t have my personal data right now.
-- I don’t have my personal data with me.
-- I don’t have my personal data.
-- I have no personal data at the moment, unfortunately.
-- I have no personal data at the moment.
-- I have no personal data here, unfortunately.
-- I have no personal data here.
-- I have no personal data right now, unfortunately.
-- I have no personal data right now.
-- I have no personal data with me, unfortunately.
-- I have no personal data with me.
-- I have no personal data, unfortunately.
-- I have no personal data.
-- Right now I don’t have any personal data here.
-- Right now I don’t have any personal data with me.
-- Right now I don’t have my personal data here.
-- Right now I don’t have my personal data with me.
-- Unfortunately I have no personal data at the moment.
-- Unfortunately I have no personal data here.
-- Unfortunately I have no personal data right now.
-- Unfortunately I have no personal data with me.
-- Unfortunately I have no personal data.
-- Yes. I don’t have any personal data at the moment.
-- Yes. I don’t have any personal data here.
-- Yes. I don’t have any personal data right now.
-- Yes. I don’t have any personal data with me.
-- Yes. I don’t have any personal data.
+- eu não tenho nenhum dado pessoal aqui.
+- eu não tenho nenhum dado pessoal comigo.
+- eu não tenho meus dados pessoais aqui.
+- eu não tenho meus dados pessoais comigo.
+- Eu não trouxe meus dados pessoais no momento.
+- Eu não trouxe meus dados pessoais aqui.
+- Eu não trouxe meus dados pessoais neste momento.
+- Eu não trouxe meus dados pessoais comigo.
+- Eu não trouxe meus dados pessoais.
+- Não tenho dados pessoais.
+- Eu não tenho nenhum dado pessoal aqui.
+- Eu não tenho nenhum dado pessoal agora.
+- Eu não tenho nenhum dado pessoal comigo.
+- Eu não tenho nenhum dado pessoal.
+- Eu não tenho meus dados pessoais no momento.
+- Eu não tenho meus dados pessoais aqui.
+- Eu não tenho meus dados pessoais agora.
+- Eu não tenho meus dados pessoais comigo.
+- Eu não tenho meus dados pessoais.
+- Eu não tenho meus documentos no momento.
+- Eu não tenho meus documentos aqui.
+- Eu não tenho meus documentos agora.
+- Eu não tenho meus documentos comigo.
+- Eu não tenho meus documentos.
+- Não tenho dados pessoais no momento, infelizmente.
+- Não tenho dados pessoais no momento.
+- Eu não tenho dados pessoais aqui, infelizmente.
+- Eu não tenho dados pessoais aqui.
+- Eu não tenho dados pessoais agora, infelizmente.
+- Não tenho dados pessoais neste momento.
+- Não tenho dados pessoais comigo, infelizmente.
+- Eu não tenho dados pessoais comigo.
+- Eu não tenho dados pessoais, infelizmente.
+- Eu não tenho dados pessoais.
+- Neste momento não tenho nenhum dado pessoal aqui.
+- Neste momento não tenho nenhum dado pessoal comigo.
+- No momento não tenho meus dados pessoais aqui.
+- No momento não tenho meus dados pessoais comigo.
+- Infelizmente eu não tenho dados pessoais no momento.
+- Infelizmente eu não tenho dados pessoais aqui.
+- Infelizmente não tenho dados pessoais no momento.
+- Infelizmente eu não tenho nenhum dado pessoal comigo.
+- Infelizmente eu não tenho dados pessoais.
+- Sim. Não tenho nenhum dado pessoal no momento.
+- Sim. Eu não tenho nenhum dado pessoal aqui.
+- Sim. Eu não tenho nenhum dado pessoal agora.
+- Sim. Eu não tenho nenhum dado pessoal comigo.
+- Sim. Eu não tenho nenhum dado pessoal.
 
 ## intent:user_no_further_questions
-- Can you shut the boot for me, please?
-- Can you shut the boot for me?
-- I am clarified now, thank you.
-- I am clarified now, thanks.
-- I am clarified now.
-- I am enlighten now, thank you.
-- I am enlighten now, thanks.
-- I am enlighten now.
-- I don’t have further questions, thank you.
-- I don’t have further questions, thanks.
-- I don’t have further questions.
-- I don’t have more questions, thank you.
-- I don’t have more questions, thanks.
-- I don’t have more questions.
-- I don’t need more assistance
-- I don’t need more assistance, thank you.
-- I don’t need more assistance, thanks.
-- I don’t need more help, thank you.
-- I don’t need more help, thanks.
-- I don’t need more help.
-- I don’t need your assistance, thank you.
-- I don’t need your assistance, thanks.
-- I don’t need your assistance.
-- I have no further questions, thank you.
-- I have no further questions, thanks.
-- I have no further questions.
-- I have no more questions, thank you.
-- I have no more questions, thanks.
-- I have no more questions.
-- I need no more assistance, thank you.
-- I need no more assistance, thanks.
-- I need no more assistance.
-- I need no more help, thank you.
-- I need no more help, thanks.
-- I need no more help.
-- Nothing else
-- Nothing, thank you.
-- Nothing, thanks.
-- Nothing.
-- Não, de momento vou-me atualizando
-- Thank you for your help.
-- Thank you for your time.
-- Thanks for your help.
-- Thanks for your time.
-- That will be all.
-- That's it for now
-- You assisted me with everything I want, thank you.
-- You assisted me with everything I want, thanks.
-- You assisted me with everything I want.
-- You can shut the boot for me, thank you.
-- You can shut the boot for me, thanks.
-- You can shut the boot for me.
-- You clarified all my doubts, thank you.
-- You clarified all my doubts, thanks.
-- You clarified all my doubts.
-- You clarified all my problems, thank you.
-- You clarified all my problems, thanks.
-- You clarified all my problems.
-- You clarified all my questions, thank you.
-- You clarified all my questions, thanks.
-- You clarified all my questions.
-- You resolved all my doubts, thank you.
-- You resolved all my doubts, thanks.
-- You resolved all my doubts.
-- You resolved all my problems, thank you.
-- You resolved all my problems, thanks.
-- You resolved all my problems.
-- You resolved all my questions, thank you.
-- You resolved all my questions, thanks.
-- You resolved all my questions.
-- that's all
-- that's all for today
+- Você pode calar a boca, por favor?
+- Você pode calar a boca?
+- Cala a boca
+- entendi, obrigado.
+- entendido, obrigado.
+- entendi, obrigada.
+- entendido, obrigada.
+- entendi, valeu.
+- entendido, valeu.
+- esclarecido.
+- esclarecido agora, obrigado.
+- esclarecido, obrigado.
+- esclarecido agora, obrigada.
+- esclarecido, obrigada.
+- esclarecido agora, valeu.
+- esclarecido, valeu.
+- Agora eu entendi.
+- tá certo então.
+- tá certo então, obrigada.
+- tá certo então, obrigado.
+- tá certo então, valeu.
+- tá certo, obrigado.
+- tá certo, obrigada.
+- tá certo, valeu.
+- não tenho mais perguntas, obrigado.
+- não tenho mais perguntas, obrigada.
+- não tenho mais perguntas, valeu.
+- Eu não tenho mais perguntas.
+- Não tenho mais perguntas, valeu.
+- obrigada pelas informações.
+- obrigado pelas informações.
+- obrigada pela ajuda.
+- obrigado pela ajuda.
+- valeu pelas informações.
+- valeu pelas informações.
+- valeu pela ajuda.
+- valeu pela ajuda.
+- valeu
+- Eu não preciso mais de ajuda.
+- Eu não preciso mais de ajuda, obrigada.
+- Eu não preciso mais de ajuda, obrigado.
+- Eu não preciso da sua ajuda, obrigado.
+- Eu não preciso da sua ajuda, obrigada.
+- Eu não preciso da sua ajuda, valeu.
+- Eu não preciso da sua ajuda.
+- Eu não tenho mais perguntas.
+- Eu não preciso mais de assistência.
+- Eu não preciso mais de assistência, obrigado.
+- Eu não preciso mais de assistência, obrigada.
+- Eu não preciso mais de assistência, valeu.
+- Nada mais
+- Nada, obrigado.
+- Nada, obrigada.
+- Nada, valeu.
+- Nada.
+- Não, vou me atualizando
+- Obrigado pelo seu tempo.
+- Obrigada pelo seu tempo.
+- valeu pelo seu tempo.
+- Isso é tudo.
+- É isso por enquanto
+- não, obrigada
+- não, obrigado
+- não, valeu
+- Você me ajudou com tudo que eu queria, obrigado.
+- Você me ajudou com tudo que eu queria, obrigada.
+- Você me ajudou com tudo que eu queria, valeu.
+- Você me ajudou com tudo que eu queria.
+- Você me ajudou com tudo que eu precisava, obrigado.
+- Você me ajudou com tudo que eu precisava, obrigada.
+- Você me ajudou com tudo que eu precisava, valeu.
+- Você me ajudou com tudo que eu precisava.
+- Você esclareceu todas as minhas dúvidas, obrigado.
+- Você esclareceu todas as minhas dúvidas, obrigada.
+- Você esclareceu todas as minhas dúvidas, valeu.
+- Você esclareceu todas as minhas dúvidas.
+- Você resolveu todos os meus problemas, obrigado.
+- Você resolveu todos os meus problemas, obrigada.
+- Você resolveu todos os meus problemas, valeu.
+- Você resolveu todos os meus problemas.
+- Você esclareceu minhas dúvidas, obrigado.
+- Você esclareceu minhas dúvidas, obrigada.
+- Você esclareceu minhas dúvidas, valeu.
+- Você esclareceu minhas dúvidas.
+- Você resolveu meus problemas, obrigado.
+- Você resolveu meus problemas, obrigada.
+- Você resolveu meus problemas, valeu.
+- Você resolveu meus problemas.
+- isso é tudo.
+- isso é tudo por hoje
+- só isso.
+- só isso, obrigado.
+- só isso, obrigada.
+- só isso, valeu.
 
 ## intent:user_particles
-- Aaha
+- haha
 - Ah
 - Aham
-- Ahem!
+- Uhum!
 - Ahh
 - Hm
 - Hmm
-- I'm great.
+- Hum
+- tudo bem.
 - Mh
-- Mhh
-- Mmh
-- Nevermind.
-- Oh!
+- ah sim
+- sério?
+- Não se preocupe.
+- Ah!
 - Shh
-- That's interesting.
-- That's it!
-- That's okay. You're still learning. And I'm here to train you.
+- interessante.
+- É isso aí!
+- Tudo bem. Você ainda está aprendendo. E eu estou aqui para te treinar.
 - Uh
 - Uhm
 - Um
 
 ## intent:user_scared
-- But for me not a good day
-- Don’t want to be frightened.
-- Don’t want to be scared.
-- I feel afraid.
-- I feel anxious.
-- I feel frightened.
-- I feel lonely
-- I feel scared.
-- I was frightened.
-- I was scared.
-- I'm feeling frightened.
-- I'm feeling scared.
-- I'm frightened.
-- I'm scared.
-- I‘m feeling afraid.
-- I’m so frightened.
-- I’m so scared.
-- Someone frightened me.
-- Someone scared me.
-- That’s scary.
-- What a frighten!
-- What a scare!
-- You are scaring me.
-- You frightened me.
-- You scared me.
-- You scaring me.
+- para mim não é um bom dia
+- Não vá se assustar.
+- Não se assuste.
+- to com medo.
+- Eu to ansioso.
+- Eu to assustado.
+- Eu me sinto solitário
+- Eu me sinto sozinho
+- Eu me sinto ansioso.
+- Eu to ansiosa.
+- Eu to assustada.
+- Eu me sinto solitária.
+- Eu me sinto sozinha.
+- Eu me sinto ansiosa.
+- Eu tava assustada.
+- Eu tava assustado.
+- Eu tava com medo.
+- Eu to me sentindo assustado.
+- Eu to me sentindo assustada.
+- estou com medo.
+- to com muito medo.
+- to com tanto medo.
+- Eu to tão assustada.
+- to muito assustada.
+- Alguém me assustou.
+- me assustaram.
+- Isso é assustador.
+- Que susto!
+- Que medo!
+- Você tá me assustando.
+- Você me assustou.
+- Você me assusta.
+- me dá medo.
+- me dá ansiedade.
+- me causa ansiedade.
+- me da pânico.
 
 ## intent:vocative_call
-- Are you around?
-- Are you gone?
-- Are you present?
-- Are you still around?
-- Are you still there?
-- Are you there?
-- Are you with me?
-- Around?
-- Can you hear me?
-- Can you read me?
-- Can you understand me?
-- Did you go?
-- Did you leave?
-- Do you left?
-- Don’t finish the conversation!
-- Don’t leave me!
-- Hello again!
-- I am back!
-- I don’t want to be alone!
-- I still have some questions
-- I want to continue talking with you!
-- I want to hear you!
-- Make me company!
-- Please continue!
-- Please do not leave me!
-- Please don’t leave me alone!
-- Please don’t leave me!
-- Please proceed!
-- Please talk to me!
-- Present?
-- Still around?
-- Still there?
-- Still with me?
-- Talk to me!
-- What else can we talk about?
-- With me?
+- Você tá por perto?
+- Você se foi?
+- Você tá aí?
+- Você tá presente?
+- Você ainda tá por perto?
+- Você ainda tá aí?
+- Você ainda tá por aí?
+- tu tá aí?
+- Você tá por aí?
+- Você tá comigo?
+- Por aí?
+- Você pode me ouvir?
+- Você pode me ler?
+- Você pode me entender?
+- Você já foi?
+- Você já saiu?
+- Você saiu?
+- Não termine a conversa!
+- Não me deixe!
+- Olá de novo!
+- Eu to de volta!
+- Eu não quero ficar sozinho!
+- Eu ainda tenho algumas perguntas
+- Eu quero continuar falando com você!
+- Eu quero continuar falando contigo!
+- Eu quero ouvir você!
+- Eu quero te ouvir!
+- me faz companhia!
+- Por favor, continue!
+- Por favor, não me deixe!
+- Por favor, não me deixe sozinho!
+- não me deixe!
+- não me deixa!
+- Por favor, prossiga!
+- Por favor, fale comigo!
+- Presente?
+- online?
+- Ainda tá por aí?
+- Ainda aqui?
+- Ainda está comigo?
+- Fale comigo!
+- Fala comigo!
+- Sobre o que mais podemos falar?
+- Comigo?
 
 ## intent:vocative_help
-- How can you assist me
-- Do you want to help me
-- Hello, how can I help you?
-- How Are You Going To Help Me
-- How Can You Help Me
-- How Ken You Help me
-- How can you help
-- How may you help me?
-- What Can you Help Me With
-- Are you going to assist me?
-- Are you going to help me?
-- Assistance please!
-- Assistance!
-- Can you assist me?
-- Can you give me some help?
-- Can you help me out?
-- Can you help me?
-- Help me out!
-- Help me!
-- Help me, please.
-- Help!
-- Helping or not?
-- How about a little help.
-- How about assisting me?
-- How about helping me?
-- I need assistance.
-- I need some assistance.
-- I need some help.
-- I need to be assisted.
-- I need to be helped.
-- I need your assistance.
-- I need your help.
-- I‘m in need for some help.
-- Please give me some help.
-- Please help me further.
-- Please help me!
-- Some help, please.
-- Would you assist me?
-- Would you give me some help?
-- Would you help me out?
-- Would you help me?
-- Would you like to help me?
-- may I ask you questions?
+- Como você pode me ajudar
+- Você quer me ajudar?
+- Olá, em que posso ajudá-lo?
+- Olá, em que posso ajudar?
+- em que posso ajudar?
+- Como Você Vai Me Ajudar
+- Como Você Pode Me Ajudar
+- Como Você me Ajuda
+- Como você pode ajudar
+- Como você pode ajudar?
+- Com o que você pode me ajudar?
+- Você vai me ajudar?
+- Você me ajuda?
+- Ajuda, por favor!
+- Ajuda!
+- Você pode me ajudar?
+- Você pode me dar uma ajuda?
+- Você pode ajudar?
+- Você me ajudaria?
+- me ajude!
+- me ajuda!
+- Ajude-me, por favor.
+- Socorro!
+- Ajuda ou não?
+- Que tal uma ajudinha?
+- Que tal me ajudar?
+- Que tal uma ajuda?
+- Eu preciso de assistência.
+- Eu preciso de ajuda.
+- Eu preciso de uma ajuda.
+- Preciso ser atendido.
+- Preciso ser ajudado.
+- Eu preciso da sua ajuda.
+- Eu preciso de alguma ajuda.
+- Eu to precisando de ajuda.
+- Por favor, me dê uma ajuda.
+- Por favor, me da uma ajuda.
+- Por favor, me ajude mais.
+- Por favor, me ajude!
+- Por favor, me ajuda!
+- uma ajuda, por favor.
+- Você me ajuda?
+- Você me daria uma ajuda?
+- Você poderia me ajudar?
+- Você poderia me dar uma ajuda?
+- Você gostaria de me ajudar?
+- posso lhe fazer perguntas?
+- posso te fazer perguntas?
+- posso lhe fazer uma pergunta?
+- posso te fazer uma pergunta?
 
 ## intent:vocative_no
-- Absolutely not.
-- By no means.
-- Most certainly not.
-- Nae.
+- Logico que não.
+- Claro que não.
+- De forma alguma.
+- óbvio que não.
 - Nah.
-- Naw.
-- Nay.
-- Negative.
-- Never.
-- Nix.
-- No fear.
-- No indeed.
-- No sir.
-- No thanks.
-- No way.
-- No.
-- Nope.
-- Not at all.
-- Not for Joe.
-- Not in a million years.
-- Not likely.
-- Not on your life.
-- Not on your nelly.
-- Not really.
-- Not.
-- Of course not.
-- Out of the question.
-- Pigs might fly.
-- Thumbs down.
-- Under no circumstances.
-- Veto.
+- Não.
+- Nem.
+- Num.
+- Naum.
+- N.
+- Negativo.
+- Nunca.
+- Jamais.
+- Sem chance.
+- Na verdade não.
+- Na realidade, não.
+- Na real, não.
+- Não, senhor.
+- Não, obrigado.
+- Não, valeu.
+- De jeito nenhum.
+- De forma alguma.
+- nop.
+- nope.
+- no.
+- Nana nina não.
+- Nem em um milhão de anos.
+- Não é provável.
+- Nunca na sua vida.
+- Nem que a vaca tussa.
+- Nem em sonho.
+- qual a chance
+- Não por isso.
+- Não né.
+- só que não.
+- Fora de questão.
+- Sob nenhuma circunstância.
+- nem pensar.
 
 ## intent:vocative_sorry
-- Excuse me.
-- Excuse.
-- Forgive me!
-- Forgive!
-- Forgiveness.
-- Got you wrong.
-- I am apologizing.
-- I am so sorry.
-- I am sorry.
-- I apologize.
-- I ask for forgiveness.
-- I beg for forgiveness.
-- I beg your pardon.
-- I had that wrong.
-- I hope you can forgive me.
-- I ow you an apology.
-- I sincerely apologize.
-- I take full responsibility.
-- I wanted to tell you I‘m sorry.
-- I was wrong on that.
-- I was wrong.
-- I would like to apologize.
-- I‘m apologizing
-- I‘m so sorry.
-- I‘m sorry.
-- My apologies.
-- My bad
-- My fault.
-- My mistake.
-- Pardon me.
-- Pardon.
-- Please forgive me.
-- Please forgive.
-- Sorry about that.
-- Sorry for my actions.
-- Sorry for my behavior
-- Sorry i can't need help to u
-- Sorry!
-- That is my fault.
-- That was wrong of me.
-- That‘s my fault.
-- Whoops! Sorry!
+- Desculpe-me.
+- Desculpe.
+- Desculpa.
+- Perdoe-me!
+- Perdoe!
+- Perdão.
+- me Perdoe!
+- me Perdoa!
+- me enganei
+- Eu peço desculpas.
+- Eu sinto muito.
+- sinto muito.
+- mil desculpas.
+- mil perdões.
+- Eu imploro por perdão.
+- Peço desculpas.
+- erro meu
+- Eu espero que você possa me perdoar.
+- Eu te devo um pedido de desculpas.
+- Peço sinceras desculpas.
+- Eu assumo total responsabilidade.
+- Eu queria dizer que sinto muito.
+- Eu tava errado sobre isso.
+- Eu tava errado.
+- Eu me enganei.
+- Eu errei.
+- Eu me confundi.
+- Eu gostaria de pedir desculpas.
+- Eu estou me desculpando
+- Eu sinto muito por isso.
+- Sinto muito.
+- Minhas desculpas.
+- foi erro meu
+- culpa minha.
+- Por favor, me perdoe.
+- Por favor, me perdoa.
+- Por favor, perdoe.
+- Desculpe por isso.
+- Desculpa por isso.
+- Desculpe por minhas ações.
+- Desculpe pelo meu comportamento
+- Isso é culpa minha.
+- Isso foi errado da minha parte.
+- Isso é culpa minha.
+- Whoops! Desculpe!
+- Foi mal!
+- vacilei!
+- desculpa o vacilo!
 
 ## intent:vocative_thank_you
-- Accept my deepest thanks
-- Accept my endless gratitude
-- All I can say is thanks
-- Appreciate it
-- Awesome
-- Danke
-- Good job
-- Gracias
-- Grazie
-- Great
-- Great Answer
-- Great Talking
-- Great job
-- How can I repay you
-- I am all gratitude
-- I am grateful
-- I am pleased
-- I am very grateful
-- I appreciate that
-- I cannot thank you enough
-- I find you very helpful
-- I humbly thank you
-- I thank you
-- I thank you from the bottom of my heart
-- I thank you most warmly
-- I truly appreciate that
-- If anyone deserves thanks it is you
-- It is hard to find words to express my gratitude
-- It was so awesome of you
-- Many thanks
-- Merci.
-- Much appreciated!
-- Much obliged!
-- Much thanks!
-- My gratitude to you for all you have done!
-- Nice talk!
-- OK, thank you!
-- Oh, thanks!
-- Okay, thanks!
-- Please accept my best thanks!
-- Pleased!
-- Really helpful!
-- Respectfully yours with sincere gratitude!
-- Thank you for helping me!
-- Thank you for the assistance!
-- Thank you for your kindness!
-- Thank you kindly!
-- Thank you so much!
-- Thank you very much!
-- Thank you!
-- Thanks a bunch!
-- Thanks a lot!
-- Thanks a million!
-- Thanks for everything!
-- Thanks for helping me through my life!
-- Thanks for taking the time to think of me!
-- Thanks so much for the help!
-- Thanks!
-- Thanks, computer!
-- That was helpful, Helen. Thank you.
-- That's amazing!
-- That's impressing, thank you!
-- With gratitude!
-- You are a lifesaver!
-- You did a great job!
-- You have my gratitude!
-- You helped me a lot!
-- You helped me thanks!
-- You really helped me a lot!
-- You saved my life!
-- thank you Helen
-- thank you for your help Elon
-- thanks, Helen!
+- meus sinceros agradecimentos
+- Aceite minha infinita gratidão
+- gratidão
+- gratiluz
+- Tudo que eu posso dizer é obrigado
+- Aprecio
+- Fantástico
+- Valeu
+- Bom trabalho
+- Agradecida
+- Agradecido
+- Ótimo
+- Grande Resposta
+- Ótimas Conversas
+- Ótimo trabalho
+- Maravilha
+- Beleza
+- Top
+- dahora
+- muito bom
+- excelente
+- Como posso te recompensar
+- muita gratidão
+- Eu sou grato
+- Eu sou grata
+- Eu to satisfeito
+- Eu to satisfeita
+- Eu sou muito grato
+- Eu sou muito grata
+- Eu agradeço por isso.
+- Eu não posso te agradecer o suficiente
+- você foi muito útil
+- Eu humildemente te agradeço
+- Eu te agradeço
+- Eu te agradeço do fundo do meu coração
+- Eu te agradeço muito 
+- Eu realmente agradeço por isso.
+- Se alguém merece agradecimento, é você.
+- É difícil encontrar palavras para expressar a minha gratidão
+- Foi fantástico da sua parte
+- Muito obrigado
+- Muito obrigada
+- Aprecio muito
+- Minha gratidão a você por tudo que você tem feito!
+- Bela conversa!
+- OK, obrigado!
+- Oh, obrigado!
+- Certo, obrigado!
+- tá certo, obrigado!
+- meus agradecimentos!
+- Prazer em conhecê-lo!
+- Realmente útil!
+- sincera gratidão!
+- Obrigado por me ajudar!
+- Obrigado pela assistência!
+- Obrigado por sua gentileza!
+- Muito obrigado!
+- Muito obrigada!
+- Valeu mesmo!
+- Obrigado mesmo!
+- Obrigado a todos!
+- obrigado de verdade!
+- Obrigada mesmo!
+- Obrigada a todos!
+- obrigada de verdade!
+- Um milhão de agradecimentos!
+- Obrigado por tudo!
+- Obrigado por me ajudar!
+- Obrigado por ter pensado em mim!
+- Muito obrigado pela ajuda!
+- Obrigado, computador!
+- Obrigada por tudo!
+- Obrigada por me ajudar!
+- Obrigada por ter pensado em mim!
+- Muito obrigada pela ajuda!
+- Obrigada, computador!
+- Obrigada.
+- Obrigado.
+- Isso é incrível!
+- Isso é impressionante, obrigado!
+- Com gratidão!
+- Você fez um ótimo trabalho!
+- Você tem a minha gratidão!
+- Você me ajudou muito!
+- só tenho a agradecer!
+- Você realmente me ajudou muito!
+- Você salvou minha vida!
+- Você me salvou a vida!
+- Você me salvou!
+- obrigado Helen
+- Obrigado por sua ajuda, Helen
+- Obrigado, Helen!
+- obrigada, Helen
+- Obrigada, por sua ajuda, Helen
+- Obrigada, Helen!
 
 ## intent:vocative_yes
-- Absolutely.
-- Affirmative.
-- Agreed.
-- All right.
-- Alright.
-- Aye aye.
-- Aye.
-- By all means.
-- Certainly.
-- Check.
-- Hell yeah.
-- Hell yes.
-- In the affirmative.
-- Indeed.
-- Ja.
-- Of course.
+- Afirmativo.
+- Concordo.
+- Tudo bem.
+- Muito bem.
+- Sim, sim.
+- Sim.
+- Com certeza.
+- Sem dúvida.
+- Isso
+- Isso mesmo
+- Certamente.
+- Claro que sim.
+- Lógico que sim.
+- óbvio que sim.
+- claramente.
+- De fato.
+- simsim.
+- É claro.
 - Ok.
-- Okay, Helen.
-- Okay.
-- Okey-doke.
-- Okey-dokey.
-- On spot.
-- Right on spot.
-- Right on.
-- Roger.
-- Sure.
-- Surely.
-- Thumbs up.
-- Totally.
-- Very well.
-- Yah.
-- Yea.
-- Yeah.
-- Yep.
-- Yes, please.
-- Yes.
-- Yup.
-- Yuppers.
-- approve
-- confirm
+- Certo, Helen.
+- Certo.
+- Está bem.
+- tá bem.
+- tá bom.
+- Certíssimo.
+- Exato.
+- Bem isso.
+- Isso mesmo.
+- Precisamente.
+- Claro.
+- Lógico
+- óbvio.
+- sem pensar duas vezes.
+- Totalmente.
+- Muito bem.
+- Total.
+- isso.
+- é.
+- também acho.
+- por favor.
+- é então.
+- boa.
+- sempre.
+- real
+- aprovado.
+- de acordo.
+- estou de acordo.
+- to de acordo.
+- s.
 
 ## intent:vocative_you_welcome
-- Anytime.
-- Don’t mention it
-- Glad to help!
-- It was nothing.
-- It was the least I could do.
-- It’s my pleasure!
-- It’s nothing.
-- My pleasure!
-- No bother at all
-- No problem.
-- No problemo.
-- No worries
-- Think nothing of it.
-- You are very welcome.
-- You are welcome.
-- You’re welcome
-- it's ok
-- that's ok
+- A qualquer momento.
+- Não diga isso
+- Fico feliz em ajudar!
+- Não foi nada.
+- Era o mínimo que eu podia fazer.
+- O prazer é meu!
+- Não é nada.
+- O prazer é meu!
+- Não incomoda em nada
+- Sem problemas.
+- Tá tudo bem.
+- Não se preocupe
+- Nem pense sobre isso.
+- Estou à disposição
+- Fico à disposição.
+- De nada.
+- está tudo bem
+- Tudo bem.
+- Que isso, não se preocupe.
 
 ## intent:myth_influenza
 [influenza](influenza)
 [flu](influenza)
 [grippe](influenza)
+[gripe](influenza)
 
 ## intent:myth_air_conditioning
 [air conditioner](air_conditioning)
@@ -6055,15 +5934,19 @@
 [AC](air_conditioning)
 [A/C](air_conditioning)
 [air con](air_conditioning)
+[ar condicionado](air_conditioning)
 
 ## intent:myth_5G
 [5G](5G)
 [five G](5G)
 [5 G](5G)
+[cinco G](5G)
 
 ## intent:hand_dryer
 [hand dryer](hand_dryer)
 [hand dryers](hand_dryer)
+[secador de mãos](hand_dryer)
+[secadores de mãos](hand_dryer)
 
 ## intent:uv_lamp
 [uv lamps](uv_lamp)
@@ -6071,292 +5954,321 @@
 [ultraviolet disinfection lamps](uv_lamp)
 [ultraviolet lamp](uv_lamp)
 [ultraviolet lamps](uv_lamp)
+[lâmpadas ultravioletas](uv_lamp)
+[lâmpada ultravioleta](uv_lamp)
+[lâmpadas ultra-violetas](uv_lamp)
+[lâmpada ultra-violeta](uv_lamp)
+[lâmpadas uv](uv_lamp)
+[lâmpada uv](uv_lamp)
 
 ## intent:thermal_scanner
 [thermal scanner](thermal_scanner)
 [thermal scanners](thermal_scanner)
+[scanner térmico](thermal_scanner)
+[termometro](thermal_scanner)
+[scanners térmicos](thermal_scanner)
+[termometros](thermal_scanner)
+[termômetros infravermelhos](thermal_scanner)
+[termômetro infravermelhos](thermal_scanner)
 
 ## intent:antibiotics
 [antibiotics](antibiotics)
 [antibiotic](antibiotics)
+[antibioticos](antibiotics)
+[antibiotico](antibiotics)
 
 ## intent:pneumonia_vaccine
 [pneumonia vaccine](pneumonia_vaccine)
 [pneumonia vaccines](pneumonia_vaccine)
+[vacina para pneumonia](pneumonia_vaccine)
+[vacinas para pneumonia](pneumonia_vaccine)
+[vacina pneumonia](pneumonia_vaccine)
+[vacinas pneumonia](pneumonia_vaccine)
+[vacina da pneumonia](pneumonia_vaccine)
+[vacinas da pneumonia](pneumonia_vaccine)
 
 ## intent:saline
 [saline](saline)
 [saline solution](saline)
+[salina](saline)
+[solução salina](saline)
 
 ## intent:garlic
 [garlic](garlic)
 [garlics](garlic)
+[alho](garlic)
+[alhos](garlic)
 
 ## intent:sesame_oil
 [sesame oil](sesame_oil)
 [sesame](sesame_oil)
+[oleo de sessamo](sesame_oil)
+[sessamo](sesame_oil)
 
 ## intent:visors
 [visors](visors)
 [Acrylic visors](visors)
 [protection visors](visors)
+[viseiras](visors)
+[Viseiras em acrilico](visors)
+[viseiras de proteção](visors)
 
 
 ## intent:country
-- em [Portugal](country_code:PT)
-- [Espanha](country_code:ES)
-- na [Grécia](country_code:GR)
-- na [Suiça](country_code:CH)
-- no [Zimbabué](country_code:ZW)
-- [Egipto](country_code:EG)
-- [Sara Ocidental](country_code:EH)
-- [Eritrea](country_code:ER)
-- [Etiópia](country_code:ET)
-- [Finlândia](country_code:FI)
-- [Fidji](country_code:FJ)
-- [Falkland](country_code:FK)
-- [Micronesia](country_code:FM)
-- [Ilhas Faroé](country_code:FO)
-- [França](country_code:FR)
-- [Gabão](country_code:GA)
-- [Reino Unido](country_code:GB)
-- [Granada](country_code:GD)
-- [Geórgia](country_code:GE)
-- [Guyane](country_code:GF)
-- [Bailado de Guernsey](country_code:GG)
-- [Gibraltar](country_code:GI)
-- [Gronelandia](country_code:GL)
-- [Gambia](country_code:GM)
-- [Guinea](country_code:GN)
-- [Guadalupe](country_code:GP)
-- [Geórgia do Sul](country_code:GS)
-- [Guatemala](country_code:GT)
-- [Guam](country_code:GU)
-- [Guiné-Bissau](country_code:GW)
-- [Guiana](country_code:GY)
-- [Hong Kong](country_code:HK)
-- [Ilhas Heard](country_code:HM)
-- [Honduras](country_code:HN)
-- [Croacia](country_code:HR)
-- [Haiti](country_code:HT)
-- [Hungria](country_code:HU)
-- [Indonesia](country_code:ID)
-- [Irlanda](country_code:IE)
-- [Israel](country_code:IL)
-- [Mann](country_code:IM)
-- [India](country_code:IN)
-- [Território Britânico do Oceano](country_code:IO)
-- [Iraq](country_code:IQ)
-- [Irão](country_code:IR)
-- [Islandia](country_code:IS)
-- [Italia](country_code:IT)
-- [Jersey](country_code:JE)
-- [Jamaica](country_code:JM)
-- [Jordania](country_code:JO)
-- [Japão](country_code:JP)
-- [Kenya](country_code:KE)
-- [Quirguistão](country_code:KG)
-- [Cambodja](country_code:KH)
-- [Kiribati](country_code:KI)
-- [Comoros](country_code:KM)
-- [Nevis](country_code:KN)
-- [DPRK](country_code:KP)
-- [Coreia do Sul](country_code:KR)
-- [Kuwait](country_code:KW)
-- [Ilhas Caimão](country_code:KY)
-- [Cazaquistão](country_code:KZ)
-- [Laos](country_code:LA)
-- [Líbano](country_code:LB)
-- [Santa Lúcia](country_code:LC)
-- [Sri Lanka](country_code:LK)
-- [Liberia](country_code:LR)
-- [Lithuania](country_code:LT)
-- [Lesoto](country_code:LS)
-- [Luxemburgo](country_code:LU)
-- [Latvia](country_code:LV)
-- [Líbia](country_code:LY)
-- [Marrocos](country_code:MA)
-- [Monaco](country_code:MC)
-- [Moldávia](country_code:MD)
-- [Montenegro](country_code:ME)
-- [Saint Martin](country_code:MF)
-- [Madagáscar](country_code:MG)
-- [Ilhas Marshall](country_code:MH)
-- [Macedónia](country_code:MK)
-- [Máli](country_code:ML)
-- [Myanmar](country_code:MM)
-- [Mongolia](country_code:MN)
-- [Macau](country_code:MO)
-- [CNMI](country_code:MP)
-- [Martinique](country_code:MQ)
-- [Mauritania](country_code:MR)
-- [Monserrate](country_code:MS)
-- [Malta](country_code:MT)
-- [Maurice](country_code:MU)
-- [Maldivas](country_code:MV)
-- [Malawi](country_code:MW)
-- [Mexico](country_code:MX)
-- [Malásia](country_code:MY)
-- [Moçambique](country_code:MZ)
-- [Namibia](country_code:NA)
-- [Nova Caledónia](country_code:NC)
-- [Niger](country_code:NE)
-- [Norfolk Island](country_code:NF)
-- [Nigeria](country_code:NG)
-- [Nicaragua](country_code:NI)
-- [Holanda](country_code:NL)
-- [Noruega](country_code:NO)
-- [Nepal](country_code:NP)
-- [Nauru](country_code:NR)
-- [Niuê](country_code:NU)
-- [Nova Zelândia](country_code:NZ)
-- [Omão](country_code:OM)
-- [Panama](country_code:PA)
-- [Peru](country_code:PE)
-- [Polinésia Francesa](country_code:PF)
-- [PNG](country_code:PG)
-- [Filipinas](country_code:PH)
-- [Paquistão](country_code:PK)
-- [Polónia](country_code:PL)
-- [São Pedro e Miquelon](country_code:PM)
-- [Pitcairn](country_code:PN)
-- [Porto Rico](country_code:PR)
-- [Palestine](country_code:PS)
-- [Palau](country_code:PW)
-- [Paraguay](country_code:PY)
-- [Qatar](country_code:QA)
-- [Reunião](country_code:RE)
-- [Roménia](country_code:RO)
-- [Sérvia](country_code:RS)
-- [Russia](country_code:RU)
-- [Ruanda](country_code:RW)
-- [Arábia Saudita](country_code:SA)
-- [Ilhas Salomão](country_code:SB)
-- [Seicheles](country_code:SC)
-- [Sudão](country_code:SD)
-- [Suécia](country_code:SE)
-- [Singapura](country_code:SG)
-- [Ascensão](country_code:SH)
-- [Eslovénia](country_code:SI)
-- [Svalbard](country_code:SJ)
-- [Eslováquia](country_code:SK)
-- [Serra Leoa](country_code:SL)
-- [São Marino](country_code:SM)
-- [Senegal](country_code:SN)
-- [Somália](country_code:SO)
-- [Suriname](country_code:SR)
-- [South Sudan](country_code:SS)
-- [São Tomé e Príncipe](country_code:ST)
-- [Salvador](country_code:SV)
-- [Sint Maarten](country_code:SX)
-- [Síria](country_code:SY)
-- [Andorra](country_code:AD)
-- [Turcas e Caicos](country_code:TC)
-- [Chade](country_code:TD)
-- [TAAF](country_code:TF)
-- [Togo](country_code:TG)
-- [Tailândia](country_code:TH)
-- [Tajiquistão](country_code:TJ)
-- [Tokelau](country_code:TK)
-- [Timor Leste](country_code:TL)
-- [Turquemenistão](country_code:TM)
-- [Tunísia](country_code:TN)
-- [Tonga](country_code:TO)
-- [Turkey](country_code:TR)
-- [Trinidade e Tobago](country_code:TT)
-- [Tuvalu](country_code:TV)
-- [Taiwan](country_code:TW)
-- [Tanzania](country_code:TZ)
-- [Ucrânia](country_code:UA)
-- [Uganda](country_code:UG)
-- [Ilha Wake](country_code:UM)
-- [Estados Unidos](country_code:US)
-- [Uruguai](country_code:UY)
-- [Uzbekistan](country_code:UZ)
-- [Santa Sé](country_code:VA)
-- [São Vicente](country_code:VC)
-- [Venezuela](country_code:VE)
-- [Ilhas Virgens Britânicas](country_code:VG)
-- [American Virgin Islands](country_code:VI)
-- [Vietname](country_code:VN)
-- [Vanuatu](country_code:VU)
-- [Wallis and Futuna](country_code:WF)
-- [Samoa](country_code:WS)
-- [Iémen](country_code:YE)
-- [Maore](country_code:YT)
-- [RSA](country_code:ZA)
-- [República da Zâmbia](country_code:ZM)
-- [Swaziland](country_code:SZ)
-- [Emirates](country_code:AE)
-- [Afeganistão](country_code:AF)
-- [Antígua](country_code:AG)
-- [Anguila](country_code:AI)
-- [Albânia](country_code:AL)
-- [Armênia](country_code:AM)
-- [Angola](country_code:AO)
-- [Antarctica](country_code:AQ)
-- [Argentina](country_code:AR)
-- [Tutuila](country_code:AS)
-- [Austria](country_code:AT)
-- [Australia](country_code:AU)
-- [Aruba](country_code:AW)
-- [Alanda](country_code:AX)
-- [Azerbaijan](country_code:AZ)
-- [Bosnia](country_code:BA)
-- [Barbados](country_code:BB)
-- [Bangladesh](country_code:BD)
-- [Bélgica](country_code:BE)
-- [Burquina](country_code:BF)
-- [Bulgária](country_code:BG)
-- [Barein](country_code:BH)
-- [Burundi](country_code:BI)
-- [Benin](country_code:BJ)
-- [São Bartolomeu](country_code:BL)
-- [Bermuda](country_code:BM)
-- [Brunei](country_code:BN)
-- [Bolivia](country_code:BO)
-- [Saba](country_code:BQ)
-- [Brasil](country_code:BR)
-- [Bahaamas](country_code:BS)
-- [Butão](country_code:BT)
-- [Bouvetøya](country_code:BV)
-- [Botsuana](country_code:BW)
-- [Belarus](country_code:BY)
-- [Belize](country_code:BZ)
-- [Canadá](country_code:CA)
-- [Ilhas Keeling](country_code:CC)
-- [RD Congo](country_code:CD)
-- [CAR](country_code:CF)
-- [Congo](country_code:CG)
-- [Suíça](country_code:CH)
-- [Côte d'Ivoire](country_code:CI)
-- [Ilhas Cook](country_code:CK)
-- [Chile](country_code:CL)
-- [Camarões](country_code:CM)
-- [China](country_code:CN)
-- [Colombia](country_code:CO)
-- [Costa Rica](country_code:CR)
-- [Cuba](country_code:CU)
-- [Cabo Verde](country_code:CV)
-- [Curaçao](country_code:CW)
-- [Ilha Natal](country_code:CX)
-- [Chipre](country_code:CY)
-- [República Checa](country_code:CZ)
-- [Alemanha](country_code:DE)
-- [Djibouti](country_code:DJ)
-- [Dinamarca](country_code:DK)
-- [Dominica](country_code:DM)
-- [República Dominicana](country_code:DO)
-- [Argélia](country_code:DZ)
-- [Equador](country_code:EC)
-- [Estónia](country_code:EE)
-- [European continet](world_region:Europe)
-- [Europe](world_region:Europe)
-- [Asia](world_region:Asia)
-- [Africa](world_region:Africa)
-- [America](world_region:America)
-- [Oceania](world_region:Oceania)
-- [Antarctic Continent](world_region:Antarctic)
+- em [Portugal]{"entity": "country_code", "value": "PT"}
+- [Espanha]{"entity": "country_code", "value": "ES"}
+- na [Grécia]{"entity": "country_code", "value": "GR"}
+- na [Suiça]{"entity": "country_code", "value": "CH"}
+- no [Zimbabué]{"entity": "country_code", "value": "ZW"}
+- [Egipto]{"entity": "country_code", "value": "EG"}
+- [Sara Ocidental]{"entity": "country_code", "value": "EH"}
+- [Eritrea]{"entity": "country_code", "value": "ER"}
+- [Etiópia]{"entity": "country_code", "value": "ET"}
+- [Finlândia]{"entity": "country_code", "value": "FI"}
+- [Fidji]{"entity": "country_code", "value": "FJ"}
+- [Falkland]{"entity": "country_code", "value": "FK"}
+- [Micronesia]{"entity": "country_code", "value": "FM"}
+- [Ilhas Faroé]{"entity": "country_code", "value": "FO"}
+- [França]{"entity": "country_code", "value": "FR"}
+- [Gabão]{"entity": "country_code", "value": "GA"}
+- [Reino Unido]{"entity": "country_code", "value": "GB"}
+- [Granada]{"entity": "country_code", "value": "GD"}
+- [Geórgia]{"entity": "country_code", "value": "GE"}
+- [Guyane]{"entity": "country_code", "value": "GF"}
+- [Bailado de Guernsey]{"entity": "country_code", "value": "GG"}
+- [Gibraltar]{"entity": "country_code", "value": "GI"}
+- [Gronelandia]{"entity": "country_code", "value": "GL"}
+- [Gambia]{"entity": "country_code", "value": "GM"}
+- [Guinea]{"entity": "country_code", "value": "GN"}
+- [Guadalupe]{"entity": "country_code", "value": "GP"}
+- [Geórgia do Sul]{"entity": "country_code", "value": "GS"}
+- [Guatemala]{"entity": "country_code", "value": "GT"}
+- [Guam]{"entity": "country_code", "value": "GU"}
+- [Guiné-Bissau]{"entity": "country_code", "value": "GW"}
+- [Guiana]{"entity": "country_code", "value": "GY"}
+- [Hong Kong]{"entity": "country_code", "value": "HK"}
+- [Ilhas Heard]{"entity": "country_code", "value": "HM"}
+- [Honduras]{"entity": "country_code", "value": "HN"}
+- [Croacia]{"entity": "country_code", "value": "HR"}
+- [Haiti]{"entity": "country_code", "value": "HT"}
+- [Hungria]{"entity": "country_code", "value": "HU"}
+- [Indonesia]{"entity": "country_code", "value": "ID"}
+- [Irlanda]{"entity": "country_code", "value": "IE"}
+- [Israel]{"entity": "country_code", "value": "IL"}
+- [Mann]{"entity": "country_code", "value": "IM"}
+- [India]{"entity": "country_code", "value": "IN"}
+- [Território Britânico do Oceano]{"entity": "country_code", "value": "IO"}
+- [Iraq]{"entity": "country_code", "value": "IQ"}
+- [Irão]{"entity": "country_code", "value": "IR"}
+- [Islandia]{"entity": "country_code", "value": "IS"}
+- [Italia]{"entity": "country_code", "value": "IT"}
+- [Jersey]{"entity": "country_code", "value": "JE"}
+- [Jamaica]{"entity": "country_code", "value": "JM"}
+- [Jordania]{"entity": "country_code", "value": "JO"}
+- [Japão]{"entity": "country_code", "value": "JP"}
+- [Kenya]{"entity": "country_code", "value": "KE"}
+- [Quirguistão]{"entity": "country_code", "value": "KG"}
+- [Cambodja]{"entity": "country_code", "value": "KH"}
+- [Kiribati]{"entity": "country_code", "value": "KI"}
+- [Comoros]{"entity": "country_code", "value": "KM"}
+- [Nevis]{"entity": "country_code", "value": "KN"}
+- [DPRK]{"entity": "country_code", "value": "KP"}
+- [Coreia do Sul]{"entity": "country_code", "value": "KR"}
+- [Kuwait]{"entity": "country_code", "value": "KW"}
+- [Ilhas Caimão]{"entity": "country_code", "value": "KY"}
+- [Cazaquistão]{"entity": "country_code", "value": "KZ"}
+- [Laos]{"entity": "country_code", "value": "LA"}
+- [Líbano]{"entity": "country_code", "value": "LB"}
+- [Santa Lúcia]{"entity": "country_code", "value": "LC"}
+- [Sri Lanka]{"entity": "country_code", "value": "LK"}
+- [Liberia]{"entity": "country_code", "value": "LR"}
+- [Lithuania]{"entity": "country_code", "value": "LT"}
+- [Lesoto]{"entity": "country_code", "value": "LS"}
+- [Luxemburgo]{"entity": "country_code", "value": "LU"}
+- [Latvia]{"entity": "country_code", "value": "LV"}
+- [Líbia]{"entity": "country_code", "value": "LY"}
+- [Marrocos]{"entity": "country_code", "value": "MA"}
+- [Monaco]{"entity": "country_code", "value": "MC"}
+- [Moldávia]{"entity": "country_code", "value": "MD"}
+- [Montenegro]{"entity": "country_code", "value": "ME"}
+- [Saint Martin]{"entity": "country_code", "value": "MF"}
+- [Madagáscar]{"entity": "country_code", "value": "MG"}
+- [Ilhas Marshall]{"entity": "country_code", "value": "MH"}
+- [Macedónia]{"entity": "country_code", "value": "MK"}
+- [Máli]{"entity": "country_code", "value": "ML"}
+- [Myanmar]{"entity": "country_code", "value": "MM"}
+- [Mongolia]{"entity": "country_code", "value": "MN"}
+- [Macau]{"entity": "country_code", "value": "MO"}
+- [CNMI]{"entity": "country_code", "value": "MP"}
+- [Martinique]{"entity": "country_code", "value": "MQ"}
+- [Mauritania]{"entity": "country_code", "value": "MR"}
+- [Monserrate]{"entity": "country_code", "value": "MS"}
+- [Malta]{"entity": "country_code", "value": "MT"}
+- [Maurice]{"entity": "country_code", "value": "MU"}
+- [Maldivas]{"entity": "country_code", "value": "MV"}
+- [Malawi]{"entity": "country_code", "value": "MW"}
+- [Mexico]{"entity": "country_code", "value": "MX"}
+- [Malásia]{"entity": "country_code", "value": "MY"}
+- [Moçambique]{"entity": "country_code", "value": "MZ"}
+- [Namibia]{"entity": "country_code", "value": "NA"}
+- [Nova Caledónia]{"entity": "country_code", "value": "NC"}
+- [Niger]{"entity": "country_code", "value": "NE"}
+- [Norfolk Island]{"entity": "country_code", "value": "NF"}
+- [Nigeria]{"entity": "country_code", "value": "NG"}
+- [Nicaragua]{"entity": "country_code", "value": "NI"}
+- [Holanda]{"entity": "country_code", "value": "NL"}
+- [Noruega]{"entity": "country_code", "value": "NO"}
+- [Nepal]{"entity": "country_code", "value": "NP"}
+- [Nauru]{"entity": "country_code", "value": "NR"}
+- [Niuê]{"entity": "country_code", "value": "NU"}
+- [Nova Zelândia]{"entity": "country_code", "value": "NZ"}
+- [Omão]{"entity": "country_code", "value": "OM"}
+- [Panama]{"entity": "country_code", "value": "PA"}
+- [Peru]{"entity": "country_code", "value": "PE"}
+- [Polinésia Francesa]{"entity": "country_code", "value": "PF"}
+- [PNG]{"entity": "country_code", "value": "PG"}
+- [Filipinas]{"entity": "country_code", "value": "PH"}
+- [Paquistão]{"entity": "country_code", "value": "PK"}
+- [Polónia]{"entity": "country_code", "value": "PL"}
+- [São Pedro e Miquelon]{"entity": "country_code", "value": "PM"}
+- [Pitcairn]{"entity": "country_code", "value": "PN"}
+- [Porto Rico]{"entity": "country_code", "value": "PR"}
+- [Palestine]{"entity": "country_code", "value": "PS"}
+- [Palau]{"entity": "country_code", "value": "PW"}
+- [Paraguay]{"entity": "country_code", "value": "PY"}
+- [Qatar]{"entity": "country_code", "value": "QA"}
+- [Reunião]{"entity": "country_code", "value": "RE"}
+- [Roménia]{"entity": "country_code", "value": "RO"}
+- [Sérvia]{"entity": "country_code", "value": "RS"}
+- [Russia]{"entity": "country_code", "value": "RU"}
+- [Ruanda]{"entity": "country_code", "value": "RW"}
+- [Arábia Saudita]{"entity": "country_code", "value": "SA"}
+- [Ilhas Salomão]{"entity": "country_code", "value": "SB"}
+- [Seicheles]{"entity": "country_code", "value": "SC"}
+- [Sudão]{"entity": "country_code", "value": "SD"}
+- [Suécia]{"entity": "country_code", "value": "SE"}
+- [Singapura]{"entity": "country_code", "value": "SG"}
+- [Ascensão]{"entity": "country_code", "value": "SH"}
+- [Eslovénia]{"entity": "country_code", "value": "SI"}
+- [Svalbard]{"entity": "country_code", "value": "SJ"}
+- [Eslováquia]{"entity": "country_code", "value": "SK"}
+- [Serra Leoa]{"entity": "country_code", "value": "SL"}
+- [São Marino]{"entity": "country_code", "value": "SM"}
+- [Senegal]{"entity": "country_code", "value": "SN"}
+- [Somália]{"entity": "country_code", "value": "SO"}
+- [Suriname]{"entity": "country_code", "value": "SR"}
+- [South Sudan]{"entity": "country_code", "value": "SS"}
+- [São Tomé e Príncipe]{"entity": "country_code", "value": "ST"}
+- [Salvador]{"entity": "country_code", "value": "SV"}
+- [Sint Maarten]{"entity": "country_code", "value": "SX"}
+- [Síria]{"entity": "country_code", "value": "SY"}
+- [Andorra]{"entity": "country_code", "value": "AD"}
+- [Turcas e Caicos]{"entity": "country_code", "value": "TC"}
+- [Chade]{"entity": "country_code", "value": "TD"}
+- [TAAF]{"entity": "country_code", "value": "TF"}
+- [Togo]{"entity": "country_code", "value": "TG"}
+- [Tailândia]{"entity": "country_code", "value": "TH"}
+- [Tajiquistão]{"entity": "country_code", "value": "TJ"}
+- [Tokelau]{"entity": "country_code", "value": "TK"}
+- [Timor Leste]{"entity": "country_code", "value": "TL"}
+- [Turquemenistão]{"entity": "country_code", "value": "TM"}
+- [Tunísia]{"entity": "country_code", "value": "TN"}
+- [Tonga]{"entity": "country_code", "value": "TO"}
+- [Turkey]{"entity": "country_code", "value": "TR"}
+- [Trinidade e Tobago]{"entity": "country_code", "value": "TT"}
+- [Tuvalu]{"entity": "country_code", "value": "TV"}
+- [Taiwan]{"entity": "country_code", "value": "TW"}
+- [Tanzania]{"entity": "country_code", "value": "TZ"}
+- [Ucrânia]{"entity": "country_code", "value": "UA"}
+- [Uganda]{"entity": "country_code", "value": "UG"}
+- [Ilha Wake]{"entity": "country_code", "value": "UM"}
+- [Estados Unidos]{"entity": "country_code", "value": "US"}
+- [Uruguai]{"entity": "country_code", "value": "UY"}
+- [Uzbekistan]{"entity": "country_code", "value": "UZ"}
+- [Santa Sé]{"entity": "country_code", "value": "VA"}
+- [São Vicente]{"entity": "country_code", "value": "VC"}
+- [Venezuela]{"entity": "country_code", "value": "VE"}
+- [Ilhas Virgens Britânicas]{"entity": "country_code", "value": "VG"}
+- [American Virgin Islands]{"entity": "country_code", "value": "VI"}
+- [Vietname]{"entity": "country_code", "value": "VN"}
+- [Vanuatu]{"entity": "country_code", "value": "VU"}
+- [Wallis and Futuna]{"entity": "country_code", "value": "WF"}
+- [Samoa]{"entity": "country_code", "value": "WS"}
+- [Iémen]{"entity": "country_code", "value": "YE"}
+- [Maore]{"entity": "country_code", "value": "YT"}
+- [RSA]{"entity": "country_code", "value": "ZA"}
+- [República da Zâmbia]{"entity": "country_code", "value": "ZM"}
+- [Swaziland]{"entity": "country_code", "value": "SZ"}
+- [Emirates]{"entity": "country_code", "value": "AE"}
+- [Afeganistão]{"entity": "country_code", "value": "AF"}
+- [Antígua]{"entity": "country_code", "value": "AG"}
+- [Anguila]{"entity": "country_code", "value": "AI"}
+- [Albânia]{"entity": "country_code", "value": "AL"}
+- [Armênia]{"entity": "country_code", "value": "AM"}
+- [Angola]{"entity": "country_code", "value": "AO"}
+- [Antarctica]{"entity": "country_code", "value": "AQ"}
+- [Argentina]{"entity": "country_code", "value": "AR"}
+- [Tutuila]{"entity": "country_code", "value": "AS"}
+- [Austria]{"entity": "country_code", "value": "AT"}
+- [Australia]{"entity": "country_code", "value": "AU"}
+- [Aruba]{"entity": "country_code", "value": "AW"}
+- [Alanda]{"entity": "country_code", "value": "AX"}
+- [Azerbaijan]{"entity": "country_code", "value": "AZ"}
+- [Bosnia]{"entity": "country_code", "value": "BA"}
+- [Barbados]{"entity": "country_code", "value": "BB"}
+- [Bangladesh]{"entity": "country_code", "value": "BD"}
+- [Bélgica]{"entity": "country_code", "value": "BE"}
+- [Burquina]{"entity": "country_code", "value": "BF"}
+- [Bulgária]{"entity": "country_code", "value": "BG"}
+- [Barein]{"entity": "country_code", "value": "BH"}
+- [Burundi]{"entity": "country_code", "value": "BI"}
+- [Benin]{"entity": "country_code", "value": "BJ"}
+- [São Bartolomeu]{"entity": "country_code", "value": "BL"}
+- [Bermuda]{"entity": "country_code", "value": "BM"}
+- [Brunei]{"entity": "country_code", "value": "BN"}
+- [Bolivia]{"entity": "country_code", "value": "BO"}
+- [Saba]{"entity": "country_code", "value": "BQ"}
+- [Brasil]{"entity": "country_code", "value": "BR"}
+- [Bahaamas]{"entity": "country_code", "value": "BS"}
+- [Butão]{"entity": "country_code", "value": "BT"}
+- [Bouvetøya]{"entity": "country_code", "value": "BV"}
+- [Botsuana]{"entity": "country_code", "value": "BW"}
+- [Belarus]{"entity": "country_code", "value": "BY"}
+- [Belize]{"entity": "country_code", "value": "BZ"}
+- [Canadá]{"entity": "country_code", "value": "CA"}
+- [Ilhas Keeling]{"entity": "country_code", "value": "CC"}
+- [RD Congo]{"entity": "country_code", "value": "CD"}
+- [CAR]{"entity": "country_code", "value": "CF"}
+- [Congo]{"entity": "country_code", "value": "CG"}
+- [Suíça]{"entity": "country_code", "value": "CH"}
+- [Côte d'Ivoire]{"entity": "country_code", "value": "CI"}
+- [Ilhas Cook]{"entity": "country_code", "value": "CK"}
+- [Chile]{"entity": "country_code", "value": "CL"}
+- [Camarões]{"entity": "country_code", "value": "CM"}
+- [China]{"entity": "country_code", "value": "CN"}
+- [Colombia]{"entity": "country_code", "value": "CO"}
+- [Costa Rica]{"entity": "country_code", "value": "CR"}
+- [Cuba]{"entity": "country_code", "value": "CU"}
+- [Cabo Verde]{"entity": "country_code", "value": "CV"}
+- [Curaçao]{"entity": "country_code", "value": "CW"}
+- [Ilha Natal]{"entity": "country_code", "value": "CX"}
+- [Chipre]{"entity": "country_code", "value": "CY"}
+- [República Checa]{"entity": "country_code", "value": "CZ"}
+- [Alemanha]{"entity": "country_code", "value": "DE"}
+- [Djibouti]{"entity": "country_code", "value": "DJ"}
+- [Dinamarca]{"entity": "country_code", "value": "DK"}
+- [Dominica]{"entity": "country_code", "value": "DM"}
+- [República Dominicana]{"entity": "country_code", "value": "DO"}
+- [Argélia]{"entity": "country_code", "value": "DZ"}
+- [Equador]{"entity": "country_code", "value": "EC"}
+- [Estónia]{"entity": "country_code", "value": "EE"}
+- [European continet]{"entity": "world_region", "value": "Europe"}
+- [Europe]{"entity": "world_region", "value": "Europe"}
+- [Asia]{"entity": "world_region", "value": "Asia"}
+- [Africa]{"entity": "world_region", "value": "Africa"}
+- [America]{"entity": "world_region", "value": "America"}
+- [Oceania]{"entity": "world_region", "value": "Oceania"}
+- [Antarctic Continent]{"entity": "world_region", "value": "Antarctic"}
 
 ## synonym:EG
 - República Árabe do Egipto

@@ -1,12 +1,12 @@
 <!------------------ 
 Others
-------------------->
+
 ## change_bot
 * bot_change_bot{"preferred_lang": "German Cosibot"}
   - action_change_preferred_language
   - slot{"preferred_lang": "de"}
   - utter_command_change_bot
-
+------------------->
 
 
 <!------------------ 
