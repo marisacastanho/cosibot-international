@@ -68,10 +68,11 @@ class ActionDefaultFallback(Action):
                     return_response = domain["responses"]["utter_fallback_request_hasdata"][0]["custom"]
                     return_response["answers"].append(message)
                     dispatcher.utter_message(json_message=return_response)
+                    return [UserUtteranceReverted()]
                 else:
                     dispatcher.utter_message(template="utter_fallback_request_emptyanswer")
                     #return [UserUtteranceReverted()]
-                return [SlotSet("total_nr_tries", 0.0)]
+                return [SlotSet("total_nr_tries", 0.0), UserUtteranceReverted()]
             except:
                 dispatcher.utter_message(template="utter_fallback_request_error")
-                return [SlotSet("total_nr_tries", 0.0)]
+                return [SlotSet("total_nr_tries", 0.0), UserUtteranceReverted()]

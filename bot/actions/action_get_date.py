@@ -7,7 +7,8 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet, FollowupAction, UserUtteranceReverted
 
 from rasa_sdk.executor import CollectingDispatcher
-from datetime import date
+from pytz import timezone
+from datetime import date,datetime
 import time
 
 
@@ -17,6 +18,19 @@ class GetDateValue(Action):
         return "action_get_date"
 
     def run(self, dispatcher, tracker, domain):
-        today = date.today()
-        return [SlotSet("bot_date", today.strftime("%d/%m/%Y")),
-                    FollowupAction("utter_features_date")]
+        date_output = "%d/%m/%Y"
+
+        brazil_acre = datetime.now(timezone('Brazil/Acre'))
+        brazil_fnoronha = datetime.now(timezone('Brazil/DeNoronha'))
+        brazil_brasilia = datetime.now(timezone('Brazil/East'))
+        brazil_amazonas = datetime.now(timezone('Brazil/West'))
+
+        return [SlotSet("bot_date_acre", brazil_acre.strftime(date_output)),
+                SlotSet("bot_date_fnoronha", brazil_fnoronha.strftime(date_output)),
+                SlotSet("bot_date_brasilia", brazil_brasilia.strftime(date_output)),
+                SlotSet("bot_date_amazonas", brazil_amazonas.strftime(date_output)),
+                FollowupAction("utter_features_date")]
+        
+        #today = date.today()
+        #return [SlotSet("bot_date", today.strftime("%d/%m/%Y")),
+        #            FollowupAction("utter_features_date")]

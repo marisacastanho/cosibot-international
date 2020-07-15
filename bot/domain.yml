@@ -16,9 +16,21 @@ slots:
   bot_version:
     type: text
     initial_value: '0.1'
-  bot_time:
+  bot_time_acre:
     type: text
-  bot_date:
+  bot_time_fnoronha:
+    type: text
+  bot_time_brasilia:
+    type: text
+  bot_time_amazonas:
+    type: text
+  bot_date_acre:
+    type: text
+  bot_date_fnoronha:
+    type: text
+  bot_date_brasilia:
+    type: text
+  bot_date_amazonas:
     type: text
   language_slot:
     type: categorical
@@ -1303,35 +1315,34 @@ responses:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>É<say-as interpret-as='time' format='hm24'>{bot_time}</say-as>.</speak>
+        ssml: <speak>Dado o tamanho do Brasil existem quatro fusos horários, é <say-as interpret-as='time' format='hm24'>{bot_time_acre}</say-as> em Acre, é <say-as interpret-as='time' format='hm24'>{bot_time_fnoronha}</say-as> em Fernando de Noronha, é <say-as interpret-as='time' format='hm24'>{bot_time_brasilia}</say-as> em Brasília e é <say-as interpret-as='time' format='hm24'>{bot_time_amazonas}</say-as> no Amazonas.</speak>
       - type: text
-        text: É {bot_time}.
+        text: Dado o tamanho do Brasil existem quatro fusos horários, é {bot_time_acre} em Acre, é {bot_time_fnoronha} em Fernando de Noronha, é {bot_time_brasilia} em Brasília e é {bot_time_amazonas} no Amazonas.
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Neste momento é <say-as interpret-as='time' format='hm24'>{bot_time}</say-as>.</speak>
+        ssml: <speak>É <say-as interpret-as='time' format='hm24'>{bot_time_acre}</say-as> em Acre, é <say-as interpret-as='time' format='hm24'>{bot_time_fnoronha}</say-as> em Fernando de Noronha, é <say-as interpret-as='time' format='hm24'>{bot_time_brasilia}</say-as> em Brasília e é <say-as interpret-as='time' format='hm24'>{bot_time_amazonas}</say-as> no Amazonas.</speak>
       - type: text
-        text: Neste momento é {bot_time}.
+        text: É {bot_time_acre} em Acre, é {bot_time_fnoronha} em Fernando de Noronha, é {bot_time_brasilia} em Brasília e é {bot_time_amazonas} no Amazonas.
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Agora é <say-as interpret-as='time' format='hm24'>{bot_time}</say-as>.</speak>
+        ssml: <speak>Agora é <say-as interpret-as='time' format='hm24'>{bot_time_acre}</say-as> em Acre, é <say-as interpret-as='time' format='hm24'>{bot_time_fnoronha}</say-as> em Fernando de Noronha, é <say-as interpret-as='time' format='hm24'>{bot_time_brasilia}</say-as> em Brasília e é <say-as interpret-as='time' format='hm24'>{bot_time_amazonas}</say-as> no Amazonas.</speak>
       - type: text
-        text: Agora é {bot_time}.
+        text: Agora é {bot_time_acre} em Acre, é {bot_time_fnoronha} em Fernando de Noronha, é {bot_time_brasilia} em Brasília e é {bot_time_amazonas} no Amazonas.
   utter_features_date:
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>Hoje é o <say-as interpret-as='date' format='dm'> {bot_date}
-          </say-as>.</speak>
+        ssml: <speak>Dado os 4 fusos horários, hoje é o <say-as interpret-as='date' format='dm'>{bot_date_acre}</say-as> em Acre, <say-as interpret-as='date' format='dm'>{bot_date_fnoronha}</say-as> em Fernando de Noronha, <say-as interpret-as='date' format='dm'>{bot_date_brasilia}</say-as> em Brasília e <say-as interpret-as='date' format='dm'>{bot_date_amazonas}</say-as> no Amazonas.</speak>
       - type: text
-        text: Hoje é o dia {bot_date}.
+        text: Dado os 4 fusos horários, hoje é o {bot_date_acre} em Acre, {bot_date_fnoronha} em Fernando de Noronha, {bot_date_brasilia} em Brasília e {bot_date_amazonas} no Amazonas.
   - custom:
       answers:
       - type: ssml
-        ssml: <speak>É o <say-as interpret-as='date'='dm'> {bot_date} </say-as>.</speak>
+        ssml: <speak>O Brasil tem 4 zonas temporais, hoje é o <say-as interpret-as='date' format='dm'>{bot_date_acre}</say-as> em Acre, <say-as interpret-as='date' format='dm'>{bot_date_fnoronha}</say-as> em Fernando de Noronha, <say-as interpret-as='date' format='dm'>{bot_date_brasilia}</say-as> em Brasília e <say-as interpret-as='date' format='dm'>{bot_date_amazonas}</say-as> no Amazonas.</speak>
       - type: text
-        text: É o {bot_date}.
+        text: O Brasil tem 4 zonas temporais, hoje é o {bot_date_acre} em Acre, {bot_date_fnoronha} em Fernando de Noronha, {bot_date_brasilia} em Brasília e {bot_date_amazonas} no Amazonas.
   utter_prevention_respiratory_hygiene:
   - custom:
       answers:
@@ -1628,8 +1639,8 @@ responses:
           da sua autoridade sanitária local.<a href=''https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public''
           target=''_blank''>(1)</a></p>'
       - type: youtube
-        youtube: '{''type'': ''youtube'', ''thumbnailURL'': ''https://www.youtube.com/watch?v=8c_UJwLq8PI'',
-          ''youtubeId'': ''8c_UJwLq8PI''}'
+        thumbnailURL: "https://www.youtube.com/watch?v=8c_UJwLq8PI"
+        youtubeId: "8c_UJwLq8PI"
       - type: hints
         options:
         - label: Sintomas
@@ -2811,8 +2822,8 @@ responses:
       - type: html
         text: <p>Apenas use máscara se você estiver doente com sintomas de COVID-19
       - type: youtube
-        youtube: '{''type'': ''youtube'', ''thumbnailURL'': ''https://www.youtube.com/watch?v=Ded_AxFfJoQ'',
-          ''youtubeId'': ''Ded_AxFfJoQ''}'
+        thumbnailURL: "https://www.youtube.com/watch?v=Ded_AxFfJoQ"
+        youtubeId: "Ded_AxFfJoQ"
       - type: hints
         options:
         - label: Como colocar uma Máscara?

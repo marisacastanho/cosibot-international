@@ -1736,7 +1736,7 @@
 - Por que você acha que votar é importante?
 - Você gostaria de ser um político?
 
-## intent:cc_religião
+## intent:cc_religion
 - Os personagens da Bíblia são figurativos ou literais?
 - Você é muçulmano?
 - Você é hindu, muçulmano ou cristão?
