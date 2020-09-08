@@ -1,4 +1,4 @@
-﻿## intent:start
+## intent:start
 - /start
 - /start
 - /start_conversation
